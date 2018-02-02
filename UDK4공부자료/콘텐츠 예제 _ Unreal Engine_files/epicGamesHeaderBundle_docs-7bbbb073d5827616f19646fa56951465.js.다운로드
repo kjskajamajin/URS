@@ -1,0 +1,134 @@
+var UE = UE || {};
+
+UE.sso = (function () {
+    var my = {};
+
+    var clientId;
+    var isUpdateEnabled;
+    var URLs;
+
+    my.login = function(redirectTo){
+        var state = (redirectTo)?redirectTo:document.URL;
+        var encodedState = encodeURIComponent(state);
+        window.location = URLs.base + "/login?state=" + encodedState;
+    };
+
+    my.logout = function(){
+        window.location = URLs.base + "/logout";
+    };
+
+    my.register = function(){
+        var encodedState = encodeURIComponent(document.URL);
+        window.location = URLs.base + "/register?state=" + encodedState;
+    };
+
+    my.getUnreal = function (e) {
+        e.preventDefault();
+        my.register();
+    };
+
+    my.init = function () {
+        clientId = $('meta[name="clientId"]').attr('content');
+        isUpdateEnabled = $('meta[name="isUpdateEnabled"]').attr('content');
+
+        URLs = {
+            base: $('#header').data('sitepath')
+        };
+
+        var base = URLs.base || '';
+        $.ajax(base + '/api/getAccountInfo', {
+            success: function(data) {
+                if (data && data.displayName) {
+                    if (window._epicGamesNavObserver) {
+                        window._epicGamesNavObserver.set('isLoggedIn', true);
+                        window._epicGamesNavObserver.set('displayName', data.displayName);
+                    } else {
+                        if (!window._epicGamesNav) {
+                            window._epicGamesNav = {};
+                        }
+                        window._epicGamesNav.isLoggedIn = true;
+                        window._epicGamesNav.displayName = data.displayName;
+                    }
+                }
+            }
+        });
+    };
+
+    return my;
+})();
+
+$(function() {
+    UE.sso.init();
+});
+
+//provides the functionality of _utility/sso common/utility common/navigation
+
+var UE = UE || {};
+
+//make sure sso object is created
+if (!UE.sso) {
+    UE.sso = {};
+}
+
+UE.initEgNav = function(observerFn, configFn) {
+    var setupHeader = function() {
+        if (!!window._epicGamesNavObserverCreated) {
+            if (observerFn && typeof observerFn === 'function') {
+                observerFn();
+                console.log('initEgNav observerFn called');
+            }
+        } else if (!window._egNavAfterConfigSetCalled) {
+            window._egNavAfterConfigSet = function() {
+                if (configFn && typeof configFn === 'function') {
+                    configFn();
+                    console.log('initEgNav configFn called');
+                }
+            };
+        } else {
+            console.log('initEgNav waiting...');
+            setTimeout(function() {
+                setupHeader();
+            }, 250);
+        }
+    };
+
+    setupHeader();
+};
+
+UE.onSearch = function (query) {
+    var currentLocale = $('#current_locale').val() || _epicGamesNav.locale;
+    if (typeof(currentLocale) !== "undefined" && currentLocale !== null && currentLocale !== '') {
+        if (currentLocale === 'en-US') {
+            currentLocale = ''
+        } else {
+            currentLocale = '/' + currentLocale;
+        }
+    }
+    window.location.href = $('#header').data('sitepath') + currentLocale + "/bing-search?keyword=" + query;
+
+};
+
+//= require _utility/sso
+//= require common/epicGamesHeaderCommon
+
+(function() {
+	var alertCheck = function() {
+		var isHeaderAlert = $('#eghAlert').is(':visible');
+	    if (isHeaderAlert) {
+	        $('#navWrapper').addClass('egh-alert-active');
+	    }
+	    $('.egh-alert-close-btn').on('click', function(e) {
+            $('#navWrapper').removeClass('egh-alert-active');
+        });
+	};
+
+	UE.initEgNav(function() {
+		window._epicGamesNavObserver.set('onSearch', UE.onSearch);
+		window._epicGamesNavObserver.set('callToAction.onClick', UE.sso.getUnreal);
+		alertCheck();
+	}, function() {
+		window._epicGamesNav.onSearch = UE.onSearch;
+		window._epicGamesNav.callToAction.onClick = UE.sso.getUnreal;
+		alertCheck();
+	});
+})();

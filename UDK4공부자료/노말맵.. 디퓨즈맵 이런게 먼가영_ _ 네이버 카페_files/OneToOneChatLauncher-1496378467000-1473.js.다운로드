@@ -1,0 +1,61 @@
+var oOneToOneChatLauncher = (function() {
+	var bRunning = false;
+	var _sCafeId = null;
+	var _sUserId = null;
+	var _sMemberId = null;
+    
+    var fTest = function () {
+    	alert("!");
+    }
+	
+	var run = function(sCafeId, sUserId, sMemberId) {
+		if(bRunning == true) {
+			return;
+		}
+		
+		_sCafeId = sCafeId;
+		_sUserId = sUserId;
+		_sMemberId = sMemberId;
+		
+		var oSslChecker = new Image();
+    	oSslChecker.onload = oOneToOneChatLauncher.openChatPopup;
+        oSslChecker.onerror = oOneToOneChatLauncher.unSupported;
+        oSslChecker.src = "https://secure.cafe.naver.com/secure-images/sslcheck/cafe.gif";		
+	}
+	
+	var openChatPopup = function() {
+		bRunning = true;
+		
+		if(_sUserId === _sMemberId){
+			return;
+		}
+		
+		var oWnd, nWidth = 445, nHeight = 500;
+		if($Agent().Chrome) {
+			nHeight = 520;
+		}
+		
+		try {
+			oWnd = window.open(g_sCafeChat + '/OneToOneCreate.nhn?cafeId=' + _sCafeId + '&memberId=' + _sMemberId, 'oneToOneChatRoom_' + g_sUserId, 'toolbar=0,status=0,menubar=0,location=0,scrollbars=yes,resizable=1'+",width=" + nWidth +",height=" + nHeight);
+		} catch(e) {}
+		
+		if(oWnd && !oWnd.closed) {
+			oWnd.focus();
+		}
+		
+		bRunning = false;
+		
+		return oWnd;
+	}
+	
+	var unSupported = function() {
+		alert("채팅에 필요한 인증서를 지원하지 않는 OS입니다.");
+		return;
+	}
+
+	return {
+		'run' : run,
+		'openChatPopup' : openChatPopup,
+		'unSupported' : unSupported
+	};
+})();

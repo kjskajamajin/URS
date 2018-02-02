@@ -1,0 +1,1124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0033)http://chulin28ho.tistory.com/346 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/menubar.css"><!--[if lt IE 9]><script src="https://t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script><![endif]--><!--[if gte IE 9]>
+<!--><script src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/jquery-3.2.1.min.js.다운로드"></script><!--<![endif]-->
+<script>var tjQuery = jQuery.noConflict(true);</script><style type="text/css">.tt_article_useless_p_margin p {padding-top:0 !important;padding-bottom:0 !important;margin-top:0 !important;margin-bottom:0 !important;}</style><meta name="referrer" content="always"><link rel="shortcut icon" href="http://t1.daumcdn.net/tistory_admin/static/top/favicon_0630.ico"><meta name="description" content="간략하게 월드머신 테스트 유니티에서 500*500 미터짜리 터레인을 만들고 , 하이트맵 해상도를 512 정도로 줄인후 그림을 그림. - 하이트맵 해상도가 클수록 정밀한 메쉬 구조의 터레인 데이터가 나옴. - 웃긴건..">
+
+<!-- BEGIN OPENGRAPH -->
+<link rel="canonical" href="http://chulin28ho.tistory.com/346"><meta property="og:type" content="article"><meta property="og:url" content="http://chulin28ho.tistory.com/346"><meta property="og:site_name" content="대충 살아가는 게임개발자"><meta property="og:title" content="월드머신 으로 하이트맵 만들기 테스트"><meta name="by" content="캬오 대마왕J"><meta property="og:description" content="간략하게 월드머신 테스트 유니티에서 500*500 미터짜리 터레인을 만들고 , 하이트맵 해상도를 512 정도로 줄인후 그림을 그림. - 하이트맵 해상도가 클수록 정밀한 메쉬 구조의 터레인 데이터가 나옴. - 웃긴건.."><meta property="og:image" content="http://cfile10.uf.tistory.com/image/2346384B56B99EDB09CE57">
+<!-- END OPENGRAPH -->
+
+
+
+<!-- BEGIN TWITTERCARD -->
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@TISTORY"><meta name="twitter:title" content="월드머신 으로 하이트맵 만들기 테스트"><meta name="twitter:description" content="간략하게 월드머신 테스트 유니티에서 500*500 미터짜리 터레인을 만들고 , 하이트맵 해상도를 512 정도로 줄인후 그림을 그림. - 하이트맵 해상도가 클수록 정밀한 메쉬 구조의 터레인 데이터가 나옴. - 웃긴건.."><meta property="twitter:image" content="http://cfile10.uf.tistory.com/image/2346384B56B99EDB09CE57">
+<!-- END TWITTERCARD -->
+
+
+
+<!-- BEGIN DAUMAPP -->
+<meta property="dg:plink" content="http://chulin28ho.tistory.com/346"><meta name="plink" content="http://chulin28ho.tistory.com/346"><meta name="title" content="월드머신 으로 하이트맵 만들기 테스트"><meta name="article:media_name" content="대충 살아가는 게임개발자"><meta property="article:mobile_url" content="http://chulin28ho.tistory.com/m/346"><meta property="article:pc_url" content="http://chulin28ho.tistory.com/346"><meta property="article:mobile_view_url" content="http://chulin28ho.tistory.com/m/346"><meta property="article:pc_view_url" content="http://chulin28ho.tistory.com/346"><meta property="article:talk_channel_view_url" content="http://chulin28ho.tistory.com/m/346"><meta property="article:pc_service_home" content="http://www.tistory.com"><meta property="article:mobile_service_home" content="http://www.tistory.com/m"><meta property="article:txid" content="886407_346"><meta property="article:published_time" content="2016-02-09T17:22:43+09:00"><meta property="og:regDate" content="20160209172243"><meta property="article:modified_time" content="2016-02-09T17:22:45+09:00">
+<!-- END DAUMAPP -->
+
+
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BlogPosting","mainEntityOfPage":{"@id":"http:\/\/chulin28ho.tistory.com\/346"},"url":"http:\/\/chulin28ho.tistory.com\/346","headline":"\uc6d4\ub4dc\uba38\uc2e0 \uc73c\ub85c \ud558\uc774\ud2b8\ub9f5 \ub9cc\ub4e4\uae30 \ud14c\uc2a4\ud2b8","description":"\uac04\ub7b5\ud558\uac8c \uc6d4\ub4dc\uba38\uc2e0 \ud14c\uc2a4\ud2b8 \uc720\ub2c8\ud2f0\uc5d0\uc11c 500*500 \ubbf8\ud130\uc9dc\ub9ac \ud130\ub808\uc778\uc744 \ub9cc\ub4e4\uace0 , \ud558\uc774\ud2b8\ub9f5 \ud574\uc0c1\ub3c4\ub97c 512 \uc815\ub3c4\ub85c \uc904\uc778\ud6c4 \uadf8\ub9bc\uc744 \uadf8\ub9bc. - \ud558\uc774\ud2b8\ub9f5 \ud574\uc0c1\ub3c4\uac00 \ud074\uc218\ub85d \uc815\ubc00\ud55c \uba54\uc26c \uad6c\uc870\uc758 \ud130\ub808\uc778 \ub370\uc774\ud130\uac00 \ub098\uc634. - \uc6c3\uae34\uac74..","author":{"@type":"Person","name":"\uceac\uc624 \ub300\ub9c8\uc655J"},"image":{"@type":"ImageObject","url":"http:\/\/cfile10.uf.tistory.com\/image\/2346384B56B99EDB09CE57","width":"800px","height":"800px"},"datePublished":"20160209T17:22:43+09:00","dateModified":"20160209T17:22:45+09:00","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"https:\/\/t1.daumcdn.net\/cssjs\/icon\/557567EA016E200001","width":"800px","height":"800px"}}}</script>
+<!-- END STRUCTURED_DATA -->
+
+<link rel="apple-touch-icon" href="http://i1.daumcdn.net/thumb/C180x180/?fname=http%3A%2F%2Fcfile3.uf.tistory.com%2Fimage%2F1721A7344EEC61370F9791">
+<link rel="apple-touch-icon" sizes="76x76" href="http://i1.daumcdn.net/thumb/C76x76/?fname=http%3A%2F%2Fcfile3.uf.tistory.com%2Fimage%2F1721A7344EEC61370F9791">
+<link rel="apple-touch-icon" sizes="120x120" href="http://i1.daumcdn.net/thumb/C120x120/?fname=http%3A%2F%2Fcfile3.uf.tistory.com%2Fimage%2F1721A7344EEC61370F9791">
+<link rel="apple-touch-icon" sizes="152x152" href="http://i1.daumcdn.net/thumb/C152x152/?fname=http%3A%2F%2Fcfile3.uf.tistory.com%2Fimage%2F1721A7344EEC61370F9791">
+
+
+<link rel="alternate" type="application/rss+xml" title="대충 살아가는 게임개발자" href="http://chulin28ho.tistory.com/rss">
+<link rel="stylesheet" media="screen" type="text/css" href="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/style.css">
+<link rel="stylesheet" media="print" type="text/css" href="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/print.css">
+<link rel="shortcut icon" href="http://chulin28ho.tistory.com/favicon.ico">
+<title>대충 살아가는 게임개발자 :: 월드머신 으로 하이트맵 만들기 테스트</title>
+<script language="javascript" type="text/javascript" src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/is_base.js.다운로드"></script>
+<script language="javascript" type="text/javascript">
+	var is_skinURL = "https://tistory3.daumcdn.net/tistory/886407/skin/"; // Skin Location
+/* *************************************************
+[ 사이드바 아이템 내용 보여주기 여부 설정 ]
+아래 각 변수에 0 또는 1을 설정하여 주시기 바랍니다.
+0 - 내용 숨기기. 아이템 타이틀 클릭시 보여집니다.
+1 - 내용 보여주기. 아이템 타이틀 클릭시 숨겨집니다.
+아이템 자체의 보여주기 여부는 태터 관리자
+페이지에서 설정 가능합니다.
+**************************************************** */
+
+	var f_cat_div = 1;	// Category
+	var f_as_div = 1; // Archive & Search
+	var f_rct_article_div = 1; // Recent Article
+	var f_calendar_box = 1; // Calendar
+	var f_tag_div = 1; // Tag
+	var f_rct_comment_div = 1;  // Recent Comment
+	var f_rct_tb_div = 1; // Trackback
+	var f_link_div = 1; // Link
+	var f_cnt_div = 1; // Counter
+
+/* ************************************************* */
+</script>
+<link rel="stylesheet" type="text/css" href="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/shareEntryWithSNS.css">
+<script type="text/javascript" src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/shareEntryWithSNS.js.다운로드"></script>
+
+		<link rel="stylesheet" type="text/css" href="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/captcha.css">
+		<script type="text/javascript">
+			var needCommentCaptcha = true;
+			var commentCaptchaType = 'bottom';
+		</script>
+<style type="text/css">
+		#daumSearchBox {
+			height: 21px;
+			background-image : url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+			margin: 5px auto ;
+			padding: 0;
+		}
+		#daumSearchBox input {
+			background: none;
+			margin : 0;
+			padding : 0;
+			border : 0;
+		}
+		#daumSearchBox #daumLogo {
+			width: 34px;
+			height: 21px;
+			float: left;
+			margin-right: 5px;
+			background-image : url(//i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+		}
+		#daumSearchBox #show_q {
+			background-color: transparent;
+			border: none;
+			font: 12px Gulim, Sans-serif;
+			color: #555;
+			margin-top: 4px;
+			margin-right: 15px;
+			float: left;
+		}
+
+		#daumSearchBox #show_btn {
+			background-image : url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+			width: 37px;
+			height: 21px;
+			float: left;
+			margin:0;
+			cursor:pointer;
+			text-indent:-1000em;
+		}
+	</style>
+<link rel="stylesheet" type="text/css" href="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/style(1).css">
+<script type="text/javascript" src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/profile.js.다운로드"></script>
+	<style type="text/css">
+		.another_category { border: 1px solid #E5E5E5; padding: 10px 10px 5px; margin:10px 0; clear: both; }
+		.another_category h4 { font-size: 12px !important; margin: 0 !important; border-bottom: 1px solid #E5E5E5 !important; padding: 2px 0 6px !important; }
+		.another_category h4 a { font-weight: bold !important; }
+		.another_category table { table-layout: fixed; border-collapse: collapse; width: 100% !important; margin-top: 10px !important; }
+		* html .another_category table { width: auto !important; }
+		*:first-child+html .another_category table { width: auto !important; }
+		.another_category th, .another_category td { padding: 0 0 4px !important; }
+		.another_category th { text-align: left; font-size: 12px !important; font-weight: normal;  word-break: break-all; overflow: hidden; line-height: 1.5; }
+		.another_category td { text-align: right; width: 80px; font-size: 11px; }
+		.another_category th a { font-weight: normal; text-decoration: none; border: none !important; }
+		.another_category th a.current{ font-weight: bold; text-decoration: none !important; border-bottom: 1px solid !important; }
+		.another_category th span { font-weight: normal; text-decoration: none; font: 10px Tahoma, Sans-serif; border: none !important; }
+
+		.another_category_color_gray, .another_category_color_gray h4 { border-color: #E5E5E5 !important; }
+		.another_category_color_gray * { color: #909090 !important; }
+		.another_category_color_gray th a.current{border-color:#909090 !important;}
+		.another_category_color_gray h4, .another_category_color_gray h4 a { color: #737373 !important; }
+
+
+		.another_category_color_red, .another_category_color_red h4 { border-color: #F6D4D3 !important;  }
+		.another_category_color_red * { color: #E86869 !important; }
+		.another_category_color_red th a.current{border-color:#E86869 !important;}
+		.another_category_color_red h4, .another_category_color_red h4 a { color: #ED0908 !important; }
+
+
+		.another_category_color_green, .another_category_color_green h4 { border-color: #CCE7C8 !important; }
+		.another_category_color_green * { color: #64C05B !important; }
+		.another_category_color_green th a.current{border-color:#64C05B !important;}
+		.another_category_color_green h4, .another_category_color_green h4 a { color: #3EA731 !important; }
+
+
+		.another_category_color_blue, .another_category_color_blue h4 { border-color: #C8DAF2 !important; }
+		.another_category_color_blue * { color: #477FD6 !important; }
+		.another_category_color_blue th a.current{border-color:#477FD6 !important;}
+		.another_category_color_blue h4, .another_category_color_blue h4 a { color: #1960CA !important; }
+
+
+		.another_category_color_violet, .another_category_color_violet h4 { border-color: #E1CEEC !important;  }
+		.another_category_color_violet * { color:#9D64C5 !important; }
+		.another_category_color_violet th a.current{border-color:#9D64C5 !important;}
+		.another_category_color_violet h4, .another_category_color_violet h4 a { color: #7E2CB5 !important; }
+	</style>
+<script type="text/javascript">
+        window.TistoryBlog = {
+            url: "http://chulin28ho.tistory.com",
+            tistoryUrl: "http://chulin28ho.tistory.com"
+        };
+        var servicePath = "";
+        var blogURL = "";
+    </script>
+
+	<script> (function() { window.orgjQuery = window.jQuery; window.jQuery = tjQuery })()</script>
+    <script src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/uoclike.min.js.다운로드"></script>
+	<script> (function() { window.jQuery = window.orgjQuery; delete window.orgjQuery })()</script>
+    <script>
+		(function($) {
+			$.fn.extend({
+				size: function () {
+					return this.length
+				}
+			});
+			$.fn.UOCLike.defaults.updateServiceCategory = true;
+					})(tjQuery)
+    </script>
+        <script type="text/javascript" src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/base.js.다운로드"></script>
+        <link rel="stylesheet" type="text/css" href="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/dialog.css">
+            <link rel="stylesheet" type="text/css" href="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/postBtn.css">
+    <script src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/kakao.min.js.다운로드"></script><script type="text/javascript" async="" src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/td.min.js.다운로드"></script></head>
+
+<body id="tt-body-page" onload="init_side_detail();">
+
+<a name="top"></a>
+<script type="text/javascript">
+	(function() {
+		if (!window.T) {
+			window.T = {}
+		}
+		window.T.config = {"TOP_SSL_URL":"https:\/\/www.tistory.com","PREVIEW":false,"ROLE":"guest","PREV_PAGE":"\/347","NEXT_PAGE":"\/345","BLOG":{"isDormancy":false,"title":"\ub300\ucda9 \uc0b4\uc544\uac00\ub294 \uac8c\uc784\uac1c\ubc1c\uc790"},"NEED_COMMENT_LOGIN":false,"COMMENT_LOGIN_CONFIRM_MESSAGE":"","LOGIN_URL":"https:\/\/www.tistory.com\/auth\/login\/?redirectUrl=http%3A%2F%2Fchulin28ho.tistory.com%2F346","DEFAULT_URL":"http:\/\/chulin28ho.tistory.com","USER":{"name":null,"homepage":null}};
+	})();
+</script>
+
+<script type="text/javascript" src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/common.js.다운로드"></script>
+<div style="margin:0; padding:0; border:none; background:none; float:none; clear:none; z-index:0"></div>
+	<div id="tool">
+		<div class="admin_button"><a href="http://chulin28ho.tistory.com/manage"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/btn_admin.gif" alt=""></a> <a href="http://chulin28ho.tistory.com/manage/entry/post"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/btn_entry.gif"></a></div>
+	</div>
+
+	<div id="container">
+
+		<div id="header">
+				<div class="header_wrap">
+					<div class="blogTitle"><a href="http://chulin28ho.tistory.com/">대충 살아가는 게임개발자</a></div>
+					<div class="blogMenu"><ul>		<li class="t_menu_home first">
+			<a href="http://chulin28ho.tistory.com/">블로그홈</a>
+		</li>
+				<li class="t_menu_location">
+			<a href="http://chulin28ho.tistory.com/location">지역로그</a>
+		</li>
+				<li class="t_menu_tag">
+			<a href="http://chulin28ho.tistory.com/tag">태그로그</a>
+		</li>
+				<li class="t_menu_medialog">
+			<a href="http://chulin28ho.tistory.com/media">미디어로그</a>
+		</li>
+				<li class="t_menu_guestbook last">
+			<a href="http://chulin28ho.tistory.com/guestbook">방명록</a>
+		</li>
+		</ul></div>
+				</div>
+		</div>
+		<!-- header close -->
+
+
+		<div id="content">
+
+
+			<!-- 키워드 -->
+			
+
+			<!-- 글 검색 목록 -->
+			
+
+			<!-- 댓글 검색 목록 -->
+			
+
+			
+
+			
+
+			
+			
+
+			<!-- NOTICE -->
+			
+
+
+			<!-- PROTECTED ARTICLE -->
+			
+
+			<!-- ARTICLE -->
+			
+				<b class="rtop"><b class="r1"></b><b class="r2"></b><b class="r3"></b><b class="r4"></b></b>
+				<div class="entry">
+						<div class="titleWrap">
+							<h2><a href="http://chulin28ho.tistory.com/346">월드머신 으로 하이트맵 만들기 테스트</a></h2>
+							<span class="category"><a href="http://chulin28ho.tistory.com/category/%EA%B3%B5%EB%B6%80%EB%8A%94%20%EC%88%A8%EC%89%AC%EB%93%AF%EC%9D%B4">공부는 숨쉬듯이</a> </span>
+							<span class="date">2016.02.09 17:22</span>
+							
+						</div><!-- titleWrap close -->
+						<div class="article">
+							<div class="tt_article_useless_p_margin"><div style="text-align:center;margin:0 0 10px 0;"><script async="" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- jp_adv4 -->
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9412671725761836" data-ad-slot="7253269303"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><p>간략하게 월드머신 테스트 </p>
+<p>&nbsp;</p>
+<p>유니티에서 500*500 미터짜리 터레인을 만들고 , 하이트맵 해상도를 512 정도로 줄인후 그림을 그림. </p>
+<p>- 하이트맵 해상도가 클수록 정밀한 메쉬 구조의 터레인 데이터가 나옴. </p>
+<p>- 웃긴건 메쉬 구조가 정밀해지면 브러쉬까지 작아짐</p>
+<p>- 그러므로 큼직큼직하게 그릴때는 512 정도가 맞다고 보임</p>
+<p>- 또 웃긴건 512로 그리고 다시 2048 처럼 늘려서 정밀하게 그리면 되지 않나? 싶지만 바꾸는 순간 리셋되어 버리기 때문에 아무 소용없음. </p>
+<p>&nbsp;</p>
+<p>그러므로 512로 그려서 r16 파일로 뽑은 다음에 월드머신으로 가져옴</p>
+<p>&nbsp;<span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/2346384B56B99EDB09CE57" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;http://cfile10.uf.tistory.com/original/2346384B56B99EDB09CE57&#39;)" width="700" height="559" filename="30.png" filemime="image/jpeg"></span></p>
+<p>&nbsp;</p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none">&nbsp;</p>
+<p>&nbsp;전체 노드를 보면 아래와 같은 모양임. </p>
+<p>파일 인풋을 노드를 만들어 거기서 파일을 로드하고,&nbsp;&nbsp;</p>
+<p>레이아웃 제네레이터에서 파일을 수정함. </p>
+<p>&nbsp;</p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/25387A4B56B99EDA141BA0" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;http://cfile25.uf.tistory.com/original/25387A4B56B99EDA141BA0&#39;)" width="700" height="548" filename="28.png" filemime="image/jpeg"></span></p>
+<p>&nbsp;</p>
+<p>아래가 프로젝트 셋팅. </p>
+<p>처음에 프로젝트 셋팅에서 크기를 지정해주는게 중요. </p>
+<p>그리고 빌드할때의 텍스쳐 해상도도 여기서 정해준 대로 따라감. </p>
+<p>&nbsp;</p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/263FAD4B56B99EDA0E694B" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;http://cfile8.uf.tistory.com/original/263FAD4B56B99EDA0E694B&#39;)" width="700" height="447" filename="29.png" filemime="image/jpeg"></span></p>
+<p>&nbsp;</p>
+<p>레이아웃 제네레이터에서 생뚱맞은 푸딩 하나 추가 </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/24166D4C56B99EDC0A366B" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;http://cfile21.uf.tistory.com/original/24166D4C56B99EDC0A366B&#39;)" width="700" height="554" filename="31.png" filemime="image/jpeg"></span></p>
+<p>&nbsp;</p>
+<p>짜잔</p>
+<p>&nbsp;</p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/221B7F4C56B99EDD06D4F2" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;http://cfile7.uf.tistory.com/original/221B7F4C56B99EDD06D4F2&#39;)" width="700" height="529" filename="32.png" filemime="image/jpeg"></span></p>
+<p>&nbsp;</p>
+<p>그리고 이걸 Erosion 시켜서 풍화작용을 시킴. </p>
+<p>여기서 더 잘 만지면 더 이뻐지지만 귀찮. </p>
+<p>그건 천천히 공부할 예정. </p>
+<p>&nbsp;</p>
+<p>거기에 너무 낮나? 싶어서 Constant를 넣고 Combiner로 둘을 더해서 위로 올림. </p>
+<p>나중에 낮기는 개뿔 ... 이라는 것을 깨달음. </p>
+<p>이대로 넘기면 터레인도 위로 올라가거든. </p>
+<p>조금은 위로 올리는 것도 좋지만 필요없이 위로 올리는건 불편. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/2717AB4C56B99EDD09D7ED" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;http://cfile9.uf.tistory.com/original/2717AB4C56B99EDD09D7ED&#39;)" width="700" height="593" filename="33.png" filemime="image/jpeg"></span></p>
+<p>&nbsp;</p>
+<p>Clamp의 Expand 기능을 이용해서 좀 확장해줌. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/261B834C56B99EDE06EEBF" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;http://cfile5.uf.tistory.com/original/261B834C56B99EDE06EEBF&#39;)" width="700" height="420" filename="34.png" filemime="image/jpeg"></span></p>
+<p>&nbsp;이렇게. </p>
+<p>&nbsp;</p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/2312BC4C56B99EDF0D6108" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;http://cfile23.uf.tistory.com/original/2312BC4C56B99EDF0D6108&#39;)" width="700" height="485" filename="35.png" filemime="image/jpeg"></span></p>
+<p>&nbsp;간단하게 아웃풉 뽑아봄. </p>
+<p>저 Write output to disk를 누르면 렌더링되고, 설정에서 지정된 해상도로 출력됨. </p>
+<p>애석하게도 유니티는 4096 이상은 못받아들이더라는. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>이렇게 뽑은 r16 파일 포맷은 32메가다. </p>
+<p>&nbsp;</p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:689px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/26164E4C56B99EE00AAFCD" style="max-width:100%;height:auto" width="689" height="508" filename="36.png" filemime="image/jpeg"></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>그래서 엔진으로 넣으면 이렇게 된다. 좀 시간이 걸림. </p>
+<p>&nbsp;</p>
+<p><span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/221C6D4B56B99ED528B61E" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;http://cfile23.uf.tistory.com/original/221C6D4B56B99ED528B61E&#39;)" width="700" height="430" filename="19.png" filemime="image/jpeg"></span></p>
+<p>&nbsp;</p>
+<p>라이트 설정하고 1인칭 컨트롤러로 돌아다녀 보면 확실히 퀄리티가 괜찮아지는걸 볼 수 있다. </p>
+<p>하이트맵 해상도를 512로 시작했지만, 불러들인 것은 4096 이기 때문에 메쉬의 정밀도가 달라진다. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/2745994B56B99ED80AFFEE" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;http://cfile3.uf.tistory.com/original/2745994B56B99ED80AFFEE&#39;)" width="700" height="443" filename="21.png" filemime="image/jpeg"></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>대략 이 정도쯤 되기 때문에 당연히 PC 게임의 고급 프로젝트에서나 쓸만한 정도. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/25082B4B56B99ED636FC5D" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;http://cfile9.uf.tistory.com/original/25082B4B56B99ED636FC5D&#39;)" width="700" height="556" filename="20.png" filemime="image/jpeg"></span></p>
+<p>&nbsp;</p>
+<p>텍스쳐도 없이 카메라 설정만 좀 하고 찍어보았다. </p>
+<p>진짜 대충 만든 지형인데도 뭔가 있어보이는게 장점임. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span class="imageblock" style="display:inline-block;width:700px;;height:auto;max-width:100%"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/2608CC4B56B99ED336123C" style="cursor: pointer;max-width:100%;height:auto" onclick="open_img(&#39;http://cfile4.uf.tistory.com/original/2608CC4B56B99ED336123C&#39;)" width="700" height="509" filename="18.png" filemime="image/jpeg"></span></p><div class="tt_adsense_bottom" style="margin-top:30px"><script async="" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- jp_adv3 -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9412671725761836" data-ad-slot="5776536101" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="container_postbtn"><div class="postbtn_like"><label data-thumbnail-url="http://cfile10.uf.tistory.com/image/2346384B56B99EDB09CE57" data-title="월드머신 으로 하이트맵 만들기 테스트" data-description="간략하게 월드머신 테스트 유니티에서 500*500 미터짜리 터레인을 만들고 , 하이트맵 해상도를 512 정도로 줄인후 그림을 그림. - 하이트맵 해상도가 클수록 정밀한 메쉬 구조의 터레인 데이터가 나옴. - 웃긴건.." data-profile-image="http://cfile3.uf.tistory.com/image/1721A7344EEC61370F9791" data-profile-name="대마왕J" data-pc-url="http://chulin28ho.tistory.com/346" data-blog-title="대충 살아가는 게임개발자"><span class="ico_postbtn ico_sns">sns</span><input type="button" class="inp_btn"></label><span class="ico_bar"></span><label data-entry-id="346"><span class="ico_postbtn ico_report">신고</span><input type="button" class="inp_btn"></label></div><div class="postbtn_ccl" data-ccl-type="5"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko" target="_blank" class="link_ccl"><span class="bundle_ccl"><span class="ico_postbtn ico_ccl1">저작자표시</span><span class="ico_postbtn ico_ccl2">비영리</span><span class="ico_postbtn ico_ccl4">동일조건</span></span></a></div></div>    <!--
+	<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<Work rdf:about="">
+			<license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/kr/" />
+		</Work>
+		<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/">
+			<permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+			<permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+			<requires rdf:resource="http://web.resource.org/cc/Notice"/>
+			<requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+			<prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/>
+		</License>
+	</rdf:RDF>
+	--><div class="tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-left tt-sns-icon-size-big">
+	<div class="tt-sns-wrap" id="ttSnsWrap-346">
+		<ul class="tt-sns-service-default">
+			<li class="tt-sns-service-kakaostory"><a href="javascript:;" onclick="ShareEntryWithSNS.share(&#39;kakaostory&#39;, &#39;346&#39;, &#39;%EC%9B%94%EB%93%9C%EB%A8%B8%EC%8B%A0%20%EC%9C%BC%EB%A1%9C%20%ED%95%98%EC%9D%B4%ED%8A%B8%EB%A7%B5%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8&#39;);">카카오스토리</a></li>
+			<li class="tt-sns-service-twitter"><a href="javascript:;" onclick="ShareEntryWithSNS.share(&#39;twitter&#39;, &#39;346&#39;, &#39;%EC%9B%94%EB%93%9C%EB%A8%B8%EC%8B%A0%20%EC%9C%BC%EB%A1%9C%20%ED%95%98%EC%9D%B4%ED%8A%B8%EB%A7%B5%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8&#39;);">트위터</a></li>
+			<li class="tt-sns-service-facebook"><a href="javascript:;" onclick="ShareEntryWithSNS.share(&#39;facebook&#39;, &#39;346&#39;, &#39;%EC%9B%94%EB%93%9C%EB%A8%B8%EC%8B%A0%20%EC%9C%BC%EB%A1%9C%20%ED%95%98%EC%9D%B4%ED%8A%B8%EB%A7%B5%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20%ED%85%8C%EC%8A%A4%ED%8A%B8&#39;);">페이스북</a></li>
+		</ul>
+	</div>
+	<div class="tt-sns-clear"></div>
+</div>
+<div class="another_category another_category_color_gray">
+<h4>'<a href="http://chulin28ho.tistory.com/category/%EA%B3%B5%EB%B6%80%EB%8A%94%20%EC%88%A8%EC%89%AC%EB%93%AF%EC%9D%B4">공부는 숨쉬듯이</a>' 카테고리의 다른 글</h4>
+<table>
+<tbody><tr>
+<th>
+<a href="http://chulin28ho.tistory.com/356?category=569856">Understanding BCn Texture Compression Formats</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.05.25</td>
+</tr>
+<tr>
+<th>
+<a href="http://chulin28ho.tistory.com/352?category=569856">PBR 슈도코드</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.04.02</td>
+</tr>
+<tr>
+<th>
+<a href="http://chulin28ho.tistory.com/346?category=569856" class="current">월드머신 으로 하이트맵 만들기 테스트</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2016.02.09</td>
+</tr>
+<tr>
+<th>
+<a href="http://chulin28ho.tistory.com/329?category=569856">AUTODESK Stingray : 오토데스크 스팅레이  / 가오리엔진 첫인상</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2015.12.10</td>
+</tr>
+<tr>
+<th>
+<a href="http://chulin28ho.tistory.com/320?category=569856">벡터 길이 공식 : X와 Y 만 가지고 Z를 구해보자</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2015.08.12</td>
+</tr>
+<tr>
+<th>
+<a href="http://chulin28ho.tistory.com/269?category=569856">폴리지를 어떻게 지우나요?</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2015.03.04</td>
+</tr>
+</tbody></table></div></div>
+						</div>
+						
+						<div class="actionTrail">
+							<div class="tbcm">
+								<a href="http://chulin28ho.tistory.com/346#tb" onclick="toggleLayerForEntry(346, &#39;trackback&#39;); return false">
+								<span id="trackbackCount346">NO TRACKBACK</span></a>
+								<span class="tbcm_vbar"> AND </span>
+								<a href="http://chulin28ho.tistory.com/346#rp" onclick="toggleLayerForEntry(&#39;346&#39;, &#39;comment&#39;); return false">
+								<span id="commentCount346">NO COMMENT</span></a>
+							</div>
+							<div class="goup"><a href="http://chulin28ho.tistory.com/346#"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/subup.gif" alt=""></a></div>
+						</div>
+						<div id="entry346Trackback" style="display:none">
+							<div class="trackback">
+								<div class="trackback_address"></div>
+								
+							</div><!-- trackback close -->
+						</div>
+						<div id="entry346Comment" style="display:none"></div><br>
+				</div><!-- entry close -->
+				<b class="rbottom"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b><div class="box_hblank1"></div>
+			
+
+
+			<!-- 페이징 및 하단 COPYRIGHT -->
+			<div id="footer">
+				
+						<div class="paging">
+							<a href="http://chulin28ho.tistory.com/347" class="">PREV</a>
+							<span class="numbox">
+								
+								<a href="http://chulin28ho.tistory.com/457" class="num"> <span>1</span></a>
+								
+								<a class="num"> <span>···</span></a>
+								
+								<a href="http://chulin28ho.tistory.com/350" class="num"> <span>90</span></a>
+								
+								<a href="http://chulin28ho.tistory.com/349" class="num"> <span>91</span></a>
+								
+								<a href="http://chulin28ho.tistory.com/348" class="num"> <span>92</span></a>
+								
+								<a href="http://chulin28ho.tistory.com/347" class="num"> <span>93</span></a>
+								
+								<a class="num"> <span class="selected">94</span></a>
+								
+								<a href="http://chulin28ho.tistory.com/345" class="num"> <span>95</span></a>
+								
+								<a href="http://chulin28ho.tistory.com/344" class="num"> <span>96</span></a>
+								
+								<a href="http://chulin28ho.tistory.com/343" class="num"> <span>97</span></a>
+								
+								<a href="http://chulin28ho.tistory.com/342" class="num"> <span>98</span></a>
+								
+								<a class="num"> <span>···</span></a>
+								
+								<a href="http://chulin28ho.tistory.com/1" class="num"> <span>300</span></a>
+								
+							</span>
+							<a href="http://chulin28ho.tistory.com/345" class="">NEXT</a>
+						</div>
+				
+				<div class="copyright">
+					POWERED BY <a href="http://www.daum.net/" onclick="window.open(this.href); return false">DAUM</a> &amp; <a href="http://www.tistory.com/" onclick="window.open(this.href); return false">TISTORY</a> | SKIN BY <a href="http://iendev.kr/" onclick="window.open(this.href); return false">IENDEV</a> | IS Base 0.33<br>
+					<a href="http://chulin28ho.tistory.com/guestbook">COPYRIGHT ⓒ 대마왕J, ALL RIGHTS RESERVED. CONTACT BLOGGER.</a>
+				</div>
+			</div>
+
+
+		</div><!-- content close -->
+
+		<div id="sidebar">
+				<b class="ntop"><b class="r1"></b><b class="r2"></b><b class="r3"></b><b class="r4"></b></b>
+
+				<div class="side_item" id="side_item">
+				
+					<!-- 블로그 로고 모듈 -->
+						<div class="blogImage"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/1721A7344EEC61370F9791" alt="블로그 이미지"></div>
+					
+					<!-- 블로그 설명 모듈 -->
+						<div class="blogDesc">대충 살아가는 테크니컬 아트 디렉터 :
+이글루스에서 이사왔습니다. <br><span style="font-family:tahoma">by</span> <strong>대마왕J</strong></div>
+					
+					<!-- 공지사항 모듈 -->
+						
+							<div class="notice">
+								<ul>
+									
+								</ul>
+							</div>
+						
+					
+					<!-- 카테고리 모듈 -->
+						<div class="category">
+							<h3 onclick="javascript:show_hide_div(&#39;cat_div&#39;);">ARTICLE CATEGORY</h3>
+							<div id="cat_div">
+								<script type="text/javascript">
+	//<![CDATA[
+	var expanded = false;
+	function expandTree() {
+																		expandFolder(569856, true);
+											expandFolder(586809, true);
+											}
+
+	function expandFolder(category, expand) {
+		var oLevel1 = document.getElementById("category_" + category);
+		var oImg = oLevel1.getElementsByTagName("img")[0];
+		switch (expand) {
+			case true:
+				oImg.src = "https://t1.daumcdn.net/tistory_admin/blogs/image/tree/dot_purple/tab_opened.gif";
+				showLayer("category_" + category + "_children");
+				return true;
+			case false:
+				oImg.src = "https://t1.daumcdn.net/tistory_admin/blogs/image/tree/dot_purple/tab_closed.gif";
+				hideLayer("category_" + category + "_children");
+				return true;
+		}
+		return false;
+	}
+
+	function toggleFolder(category) {
+		var oLevel1 = document.getElementById("category_" + category);
+		var oImg = oLevel1.getElementsByTagName("img")[0];
+		switch (oImg.src.substr(oImg.src.length - 10, 6)) {
+			case "isleaf":
+				return true;
+			case "closed":
+				oImg.src = "https://t1.daumcdn.net/tistory_admin/blogs/image/tree/dot_purple/tab_opened.gif";
+				tt_showLayer("category_" + category + "_children");
+				expanded = true;
+				return true;
+			case "opened":
+				oImg.src = "https://t1.daumcdn.net/tistory_admin/blogs/image/tree/dot_purple/tab_closed.gif";
+				tt_hideLayer("category_" + category + "_children");
+				expanded = false;
+				return true;
+		}
+		return false;
+	}
+	var selectedNode = 0;
+	function selectNode(category) {
+
+		try {
+			var root = document.getElementById('treeComponent');
+			var prevSelectedNode= root.getAttribute('currentselectednode');
+			var oLevel = document.getElementById("category_" + selectedNode);
+			var oChild = oLevel.getElementsByTagName("table")[0];
+
+			oChild.style.color = "#333333";
+						oChild.style.backgroundColor = "#f9f9f9"
+			root.setAttribute('currentselectednode',category);
+			document.getElementById('text_'+selectedNode).style.color="#333333";
+
+			var oLevel = document.getElementById("category_" + category);
+			var oChild = oLevel.getElementsByTagName("table")[0];
+			oChild.style.color = "#c45050";
+						oChild.style.backgroundColor = "#f9f9f9"
+			document.getElementById('text_'+category).style.color="#c45050";
+
+			selectedNode = category;
+		} catch(e) {
+		}
+	}
+
+	function setTreeStyle(skin) {
+		try {
+			treeNodes = document.getElementsByName("treeNode");
+			for(var i=0; i<treeNodes.length; i++) {
+				if( ('category_'+selectedNode) == (treeNodes[i].getAttribute('id').value) ) {
+					var oLevel = document.getElementById('category_'+i);
+					var oChild = oLevel.getElementsByTagName("table")[0];
+					oChild.style.color ='#'+skin['activeItemColor'];
+					if (skin['activeItemBgColor'] != '' && skin['activeItemBgColor'] != undefined) {
+						oChild.style.backgroundColor ='#'+skin['activeItemBgColor'];
+					} else {
+						oChild.style.backgroundColor ="";
+					}
+				} else{
+					var oLevel = document.getElementById("category_" + i);
+					var oChild = oLevel.getElementsByTagName("table")[0];
+					oChild.style.color ='#'+skin['colorOnTree'];
+					oChild.style.backgroundColor ='#'+skin['bgColorOnTree'];
+					var oLevel = document.getElementById('text_'+i).style.color='#'+skin['colorOnTree'];
+				}
+			}
+		} catch(e) {
+		}
+	}
+	//]]>
+</script>
+
+
+<table id="treeComponent" cellpadding="0" cellspacing="0" style="width: 100%;"><tbody><tr>
+	<td>
+		<table id="category_0" cellpadding="0" cellspacing="0"><tbody><tr>
+			<td class="ib" style="font-size: 1px"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/tab_top.gif" width="16" onclick="expandTree()" alt="" style="display:block"></td>
+			<td valign="top" style="font-size:9pt; padding-left:3px">
+				<table id="imp0" cellpadding="0" cellspacing="0" style="background-color: #f9f9f9;"><tbody><tr>
+										<td class="branch3" onclick="window.location.href=&#39;/category&#39;">
+						<div id="text_0" style=" color: #333333;">분류 전체보기						<span class="c_cnt">(300)</span>						</div>
+					</td>
+				</tr></tbody></table>
+			</td>
+		</tr></tbody></table>
+
+					<table id="category_569855" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/dot_purple/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;569855&#39;)"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #f9f9f9;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/%EC%9D%BC%EA%B8%B0%EB%8A%94%20%EC%83%9D%EA%B0%81%EB%82%A0%EB%95%8C%EB%A7%88%EB%8B%A4&#39;"><div id="text_569855" style="color: #333333;">일기는 생각날때마다 <span class="c_cnt">(10)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_569855_children" style="display:none">
+							</div>
+						<table id="category_453808" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/dot_purple/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;453808&#39;)"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #f9f9f9;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/%EB%A6%AC%EB%B7%B0%EC%A2%80%20%EC%B0%8C%EA%B7%B8%EB%A6%B0%EA%B1%B0&#39;"><div id="text_453808" style="color: #333333;">리뷰좀 찌그린거 <span class="c_cnt">(23)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_453808_children" style="display:none">
+							</div>
+						<table id="category_569856" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/dot_purple/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;569856&#39;)"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/tab_closed.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #f9f9f9;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/%EA%B3%B5%EB%B6%80%EB%8A%94%20%EC%88%A8%EC%89%AC%EB%93%AF%EC%9D%B4&#39;"><div id="text_569856" style="color: #333333;">공부는 숨쉬듯이 <span class="c_cnt">(184)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_569856_children" style="display:none">
+									<table id="category_458928" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/%EA%B3%B5%EB%B6%80%EB%8A%94%20%EC%88%A8%EC%89%AC%EB%93%AF%EC%9D%B4/%EC%9C%A0%EB%8B%88%ED%8B%B0%20%EC%97%94%EC%A7%84&#39;" cellpadding="0" cellspacing="0" style="background-color: #f9f9f9;"><tbody><tr>
+										<td class="branch3"><div id="text_458928" style="color: #333333;">유니티 엔진 <span class="c_cnt">(131)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_455033" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/tab_treed_end.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/%EA%B3%B5%EB%B6%80%EB%8A%94%20%EC%88%A8%EC%89%AC%EB%93%AF%EC%9D%B4/%ED%8A%9C%ED%84%B0%EB%A6%AC%EC%96%BC/%EC%8A%A4%ED%84%B0%EB%94%94&#39;" cellpadding="0" cellspacing="0" style="background-color: #f9f9f9;"><tbody><tr>
+										<td class="branch3"><div id="text_455033" style="color: #333333;">튜터리얼/스터디 <span class="c_cnt">(39)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+								</div>
+						<table id="category_586809" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/dot_purple/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;586809&#39;)"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/tab_closed.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #f9f9f9;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/%EC%9E%90%EB%A3%8C%EB%8A%94%20%EC%9E%90%EB%A3%8C%EC%A7%80&#39;"><div id="text_586809" style="color: #333333;">자료는 자료지 <span class="c_cnt">(8)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_586809_children" style="display:none">
+									<table id="category_455034" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/%EC%9E%90%EB%A3%8C%EB%8A%94%20%EC%9E%90%EB%A3%8C%EC%A7%80/%ED%9A%8C%EC%82%AC%20%EB%82%B4%EB%B6%80%EC%9A%A9%20%EC%9E%90%EB%A3%8C&#39;" cellpadding="0" cellspacing="0" style="background-color: #f9f9f9;"><tbody><tr>
+										<td class="branch3"><div id="text_455034" style="color: #333333;">회사 내부용 자료 <span class="c_cnt">(3)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_586810" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/tab_treed_end.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/%EC%9E%90%EB%A3%8C%EB%8A%94%20%EC%9E%90%EB%A3%8C%EC%A7%80/%EA%B2%8C%EC%9E%84%20%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%20%EB%B0%B1%EC%97%85&#39;" cellpadding="0" cellspacing="0" style="background-color: #f9f9f9;"><tbody><tr>
+										<td class="branch3"><div id="text_586810" style="color: #333333;">게임 스크린샷 백업 <span class="c_cnt">(1)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+								</div>
+						<table id="category_592802" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/dot_purple/navi_back_noactive_end.gif"><a class="click" onclick="toggleFolder(&#39;592802&#39;)"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #f9f9f9;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/%EC%B2%AD%EA%B0%95%EB%AC%B8%ED%99%94%EC%82%B0%EC%97%85%EB%8C%80%ED%95%99%EA%B2%8C%EC%9E%84%EC%A0%84%EA%B3%B5&#39;"><div id="text_592802" style="color: #333333;">청강문화산업대학게임전공 <span class="c_cnt">(25)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_592802_children" style="display:none">
+							</div>
+				</td>
+</tr></tbody></table>
+							</div>
+						</div>
+					
+					<!-- 최근 보관함 및 검색 모듈 -->
+						<div id="archive" class="archive">
+							<h3 onclick="javascript:show_hide_div(&#39;as_div&#39;);">ARCHIVE &amp; SEARCH</h3>
+							<div id="as_div">
+								<select id="sel_archive" onchange="javascript:location.href = this.options[selectedIndex].value;;">
+										<option value="">--- Select Archive ---</option>
+									
+										<option value="/archive/201801">2018/01 (4)</option>
+									
+
+										<option value="/archive/201712">2017/12 (13)</option>
+									
+
+										<option value="/archive/201711">2017/11 (3)</option>
+									
+
+										<option value="/archive/201710">2017/10 (2)</option>
+									
+
+										<option value="/archive/201709">2017/09 (1)</option>
+									
+								</select>
+								
+									<div style="float:left;width:95px;">
+										<input type="text" name="search" value="" onkeypress="if (event.keyCode == 13) { try{window.location.href=&#39;/search/&#39;+looseURIEncode(document.getElementsByName(&#39;search&#39;)[0].value);document.getElementsByName(&#39;search&#39;)[0].value=&#39;&#39;;return false;}catch(e){} }"></div>
+									<div>
+									<a href="javascript:;"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/search_button.gif" onclick="try{window.location.href=&#39;/search/&#39;+looseURIEncode(document.getElementsByName(&#39;search&#39;)[0].value);document.getElementsByName(&#39;search&#39;)[0].value=&#39;&#39;;return false;}catch(e){}" alt=""></a>
+									</div>
+								
+							</div>
+						</div>
+					
+					<!-- 달력 모듈 -->
+					<div class="calendar">
+						<h3 onclick="javascript:show_hide_div(&#39;calendar_box&#39;);">CALENDAR</h3>
+						<div id="calendar_box">
+							<div class="calendar_box_d">
+										<table class="tt-calendar" cellpadding="0" cellspacing="1" style="width: 100%; table-layout: fixed">
+			<caption class="cal_month">
+				<a href="http://chulin28ho.tistory.com/archive/201712" title="1개월 앞의 달력을 보여줍니다.">«</a>
+				&nbsp;
+				<a href="http://chulin28ho.tistory.com/archive/201801" title="현재 달의 달력을 보여줍니다.">2018/01</a>
+				&nbsp;
+				<a href="http://chulin28ho.tistory.com/archive/201802" title="1개월 뒤의 달력을 보여줍니다.">»</a>
+			</caption>
+			<thead>
+			<tr>
+				<th class="cal_week2">일</th>
+				<th class="cal_week1">월</th>
+				<th class="cal_week1">화</th>
+				<th class="cal_week1">수</th>
+				<th class="cal_week1">목</th>
+				<th class="cal_week1">금</th>
+				<th class="cal_week1">토</th>
+			</tr>
+			</thead>
+			<tbody>
+					<tr class="cal_week">
+			<td class="cal_day1">&nbsp;</td>
+			<td class=" cal_day cal_day3"><a class="cal_click" href="http://chulin28ho.tistory.com/archive/20180101">1</a></td>
+			<td class=" cal_day cal_day3">2</td>
+			<td class=" cal_day cal_day3">3</td>
+			<td class=" cal_day cal_day3">4</td>
+			<td class=" cal_day cal_day3">5</td>
+			<td class=" cal_day cal_day3">6</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">7</td>
+			<td class=" cal_day cal_day3"><a class="cal_click" href="http://chulin28ho.tistory.com/archive/20180108">8</a></td>
+			<td class=" cal_day cal_day3">9</td>
+			<td class=" cal_day cal_day3"><a class="cal_click" href="http://chulin28ho.tistory.com/archive/20180110">10</a></td>
+			<td class=" cal_day cal_day3"><a class="cal_click" href="http://chulin28ho.tistory.com/archive/20180111">11</a></td>
+			<td class=" cal_day cal_day3">12</td>
+			<td class=" cal_day cal_day3">13</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">14</td>
+			<td class=" cal_day cal_day3">15</td>
+			<td class=" cal_day cal_day3">16</td>
+			<td class=" cal_day cal_day3">17</td>
+			<td class=" cal_day cal_day3">18</td>
+			<td class=" cal_day cal_day3">19</td>
+			<td class=" cal_day cal_day3">20</td>
+		</tr>
+		<tr class="cal_week cal_current_week">
+			<td class=" cal_day cal_day_sunday cal_day3">21</td>
+			<td class=" cal_day cal_day4">22</td>
+			<td class=" cal_day cal_day3">23</td>
+			<td class=" cal_day cal_day3">24</td>
+			<td class=" cal_day cal_day3">25</td>
+			<td class=" cal_day cal_day3">26</td>
+			<td class=" cal_day cal_day3">27</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">28</td>
+			<td class=" cal_day cal_day3">29</td>
+			<td class=" cal_day cal_day3">30</td>
+			<td class=" cal_day cal_day3">31</td>
+			<td class="cal_day2">&nbsp;</td>
+			<td class="cal_day2">&nbsp;</td>
+			<td class="cal_day2">&nbsp;</td>
+		</tr>
+			</tbody>
+		</table>
+		
+							</div>
+						</div>
+					</div>
+					
+					<!-- 최근 글 모듈 -->
+						<div class="recentPost">
+							<h3 onclick="javascript:show_hide_div(&#39;rct_artice_div&#39;);">RECENT ARTICLE</h3>
+							<div id="rct_artice_div">
+							<ul>
+								
+									<li>
+										<a href="http://chulin28ho.tistory.com/457"> 1월 11일 작업보고</a>
+										<span class="cnt"><span id="commentCountOnRecentEntries457"></span></span>
+									</li>
+								
+
+									<li>
+										<a href="http://chulin28ho.tistory.com/456"> 감마 코렉션 : 감마 보정 G..</a>
+										<span class="cnt"><span id="commentCountOnRecentEntries456">(4)</span></span>
+									</li>
+								
+
+									<li>
+										<a href="http://chulin28ho.tistory.com/434"> '유니티 쉐이더 스타트업'..</a>
+										<span class="cnt"><span id="commentCountOnRecentEntries434"></span></span>
+									</li>
+								
+
+									<li>
+										<a href="http://chulin28ho.tistory.com/452"> 유니티 코딩 기초 정리</a>
+										<span class="cnt"><span id="commentCountOnRecentEntries452"></span></span>
+									</li>
+								
+
+									<li>
+										<a href="http://chulin28ho.tistory.com/451"> 유니티 신 버전 라이트맵..</a>
+										<span class="cnt"><span id="commentCountOnRecentEntries451">(2)</span></span>
+									</li>
+								
+							</ul>
+							</div>
+						</div>
+					
+					<!-- 태그목록 모듈 -->
+						<div class="tagbox">
+							<h3 onclick="javascript:show_hide_div(&#39;tag_div&#39;);">TAG CLOUD</h3>
+							<div id="tag_div">
+								<ul>
+									
+										<li><a href="http://chulin28ho.tistory.com/tag/BT-H555" class="cloud5"> BT-H555</a></li>
+									
+										<li><a href="http://chulin28ho.tistory.com/tag/Shader" class="cloud1"> Shader</a></li>
+									
+										<li><a href="http://chulin28ho.tistory.com/tag/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C%20%EB%A9%80%ED%8B%B0%EB%8F%85" class="cloud5"> 슬라이드 멀티독</a></li>
+									
+										<li><a href="http://chulin28ho.tistory.com/tag/VPAUSE" class="cloud5"> VPAUSE</a></li>
+									
+										<li><a href="http://chulin28ho.tistory.com/tag/PDB-MD" class="cloud5"> PDB-MD</a></li>
+									
+										<li><a href="http://chulin28ho.tistory.com/tag/%EC%89%90%EC%9D%B4%EB%8D%94" class="cloud1"> 쉐이더</a></li>
+									
+										<li><a href="http://chulin28ho.tistory.com/tag/%EC%85%B0%EC%9D%B4%EB%8D%94" class="cloud1"> 셰이더</a></li>
+									
+										<li><a href="http://chulin28ho.tistory.com/tag/shaderFX" class="cloud1"> shaderFX</a></li>
+									
+										<li><a href="http://chulin28ho.tistory.com/tag/FUNGLA%203D" class="cloud5"> FUNGLA 3D</a></li>
+									
+										<li><a href="http://chulin28ho.tistory.com/tag/%ED%93%A8%EC%A0%84%EC%97%90%ED%94%84%EC%97%94%EC%94%A8" class="cloud5"> 퓨전에프엔씨</a></li>
+									
+								</ul>
+							</div>
+						</div>
+					
+					<!-- 최근 댓글 모듈 -->
+						<div class="recentComment">
+							<h3 onclick="javascript:show_hide_div(&#39;rct_comment_div&#39;);">RECENT COMMENT</h3>
+							<div id="rct_comment_div">
+								<ul>
+									
+										<li>
+											<a href="http://chulin28ho.tistory.com/456#comment13060061">(뒷목을 쳐서 기절시킨다</a>
+										</li>
+									
+
+										<li>
+											<a href="http://chulin28ho.tistory.com/456#comment13059804">근데 아래가 살짝 어둡.... (..</a>
+										</li>
+									
+
+										<li>
+											<a href="http://chulin28ho.tistory.com/284#comment13051929">이제서야 확인했는데 됐어요..</a>
+										</li>
+									
+
+										<li>
+											<a href="http://chulin28ho.tistory.com/456#comment13051648">항상 큰 가르침에 감사 드립니..</a>
+										</li>
+									
+
+										<li>
+											<a href="http://chulin28ho.tistory.com/456#comment13051461">감사합니다
+오늘도 배우고 갑..</a>
+										</li>
+									
+								</ul>
+							</div>
+						</div>
+					
+					<!-- 최근 트랙백 모듈 -->
+						<div class="recentTrackback">
+							<h3 onclick="javascript:show_hide_div(&#39;rct_tb_div&#39;);">RECENT TRACKBACK</h3>
+							<div id="rct_tb_div">
+								<ul>
+									
+								</ul>
+							</div>
+						</div>
+					
+					<!-- 링크 모듈 -->
+						<div class="link">
+							<h3 onclick="javascript:show_hide_div(&#39;link_div&#39;);">MY LINK</h3>
+							<div id="link_div">
+								<ul>
+									
+										<li>
+											 <a href="http://chulin28ho.egloos.com/" onclick="window.open(this.href); return false"><script type="text/javascript">is_LinkIcon('대충 살아가는 게임개발자 이..');</script>대충 살아가는 게임개발자 이..</a>
+										</li>
+									
+
+										<li>
+											 <a href="http://ozlael.tistory.com/" onclick="window.open(this.href); return false"><script type="text/javascript">is_LinkIcon('오즈라엘');</script>오즈라엘</a>
+										</li>
+									
+
+										<li>
+											 <a href="http://www.gamedevforever.com/" onclick="window.open(this.href); return false"><script type="text/javascript">is_LinkIcon('게임개발 포에버');</script>게임개발 포에버</a>
+										</li>
+									
+
+										<li>
+											 <a href="http://hwanggoon.tistory.com/" onclick="window.open(this.href); return false"><script type="text/javascript">is_LinkIcon('HwangGoon');</script>HwangGoon</a>
+										</li>
+									
+
+										<li>
+											 <a href="http://www.ck.ac.kr/" onclick="window.open(this.href); return false"><script type="text/javascript">is_LinkIcon('청강문화산업대학교');</script>청강문화산업대학교</a>
+										</li>
+									
+
+										<li>
+											 <a href="http://tartist.tistory.com/" onclick="window.open(this.href); return false"><script type="text/javascript">is_LinkIcon('두나미스 테크니컬 아티스트(T..');</script>두나미스 테크니컬 아티스트(T..</a>
+										</li>
+									
+
+										<li>
+											 <a href="http://illu.tistory.com/" onclick="window.open(this.href); return false"><script type="text/javascript">is_LinkIcon('illustration of life');</script>illustration of life</a>
+										</li>
+									
+
+										<li>
+											 <a href="http://usroom.tistory.com/" onclick="window.open(this.href); return false"><script type="text/javascript">is_LinkIcon('어른이의 공부방');</script>어른이의 공부방</a>
+										</li>
+									
+								</ul>
+							</div>
+						</div>
+					
+					<!-- 카운터 모듈 -->
+						<div class="counter">
+							<h3 onclick="javascript:show_hide_div(&#39;cnt_div&#39;);">COUNTER</h3>
+							<div id="cnt_div" class="detail">
+							<span class="total"><script type="text/javascript">document.write (addCommas("325,235"));</script>325,235</span><br>
+							TODAY <span class="tynum">22</span> | YESTERDAY <span class="tynum">328</span>
+
+							</div>
+						</div>
+					
+						<!-- RSS 링크 및 배너 -->
+							<div class="btn">
+								<a href="http://chulin28ho.tistory.com/rss" onclick="window.open(this.href); return false"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/rss.gif" style="border:0" alt=""></a> <a href="http://iendev.kr/" onclick="window.open(this.href); return false"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/iscubix.gif" style="border:0"></a>
+							</div>
+							<div style="margin:8px 0; font:11px dotum;">
+								<a href="http://www.tistory.com/" style="margin-bottom:2px; display:block;"><img src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/t_logo.png" alt="tistory"></a>
+								<a href="http://www.tistory.com/join" style="padding-left:14px;">Tistory 회원가입!</a>
+							</div>
+					<div class="sbox_hblank1"></div>
+				</div>
+
+				<b class="nbottom"><b class="r4"></b><b class="r3"></b><b class="r2"></b><b class="r1"></b></b>
+				<br><br>
+		</div>
+		<!-- sidebar close -->
+	</div><!-- container close -->
+
+
+<script>
+    (function($) {
+        $("body").bind('copy', function (e) {
+
+            var url = document.location.href,
+                decodedUrl = decodeURI(url),
+                selection = window.getSelection();
+
+
+            if (typeof window.getSelection == "undefined") {//IE8 or earlier...
+                event.preventDefault();
+
+                var pagelink = '\n\n 출처: ' + decodedUrl,
+                    copytext = selection + pagelink;
+
+                if (window.clipboardData) {
+                    window.clipboardData.setData('Text', copytext);
+                }
+                return;
+            }
+            var body_element = document.getElementsByTagName('body')[0];
+
+            //if the selection is short let's not annoy our users
+            if (("" + selection).length < 30) return;
+
+            //create a div outside of the visible area
+            var newdiv = document.createElement('div');
+            newdiv.style.position = 'absolute';
+            newdiv.style.left = '-99999px';
+            body_element.appendChild(newdiv);
+            newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+            //we need a <pre> tag workaround
+            //otherwise the text inside "pre" loses all the line breaks!
+            if (selection.getRangeAt(0).commonAncestorContainer.nodeName == "PRE") {
+                newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+            }
+
+            newdiv.innerHTML += '<br /><br />출처: <a href="' + url + '">' + decodedUrl + '</a> [대충 살아가는 게임개발자]';
+
+            selection.selectAllChildren(newdiv);
+            window.setTimeout(function () {
+                body_element.removeChild(newdiv);
+            }, 200);
+
+        });
+    })(tjQuery);
+</script><script type="text/javascript">
+var _tiq = 'undefined' !== typeof _tiq ? _tiq : [];
+_tiq.push(['__setConfig', {enableScroll:true, enableClick:true, enableButton:true}]);
+_tiq.push(["__setParam", "svcdomain", "user.tistory.com"]);
+(function(d) {
+	var se = d.createElement('script'); se.type = 'text/javascript'; se.async = true;
+	se.src = location.protocol + '//m2.daumcdn.net/tiara/js/td.min.js';
+	var s = d.getElementsByTagName('head')[0]; s.appendChild(se);
+})(document);
+_tiq.push(['__setParam', 'param_ex', JSON.stringify({"userId":"652110","blogId":"886407","entryId":"346"})]);
+_tiq.push(['__trackPageview']);
+_tiq.push(['__content', 't_content', {
+'c_id':'886407_346', 
+'c_title':'월드머신 으로 하이트맵 만들기 테스트', 
+'type':'article', 
+'author':'', 
+'author_id':'652110', 
+'cp':'대충 살아가는 게임개발자', 
+'cp_id':'886407', 
+'regdata':'2016-02-09 17:22:43', 
+'plink':'http://chulin28ho.tistory.com/346', 
+'media':'pcweb', 
+}]);
+var addEvent = function (evt, fn) { window.addEventListener ? window.addEventListener(evt, fn, false) : window.attachEvent('on' + evt, fn); };
+var removeEvent = function(evt, fn) { window.removeEventListener ? window.removeEventListener(evt, fn, false) : window.detachEvent('on' + evt, fn);};
+var ua = navigator.userAgent.toLowerCase(); var isIOS = /iP[ao]d|iPhone/i.test(ua);
+var contentExStat = function() {
+		_tiq.push(['__content', 't_content_ex', {
+			'data_type':'usage'
+, 'meta': {
+'c_id':'886407_346', 
+'c_title':'월드머신 으로 하이트맵 만들기 테스트', 
+'type':'article', 
+'author':'', 
+'author_id':'652110', 
+'cp':'대충 살아가는 게임개발자', 
+'cp_id':'886407', 
+'regdata':'2016-02-09 17:22:43', 
+'plink':'http://chulin28ho.tistory.com/346', 
+'media':'pcweb', 
+}
+}]);
+		removeEvent(isIOS ? 'pagehide' : 'beforeunload', contentExStat);
+};
+addEvent(isIOS ? 'pagehide' : 'beforeunload', contentExStat);
+</script>
+<script type="text/javascript">window.roosevelt_params_queue = window.roosevelt_params_queue || []; window.roosevelt_params_queue.push({channel_id: "dk", channel_label: 'tistory'});</script>
+<script type="text/javascript" src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/roosevelt_dk_bt.js.다운로드" async=""></script><script type="text/javascript">if(window.console!=undefined){setTimeout(console.log.bind(console,"%cTISTORY","font:8em Arial;color:#EC6521;font-weight:bold"),0);setTimeout(console.log.bind(console,"%c  나를 표현하는 블로그","font:2em sans-serif;color:#333;"),0);}</script><iframe style="position:absolute;width:1px;height:1px;left:-100px;top:-100px" src="./대충 살아가는 게임개발자 __ 월드머신 으로 하이트맵 만들기 테스트_files/api.html" id="editEntry"></iframe><div id="layer_sns" class="layer_sns">
+        <div class="bg_layer" onclick="tistorySns.hide(); return false;"></div>
+        <ul class="list_sns">
+            <li><a class="ico_sns ico_fb" data-service="facebook">페이스북 공유하기</a></li>
+            <li style="display: none;"><a class="ico_sns ico_kt" data-service="kakaotalk">카카오톡 공유하기</a></li>
+            <li><a class="ico_sns ico_ks" data-service="kakaostory">카카오스토리 공유하기</a></li>
+            <li><a class="ico_sns ico_tw" data-service="twitter">트위터 공유하기</a></li>
+        </ul>
+        <button type="button" class="btn_close" onclick="tistorySns.hide(); return false;"><span class="ico_sns ico_close">sns공유하기 레이어 닫기</span></button>
+    </div>
+<div id="__dic_menulayer__" style="z-index: 99999998; padding: 0px; position: absolute; overflow: hidden; white-space: nowrap; left: 757px; top: 266px; width: 118px; display: none;"><a id="m_dic" href="javascript:void(0)" title="선택한 단어나 문장으로 사전 검색이나 번역을 합니다. (Google 번역)" style=""><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/dic.png" border="0"></a><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/blank.png" id="m_dic2_b" style="width: 2px;"><a id="m_dic2" href="javascript:void(0)" title="사전 검색 또는 번역 입력창을 엽니다. (Google 번역)" style=""><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/dic2.png" border="0"></a><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/blank.png" id="m_search_b" style="width: 2px;"><a id="m_search" href="javascript:void(0)" title="웹 검색을 합니다." style=""><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/search.png" border="0"></a><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/blank.png" id="m_search2_b" style="width: 2px; display: none;"><a id="m_search2" href="javascript:void(0)" title="웹 검색 입력창을 엽니다." style="display: none;"><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/search2.png" border="0"></a><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/blank.png" id="m_url_b" style="width: 2px; display: none;"><a id="m_url" href="javascript:void(0)" style="display: none;"><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/internet.png" border="0"></a><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/blank.png" id="m_conf_b" style="width: 2px; display: none;"><a id="m_conf" href="javascript:void(0)" title="옵션" style="display: none;"><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/configure.png" border="0"></a><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/blank.png" id="m_close_b" style="width: 2px; display: none;"><a id="m_close" href="javascript:void(0)" title="도구메뉴를 이 페이지에서 사용하지 않습니다." style="display: none;"><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/close.png" border="0"></a><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/blank.png" id="m_expand_b" style="width: 2px;"><a id="m_expand" href="javascript:void(0)" title="메뉴 확장하기" style=""><img src="chrome-extension://oiplkfaidhjklglajdpfehoagkmlcakh/images/forward.png" border="0"></a></div></body><style>#__dic_layer__ img{ width:auto;height:auto;margin:0px;padding:0px;background-color:transparent;border-color:transparent;border-width:0px;text-shadow:none; display: inline; opacity:1;}#__dic_menulayer__ img{ width:auto;height:auto;margin:0px;padding:0px;background-color:transparent;border-color:transparent;border-width:0px;text-shadow:none; display: inline; opacity:1;}#__dic_waitlayer__ img{ width:auto;height:auto;margin:0px;padding:0px;background-color:transparent;border-color:transparent;border-width:0px;text-shadow:none; display: inline; opacity:1;}#__dic_layer__ a{ font-size:10pt;color:black; font-family:Arial, Helvetica, sans-serif; text-align: left; letter-spacing:normal;line-height:normal;font-weight: normal;text-shadow:none;display: inline; background-color:transparent}#__dic_layer__ a:link{ color:#0860A8; }#__dic_layer__ a:visited{ color:#0860A8; }#__dic_layer__ a:active{ color:#0860A8;}#__dic_layer__ a:hover{ color:#0860A8; text-decoration:underline; }#__dic_layer__ div{ font-size:10pt;color:black; font-family:Arial, Helvetica, sans-serif; text-align: left; letter-spacing:normal;line-height:normal;font-weight: normal;text-shadow:none;width:auto;height:auto; }#__dic_menulayer__ a{ display: inline; background-color:transparent}#__dic_layer__ tr{ width:auto;height:auto;margin:0px;padding:0px;background-color:transparent;border-color:transparent;border-width:0px;text-shadow:none;font-size:10pt;color:black; font-family:Arial, Helvetica, sans-serif; text-align: left; letter-spacing:normal;line-height:normal;font-weight: normal;text-shadow:none; }#__dic_layer__ td{ width:auto;height:auto;margin:0px;padding:0px;background-color:transparent;border-color:transparent;border-width:0px;text-shadow:none;font-size:10pt;color:black; font-family:Arial, Helvetica, sans-serif; text-align: left; letter-spacing:normal;line-height:normal;font-weight: normal;text-shadow:none; }#__table_source_open__ { width:auto;height:auto;margin:0px;padding:0px;background-color:transparent;border-color:transparent;border-width:0px;text-shadow:none; }#__dic_source_data__ div{ width:99%; }#__dic_layer__ p{ font-size:10pt;color:black; font-family:Arial, Helvetica, sans-serif; text-align: left; letter-spacing:normal;line-height:normal;font-weight: normal;text-shadow:none; }#__dic_layer__ b{ font-size:10pt;color:black; font-family:Arial, Helvetica, sans-serif; text-align: left; letter-spacing:normal;line-height:normal;font-weight: normal;text-shadow:none; }#__dic_layer__ ul{ font-size:10pt;color:black; font-family:Arial, Helvetica, sans-serif; text-align: left; letter-spacing:normal;line-height:normal;font-weight: normal;text-shadow:none;width:auto;height:auto; padding:0px 0px 0px 4px; margin:0px; list-style-type: disc;}#__dic_layer__ li{ font-size:10pt;color:black; font-family:Arial, Helvetica, sans-serif; text-align: left; letter-spacing:normal;line-height:normal;font-weight: normal;text-shadow:none;width:auto;height:auto; padding:0px 0px 0xp 8px; margin:0px; list-style-type: decimal; list-style-position: outside;}#__dic_layer__ span{font-size:10pt;color:black; font-family:Arial, Helvetica, sans-serif; text-align: left; letter-spacing:normal;line-height:normal;font-weight: normal;text-shadow:none; }#__dic_layer__ option{font-size:10pt;color:black; font-family:Arial, Helvetica, sans-serif; text-align: left; letter-spacing:normal;line-height:normal;font-weight: normal;text-shadow:none; }#__dic_layer__ select{font-size:10pt;color:black; font-family:Arial, Helvetica, sans-serif; text-align: left; letter-spacing:normal;line-height:normal;font-weight: normal;text-shadow:none;background-color:white;width:145px;height: 20px;display:inline-block;border:1px solid transparent;padding: 0px;margin:2px 0px 2px 0px;}</style></html>

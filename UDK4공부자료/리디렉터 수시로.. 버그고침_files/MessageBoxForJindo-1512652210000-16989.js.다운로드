@@ -1,0 +1,589 @@
+/**
+ * @author niceilm
+ * @dependency jindo, cssquery
+ * @example
+ * 		nhn.MessageBox.alert('TestMessage', function(sValue){alert(sValue);});
+ * 		nhn.MessageBox.alert($('targetId'), function(sValue){alert(sValue);});
+ * 		nhn.MessageBox.alert(['Message1<br>', '<span>Mess</span>age2'], function(sValue){alert(sValue);});
+ */
+if (typeof nhn == 'undefined'){nhn = {}};
+nhn.MessageBox = function(){
+	// private  area
+	var _options = { // default value
+		sMessageBoxLayer : 'MessageBoxLayer',
+		sModalLayer : 'ModalLayer',
+		nOpacity : 0.1,
+		nBaseZIndex : 10000,
+		sModalBackground : 'black',
+		sMessageArea : '._contentMessage',
+		sConfirmClass : '_btnConfirm',
+		sCancelClass : '_btnCancel',
+		sCloseClass : '_btnClose',
+		sExitClass : '_btnExit',
+		sCafeIframe : 'cafe_main'
+	};
+	
+	var CONFIRM = 0;
+	var CANCEL = 1;
+	var CLOSE = 2;
+	var EXIT = 3;
+	var prepend = function(elParent, newEl){
+		if(elParent && elParent.tagName && newEl && newEl.tagName){
+			elParent.insertBefore(newEl, elParent.firstChild);
+		}
+	}
+	var findBtn = function(elBtn, sTagName) {
+		sTagName = sTagName.toLowerCase();
+		if(elBtn.tagName.toLowerCase() == sTagName){
+			return elBtn;
+		}else{
+			return cssquery.getSingle("!"+sTagName, elBtn);
+		}
+	};
+	var opacity = function(el, nValue){
+		var v,e = el ,b = Element.visible(el);
+		
+		nValue = parseFloat(nValue);
+		
+		if (!isNaN(nValue)) {
+			nValue = Math.max(Math.min(nValue,1),0);
+	
+			if (typeof e.filters != "undefined") {
+				nValue = Math.ceil(nValue*100);
+				if (typeof e.filters.alpha != "undefined") {
+					e.filters.alpha.opacity = nValue;
+				} else {
+					e.style.filter = (e.style.filter + " alpha(opacity=" + nValue + ")");
+				}
+			} else {
+				e.style.opacity = nValue;
+			}
+			return;
+		}
+	
+		if (typeof e.filters != "undefined") {
+			v = (typeof e.filters.alpha == "undefined")?(b?100:0):e.filters.alpha.opacity;
+			v = v / 100;
+		} else {
+			v = parseFloat(e.style.opacity);
+			if (isNaN(v)) v = b?1:0;
+		}
+	}
+	
+	var fireEvent = function(el, sEvent){
+		function IE(sEvent) {
+			sEvent = (sEvent+"").toLowerCase();
+			el.fireEvent("on"+sEvent);
+			return this;
+		};
+	
+		function DOM2(sEvent) {
+			var sType = "HTMLEvents";
+			sEvent = (sEvent+"").toLowerCase();
+	
+			if (sEvent == "click" || sEvent.indexOf("mouse") == 0) {
+				sType = "MouseEvents";
+				if (sEvent == "mousewheel") sEvent = "dommousescroll";
+			} else if (sEvent.indexOf("key") == 0) {
+				sType = "KeyEvents";
+			}
+	
+			var evt   = document.createEvent(sType);
+	
+			evt.initEvent(sEvent, true, true);
+	
+			el.dispatchEvent(evt);
+			return this;
+		};
+	
+		inFireEvent = (typeof el.dispatchEvent != "undefined")?DOM2:IE;
+
+		return this.inFireEvent(sEvent);
+	}
+	
+	var getWindowInnerHeight = function(){
+		if(top.window.document.compatMode == "CSS1Compat"){
+			return (top.window.innerHeight ? top.window.innerHeight : top.window.document.documentElement.clientHeight) || 0;
+		}else{
+			return (top.window.innerHeight ? top.window.innerHeight : top.window.document.documentElement.offsetHeight) || 0;
+		}
+	}
+
+	var getWindowInnerWidth = function(){
+		if(top.window.document.compatMode == "CSS1Compat"){
+			return (top.window.innerWidth ? top.window.innerWidth : top.window.document.documentElement.clientWidth) || 0;
+		}else{
+			return (top.window.innerWidth ? top.window.innerWidth : top.window.document.documentElement.offsetWidth) || 0;
+		}
+	}
+	
+	var getScrollTop = function(){
+		if(top.document.compatMode == "CSS1Compat"){
+			return top.document.body.scrollTop || top.document.documentElement.scrollTop || 0;
+		}else{
+			return top.document.body.scrollTop || 0;
+		}
+	}
+
+	var getScrollLeft = function(){
+		if(top.document.compatMode == "CSS1Compat"){
+			return top.document.body.scrollLeft || top.document.documentElement.scrollLeft || 0;
+		}else{
+			return top.document.body.scrollLeft || 0;
+		}
+	}
+	
+	var getCurrentDocumentMaxHeight = function(){
+		if(document.compatMode == "CSS1Compat"){
+			return (window.innerHeight ? window.innerHeight : document.documentElement.clientHeight) || 0;
+		}else{
+			return (window.innerHeight ? window.innerHeight : document.documentElement.offsetHeight) || 0;
+		}
+	}
+
+	var getCurrentDocumentMaxWidth = function(){
+		if(document.compatMode == "CSS1Compat"){
+			return (window.innerWidth ? window.innerWidth : document.documentElement.clientWidth) || 0;
+		}else{
+			return (window.innerWidth ? window.innerWidth : document.documentElement.offsetWidth) || 0;
+		}
+	}
+	
+	var center = function(el){
+		if(!el){
+			return;
+		}
+		var nOffsetTop = 0, nOffsetLeft = 0;
+		var elWin, elDoc;
+		if(top.window != window && top.$){
+			var elIframe = top.$(_options['sCafeIframe']);
+			if(elIframe){
+				nOffsetTop = Element.realPos(elIframe).top;
+				nOffsetLeft = Element.realPos(elIframe).left;
+			}
+		}
+
+		Element.setCSS(el, {position:'absolute'});
+		var nTop = getWindowInnerHeight() / 2 - el.offsetHeight / 2 + getScrollTop()  - nOffsetTop;
+		var nLeft = getWindowInnerWidth() / 2 - el.offsetWidth / 2 + getScrollLeft() - nOffsetLeft;
+
+		nTop = nTop > 0 ? nTop : 0;
+		nLeft = nLeft > 0 ? nLeft : 0;
+		
+		nMaxHeight = getCurrentDocumentMaxHeight() - el.offsetHeight;
+		nMaxWidth = getCurrentDocumentMaxWidth() - el.offsetWidth;
+		nTop = nTop < nMaxHeight ? nTop : nMaxHeight;
+		nLeft = nLeft < nMaxWidth ? nLeft : nMaxWidth;
+
+		Element.setCSS(el, {top:nTop + "px", left:nLeft + "px"});
+	}
+
+	return {
+		CONFIRM : CONFIRM,
+		CANCEL : CANCEL,
+		CLOSE : CLOSE,
+		
+		// copy to nhn.Component option
+		option : function(sName, sValue) {
+			var nameType = (typeof sName);
+	
+			if (nameType == "undefined") {
+				return _options;
+			} else if (nameType == "string") {
+				if (typeof sValue != "undefined") {
+					_options[sName] = sValue;
+					return this;
+				} else {
+					return _options[sName];
+				}
+			} else if (nameType == "object") {
+				try {
+					for(var x in sName) {
+						_options[x] = sName[x];
+					}
+				} catch(e) {}
+				return this;
+			}
+		},
+		
+		getModalEl : function(sMode){
+			if(!this.elModal){
+				if(!this.wfCatchEvent){
+					this.wfCatchEvent= this._catchEvent.bindForEvent(this);
+				}
+
+				elModal = $(this.option('sModalLayer'));
+				if(!elModal){ // if not exist Modal 
+					elModal = $C('div');
+					prepend(document.body, elModal);
+				}
+				Element.setCSS(elModal, {
+					position:"absolute",
+					background: this.option('sModalBackground'),
+					zIndex: this.option('nBaseZIndex'),
+					display: "none",
+					top:0,
+					left:0
+				});
+				opacity(elModal, this.option('nOpacity'));
+				Event.register(elModal, "click", this.wfCatchEvent);
+				this.elModal = elModal;
+			}
+			return this.elModal;
+		},
+
+		getMessageBoxEl : function(){
+			if(!this.elLayer){
+				this.elLayer = $(this.option('sMessageBoxLayer'));
+				if(!this.elLayer){
+					alert("Check Markup ID");
+					return;
+				}
+				
+				this._bindButtonEvent(this.elLayer);
+				this.hideButtons();
+			}
+			
+			return this.elLayer;
+		},
+
+		showModal : function(){
+			var elModal = this.getModalEl();
+			if(elModal){
+				this._changeUnselectable(true, elModal);
+				this.resizeModal(elModal);
+				Element.show(elModal);
+			}
+		},
+		
+		hideModal : function(){
+			var elModal = this.getModalEl();
+			if(elModal){
+				this._changeUnselectable(false, elModal);
+				Element.hide(elModal);
+			}
+		},
+		
+		resizeModal : function(elModal){
+			Element.setCSS(elModal, {
+				height: document.documentElement.clientHeight + "px",
+				width: document.documentElement.clientWidth + "px"
+			});
+			setTimeout(function(){
+				Element.setCSS(elModal, {
+					height: document.documentElement.scrollHeight + "px",
+					width: document.documentElement.scrollWidth + "px"
+				});
+			},0);
+		},
+		show : function(htOption){
+			var elLayer = this.getMessageBoxEl();
+			var elModal = this.getModalEl();
+							
+			this.htOption = htOption || {};
+			this.preventAction();
+			this.showModal();
+			Element.setCSS(elLayer, {"zIndex" : this.option('nBaseZIndex') + 1});
+			this.showButtons(this.htOption.aButton || []);
+			this.insertMessage(elLayer, this.htOption.oMessage || "");
+			Element.show(elLayer);
+			center(elLayer);
+			//this._setFocus(elLayer, this.htOption.sFocusButtonSelector);
+		},
+		
+		insertMessage : function(elLayer, oMessage){
+			var elHtml = cssquery.getSingle(this.option('sMessageArea'), elLayer); // �ɼ����� ���� �ֵ��� ��
+			if(oMessage && oMessage.tagName){
+				elHtml.innerHTML = oMessage.innerHTML;	
+			}else{
+				elHtml.innerHTML = this.makeString(oMessage);
+			}
+		},
+		
+		makeString : function(oMessage){
+			var sResult = "";
+			var _oInst = this;
+			if(typeof(oMessage) == "string"){
+				sResult = oMessage;
+			}else if(typeof(oMessage) == "object"){
+				$A(oMessage).each(function(oData){
+					sResult += _oInst.makeString(oData)
+				});
+			}
+			return sResult;
+		},
+		
+		showButtons : function(aButton){
+			this.hideButtons();
+			var _oInst = this;
+			$A(aButton).each(function(nKey){
+				$A(_oInst.aBtn).each(function(elBtn){
+					var sClass="";
+					var sImgUrl;
+					switch (nKey) {
+						case CONFIRM:
+							sClass = _oInst.option('sConfirmClass');
+							sImgUrl = "https://cafe.pstatic.net/cafe4/btn_confirm6.gif";
+							break;
+						case CANCEL:
+							sClass = _oInst.option('sCancelClass');
+							sImgUrl = "https://cafe.pstatic.net/cafe4/btn_cancel.gif";
+							break;
+						case CLOSE:
+							sClass = _oInst.option('sCloseClass');
+							sImgUrl = "https://cafe.pstatic.net/cafe4/btn_close2.gif";
+							break;
+						case EXIT:
+							sClass = _oInst.option('sExitClass');
+							sImgUrl = "https://ssl.pstatic.net/static/book/publishingcompany/btn_close.gif";
+							break;
+					}
+
+					if(Element.hasClass(elBtn, sClass)){
+						// 수정이 필요한 사항
+						var elImg = $C("img");
+						elImg.src = sImgUrl;
+						elBtn.appendChild(elImg);
+						Element.show(elBtn);
+						//$A.Break();
+					}
+				});
+			});
+		},			
+
+		hideButtons : function(){
+			$A(this.aBtn).each(function(elBtn){
+				Element.hide(elBtn);
+				var elImg = cssquery.getSingle("img", elBtn);
+				if(elImg){
+					elBtn.removeChild(elImg);
+				}
+			});
+		},
+
+		preventAction : function(){
+			if (!this.wfOnResizeWindow) {
+				this.wfOnResizeWindow = this._onResizeWindow.bindForEvent(this);
+			}
+			if(!this.wfOnKeydown){
+				this.wfOnKeydown = this._onKeydown.bindForEvent(this);
+			}
+			
+			// 중복이벤트 방지를 위해 해제 후 처리
+			if(top.window){
+				Event.unregister(top.window, "resize", this.wfOnResizeWindow);
+				Event.unregister(top.window, "scroll", this.wfOnResizeWindow);
+				Event.register(top.window, "resize", this.wfOnResizeWindow);
+				Event.register(top.window, "scroll", this.wfOnResizeWindow);
+			}
+			if(top.document){
+				Event.unregister(top.document, "keydown", this.wfOnKeydown);
+				Event.register(top.document, "keydown", this.wfOnKeydown);
+			}
+			Event.unregister(document, "keydown", this.wfOnKeydown);
+			Event.register(document, "keydown", this.wfOnKeydown);
+			
+			if(!this.elDoc){
+				this.elDoc = document.body;
+			}
+			if(!this.nScrollTop){
+				this.nScrollTop = document.documentElement.scrollTop;
+			}
+			if(!this.sPreOverflow){
+				this.sPreOverflow = Element.getCSS(this.elDoc, "overflow");
+				
+			}
+			Element.setCSS(this.elDoc, {"overflow":"hidden"});
+		},
+		
+		
+		unpreventAction : function(){
+			Event.unregister(top.window, "resize", this.wfOnResizeWindow);
+			Event.unregister(top.window, "scroll", this.wfOnResizeWindow);
+			Event.unregister(top.document, "keydown", this.wfOnKeydown);
+			Event.unregister(document, "keydown", this.wfOnKeydown);
+			if(this.elDoc){
+				Element.setCSS(this.elDoc, {
+					"overflow": this.sPreOverflow
+				});
+			}
+			if(this.nScrollTop){//DTD 별로 확인 할 것
+				document.documentElement.scrollTop = this.nScrollTop;
+			}
+		},
+		
+		destroyGlobalValue : function(){
+			this.nScrollTop = this.sPreOverflow = this.htOption = null;
+		},
+		
+		_onKeydown : function(we){
+			switch(we.keyCode){
+				case 27 : // EscKeyCode
+					this.hide(false);
+					break;
+				case 9 : // TabKeyCode
+//						var nNextIndex;
+//						if(oKey.shift){ // 역방향
+//							nNextIndex = this.aBtn.indexOf(this.elFocusBtn)-1;
+//							if(nNextIndex == -1 ){
+//								nNextIndex = this.aBtn.length - 1;
+//							}
+//						}else{
+//							nNextIndex = this.aBtn.indexOf(this.elFocusBtn)+1;
+//							if(this.aBtn.length == nNextIndex ){
+//								nNextIndex = 0;
+//							}
+//						}
+//						
+//						this.aBtn[nNextIndex].focus();
+//						we.stop();
+					break;
+				case 32: // SpaceKeyCode
+					we.stop();
+					if(this.elFocusBtn){
+						fireEvent(this.elFocusBtn, "click");
+					}
+				case 8 : // BackspaceKeyCode
+//						we.stop();
+					break;
+				case 116 : // F5KeyCode
+//						var e = window.event;
+//						if(e){ // for IE F5 Key action stop
+//							e.keyCode = 0;
+//						}
+//						we.stop();
+					break;
+			}
+		},
+		
+		_onResizeWindow : function(){
+			var _oInst = this;
+			this.resizeModal(this.getModalEl());
+			setTimeout(function(){
+				center(_oInst.getMessageBoxEl());
+			}, 0)
+		},
+
+		_hideMessageBoxLayer : function(){
+			var elLayer = this.getMessageBoxEl();
+			if(elLayer){
+				Element.hide(elLayer);	
+			}
+		},		
+		
+		_bindButtonEvent : function(el){
+			var _oInst = this;
+			this.aBtn = [];
+			$A(cssquery("." + this.option('sCloseClass') + ", ." + this.option('sConfirmClass') +
+				", ." + this.option('sCancelClass') + ", ." + this.option('sExitClass'), el)).each(function(elBtn){
+				if(!elBtn){return;} 
+				_oInst.aBtn.push(elBtn);
+				
+				Event.register(elBtn, "click", _oInst._onClickBtn.bindForEvent(_oInst));
+				Event.register(elBtn, "focus", _oInst._onFocusBtn.bindForEvent(_oInst));
+				Event.register(elBtn, "blur", _oInst._onBlurBtn.bindForEvent(_oInst));
+			});
+		},
+
+		_setFocus : function(el, sSelector){
+			var _oInst = this;
+			var sSelector = sSelector || "." + this.option('sConfirmClass'); // 상수로 뺄 예정
+			setTimeout(function(){ 
+				_oInst.elFocusBtn = cssquery.getSingle(sSelector, el);
+				if(_oInst.elFocusBtn){ // space key 처리를 위해
+					_oInst.elFocusBtn.focus();
+				}
+			}, 0);
+		},
+		
+		_onBlurBtn : function(){
+			this.elFocusBtn = null;
+		},
+		
+		_onFocusBtn : function(we){
+			this.elFocusBtn = we.element;
+		},
+		
+		_onClickBtn : function(we){
+			we.stop();
+			elBtn = we.currentTarget || we.srcElement;
+			elBtn = findBtn(elBtn, "a");
+			
+			var bValue = false;
+			if(Element.hasClass(elBtn, this.option('sCloseClass'))){
+				bValue = true;
+			}else if(Element.hasClass(elBtn, this.option('sConfirmClass'))){
+				bValue = true;
+			}else if(Element.hasClass(elBtn, this.option('sCancelClass'))){
+				bValue = false;
+			}else if(Element.hasClass(elBtn, this.option('sExitClass'))){
+				bValue = false;
+			}
+			this.hide(bValue);
+		},
+		
+		_callCallback : function(bValue){
+			if (this.htOption.fCallback) {
+				return this.htOption.fCallback.apply(this.htOption.oScope || window, [bValue]);
+			}
+		},
+		
+		_changeUnselectable : function(bMode, elTarget){
+			if($Agent().IE){
+				if(bMode){
+					Event.unregister(document, "selectstart", this.wfCatchEvent);
+					Event.register(document, "selectstart", this.wfCatchEvent);
+				}else{
+					Event.unregister(document, "selectstart", this.wfCatchEvent);
+				}
+				elTarget.setAttribute('unselectable', bMode ? 'on' : '');
+			}else{
+				elTarget.setAttribute('unselectable', bMode ? 'on' : '');
+				if(bMode){
+					elTarget.style.MozUserSelect = 'none';
+					elTarget.style.KhtmlUserSelect = 'none'; 
+				}else{
+					elTarget.style.MozUserSelect = ''; 
+					elTarget.style.KhtmlUserSelect = ''; 
+				}
+			}
+		},
+
+		_catchEvent : function(we){
+			we.stop();
+		},
+
+		hide : function(bValue){
+				this._hideMessageBoxLayer();
+				this.hideButtons();
+				this.hideModal();
+				this.unpreventAction();
+				this._callCallback(bValue);
+				this.destroyGlobalValue();
+		},
+		
+
+		alert : function(oMessage, fCallback, oScope, htOption){
+			var htOption = htOption || {};
+
+			this.show({
+				oMessage : oMessage,					
+				oScope : oScope,
+				fCallback : fCallback,
+				aButton : htOption.aButton || [CONFIRM, EXIT],
+				sFocusSelector : htOption.sFocusSelector || '.' + this.option('sConfirmClass')
+			});
+		},
+
+		confirm : function(oMessage, fCallback, oScope, htOption){
+			var htOption = htOption || {};
+			this.show({
+				oMessage : oMessage,					
+				oScope : oScope,
+				fCallback : fCallback,
+				aButton : htOption.aButton || [CONFIRM, CANCEL, EXIT],
+				sFocusSelector : htOption.sFocusSelector || '.' + this.option('sConfirmClass')
+			});
+		}
+	};		
+}();

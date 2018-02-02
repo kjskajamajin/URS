@@ -1,0 +1,2317 @@
+<!DOCTYPE html>
+<!-- saved from url=(0104)https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Can you turn a Landscape object into a Static Mesh? - UE4 AnswerHub</title>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/themes/epic-unreal/scripts/html5.js"></script>
+    <![endif]-->
+
+<link rel="shortcut icon" href="https://answers.unrealengine.com/themes/epic-unreal/images/favicon.ico">
+
+    <!-- js vars with back end data -->
+
+<script type="text/javascript" async="" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/linkid.js.다운로드"></script><script type="text/javascript" async="" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/analytics.js.다운로드"></script><script async="" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/gtm.js.다운로드"></script><script type="text/javascript">
+    var askFormURL = '/questions/ask.html';
+    var logoutURL = '/users/logout.html';
+    var voteUpJsonURL = '/commands/0/voteup.json';
+    var voteDownJsonURL = '/commands/0/votedown.json';
+    var related_questions_url = '/search.json';
+    var emailCheckerURL = '/users/temporaryLogin/dupsUserEmailCheck.json';
+
+    var flashMessages = [];
+
+    //todo: these user variables don't seem to be used, are they?
+    var currentUser = null;
+
+    /* the profile user */
+
+    var pageContext = {
+        currentUser: {
+            id: '',
+            username: 'Anonymous',
+            url: '#',
+            avatar: ''
+        },
+        i18n: {
+            confirm: "확실한가요?",
+            yes: "예",
+            no: "아뇨",
+            save: "저장",
+            cancel: "취소",
+            close: "닫기",
+            edit: "수정",
+            ok: "Ok",
+            by: "by",
+            word: "단어",
+            words: "단어",
+            character: "글자",
+            characters: "글자",
+            login: "로그인",
+            register: "등록",
+            timeAgo: "{0} 전",
+            timeAt: "at",
+            day: "일",
+            days: "일",
+            hour: "시간",
+            hours: "시간",
+            minute: "분",
+            minutes: "분",
+            second: "초",
+            seconds: "초",
+            justNow: "바로 지금",
+            retag: "retag",
+            removingTag: "Removing Tag",
+            revision: "Revision ",
+            revisionText: " has been loaded into the form below.",
+
+            uploadDialog: {
+                uploadFile: "업로드할 파일 선택",
+                doUpload: "업로드"
+            },
+            previewAndCropDialog: {
+                previewAndResize: "미리보기 및 크기조정",
+                accept: "수락"
+            },
+            WMDImageDialogText: "Enter image url",
+            WMDLinkDialogText: "Enter url",
+            WMDUploadImage: "upload image",
+            WMDBold: "두껍게 <strong> Ctrl+B",
+            WMDItalic: "강조 <em> Ctrl+I",
+            WMDLink: "하이퍼링크 <a> Ctrl+L",
+            WMDQuote: "인용 <blockquote> Ctrl+Q",
+            WMDCode: "코드 샘플 <pre><code> Ctrl+K",
+            WMDImage: "이미지 <img> Ctrl+G",
+            WMDAttachment: "첨부 Ctrl+U",
+            WMDOrderedList: "번호 목록 <ol> Ctrl+O",
+            WMDUnorderedList: "기호 목록 <ul> Ctrl+U",
+            WMDHeading: "제목 <h1>/<h2> Ctrl+H",
+            WMDHorizontalRule: "가로 규칙 <hr> Ctrl+R",
+            WMDUndo: "되돌리기 - Ctrl+Z",
+            WMDRedoWin: "다시하기 - Ctrl+Y",
+            WMDRedoOther: "다시하기 - Ctrl+Shift+Z",
+            WMDHelp: "마크다운 도움말"
+        },
+        url: {
+            login: "/users/login.html",
+            register: "/users/register.html",
+            getRevision: "/revisions/get-revision.json",
+            getComments: "/comments/%25ID%25/list.json",
+            uploadFile: "/uploadFile.html",
+            uploadProgress: "/uploadProgress.json",
+            uploadPreview: "/uploadPreview.html",
+            updateMarkdown: "/commands/updateMarkdown.json",
+            cropUpload: "/cropUpload.json",
+            cancelUpload: "/cancelUpload.json",
+            markdownHelp: "/static/markdown/help.html",
+            profile: "/users/{id}/{plug}.html",
+            extractKeywords: "/extract-keywords.json",
+            trackJs: "/static/trackJs.json"
+        },
+        extraScripts: {
+            jcrop: {
+                js: '/themes/base/scripts/jquery.Jcrop.js',
+                css: '/themes/base/css/jquery.Jcrop.css'
+            }
+        },
+        options: {
+        },
+        additional: {"TH_CSRF":"a6968343683837654904"},
+        useRelativeTime: true,
+        userRealName: false
+    };
+
+</script>
+
+
+    <!--<script src="https://www.google.com/jsapi" type="text/javascript"></script>-->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+        pageContext.options.commentsEditor = 'wmd';
+
+        pageContext.i18n.uploadDialog.uploadFile = pageContext.i18n.uploadDialog.uploadFile +
+                ' (Max: 5.2 MB)';
+        //var i18nLang = '{{settings.LANGUAGE_CODE}}';
+        //var scriptUrl = '/{{settings.FORUM_SCRIPT_ALIAS}}'
+        var scriptUrl = '/';
+	var osqaSkin = '';
+
+        var messages = {
+            username: 'Anonymous',
+            confirm: "Are you sure",
+            yes: "Yes",
+            no: "No",
+            message: "Message",
+            cancel: "Cancel",
+            close: "Close",
+            ok: "Ok",
+            matching_tags_url: "matching_tags",
+            word: "word",
+            words: "words",
+            character: "character",
+            characters: "characters"
+        };
+    /* ]] */
+    </script>
+
+    <!-- where all scripts loaded -->
+<script type="text/javascript" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/combined.js.h1080841824.pack" charset="utf-8"></script>    <script type="text/javascript" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/bootstrap.min.js.다운로드"></script>
+    <script type="text/javascript" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/prettify.js.다운로드"></script>
+
+    <link rel="stylesheet" type="text/css" href="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/jquery-ui.css" media="all">
+    <link rel="stylesheet" type="text/css" href="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/prettify.css">
+    <link rel="stylesheet" type="text/css" href="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/combined.css.h-1056650917.pack" charset="utf-8">
+    <style type="text/css">
+        input {
+            height: auto;
+        }
+    </style>
+
+
+    <style type="text/css">
+        
+    </style>
+
+    
+    
+
+    <style type="text/css">
+        #question-tags a{
+            display:inline-block;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        $().ready(function() {
+
+                var type='answer';
+                if('answer' === type){
+                    $('#answer-container-49226 .post-update-info-user').prepend("<span class='newest-answer' style='color:#d8671c'>Newest</span>");
+                }else if('comment' === type){
+                    $('#comment-49226 .comment-header').append("<span class='newest-comment' style='color:#d8671c; margin-left:5px'>Newest</span>");
+                }
+//        $("#nav_questions").attr('className',"on");
+            var answer_sort_tab = "";
+
+            if (answer_sort_tab) {
+                $("#" + answer_sort_tab).attr('className', "on");
+            }
+
+            $('#body').TextAreaResizer();
+
+            //toggle preview of editor
+            var display = true;
+            var txt = "[미리보기 숨김]";
+            $('#pre-collapse').text(txt);
+            $('#pre-collapse').bind('click', function() {
+                txt = display ? "[미리보기 표시]" : "[미리보기 숨김]";
+                display = !display;
+                $('#previewer').toggle();
+                $('#pre-collapse').text(txt);
+            });
+
+
+
+tools.init({
+    q: {
+        e: false, ew: false, eo: false,
+        r: false, ro: false,
+        d: false, dow: false, fv: false,
+        c: false, co: false,
+        p: false, tm: false
+       		,ms: false, mos: false
+    },
+    n: {
+        f: false, vf: false, vfo: false,
+        vr: false, vro: false,
+        c: false, co: false,
+        vu: false, vd: false,
+        w: false, wo: false,
+        l: false
+    },
+    c: {
+        e: false, eo: false,
+        d: false, dow: false,
+        ta: false, tao: false,
+        mc: false, mco: false,
+        l: false
+    },
+    a: {
+        e: false, ew: false, eo: false,
+        d: false, dow: false,
+        a: false, aoq: false, ao: false,
+        tc: false, tco: false,
+        p: false, tm: false
+    },
+    pc: {
+        u: false, op: false, m: false,
+        og: false, as: false, ag: false
+        }
+    },{
+    tc: true,
+    nsc: true
+});
+            pageContext.url.jsonSearchUrl = '/search/topics.json';
+            pageContext.url.retagUrl = '/commands/21101/editQuestionTopics.json';
+            pageContext.options.commentsAttachmentsEnabled = true;
+
+pageContext.i18n.modTalk = 'moderation talk';
+pageContext.i18n.replyToComment = 'reply';
+pageContext.i18n.modTalkEmpty = 'moderation talk is empty';
+pageContext.url.getModTalk = "/comments/%25ID%25/listModTalk.json";
+pageContext.url.possibleCommentRecipients = "/comments/%ID%/possibleRecipients.json";
+pageContext.url.commentEdit = '/comments/%25ID%25/edit.html';
+
+pageContext.i18n.commentVisibility = {
+'full': 'Viewable by all users',
+'op': 'Viewable by the original poster',
+'mod': 'Viewable by moderators',
+'opAndMod': 'Viewable by moderators and the original poster',
+'other': 'Advanced visibility',
+'dialogTitle': 'Comment visibility',
+'selectGroups': 'Visible to groups',
+'selectOther': 'Other recipients',
+'selectOriginalPoster': 'Original poster',
+'selectModerators': 'Moderators',
+'selectAssignees': 'Asked to answer users'
+};
+
+pageContext.i18n.commentMenuLabels = {
+'comment-edit': 'edit',
+'comment-delete': 'delete',
+'comment-convert': 'convert this comment into an answer'
+};
+            tools.rel({"21101":{"type":"question"}});
+        });
+
+        window.onbeforeunload = function beforeUnload(e) {
+
+            if ($('#body').length > 0 && $("textarea#body")[0].value != "") {
+                return yourWorkWillBeLost(e);
+            }
+
+            var commentBoxes = $("textarea.commentBox");
+            for (var index = 0; index < commentBoxes.length; index++) {
+                if (commentBoxes[index].value != "") {
+                    return yourWorkWillBeLost(e);
+                }
+            }
+        };
+
+    </script>
+
+<script type="text/x-jquery-tmpl" id="post-wiki-mark">
+    <div class="community-wiki">
+        <div class="wiki-icon">&nbsp;</div>
+        <div class="wiki-text">
+            {{if isAnswer }}
+        This answer is marked "community wiki".
+            {{else}}
+        이 질문은 "커뮤니티 위키" 로 마킹되었습니다..
+            {{/if}}
+
+            {{if canEdit }}
+            <br />Feel free to <a href="${editUrl}">수정하기</a>.
+            {{/if}}
+        </div>
+    </div>
+</script>
+<script type="text/x-jquery-tmpl" id="add-new-comment-skeleton">
+        <div class="comment nsc" id="comment-${comment.id}" activerev="${comment.revisionIds[0]}" nodeid="${comment.id}" authorid="${comment.author.id}">
+            <div class="comment-header">
+                <a class="comment-user-gravatar" href="${comment.author.url}">
+                    <img class="gravatar" width="16" height="16" src="${comment.author.avatar}&s=16" />
+                </a>
+                <a class="comment-user userinfo" href="${comment.author.url}">${comment.author.username}</a>
+                        <span class="comment-age friendly-date" title="${commentDate}">
+                            ${commentDateFriendly}
+                        </span>
+            </div>
+            <div id="comment-${comment.id}-left" class="comment-left">
+                <div id="post-${comment.id}-score" class="comment-score"></div>
+            </div>
+                <div class="comment-text" style="margin-top: 4px;">{{html comment.bodyAsHTML}}</div>
+            <div class="comment-info" id="comment-${comment.id}-info"></div>
+        </div>
+</script>
+<script type="text/x-jquery-tmpl" id="new-comment-skeleton">
+        <div class="comment nsc" id="comment-${comment.id}" activerev="${comment.revisionIds[0]}" nodeid="${comment.id}" authorid="${comment.author.id}">
+            <div class="comment-header">
+                <a class="comment-user-gravatar" href="${comment.author.url}">
+                    <img class="gravatar" width="16" height="16" src="${comment.author.avatar}&s=16" />
+                </a>
+                <a class="comment-user userinfo" href="${comment.author.url}">${comment.author.username}</a>
+                        <span class="comment-age friendly-date" title="${commentDate}">
+                            ${commentDateFriendly}
+                        </span>
+            </div>
+            <div id="comment-${comment.id}-left" class="comment-left">
+                <div id="post-${comment.id}-score" class="comment-score"></div>
+            </div>
+            <div class="comment-text" style="margin-top: 4px;">{{html comment.bodyAsHTML}}</div>
+            <div class="comment-info" id="comment-${comment.id}-info"></div>
+        </div>
+</script>
+<script type="text/x-jquery-tmpl" id="retag-form-skeleton">
+    <div id="retag-question-container">
+        <form>
+            <input type="hidden" name="node" value="${nodeId}" />
+            <input id="retag-question-box" type="text" name="topics" />
+            <button class="retag-button save btn btn-small btn-primary">${saveLabel}</button>
+            <button class="retag-button cancel btn btn-small">${cancelLabel}</button>
+        </form>
+    </div>
+</script>
+<script type="text/x-jquery-tmpl" id="question-tags-list">
+    {{each(i, topic) topics }}
+    <a rel="tag" title="see questions tagged '${topic.name}'" href="/questions/topics/single/${topic.id}.html">${topic.name}</a> <span class="tag-number">x${topic.usedCount}</span><br>
+    {{/each}}
+</script>
+<script type="text/x-jquery-tmpl" id="advanced-visibility-dialog">
+    <form>
+        <div>
+            {{if (perm.ag || perm.og) }}
+                <h4>${msg.selectGroups}</h4>
+                {{if groupsCheck }}
+                    {{each(i, group) groups }}
+                        <p><input type="checkbox" name="recipients" value="${group.id}" /> ${group.name}</p>
+                    {{/each}}
+                {{else}}
+                    <input type="text" class="comment-recipients-groups-autocomplete" />
+                    <div class="comment-recipients-groups-container" style="min-height: 50px;"></div>
+                {{/if}}
+            {{/if}}
+            {{if (perm.op || perm.mod || perm.as) }}
+                <h4>${msg.selectOther}</h4>
+                {{if perm.op }}
+                    <input type="checkbox" name="specialRecipients" value="op" /> ${msg.selectOriginalPoster}<br />
+                {{/if}}
+                {{if perm.m }}
+                    <input type="checkbox" name="specialRecipients" value="mod" /> ${msg.selectModerators}<br />
+                {{/if}}
+                {{if perm.as }}
+                    <input type="checkbox" name="specialRecipients" value="asg" /> ${msg.selectAssignees}<br />
+                {{/if}}
+            {{/if}}
+        </div>
+    </form>
+</script>
+
+
+        
+                <script type="text/javascript">var unifiedHeader = 'https://www.unrealengine.com/unifiedheader';</script>
+
+
+        
+</head>
+<body style="visibility: visible;" class="ko" data-chrome="true" data-blink="true" data-windows="true" data-osname="true" data-osversion="true" data-browser-version="63.0">
+<script type="text/javascript">
+</script>
+<!-- Google Tag Manager -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-KWRD6D"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KWRD6D');</script>
+<!-- End Google Tag Manager -->
+
+<div id="flashMessages" class="notify" style="display: none;">
+    <a id="close-notify" style="z-index:100;" onclick="$(&#39;body&#39;).css(&#39;margin-top&#39;, &#39;0&#39;);$(&#39;.notify&#39;).slideUp(&#39;medium&#39;, function() {});">x</a>
+</div>
+
+<script type="text/javascript">
+    $("#flashMessages").hide();
+    $(document).ready(function() {
+        if(flashMessages.length > 0) {
+            for (var message in flashMessages){
+                $("#flashMessages").prepend(flashMessages[message]);
+            }
+
+            $("body").css("margin-top", "2.3em");
+            $("#flashMessages").slideDown("slow");
+        }
+    });
+</script>
+        <div>
+                
+
+        </div>
+
+<script type="text/javascript">
+    $("body").css("visibility", "hidden");
+    unifiedHeader = typeof unifiedHeader == "undefined"? "https://www.unrealengine.com/unifiedheader" : unifiedHeader;
+    // IE8 & 9 only Cross domain JSON GET request
+    if ('XDomainRequest' in window && window.XDomainRequest !== null) {
+        var xdr = new XDomainRequest(); // Use Microsoft XDR
+        xdr.open('get', unifiedHeader);
+        xdr.onload = function () {
+            appendData(xdr.responseText);
+            successCallback(JSON); // internal function
+        };
+
+        xdr.onerror = function() {
+            _result = false;
+        };
+
+        xdr.send();
+    }else {
+        $.ajax({
+            cache: true,
+	    async: true,
+            url: unifiedHeader,
+            success: function (data) {
+                appendData(data);
+            }
+        });
+    }
+
+    function appendData(data){
+        $("#unified_header").prepend(data);
+
+
+            var loginLink="/users/login.html";
+            $("#btn-signin").css({"display":"inline-block"});
+            $(".sso-sign-in").attr("href", loginLink);
+
+            // Remove the sso-sign-in class so the onclick js is not invoked
+            $(".sso-sign-in").removeClass("sso-sign-in");
+    }
+
+    window.onload = function () {
+        $("body").css("visibility","visible");
+        WaitForFunction();
+    }
+
+     function WaitForFunction()
+    {
+        var attempts = 0;
+        if (typeof _epicGamesNavObserver == "undefined"){
+            setTimeout( WaitForFunction, 100);
+            return;
+        }
+
+        setNavigatonAttribute('hideSignIn', true);
+        setNavigatonAttribute('hideSearch', true);
+        setNavigatonAttribute('hideSignIn', false);
+        setNavigatonAttribute('hideSearch', false);
+    }
+
+    function setNavigatonAttribute(attribute, value){
+        var attempts = 0;
+        do{
+            _epicGamesNavObserver.set(attribute, value);
+            if(_epicGamesNavObserver.subject[attribute] == value){
+                return;
+            }
+            setTimeout(null, 100);
+            ++attempts;
+        }
+        while((_epicGamesNavObserver.subject[attribute] == null || _epicGamesNavObserver.subject[attribute] == !value) && attempts < 10);
+    }
+
+    function WaitForFunction()
+    {
+        var attempts = 0;
+        if (typeof _epicGamesNavObserver == "undefined"){
+            setTimeout( WaitForFunction, 100);
+            return;
+        }
+
+        setNavigatonAttribute('hideSignIn', true);
+        setNavigatonAttribute('hideSearch', true);
+        setNavigatonAttribute('hideSignIn', false);
+        setNavigatonAttribute('hideSearch', false);
+    }
+
+    function setNavigatonAttribute(attribute, value){
+        var attempts = 0;
+        do{
+            _epicGamesNavObserver.set(attribute, value);
+            if(_epicGamesNavObserver.subject[attribute] == value){
+                return;
+            }
+            setTimeout(null, 100);
+            ++attempts;
+        }
+        while((_epicGamesNavObserver.subject[attribute] == null || _epicGamesNavObserver.subject[attribute] == !value) && attempts < 10);
+    }
+
+</script>
+
+
+<style type="text/css">
+    #unified_header {
+        position: absolute;
+    }
+
+    /* MULTI-LEVEL DROPDOWNS FOR BOOTSTRAP */
+
+	#unified_header {
+        margin: 0px 0px 10px;
+        padding: 0px;
+    }
+   
+     #main-content-container {
+        padding-top: 100px
+    }
+
+    #isearch, #isearch:focus {
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .dropdown-menu .sub-menu {
+        left: 90%;
+        position: absolute;
+        top: 0;
+        visibility: hidden;
+        margin-top: -1px;
+    }
+
+
+    .sub-menu .s2-menu, .s2-menu .s3-menu {
+        left: 60%;
+        position: absolute;
+        top: 0;
+        visibility: hidden;
+        margin-top: -1px;
+        max-width: 250px;
+    }
+
+    .dropdown-menu li:hover .sub-menu, .sub-menu li:hover .s2-menu, .s2-menu li:hover .s3-menu {
+        visibility: visible;
+        display: block;
+    }
+
+    .navbar .sub-menu:before, .navbar .s2-menu:before, .navbar .s3-menu:before {
+        border-bottom: 7px solid transparent;
+        border-left: none;
+        border-right: 7px solid rgba(0, 0, 0, 0.2);
+        border-top: 7px solid transparent;
+        left: -7px;
+        top: 10px;
+    }
+
+	.navbar .sub-menu:after, .navbar .s2-menu:after, .navbar .s3-menu:after  {
+        border-top: 6px solid transparent;
+        border-left: none;
+        border-right: 6px solid #fff;
+        border-bottom: 6px solid transparent;
+        top: 11px;
+        left: -6px;
+    }
+
+</style>
+
+
+
+<div id="unified_header" class="navbar-fixed-top">
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        <link rel="stylesheet" href="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/epicGamesHeader.css">
+    
+
+    
+        <input type="hidden" id="updateenable" value="true">
+
+        
+            
+
+
+    
+    	
+        
+    <link rel="stylesheet" href="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/epicGamesNav.epic-games-nav-0b21770848b1e004dc131baf2f42e69d.css">
+
+<link rel="stylesheet" href="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/theme.unreal_engine.epic-games-nav-e34be1fb99748cfa1a5fbf89f59720da.css">
+    
+    
+
+<div id="epicGamesNavigation" data-external="false"><header id="egh" class="unreal_engine   init   " data-version="6.0.22"><nav id="nav" class="   desktop  no-alert"><div><div id="propNav"><div id="egLogo" class="egLogo cursor-pointer" role="button" tabindex="0"><div class="shieldLogo text-color bg-color text-color-border-after"></div><div class="shield-dropdown-container"><div class="shield-triangle-hover-fix"></div><div id="eg-properties" class="bg-color"><ul class="property-list"><li class=""><a href="https://www.epicgames.com/" data-index="0" data-key="epic_games" data-disabled="false" class="text-color-hover text-color-dark-nonactive">Epic Games</a></li><li class="active text-color-active"><a href="https://www.unrealengine.com/" data-index="1" data-key="unreal_engine" data-disabled="true" class="text-color-active">Unreal Engine</a></li><li class=""><a href="https://www.epicgames.com/paragon" data-index="2" data-key="paragon" data-disabled="false" class="text-color-hover text-color-dark-nonactive">Paragon</a></li><li class=""><a href="https://www.epicgames.com/roborecall" data-index="3" data-key="odin" data-disabled="false" class="text-color-hover text-color-dark-nonactive">Robo Recall</a></li><li class=""><a href="https://www.epicgames.com/unrealtournament" data-index="4" data-key="unreal_tournament" data-disabled="false" class="text-color-hover text-color-dark-nonactive">Unreal Tournament</a></li><li class=""><a href="https://www.epicgames.com/fortnite" data-index="5" data-key="fortnite" data-disabled="false" class="text-color-hover text-color-dark-nonactive">Fortnite</a></li><li class=""><a href="https://www.epicgames.com/spyjinx" data-index="6" data-key="spy_jinx" data-disabled="false" class="text-color-hover text-color-dark-nonactive">SpyJinx</a></li><li class=""><a href="https://www.epicgames.com/shadowcomplex" data-index="7" data-key="shadow_complex" data-disabled="false" class="text-color-hover text-color-dark-nonactive">Shadow Complex</a></li><li class=""><a href="https://www.epicgames.com/battlebreakers/" data-index="8" data-key="battle_breakers" data-disabled="false" class="text-color-hover text-color-dark-nonactive">Battle Breakers</a></li><li class=""><a href="http://infinityblade.com/" data-index="9" data-key="infinity_blade" data-disabled="false" class="text-color-hover text-color-dark-nonactive">Infinity Blade</a></li></ul><ul class="download-link accent-bg-color accent-bg-color-hover"><li role="menuitem"><a id="downloadLink" class="accent-text-color" href="https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi">시작해요 EPIC GAMES</a></li></ul></div></div></div><a role="button" id="propLogo" href="https://www.unrealengine.com/" class="propLogo  "></a><div role="button" tabindex="0" id="navLine" class="nav-line   "><span class="lines text-color-bg text-color-before-after"></span></div><div class="sitenav-wrap bg-color  "><ul id="siteNav" class="siteNav bg-color    " style="height: 3.7em;"><li role="menuitem" id="sitenav-link-0" class="dropdown accent-bg-color-before
+                            " data-index="0"><a class="text-color-nonactive text-color-hover cursor-default"><p>관련정보</p></a><ul class="kids site-nav-kids-desktop"><li role="menuitem" class="kid  " data-gkl="0" data-index="0"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/what-is-unreal-engine-4"><span>개요</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="1"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/features"><span>기능</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="2"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/vr"><span>VR/AR</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="3"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/showcase"><span>쇼케이스</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="4"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/release-notes/"><span>새 소식</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="5"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/faq"><span>자주 묻는 질문 / EULA</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="6"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/previous-versions"><span>예전 버전</span></a><ul class="hidden"></ul></li></ul></li><li role="menuitem" id="sitenav-link-1" class="dropdown accent-bg-color-before
+                            " data-index="1"><a class="text-color-nonactive text-color-hover cursor-default"><p>학습자료</p></a><ul class="kids site-nav-kids-desktop"><li role="menuitem" class="kid  " data-gkl="0" data-index="0"><a class="text-color-hover text-color-nonactive" href="https://docs.unrealengine.com/latest/KOR/index.html"><span>문서</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="1"><a class="text-color-hover text-color-nonactive" href="http://cafe.naver.com/unrealenginekr/735"><span>비디오 튜토리얼</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="2"><a class="text-color-hover text-color-nonactive" href="https://docs.unrealengine.com/latest/INT/Videos/"><span>비디오 튜토리얼 (Wiki)</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="3"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/education"><span>교육 프로그램</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="4"><a class="text-color-hover text-color-nonactive" href="https://wiki.unrealengine.com/Main_Page"><span>Wiki</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="5"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/support"><span>기술지원</span></a><ul class="hidden"></ul></li></ul></li><li role="menuitem" id="sitenav-link-2" class="dropdown accent-bg-color-before
+                            " data-index="2"><a class="text-color-nonactive text-color-hover cursor-default"><p>커뮤니티</p></a><ul class="kids site-nav-kids-desktop"><li role="menuitem" class="kid  " data-gkl="0" data-index="0"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/blog"><span>블로그</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="1"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/unrealdevgrants"><span>언리얼 데브 그랜트</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="2"><a class="text-color-hover text-color-nonactive" href="http://cafe.naver.com/unrealenginekr/"><span>네이버 카페</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="3"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/events"><span>이벤트</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="4"><a class="text-color-hover text-color-nonactive" href="https://forums.unrealengine.com/"><span>Forums</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="5"><a class="text-color-hover text-color-nonactive" href="https://answers.unrealengine.com/"><span>AnswerHub</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="6"><a class="text-color-hover text-color-nonactive" href="https://issues.unrealengine.com/"><span>Issues</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="7"><a class="text-color-hover text-color-nonactive" href="https://trello.com/b/TTAVI7Ny/ue4-roadmap" target="_blank"><span>Roadmap</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="8"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/ko/user-groups"><span>User Group</span></a><ul class="hidden"></ul></li></ul></li><li role="menuitem" id="sitenav-link-3" class="dropdown accent-bg-color-before
+                            " data-index="3"><a class="text-color-nonactive text-color-hover cursor-default"><p>마켓플레이스</p></a><ul class="kids site-nav-kids-desktop"><li role="menuitem" class="kid  " data-gkl="0" data-index="0"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/marketplace"><span>둘러보기</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="1"><a class="text-color-hover text-color-nonactive" href="https://publish.unrealengine.com/"><span>콘텐츠 제출</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="2"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/marketplace-faq"><span>마켓플레이스 FAQ</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="3"><a class="text-color-hover text-color-nonactive" href="http://help.epicgames.com/customer/ko/portal/articles/2592186-marketplace-submission-guidelines-preparing-your-assets"><span>제출 안내</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="4"><a class="text-color-hover text-color-nonactive" href="https://forums.unrealengine.com/forumdisplay.php?56-Marketplace"><span>Marketplace Forum</span></a><ul class="hidden"></ul></li></ul></li><li role="menuitem" id="sitenav-link-4" class="dropdown accent-bg-color-before
+                            " data-index="4"><a class="text-color-nonactive text-color-hover cursor-default"><p>엔터프라이즈</p></a><ul class="kids site-nav-kids-desktop"><li role="menuitem" class="kid  " data-gkl="0" data-index="0"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/enterprise"><span>Home</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="1"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/enterprise/blog"><span>뉴스</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="2"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/enterprise/showcase"><span>사용자 사례</span></a><ul class="hidden"></ul></li><li role="menuitem" class="kid  " data-gkl="0" data-index="3"><a class="text-color-hover text-color-nonactive" href="https://www.unrealengine.com/enterprise/contact-us"><span>문의</span></a><ul class="hidden"></ul></li></ul></li></ul></div></div><div id="rightNav" class="right-col  bg-color"><div class="rightNav bg-color"><div id="search" class="no-before"><div id="form" class="search closed"><div class="form-inline"><div class="form-group"><input type="search" name="keyword" id="query" aria-label="검색" placeholder="Search..." class="search-input text-color" value=""><input type="hidden" name="limit" value="all"></div><div class="search-btn search-btns hidden"><a tabindex="0" role="button" title="검색"><i class="eg-header-icon-search"></i></a></div><div class="close-btn search-btns"><a role="button" tabindex="-1"><i class="eg-header-icon-close"></i></a></div></div></div><div id="searchIcon" class="bg-color accent-bg-color-before "><a role="button" tabindex="0" title="검색" class="text-color-hover"><i class="eg-header-icon-search "></i><i class="eg-header-icon-close "></i></a></div></div><div></div><div id="user" role="button" tabindex="0" class="sign-in accent-bg-color-before bg-color  "><div></div><ul class="bg-color  ul-left"><li class=""><a href="https://answers.unrealengine.com/users/login.html" data-index="0" title="로그인" class="text-color-hover text-color-nonactive"><i class="eg-header-icon-user"></i><span class="sign-text item-label"></span></a></li></ul></div><div class="cta accent-bg-color accent-bg-color-hover" id="cta"><a href="https://www.unrealengine.com/register" class="accent-bg-color accent-bg-color-hover" title="런처 다운로드"><span class="accent-text-color accent-text-color-hover">런처 다운로드</span></a></div></div></div></div></nav></header></div>
+
+	
+
+
+        
+
+        
+
+        <div id="header" class="hidden" data-path="" data-sitepath="https://www.unrealengine.com" style="height: auto;">
+            <input type="hidden" id="isUnified" value="1">
+            
+            
+            <input type="hidden" id="isAnswerhub" value="1">
+            <input type="hidden" id="current_locale" value="ko">
+            <input type="hidden" id="header-host" value="https://www.unrealengine.com">
+            <input type="hidden" id="current_country" value="KR">
+        </div>
+    
+
+
+
+
+
+
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+        <a class="brand" href="https://answers.unrealengine.com/index.html">UE4 AnswerHub</a>
+        <div class="nav-collapse">
+          <ul class="nav pull-left">
+              <li class="dropdown"><a href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" class="dropdown-toggle pull-left change-section-menu" data-toggle="dropdown">
+섹션 변경                    <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+	        		<li><a href="https://answers.unrealengine.com/spaces/13/getting-started.html">Installation &amp; Setup</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/21/unreal-editor.html">Using UE4</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/51/rendering.html">Rendering</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/41/packaging-deployment.html">Packaging &amp; Deployment</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/22/blueprint-scripting.html">Blueprint Scripting</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/23/c-programming.html">C++ Programming</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/31/legal-licensing.html">Legal &amp; Licensing</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/11/bugs-and-crashes.html">Bug Reports</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/24/everything-else.html">Everything Else</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/61/marketplace.html">Marketplace</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/16/japanese.html">Japanese</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/19/korean.html">Korean</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/81/chinese.html">Chinese</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/62/vr.html">VR</a></li>
+	        		<li><a href="https://answers.unrealengine.com/spaces/71/linux.html">Linux</a></li>
+              </ul>
+            </li>
+
+        </ul>
+             <form action="https://answers.unrealengine.com/search.html" class="navbar-search pull-right" id="search-query-form" data-content="">
+              <input autocomplete="off" tabindex="-1" type="text" id="search-query" class="search-query help" name="q" value="" placeholder="검색">
+              <input type="hidden" name="c" value="21">
+              <input type="hidden" name="type" value="question OR idea">
+              <input type="hidden" class="search-lang-selector-field" name="lang" value="en">
+              <input id="search-sort" type="hidden" class="search-sort-selector-field" name="sort" value="relevance">
+              <input type="hidden" name="author" value="">
+              <input type="hidden" name="productVer" value="default">
+              <input type="hidden" id="qStatus" name="questionStatus" value="all">
+          </form>
+              <button id="id_main_ask_btn" onclick="document.location.href=&#39;/questions/ask.html?space=21&#39;;" class="btn btn-primary btn-large"><strong>질문 올리기</strong></button>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+</div>
+</div>
+<div id="search-options-popover" class="popover">
+    <div class="popover-inner">
+        <h3 class="popover-title">
+            Search in
+
+
+
+            <div class="btn-group search-lang-selector" data-toggle="buttons-radio">
+                <button type="button" value="en" class="btn "><img src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/INT_flag_lg.jpg"></button>
+                <button type="button" value="ja" class="btn "><img src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/JPN_flag_lg.jpg"></button>
+                <button type="button" value="ko" class="btn active"><img src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/KOR_flag_lg.jpg"></button>
+                <button type="button" value="zh" class="btn "><img src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/CHN_flag_lg.jpg"></button>
+            </div>
+
+            <div id="sort-switch" class="btn-group search-lang-selector" data-toggle="buttons-radio">
+                <button type="button" title="Relevant" class="sort-selector btn active" value="relevance"> <i class="icon-signal"></i></button>
+                <button type="button" title="Newest" class="sort-selector btn " value="newest" style="margin-right: 30px;"><i class="icon-time"></i></button>
+            </div>
+            <span class="search-lang-selector"> Sort by:</span>
+
+        </h3>
+        <div class="popover-content">
+                <table class="search-options-table">
+                    <tbody><tr>
+                        <td style="float: ;">
+                            <label><input type="radio" name="search-container" value="all"> Everything </label>
+                            <label><input type="radio" name="search-container" checked="checked" value="21"> Using UE4 </label>
+                        </td>
+                        <td style="float: left;">
+                            <label><input type="radio" name="search-container" value="21"> Current Space </label>
+                        </td>
+                    </tr>
+                </tbody></table>
+            <h3 class="popover-title" style="margin-top: 10px">Question Status: </h3>
+            <label><input type="radio" name="questionStatus" value="all" checked=""> All Questions</label>
+            <label><input type="radio" name="questionStatus" value="withAnswer"> With Answer</label>
+            <label><input type="radio" name="questionStatus" value="withAcceptedAnswer"> With Accepted Answer</label>
+			<table width="100%">
+            	<tbody><tr><td align="right"><span id="helpicon" class="helpicon"><span></span></span></td></tr>
+            </tbody></table>
+
+            <div class="similar-questions-container" style="display: none;">
+                <h3 class="popover-title">Quick results</h3>
+                <div class="similar-questions-results"></div>
+                <div style="clear: both; margin-top: 8px;"></div>
+                <p style="text-align: right;"><button class="btn btn-small search-query-submit btn-primary btn-large">More results</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="search-help-popover" class="popover">
+    <div class="popover-inner" style="width:410px; max-width:auto;">
+        <h3 class="popover-title">
+            Search help
+        </h3>
+
+        <div class="popover-content" style="font-size: 10px !important;">
+                <ul>
+                    <li>
+                        Simple searches use one or more words. Separate the words with spaces (cat dog) to search cat,dog or both.
+                        Separate the words with plus signs (cat +dog) to search for items that may contain cat but must contain dog.
+                    </li>
+                    <li>
+                        You can further refine your search on the search results page, where you can search by keywords, author, topic. These can be combined with
+                        each other. Examples
+                        <ul>
+                            <li>cat dog --matches anything with cat,dog or both </li>
+                            <li>cat +dog --searches for cat +dog where dog is a mandatory term </li>
+                            <li>cat -dog -- searches for cat excluding any result containing dog </li>
+                            <li>[cats] —will restrict your search to results with topic named "cats"</li>
+                            <li>[cats] [dogs] —will restrict your search to results with both topics, "cats", and "dogs"</li>
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        $(function() {
+
+            $('#sort-switch button').click(function() {
+                var sort = $(this).attr('value');
+
+                $('#sort-switch .active').removeClass('active');
+                $(this).addClass('active');
+                $('.search-sort-selector-field').val(sort);
+                changeForm();
+            });
+
+            $('#helpicon').click(function() {
+            	if (helpPopoverVisible) {
+                         $('#search-help-popover').hide();
+                         helpPopoverVisible = false;
+                } else {
+	                showHelpPopover();
+                }
+            });
+
+        	var $searchSort = $('#search-sort');
+	        var $searchSortLinks = $('.search-sort-links li');
+			$searchSortLinks.each(function (i, elem) {
+		        if ($searchSort.val().indexOf($(this).attr("data-search-sort")) !== -1) {
+	    	        $(this).addClass("active");
+	        	}
+	    	});
+
+		    $searchSortLinks.on("click", function () {
+		        if (!$(this).hasClass("disabled")) {
+		            $searchSortLinks.removeClass("active");
+		            $(this).addClass("active");
+		            $searchSort.val($(this).attr("data-search-sort"));
+		            $("#search-query").val($("#search-query").attr('placeholder'))
+		            $("#search-query-form").submit();
+		        }
+		    });
+
+            var questionsViewUrl = "/questions/{id}/{plug}.html";
+
+            var popoverVisible = false;
+            var helpPopoverVisible = false;
+
+            var inFocus = false;
+            var inPopover = false;
+            var inNavbar = false;
+
+            function isHidable() {
+                return !(inFocus || inNavbar || inPopover);
+            }
+
+            function showPopover() {
+                if (!popoverVisible) {
+                    var field_pos = $('#search-query').offset();
+
+                    $('#search-options-popover').css({
+                        top: (field_pos.top - $(window).scrollTop() + 35) + 'px',
+                        left: (field_pos.left - 320) + 'px'
+                    });
+
+                    $('#search-options-popover').show();
+                    popoverVisible = true;
+                }
+            }
+
+            function showHelpPopover() {
+                 if (!helpPopoverVisible) {
+                     var field_pos = $('#search-query').offset();
+
+                     $('#search-help-popover').css({
+                         top: (field_pos.top - $(window).scrollTop() + 35) + 'px',
+                         left: (field_pos.left - 750) + 'px'
+                     });
+
+                     $('#search-help-popover').show();
+                     helpPopoverVisible = true;
+                 }
+             }
+
+            function setToHide() {
+                if (isHidable()) {
+                    window.setTimeout(function() {
+                        if (isHidable()) {
+                            if (popoverVisible) {
+                                $('#search-options-popover').hide();
+                                popoverVisible = false;
+                            }
+                            if (helpPopoverVisible) {
+                                 $('#search-help-popover').hide();
+                                 helpPopoverVisible = false;
+                            }
+                        }
+                    }, 750);
+                }
+            }
+
+            $('.navbar-fixed-top').mouseenter(function() {
+                inNavbar = true;
+            }).mouseleave(function() {
+                inNavbar = false;
+                setToHide();
+            });
+
+
+            var currentQuery = '';
+            var queryCache = {};
+
+            $('#search-query').focus(function() {
+
+                var $this = $(this);
+                inFocus = true;
+                showPopover();
+
+            }).blur(function() {
+                inFocus = false;
+                setToHide();
+            }).keyup(function() {
+               var currentVal = $('#search-query').val();
+
+               window.setTimeout(function() {
+                   if (popoverVisible && currentVal == $('#search-query').val()) {
+                       doSearch();
+                   }
+               }, 400);
+            }).blur();
+
+            $(window).scroll(function() {
+                window.setTimeout(function() {
+                    if (popoverVisible) {
+                        $('#search-options-popover').hide();
+                        popoverVisible = false;
+                        inFocus = false;
+                    }
+                    if (helpPopoverVisible) {
+                        $('#search-help-popover').hide();
+                        inFocus = false;
+                    }
+                    $('#search-query').blur();
+                }, 100);
+            });
+
+            var currentSearch = false;
+
+            function doSearch() {
+
+                var $input = $('#search-query');
+                var $cont = $('#search-options-popover').find('.similar-questions-container');
+                var lang = $('.search-lang-selector-field').val();
+                var $results = $cont.find('.similar-questions-results');
+                var ajaxLoaderImg = "/themes/base/admin/img/ajax-loader.gif";
+
+                function showSpinner() {
+                    $input.css("background-image", "url('" + ajaxLoaderImg + "')");
+                }
+
+                function hideSpinner() {
+                    $input.css("background-image","none");
+                }
+
+                function processResults(data) {
+
+                    //queryCache[data.searchResults.query] = data;
+
+                    if (!data.searchResults.query == $input.val()) {
+                        return;
+                    }
+
+                    if (data.searchResults.count > 0) {
+
+                        currentSearch = false;
+
+                        $cont.show();
+                        $results.html('');
+
+                        $.each(data.searchResults.results, function(i, node) {
+                            var url;
+
+                            if (node.type == 'kbentry') {
+                                //url = kbEntryViewUrl;
+                            } else if (node.type == 'idea') {
+                                url = ideaViewUrl.replace("{plug}", node.plug);
+
+                            } else {
+                                url = questionsViewUrl.replace("{plug}", node.plug);
+                            }
+
+                            url = url.replace("{id}", node.id);
+
+                            var title;
+
+                            if (node.title) {
+                                title = node.title;
+                            } else {
+                                title = node.name;
+                            }
+
+                            var type = node.type;
+
+                            if (node.type == 'kbentry') {
+                                type = 'doc';
+                            } else if (node.type == 'topic') {
+                                type = 'topic';
+                            }
+
+                            var the_date = node.creationDateFormatted;
+
+                            $results.append('<p class="search-options-result"><span class="search-options-result-type ' + node.type + '">' + type +
+                                    '</span><a href="' + url + '">' + title + ', ' + the_date + ' </a></p>');
+                        });
+                    } else {
+                        $results.html('');
+                        $cont.hide();
+                    }
+                }
+
+                if ($input.val()) {
+
+                    if (false && queryCache[$input.val()] != undefined) {
+                        processResults(queryCache[$input.val()]);
+                    } else {
+                        $("#qStatus").val($("input:radio[name=questionStatus]:checked").val());
+                        var data = commandUtils.extractFormData($('#search-query-form'));
+                        //var data = {q: $input.val()};
+                        data.q = data.q + "*";
+                        data.lang = lang;
+                        data['pageSize'] = 10;
+
+                        if (currentSearch) {
+                            currentSearch.abort();
+                        }
+
+                        currentSearch = $.ajax({
+	                        dataType: "json",
+	                        url: '/search.json',
+	                        data: data,
+	                        beforeSend: showSpinner,
+	                        success: processResults,
+	                        complete: hideSpinner
+	                    });
+                    }
+
+                } else {
+                    $results.html('');
+                    $cont.hide();
+                }
+
+            }
+
+            $('#search-options-popover').mouseenter(function() {
+                inPopover = true;
+            }).mouseleave(function() {
+                inPopover = false;
+                setToHide();
+            }).find('.search-query-submit').click(function() {
+                $('#search-query-form').submit();
+                return false;
+            });
+
+            function getURLParameter(name) {
+                return decodeURI(
+                        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+                );
+            }
+
+            function checkDefaults() {
+
+                function enableInput(value, docs) {
+                    $("input[name=search-container][value=" + value + "][data-isdocs" + ( docs? "" : "!") + "=true]").attr("checked", "checked");
+                }
+
+                var c = getURLParameter('c');
+                var type = getURLParameter('type');
+                var lang = getURLParameter('lang');
+
+                if (c == 7) {
+                    enableInput("all");
+                }
+            }
+
+            function changeForm() {
+                var $sel = $('#search-options-popover input[name=search-container]:checked');
+                var val = $sel.val();
+
+                if (val != 'all') {
+                	//FIXME : Say what ?
+                    //$('#search-query-form input[name=c]').val($sel.val());
+
+                    $('#search-query-form input[name=type]').val('question OR idea');
+
+                } else if (val == 'all') {
+                    $('#search-query-form input[name=c]').val(7);
+                    $('#search-query-form input[name=type]').val('question OR idea');
+                } else {
+                    $('#search-query-form input[name=type]').val('question OR idea');
+                }
+
+                doSearch();
+            }
+
+            $('#search-options-popover input[name=search-container]').change(changeForm);
+            $('#search-options-popover input[name=questionStatus]').change(changeForm);
+            $('.search-lang-selector button').not('.sort-selector').click(function() {
+                $('.search-lang-selector-field').val($(this).attr('value'));
+                doSearch();
+            });
+
+            checkDefaults();
+            changeForm();
+        });
+
+    </script>
+    <div class="container" id="main-content-container">
+    	<script>
+    		if(document.URL.indexOf("login") != -1){
+    		}
+    	</script>
+              <div class="row">
+                  <div class="span12">
+            <ul class="breadcrumb">
+                <li>
+                    <a href="https://answers.unrealengine.com/index.html">Home</a> <span class="divider">/</span>
+                </li>
+                        <li><a href="https://answers.unrealengine.com/spaces/21/unreal-editor.html">Using UE4</a> <span class="divider">/</span></li>
+            </ul>
+                  </div>
+              </div>
+          <div class="row">
+          	<div style="display:none; margin-left: 20px;" id="space-tabs-container">
+				<ul class="nav nav-tabs" id="space-tabs" data-tabs="tabs">
+					<li class="active"><a href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html">All</a></li>
+				</ul>
+			</div>
+            <div class="span9 customSpan9">
+                    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+<div class="headNormal">
+    <h1>Can you turn a Landscape object into a Static Mesh?</h1>
+</div>
+<div id="main-body" class="">
+
+
+<script type="text/x-jquery-tmpl" id="move-to-space-dialog">
+    ${description}
+    <form>
+        <select name="targetSpace" class="prompt-examples">
+            {{each(p, target) spaces }}
+            <option value="${target.id}">${target.name}</option>
+            {{/each}}
+        </select>
+    </form>
+</script>
+
+<script type="text/javascript">
+
+    $(function() {
+
+        $('.span9').addClass('customSpan9');
+
+    });
+</script>
+
+<table style="width:100%;" id="question-table" nodeid="21101" authorid="2059">
+    <tbody><tr>
+        <td style="width:30px;vertical-align:top">
+<div class="vote-buttons">
+    <a id="post-21101-upvote" class="post-vote up" href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" command="voteUp"> </a>
+    <div id="post-21101-score" class="post-score" title="current number of votes">0</div>
+    <a id="post-21101-downvote" class="post-vote down" href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" command="voteDown"> </a>
+        <a id="favorite-mark" class="ajax-command favorite-mark" href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" command="markFavorite"> </a>
+        <div id="favorite-count" class="favorite-count"></div>
+</div>        </td>
+        <td>
+            <div id="item-right" class="quepix">
+                <div class="question-body">
+                <p>I would like to craft a small mountain for a hexmap to be used in a turn based strategy.  Is it possible to combine the landscape with a static mesh or would it be best to build a mountain in another program and import?<br></p>
+
+                </div>
+                <div id="question-tags" class="tags-container tags">
+                    <div class="product-version">
+                        <div>
+Product Version:                            <span>
+                        Not Selected<br>
+                    </span>
+                        </div>
+                    </div>
+                    <span class="tags-label">태그:</span><a rel="tag" title="see questions tagged &#39;landscape&#39;" href="https://answers.unrealengine.com/questions/topics/single/965.html">landscape</a><a rel="tag" title="see questions tagged &#39;static mesh&#39;" href="https://answers.unrealengine.com/questions/topics/single/15193.html">static mesh</a></div>
+
+<div id="post-21101-controls" class="post-controls">
+    <span id="node-21101-menu" class="context-menu">
+        <span id="node-21101-menu-trigger" class="action-link context-menu-trigger">더 ▼</span>
+        <ul id="node-21101-menu-dropdown" class="context-menu-dropdown">
+            <li class="item no-click"><a rel="nofollow" class="   " href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" title=""><b>총 코멘트 0</b></a></li>
+            <li class="item no-click"><a rel="nofollow" class="   " href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" title=""><b>222 글자 /
+                44 단어</b></a></li>
+        </ul>
+    </span>
+</div>
+                <div class="post-update-info-container">
+                    <div class="post-update-info post-update-info-user">
+                        <p style="line-height:12px;">질문됨 <strong class="friendly-date" title="2014, Mar 29 at 11:34:00+0000">Mar 29 '14 at 8:34 PM</strong>
+                            <span class="question_space">내 <strong>Using UE4</strong></span>
+                        </p>
+
+<a href="https://answers.unrealengine.com/users/2059/zeustiak.html" style="display: inline-block; max-width: 32px;" rel="user" nodeid="2059"> <img class="gravatar " width="32" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/view.html" id="" alt="avatar image" title="Zeustiak">
+</a> <p><a href="https://answers.unrealengine.com/users/2059/zeustiak.html">Zeustiak </a> <br>
+<span class="score" title="1736 karma"><span class="">1.7k</span></span><span title="127 badges">
+<span class="badge1">●</span>
+<span class="badgecount">127</span>
+</span><span title="67 badges">
+<span class="silver">●</span>
+<span class="badgecount">67</span>
+</span><span title="109 badges">
+<span class="bronze">●</span>
+<span class="badgecount">109</span>
+</span>
+</p>
+                    </div>
+                </div>
+
+
+                <div class="comments-container" id="comments-container-21101">
+                </div>
+                <script type="text/javascript">$(function() {tools.rel({});});</script>
+                <div id="comment-tools-21101" class="comment-tools">
+                    <a href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" class="add-comment-link btn btn-small" style="display: none">새 코멘트 추가</a>
+                    <span class="comments-locked">(comments are locked)</span>
+                </div>
+
+<script type="text/javascript">
+    $(function() {
+        $('.commentEgoInfo').popover({
+            placement: 'right',
+            title: 'User Details'
+        });
+    });
+</script>
+
+<div id="comment-21101-form-container" class="comment-form-container" style="float:none;">
+    <form id="comment-21101-form" action="https://answers.unrealengine.com/comments/21101/add.json" method="POST" accept-charset="utf-8"><input type="hidden" name="TH_CSRF" value="a6968343683837654904">
+        <div class="comment-form-widgets-container">
+            <div class="comment-form-textarea-container">
+                <div class="wmd-button-bar"><ul class="wmd-button-row"><li class="wmd-button wmd-bold-button" title="두껍게 &lt;strong&gt; Ctrl+B" style="background-position: 0px 0px;"></li><li class="wmd-button wmd-italic-button" title="강조 &lt;em&gt; Ctrl+I" style="background-position: -20px 0px;"></li><li class="wmd-spacer wmd-spacer1"></li><li class="wmd-button wmd-link-button" title="하이퍼링크 &lt;a&gt; Ctrl+L" style="background-position: -40px 0px;"></li><li class="wmd-button wmd-quote-button" title="인용 &lt;blockquote&gt; Ctrl+Q" style="background-position: -60px 0px;"></li><li class="wmd-button wmd-code-button" title="코드 샘플 &lt;pre&gt;&lt;code&gt; Ctrl+K" style="background-position: -80px 0px;"></li><li class="wmd-button wmd-image-button" title="이미지 &lt;img&gt; Ctrl+G" style="background-position: -120px 0px;"></li><li class="wmd-button wmd-attachment-button" title="첨부 Ctrl+U" style="background-position: -100px 0px;"></li><li class="wmd-spacer wmd-spacer2"></li><li class="wmd-button wmd-olist-button" title="번호 목록 &lt;ol&gt; Ctrl+O" style="background-position: -140px 0px;"></li><li class="wmd-button wmd-ulist-button" title="기호 목록 &lt;ul&gt; Ctrl+U" style="background-position: -160px 0px;"></li><li class="wmd-button wmd-heading-button" title="제목 &lt;h1&gt;/&lt;h2&gt; Ctrl+H" style="background-position: -180px 0px;"></li><li class="wmd-button wmd-hr-button" title="가로 규칙 &lt;hr&gt; Ctrl+R" style="background-position: -200px 0px;"></li><li class="wmd-spacer wmd-spacer3"></li><li class="wmd-button wmd-undo-button" title="되돌리기 - Ctrl+Z" style="background-position: -220px -20px;"></li><li class="wmd-button wmd-redo-button" title="다시하기 - Ctrl+Y" style="background-position: -240px -20px;"></li></ul></div><textarea name="body" class="commentBox"></textarea><div class="comments-form-attachments"><div></div><div></div></div>
+                <span id="comment-{{ post.id }}-chars-left" class="comment-chars-left">
+                    <span class="comments-char-left-count">10|2000</span>
+                    <span class="comments-chars-togo-msg">글자 필요</span>
+                    <span class="comments-chars-left-msg">글자 남음</span>
+                </span>
+                <br>
+                
+                <div class="comment-form-buttons">
+                    <div class="comment-form-buttons-container" style="margin-top:-28px;">
+                        <span class="comment-recipients-label">Viewable by all users</span>
+                        <div style="float:right">
+                            <input type="submit" class="comment-submit btn btn-primary btn-small" value="코멘트">
+                            <input type="submit" class="comment-cancel btn btn-small" value="취소">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <input type="hidden" name="parent" value="21101">
+        <input type="hidden" name="visibility" value="full">
+        <div style="display: none" class="comment-form-extra-inputs"></div>
+    </form>
+</div>
+
+            </div>
+        </td>
+    </tr>
+</tbody></table>
+
+<hr>
+
+    <div class="answer-count-and-sort">
+        <span class="headQuestions answersCount"><span class="headQuestions-icon"></span>3 답변:</span>
+        <a name="sort-top"></a>
+            <span class="context-menu answer-sort-menu">
+                <span class="context-menu-trigger answer-sort-trigger">
+sort                    <span class="question-answers-sort">
+1위 득표                    </span>
+
+                    ▼
+                </span>
+                <ul class="context-menu-dropdown">
+                    <li class="item"><a href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html?sort=oldest" title="oldest answers will be shown first">가장 예전</a></li>
+                    <li class="item"><a href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html?sort=newest" title="newest answers will be shown first">가장 최근</a></li>
+                    <li class="item"><a href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html?sort=votes" class="on" title="most voted answers will be shown first">1위 득표</a></li>
+                </ul>
+            </span>
+    </div>
+
+<a name="answer-49226"></a>
+<div style="clear:both;" id="answer-container-49226" class="answer full accepted-answer" nodeid="49226" authorid="4506">
+    <table style="width:100%;">
+        <tbody><tr>
+            <td style="width:30px;vertical-align:top">
+<div class="vote-buttons">
+    <a id="post-49226-upvote" class="post-vote up" href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" command="voteUp"> </a>
+    <div id="post-49226-score" class="post-score" title="current number of votes">2</div>
+    <a id="post-49226-downvote" class="post-vote down" href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" command="voteDown"> </a>
+        <a href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" command="acceptAnswer" id="post-49226-accept" style="" class="accept-answer on"> </a>
+</div>            </td>
+
+            <td>
+
+                <div class="item-right">
+                    <div class="answer-body"><p>You can export a landscape selecting it and choosing File-&gt;Export Selected. It will be exported as an obj file. You'll have all components separated as single objects.</p> 
+<p>Peace, Budello </p></div>
+
+
+<div id="post-49226-controls" class="post-controls">
+    <span id="node-49226-menu" class="context-menu">
+        <span id="node-49226-menu-trigger" class="action-link context-menu-trigger">더 ▼</span>
+        <ul id="node-49226-menu-dropdown" class="context-menu-dropdown">
+            <li class="item no-click"><a rel="nofollow" class="   " href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" title=""><b>총 코멘트 0</b></a></li>
+            <li class="item no-click"><a rel="nofollow" class="   " href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" title=""><b>185 글자 /
+                29 단어</b></a></li>
+        </ul>
+    </span>
+</div>
+
+                    <div class="post-update-info-container">
+                        <div class="post-update-info post-update-info-user"><span class="newest-answer" style="color:#d8671c">Newest</span>
+                            <p style="line-height:12px;"> 답변됨 <strong class="friendly-date" title="2014, May 28 at 09:40:55+0000">May 28 '14 at 6:40 PM</strong></p>
+<a href="https://answers.unrealengine.com/users/4506/budello.html" style="display: inline-block; max-width: 32px;" rel="user" nodeid="4506"> <img class="gravatar " width="32" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/view(1).html" id="" alt="avatar image" title="Budello">
+</a> <p><a href="https://answers.unrealengine.com/users/4506/budello.html">Budello </a> <br>
+<span class="score" title="221 karma">221</span><span title="6 badges">
+<span class="badge1">●</span>
+<span class="badgecount">6</span>
+</span><span title="8 badges">
+<span class="silver">●</span>
+<span class="badgecount">8</span>
+</span><span title="16 badges">
+<span class="bronze">●</span>
+<span class="badgecount">16</span>
+</span>
+</p>                        </div>
+                    </div>
+
+                    <div class="comments-container" id="comments-container-49226">
+                    </div>
+                    <div id="comment-tools-49226" class="comment-tools">
+                        <a href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" class="add-comment-link btn btn-small" style="display: none;">새 코멘트 추가</a>
+                        <span class="comments-locked">(comments are locked)</span>
+                    </div>
+
+<script type="text/javascript">
+    $(function() {
+        $('.commentEgoInfo').popover({
+            placement: 'right',
+            title: 'User Details'
+        });
+    });
+</script>
+
+<div id="comment-49226-form-container" class="comment-form-container" style="float:none;">
+    <form id="comment-49226-form" action="https://answers.unrealengine.com/comments/49226/add.json" method="POST" accept-charset="utf-8"><input type="hidden" name="TH_CSRF" value="a6968343683837654904">
+        <div class="comment-form-widgets-container">
+            <div class="comment-form-textarea-container">
+                <div class="wmd-button-bar"><ul class="wmd-button-row"><li class="wmd-button wmd-bold-button" title="두껍게 &lt;strong&gt; Ctrl+B" style="background-position: 0px 0px;"></li><li class="wmd-button wmd-italic-button" title="강조 &lt;em&gt; Ctrl+I" style="background-position: -20px 0px;"></li><li class="wmd-spacer wmd-spacer1"></li><li class="wmd-button wmd-link-button" title="하이퍼링크 &lt;a&gt; Ctrl+L" style="background-position: -40px 0px;"></li><li class="wmd-button wmd-quote-button" title="인용 &lt;blockquote&gt; Ctrl+Q" style="background-position: -60px 0px;"></li><li class="wmd-button wmd-code-button" title="코드 샘플 &lt;pre&gt;&lt;code&gt; Ctrl+K" style="background-position: -80px 0px;"></li><li class="wmd-button wmd-image-button" title="이미지 &lt;img&gt; Ctrl+G" style="background-position: -120px 0px;"></li><li class="wmd-button wmd-attachment-button" title="첨부 Ctrl+U" style="background-position: -100px 0px;"></li><li class="wmd-spacer wmd-spacer2"></li><li class="wmd-button wmd-olist-button" title="번호 목록 &lt;ol&gt; Ctrl+O" style="background-position: -140px 0px;"></li><li class="wmd-button wmd-ulist-button" title="기호 목록 &lt;ul&gt; Ctrl+U" style="background-position: -160px 0px;"></li><li class="wmd-button wmd-heading-button" title="제목 &lt;h1&gt;/&lt;h2&gt; Ctrl+H" style="background-position: -180px 0px;"></li><li class="wmd-button wmd-hr-button" title="가로 규칙 &lt;hr&gt; Ctrl+R" style="background-position: -200px 0px;"></li><li class="wmd-spacer wmd-spacer3"></li><li class="wmd-button wmd-undo-button" title="되돌리기 - Ctrl+Z" style="background-position: -220px -20px;"></li><li class="wmd-button wmd-redo-button" title="다시하기 - Ctrl+Y" style="background-position: -240px -20px;"></li></ul></div><textarea name="body" class="commentBox"></textarea><div class="comments-form-attachments"><div></div><div></div></div>
+                <span id="comment-{{ post.id }}-chars-left" class="comment-chars-left">
+                    <span class="comments-char-left-count">10|2000</span>
+                    <span class="comments-chars-togo-msg">글자 필요</span>
+                    <span class="comments-chars-left-msg">글자 남음</span>
+                </span>
+                <br>
+                
+                <div class="comment-form-buttons">
+                    <div class="comment-form-buttons-container" style="margin-top:-28px;">
+                        <span class="comment-recipients-label">Viewable by all users</span>
+                        <div style="float:right">
+                            <input type="submit" class="comment-submit btn btn-primary btn-small" value="코멘트">
+                            <input type="submit" class="comment-cancel btn btn-small" value="취소">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <input type="hidden" name="parent" value="49226">
+        <input type="hidden" name="visibility" value="full">
+        <div style="display: none" class="comment-form-extra-inputs"></div>
+    </form>
+</div>
+
+                </div>
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+
+            <script type="text/javascript">$(function() {tools.rel({"49226":{"accepted":true,"score":2,"type":"answer"}}); tools.rel({})});</script>
+<a name="answer-21099"></a>
+<div style="clear:both;" id="answer-container-21099" class="answer full" nodeid="21099" authorid="1346">
+    <table style="width:100%;">
+        <tbody><tr>
+            <td style="width:30px;vertical-align:top">
+<div class="vote-buttons">
+    <a id="post-21099-upvote" class="post-vote up" href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" command="voteUp"> </a>
+    <div id="post-21099-score" class="post-score" title="current number of votes">1</div>
+    <a id="post-21099-downvote" class="post-vote down" href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" command="voteDown"> </a>
+        <a href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" command="acceptAnswer" id="post-21099-accept" style="display: none" class="accept-answer"> </a>
+</div>            </td>
+
+            <td>
+
+                <div class="item-right">
+                    <div class="answer-body"><p>You can export the height map of your terrain from UE4, sculpt a mountiain into it, or use worldmachine and then reimport it as a raw file and still be able to edit it in engine. 
+I wouldn't suggest making large landscapes with static meshes.
+</p>
+</div>
+
+
+<div id="post-21099-controls" class="post-controls">
+    <span id="node-21099-menu" class="context-menu">
+        <span id="node-21099-menu-trigger" class="action-link context-menu-trigger">더 ▼</span>
+        <ul id="node-21099-menu-dropdown" class="context-menu-dropdown">
+            <li class="item no-click"><a rel="nofollow" class="   " href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" title=""><b>총 코멘트 1</b></a></li>
+            <li class="item no-click"><a rel="nofollow" class="   " href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" title=""><b>243 글자 /
+                45 단어</b></a></li>
+        </ul>
+    </span>
+</div>
+
+                    <div class="post-update-info-container">
+                        <div class="post-update-info post-update-info-user">
+                            <p style="line-height:12px;"> 답변됨 <strong class="friendly-date" title="2014, Mar 29 at 12:49:59+0000">Mar 29 '14 at 9:49 PM</strong></p>
+<a href="https://answers.unrealengine.com/users/1346/jestersheepy.html" style="display: inline-block; max-width: 32px;" rel="user" nodeid="1346"> <img class="gravatar " width="32" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/view(2).html" id="" alt="avatar image" title="jestersheepy">
+</a> <p><a href="https://answers.unrealengine.com/users/1346/jestersheepy.html">jestersheepy </a> <br>
+<span class="score" title="459 karma">459</span><span title="14 badges">
+<span class="badge1">●</span>
+<span class="badgecount">14</span>
+</span><span title="15 badges">
+<span class="silver">●</span>
+<span class="badgecount">15</span>
+</span><span title="23 badges">
+<span class="bronze">●</span>
+<span class="badgecount">23</span>
+</span>
+</p>                        </div>
+                    </div>
+
+                    <div class="comments-container" id="comments-container-21099">
+    <a name="21415"></a>
+        <div class="comment nsc" id="comment-21415" activerev="23957" nodeid="21415" authorid="2059">
+            <div class="comment-header">
+                <a class="comment-user-gravatar" href="https://answers.unrealengine.com/users/2059/zeustiak.html">    		  <img class="gravatar " width="16" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/view(3).html" id="" alt="avatar image" title="Zeustiak">
+
+</a>
+                
+                <a class="comment-user userinfo" href="https://answers.unrealengine.com/users/2059/zeustiak.html">Zeustiak  </a>
+                <span class="comment-age friendly-date" title="2014, Mar 30 at 00:28:29+0000">Mar 30 '14 at 9:28 AM</span>
+            </div>
+            <div id="comment-21415-left" class="comment-left">
+                <div id="post-21415-score" class="comment-score"></div>
+            </div>
+            <div class="comment-text" style="margin-top: 4px;"><p>I think the problem I have is that I need either a mountain whose base is as big as my hexagons(~115x100y) or I need to be able to fuse said mountain onto one of my hexagons.  The landscaping and conversion tools don't seem to have that functionality...</p>
+<p>My map consists of anywhere between 500 and 9000 hexagon tiles that are instanced static meshes.  I basically need some meshes with mountains/hills/forests/etc that fit into that basic hexagon mold.  </p>
+<p>If there is a better way to do a hex map with tiles that can have components and whatnot attached I would love to hear it. :)
+</p>
+</div>
+            <div class="comment-info" id="comment-21415-info"></div>
+        </div>
+                    </div>
+                    <div id="comment-tools-21099" class="comment-tools">
+                        <a href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" class="add-comment-link btn btn-small" style="display: none;">새 코멘트 추가</a>
+                        <span class="comments-locked">(comments are locked)</span>
+                    </div>
+
+<script type="text/javascript">
+    $(function() {
+        $('.commentEgoInfo').popover({
+            placement: 'right',
+            title: 'User Details'
+        });
+    });
+</script>
+
+<div id="comment-21099-form-container" class="comment-form-container" style="float:none;">
+    <form id="comment-21099-form" action="https://answers.unrealengine.com/comments/21099/add.json" method="POST" accept-charset="utf-8"><input type="hidden" name="TH_CSRF" value="a6968343683837654904">
+        <div class="comment-form-widgets-container">
+            <div class="comment-form-textarea-container">
+                <div class="wmd-button-bar"><ul class="wmd-button-row"><li class="wmd-button wmd-bold-button" title="두껍게 &lt;strong&gt; Ctrl+B" style="background-position: 0px 0px;"></li><li class="wmd-button wmd-italic-button" title="강조 &lt;em&gt; Ctrl+I" style="background-position: -20px 0px;"></li><li class="wmd-spacer wmd-spacer1"></li><li class="wmd-button wmd-link-button" title="하이퍼링크 &lt;a&gt; Ctrl+L" style="background-position: -40px 0px;"></li><li class="wmd-button wmd-quote-button" title="인용 &lt;blockquote&gt; Ctrl+Q" style="background-position: -60px 0px;"></li><li class="wmd-button wmd-code-button" title="코드 샘플 &lt;pre&gt;&lt;code&gt; Ctrl+K" style="background-position: -80px 0px;"></li><li class="wmd-button wmd-image-button" title="이미지 &lt;img&gt; Ctrl+G" style="background-position: -120px 0px;"></li><li class="wmd-button wmd-attachment-button" title="첨부 Ctrl+U" style="background-position: -100px 0px;"></li><li class="wmd-spacer wmd-spacer2"></li><li class="wmd-button wmd-olist-button" title="번호 목록 &lt;ol&gt; Ctrl+O" style="background-position: -140px 0px;"></li><li class="wmd-button wmd-ulist-button" title="기호 목록 &lt;ul&gt; Ctrl+U" style="background-position: -160px 0px;"></li><li class="wmd-button wmd-heading-button" title="제목 &lt;h1&gt;/&lt;h2&gt; Ctrl+H" style="background-position: -180px 0px;"></li><li class="wmd-button wmd-hr-button" title="가로 규칙 &lt;hr&gt; Ctrl+R" style="background-position: -200px 0px;"></li><li class="wmd-spacer wmd-spacer3"></li><li class="wmd-button wmd-undo-button" title="되돌리기 - Ctrl+Z" style="background-position: -220px -20px;"></li><li class="wmd-button wmd-redo-button" title="다시하기 - Ctrl+Y" style="background-position: -240px -20px;"></li></ul></div><textarea name="body" class="commentBox"></textarea><div class="comments-form-attachments"><div></div><div></div></div>
+                <span id="comment-{{ post.id }}-chars-left" class="comment-chars-left">
+                    <span class="comments-char-left-count">10|2000</span>
+                    <span class="comments-chars-togo-msg">글자 필요</span>
+                    <span class="comments-chars-left-msg">글자 남음</span>
+                </span>
+                <br>
+                
+                <div class="comment-form-buttons">
+                    <div class="comment-form-buttons-container" style="margin-top:-28px;">
+                        <span class="comment-recipients-label">Viewable by all users</span>
+                        <div style="float:right">
+                            <input type="submit" class="comment-submit btn btn-primary btn-small" value="코멘트">
+                            <input type="submit" class="comment-cancel btn btn-small" value="취소">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <input type="hidden" name="parent" value="21099">
+        <input type="hidden" name="visibility" value="full">
+        <div style="display: none" class="comment-form-extra-inputs"></div>
+    </form>
+</div>
+
+                </div>
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+
+            <script type="text/javascript">$(function() {tools.rel({"21099":{"score":1,"type":"answer"}}); tools.rel({"21415":{"reported":false,"canCancelReport":false,"canComment":false,"canViewRevisions":false,"visibility":"full","canDelete":false,"canConvertToAnswer":false,"canViewReports":false,"canReport":false,"type":"comment","canEdit":false}})});</script>
+<a name="answer-21106"></a>
+<div style="clear:both;" id="answer-container-21106" class="answer full" nodeid="21106" authorid="575">
+    <table style="width:100%;">
+        <tbody><tr>
+            <td style="width:30px;vertical-align:top">
+<div class="vote-buttons">
+    <a id="post-21106-upvote" class="post-vote up" href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" command="voteUp"> </a>
+    <div id="post-21106-score" class="post-score" title="current number of votes">1</div>
+    <a id="post-21106-downvote" class="post-vote down" href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" command="voteDown"> </a>
+        <a href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" command="acceptAnswer" id="post-21106-accept" style="display: none" class="accept-answer"> </a>
+</div>            </td>
+
+            <td>
+
+                <div class="item-right">
+                    <div class="answer-body"><p>Hi Zeustiak: I don't suggest you making a Landscape into a Static Mesh since the way of LOD of Landscape is not quite same as Statice Mesh. If you just want position a small mountain, why not make it in DCC tools like 3dmax,blender? </p></div>
+
+
+<div id="post-21106-controls" class="post-controls">
+    <span id="node-21106-menu" class="context-menu">
+        <span id="node-21106-menu-trigger" class="action-link context-menu-trigger">더 ▼</span>
+        <ul id="node-21106-menu-dropdown" class="context-menu-dropdown">
+            <li class="item no-click"><a rel="nofollow" class="   " href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" title=""><b>총 코멘트 2</b></a></li>
+            <li class="item no-click"><a rel="nofollow" class="   " href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" title=""><b>233 글자 /
+                44 단어</b></a></li>
+        </ul>
+    </span>
+</div>
+
+                    <div class="post-update-info-container">
+                        <div class="post-update-info post-update-info-user">
+                            <p style="line-height:12px;"> 답변됨 <strong class="friendly-date" title="2014, Mar 29 at 12:22:40+0000">Mar 29 '14 at 9:22 PM</strong></p>
+<a href="https://answers.unrealengine.com/users/575/baesky.html" style="display: inline-block; max-width: 32px;" rel="user" nodeid="575"> <img class="gravatar " width="32" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/view(4).html" id="" alt="avatar image" title="Baesky">
+</a> <p><a href="https://answers.unrealengine.com/users/575/baesky.html">Baesky </a> <br>
+<span class="score" title="182 karma">182</span><span title="11 badges">
+<span class="badge1">●</span>
+<span class="badgecount">11</span>
+</span><span title="8 badges">
+<span class="silver">●</span>
+<span class="badgecount">8</span>
+</span><span title="14 badges">
+<span class="bronze">●</span>
+<span class="badgecount">14</span>
+</span>
+</p>                        </div>
+                    </div>
+
+                    <div class="comments-container" id="comments-container-21106">
+    <a name="21414"></a>
+        <div class="comment nsc" id="comment-21414" activerev="23956" nodeid="21414" authorid="2059">
+            <div class="comment-header">
+                <a class="comment-user-gravatar" href="https://answers.unrealengine.com/users/2059/zeustiak.html">    		  <img class="gravatar " width="16" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/view(3).html" id="" alt="avatar image" title="Zeustiak">
+
+</a>
+                
+                <a class="comment-user userinfo" href="https://answers.unrealengine.com/users/2059/zeustiak.html">Zeustiak  </a>
+                <span class="comment-age friendly-date" title="2014, Mar 30 at 00:21:21+0000">Mar 30 '14 at 9:21 AM</span>
+            </div>
+            <div id="comment-21414-left" class="comment-left">
+                <div id="post-21414-score" class="comment-score"></div>
+            </div>
+            <div class="comment-text" style="margin-top: 4px;"><p>I am not that familiar with 3d modeling tools but I guess I will have to do some research and pick a good free program.  I just need it for prototyping so it doesn't need to be fancy.  </p>
+<p>I do need to be able to create a hexagon of an exact size and then mold a mountain on top of it though, so the easier that is the better.  Any suggestions on free software?
+</p>
+</div>
+            <div class="comment-info" id="comment-21414-info"></div>
+    <a name="21476"></a>
+        <div class="comment nsc" id="comment-21476" activerev="24041" nodeid="21476" authorid="575">
+            <div class="comment-header">
+                <a class="comment-user-gravatar" href="https://answers.unrealengine.com/users/575/baesky.html">    		  <img class="gravatar " width="16" src="./Can you turn a Landscape object into a Static Mesh_ - UE4 AnswerHub_files/view(5).html" id="" alt="avatar image" title="Baesky">
+
+</a>
+                
+                <a class="comment-user userinfo" href="https://answers.unrealengine.com/users/575/baesky.html">Baesky  </a>
+                <span class="comment-age friendly-date" title="2014, Mar 30 at 04:49:09+0000">Mar 30 '14 at 1:49 PM</span>
+            </div>
+            <div id="comment-21476-left" class="comment-left">
+                <div id="post-21476-score" class="comment-score">1</div>
+            </div>
+            <div class="comment-text" style="margin-top: 4px;"><p> blender 3d is a open source 3D graphics and animation software.Many tutorials on the web. </p></div>
+            <div class="comment-info" id="comment-21476-info"></div>
+        </div>
+        </div>
+                    </div>
+                    <div id="comment-tools-21106" class="comment-tools">
+                        <a href="https://answers.unrealengine.com/questions/21101/can-you-turn-a-landscape-object-into-a-static-mesh.html#" class="add-comment-link btn btn-small" style="display: none;">새 코멘트 추가</a>
+                        <span class="comments-locked">(comments are locked)</span>
+                    </div>
+
+<script type="text/javascript">
+    $(function() {
+        $('.commentEgoInfo').popover({
+            placement: 'right',
+            title: 'User Details'
+        });
+    });
+</script>
+
+<div id="comment-21106-form-container" class="comment-form-container" style="float:none;">
+    <form id="comment-21106-form" action="https://answers.unrealengine.com/comments/21106/add.json" method="POST" accept-charset="utf-8"><input type="hidden" name="TH_CSRF" value="a6968343683837654904">
+        <div class="comment-form-widgets-container">
+            <div class="comment-form-textarea-container">
+                <div class="wmd-button-bar"><ul class="wmd-button-row"><li class="wmd-button wmd-bold-button" title="두껍게 &lt;strong&gt; Ctrl+B" style="background-position: 0px 0px;"></li><li class="wmd-button wmd-italic-button" title="강조 &lt;em&gt; Ctrl+I" style="background-position: -20px 0px;"></li><li class="wmd-spacer wmd-spacer1"></li><li class="wmd-button wmd-link-button" title="하이퍼링크 &lt;a&gt; Ctrl+L" style="background-position: -40px 0px;"></li><li class="wmd-button wmd-quote-button" title="인용 &lt;blockquote&gt; Ctrl+Q" style="background-position: -60px 0px;"></li><li class="wmd-button wmd-code-button" title="코드 샘플 &lt;pre&gt;&lt;code&gt; Ctrl+K" style="background-position: -80px 0px;"></li><li class="wmd-button wmd-image-button" title="이미지 &lt;img&gt; Ctrl+G" style="background-position: -120px 0px;"></li><li class="wmd-button wmd-attachment-button" title="첨부 Ctrl+U" style="background-position: -100px 0px;"></li><li class="wmd-spacer wmd-spacer2"></li><li class="wmd-button wmd-olist-button" title="번호 목록 &lt;ol&gt; Ctrl+O" style="background-position: -140px 0px;"></li><li class="wmd-button wmd-ulist-button" title="기호 목록 &lt;ul&gt; Ctrl+U" style="background-position: -160px 0px;"></li><li class="wmd-button wmd-heading-button" title="제목 &lt;h1&gt;/&lt;h2&gt; Ctrl+H" style="background-position: -180px 0px;"></li><li class="wmd-button wmd-hr-button" title="가로 규칙 &lt;hr&gt; Ctrl+R" style="background-position: -200px 0px;"></li><li class="wmd-spacer wmd-spacer3"></li><li class="wmd-button wmd-undo-button" title="되돌리기 - Ctrl+Z" style="background-position: -220px -20px;"></li><li class="wmd-button wmd-redo-button" title="다시하기 - Ctrl+Y" style="background-position: -240px -20px;"></li></ul></div><textarea name="body" class="commentBox"></textarea><div class="comments-form-attachments"><div></div><div></div></div>
+                <span id="comment-{{ post.id }}-chars-left" class="comment-chars-left">
+                    <span class="comments-char-left-count">10|2000</span>
+                    <span class="comments-chars-togo-msg">글자 필요</span>
+                    <span class="comments-chars-left-msg">글자 남음</span>
+                </span>
+                <br>
+                
+                <div class="comment-form-buttons">
+                    <div class="comment-form-buttons-container" style="margin-top:-28px;">
+                        <span class="comment-recipients-label">Viewable by all users</span>
+                        <div style="float:right">
+                            <input type="submit" class="comment-submit btn btn-primary btn-small" value="코멘트">
+                            <input type="submit" class="comment-cancel btn btn-small" value="취소">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <input type="hidden" name="parent" value="21106">
+        <input type="hidden" name="visibility" value="full">
+        <div style="display: none" class="comment-form-extra-inputs"></div>
+    </form>
+</div>
+
+                </div>
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+
+            <script type="text/javascript">$(function() {tools.rel({"21106":{"score":1,"type":"answer"}}); tools.rel({"21476":{"reported":false,"canCancelReport":false,"canComment":false,"canViewRevisions":false,"visibility":"full","canDelete":false,"score":1,"canConvertToAnswer":false,"canViewReports":false,"canReport":false,"type":"comment","canEdit":false},"21414":{"reported":false,"canCancelReport":false,"canComment":false,"canViewRevisions":false,"visibility":"full","canDelete":false,"canConvertToAnswer":false,"canViewReports":false,"canReport":false,"type":"comment","canEdit":false}})});</script>
+
+
+
+        <div style="clear:both">
+        </div>
+
+        <div style="padding:10px 0 0 0;">
+            <div class="headNormal">
+Your answer            </div>
+        </div>
+
+
+
+<form id="fmanswer" action="https://answers.unrealengine.com/answers/21101/post.html" method="POST"><input type="hidden" name="TH_CSRF" value="a6968343683837654904">
+
+    <div class="form-item">
+        <div id="wmd-button-bar" class="wmd-panel wmd-button-bar"><ul class="wmd-button-row"><li class="wmd-button wmd-bold-button" title="두껍게 &lt;strong&gt; Ctrl+B" style="background-position: 0px 0px;"></li><li class="wmd-button wmd-italic-button" title="강조 &lt;em&gt; Ctrl+I" style="background-position: -20px 0px;"></li><li class="wmd-spacer wmd-spacer1"></li><li class="wmd-button wmd-link-button" title="하이퍼링크 &lt;a&gt; Ctrl+L" style="background-position: -40px 0px;"></li><li class="wmd-button wmd-quote-button" title="인용 &lt;blockquote&gt; Ctrl+Q" style="background-position: -60px 0px;"></li><li class="wmd-button wmd-code-button" title="코드 샘플 &lt;pre&gt;&lt;code&gt; Ctrl+K" style="background-position: -80px 0px;"></li><li class="wmd-button wmd-image-button" title="이미지 &lt;img&gt; Ctrl+G" style="background-position: -120px 0px;"></li><li class="wmd-button wmd-attachment-button" title="첨부 Ctrl+U" style="background-position: -100px 0px;"></li><li class="wmd-spacer wmd-spacer2"></li><li class="wmd-button wmd-olist-button" title="번호 목록 &lt;ol&gt; Ctrl+O" style="background-position: -140px 0px;"></li><li class="wmd-button wmd-ulist-button" title="기호 목록 &lt;ul&gt; Ctrl+U" style="background-position: -160px 0px;"></li><li class="wmd-button wmd-heading-button" title="제목 &lt;h1&gt;/&lt;h2&gt; Ctrl+H" style="background-position: -180px 0px;"></li><li class="wmd-button wmd-hr-button" title="가로 규칙 &lt;hr&gt; Ctrl+R" style="background-position: -200px 0px;"></li><li class="wmd-spacer wmd-spacer3"></li><li class="wmd-button wmd-undo-button" title="되돌리기 - Ctrl+Z" style="background-position: -220px -20px;"></li><li class="wmd-button wmd-redo-button" title="다시하기 - Ctrl+Y" style="background-position: -240px -20px;"></li><li class="wmd-button wmd-help-button" style="background-position: -260px 0px;"><a href="https://answers.unrealengine.com/static/markdown/help.html" target="_blank" title="마크다운 도움말"></a></li></ul></div>
+        <div class="resizable-textarea"><span><textarea id="body" name="body" rows="10" style="width:100%;" class="processed"></textarea><div class="grippie" style="margin-right: -10px;"></div></span></div>
+
+        <div class="preview-toggle">
+            <span id="pre-collapse" title=" Toggle the real time Markdown editor preview ">[미리보기 숨김]</span>
+            <span style="text-align: right; margin-left: 200px;" id="editor-metrics"></span>
+
+    
+
+        </div>
+        <div id="previewer" class="wmd-preview"></div>
+
+
+
+
+<script type="text/javascript">
+    var attachmentsEnabled = true;
+    pageContext.url.authorizeAttachmentsUrl = "/authorizeAttachment.json";
+    pageContext.authorizeUploadContext = {
+        type: 'answer'
+    };
+</script>
+
+<div id="main-attachments-container" class="message">
+    <p>
+        <strong><label>Attachments:</label></strong>
+첨부는 (이미지 포함) 5 개까지, 각각 최대 5.2 MB 씩 총 5.2 MB 만큼 사용할 수 있습니다.    </p>
+    <div id="img-attachments-container"></div>
+    <div id="attachments-container"></div>
+</div>
+
+    </div>
+
+
+    <div class="form-actions">
+        <p>
+            <input type="submit" class="submit btn btn-primary btn-large" value="답변을 게시하려면 로그인/가입" onclick="submitClicked(event, this.form)"> 
+        </p><small>여기나 UDN 웹사이트와 메일링 리스트 뿐만 아니라 다른 에픽 언리얼 엔진 서포트 창구에 정보를 제공함으로써, 귀하, 귀하의 직원, 할당받은 이, 서브라이선시, 대리인, 대표자 (소위 "귀하")가 게시하거나 다른 어떤 식으로든 올린 언리얼 엔진 관련 소프트웨어 코드, 코멘트, 피드백 (소위 "정보")은 전적으로 에픽의 재산이 된다는 데 동의합니다. 고로 귀하는 그러한 "정보"에 포함된 모든 권리, 타이틀, 이권, 저작권, 지적 재산권 등을 에픽 게임스에 양도하고 위임합니다.</small></div>
+
+</form>
+<script type="text/javascript">
+    $(function() {
+        $('.preview-toggle').children().each(function() {
+            var id = $(this).attr('id');
+
+            if (id != 'pre-collapse' && id != 'editor-metrics') {
+                $(this).remove();
+            }
+        });
+
+        $('#fmanswer').find('.form-actions').append($('<small>' +
+                '여기나 UDN 웹사이트와 메일링 리스트 뿐만 아니라 다른 에픽 언리얼 엔진 서포트 창구에 정보를 제공함으로써, 귀하, 귀하의 직원, 할당받은 이, 서브라이선시, 대리인, 대표자 (소위 "귀하")가 게시하거나 다른 어떤 식으로든 올린 언리얼 엔진 관련 소프트웨어 코드, 코멘트, 피드백 (소위 "정보")은 전적으로 에픽의 재산이 된다는 데 동의합니다. 고로 귀하는 그러한 "정보"에 포함된 모든 권리, 타이틀, 이권, 저작권, 지적 재산권 등을 에픽 게임스에 양도하고 위임합니다.' +
+                '</small>'));
+
+
+        if (commands.deleteComment) {
+            commands.deleteComment.execute = function(evt) {
+                if (this.getStatus() == 'off') {
+                    this.confirm(evt, null, null);
+                } else {
+                    this.executeRequest(this.getRequestData(), evt);
+                }
+            };
+            commands.deletePost.execute = commands.deleteComment.execute;
+        }
+
+    });
+</script>
+
+
+
+</div>
+<script type="text/x-jquery-tmpl" id="redirect-question-dialog">
+        <p>Redirect 'Can you turn a Landscape object into a Static Mesh?' into:</p>
+        <div>
+            <strong>${search}</strong>
+        </div>
+        <div>
+        <div class="SearchAnswers">
+            <input type="text" style="background-image: none;" class="textInput" id="searchQuestion" value="Find Question" onclick="if(this.value=='Find Question'){this.value = ''}" />
+            <form>
+                <input type="hidden" name="to" />
+            </form>
+        </div>
+        </div>
+</script>
+<script type="text/javascript">
+    $(function($) {
+        commandUtils.initializeLabels();
+    });
+    $(document).ready(function(){
+        $('.context-menu').on('click', function(e){
+            var target = $(e.currentTarget);
+
+            $('.context-menu-dropdown').each(function(){
+                if($(this).is(':visible') && $(this).css('display') !=  'none'){
+                    if(target.has($(this)).length > 0){
+                        return false;
+                    }
+                    $(this).slideUp('fast');
+                }
+            });
+        });
+    });
+</script>
+
+            </div><!--/span-->
+              <div class="span3">
+                      
+
+<script type="text/javascript">
+$(function() {
+
+    var loadDate = new Date();
+
+    window.submitClicked = function(e,f){};
+
+    function getWorkLog(evt, error, answer, callback, defaultTime, defaultObservations, isEdit) {
+
+	if (isEdit == undefined) {
+            isEdit = false;
+        }
+
+        if (!defaultTime) {
+            var minutes = (new Date() - loadDate) / 1000 / 60;
+
+            if (minutes < 1) {
+                minutes = 1;
+            }
+
+            var hours = parseInt(minutes / 60);
+            minutes = parseInt(minutes % 60);
+
+            if (hours < 10) {
+                hours = '0' + hours;
+            }
+
+            if (minutes < 10) {
+                minutes = '0' + minutes;
+            }
+
+            defaultTime = hours + ':' + minutes;
+        }
+
+        if (!defaultObservations) {
+            defaultObservations = "";
+        }
+        
+        
+        
+		var chours = defaultTime.split(":");
+		
+		if(!isEdit && parseInt(chours[0]) < 1)
+		{
+                
+                data = Object();
+                data.logTime = defaultTime;
+                data.markAnswered = "on";
+                data.observations = "";
+            
+                callback(data.logTime, data.observations, data.markAnswered);
+                //close();		
+        }
+		else
+		{
+	        var $dialog = commandUtils.showDialog({
+	            nodes: commandUtils.renderTemplate('time-log-post-dialog', {isError: error, isAnswer: answer, time: defaultTime, observations: defaultObservations}),
+	            extra_class: 'prompt',
+	            beforeShow: function($dialog) {
+	                $dialog.find('.logTime').timepicker({
+	                    showPeriodLabels: false,
+	                    hourText: 'Hours',
+	                    minuteText: 'Minutes'
+	                });
+	
+	                $dialog.find('.time-spent').click(function() {
+	                    $dialog.find('.time-spent').removeClass('active');
+	                    $(this).addClass('active');
+	                    $dialog.find('.dialog-yes').removeAttr('disabled');
+	
+	                    if (!$(this).is('span')) {
+	                        $dialog.find('.logTime').val($(this).attr('value'));
+	                    }
+	
+	                    return false;
+	                });
+	
+	                $dialog.find('.dialog-yes').attr('disabled', 'disabled');
+	            },
+	            yes_callback: function($dialog, close) {
+	                var data = commandUtils.extractFormData($dialog);
+	
+	                var split = /(\d\d):(\d\d)/.exec(data.logTime);
+	
+	                if (!split) {
+	                    $dialog.find('.logTime').css('border-color', 'red');
+	                } else {
+	
+	                    function done() {
+	                        callback(data.logTime, data.observations, data.markAnswered);
+	                        close();
+	                    }
+	
+	                    if (split[1] >= 1) {
+	                        var msg = 'Are you sure you want to log {time}?'.replace('{time}', data.logTime);
+	                        commandUtils.showConfirmation(evt, 'Please confirm', msg, done);
+	                    } else {
+	                        done();
+	                    }
+	                }
+	            },
+	            event: evt,
+	            show_no: true
+	        });
+		}
+
+    }
+
+    window.getWorkLog = getWorkLog;
+
+    var confirmIsAnswerMessages = {
+        'description': 'Post as:',
+        'pleaseSelect': 'Select one',
+        'asAnswer': 'Answer to the question',
+        'commentOnQuestion': 'Comment on the question',
+        'commentOnAnswer': 'Comment on the answer by {author}, {date}',
+        'commentOnComment': 'Comment on the comment by {author}, {date}'
+        
+        
+    };
+	
+	
+	function getObjectsChildren(parPost, data, level)
+	{
+		var toReturn = new Array();
+		$.each(data,function(i,post){
+			if(post.parentId == parPost.id)
+			{
+				post.summary = Array(level+1).join("-") + " " + post.summary;
+				toReturn[toReturn.length] = post
+       			var objects_children = getObjectsChildren(post,data,level+1);
+       			if(objects_children.length > 0)
+       			{
+       				for(ii=0;ii<objects_children.length;ii++)
+       				{
+       					toReturn[toReturn.length] = objects_children[ii];
+       				}
+       			}
+			}
+		});
+		return toReturn;
+	}
+	
+	function getObjectDataParent(object,data)
+	{
+		var thisReturn;
+		$.each(data,function(i,post){
+			if(object.parentId == post.id)
+			{
+   				thisReturn =  object;
+   				return false;
+			}
+		});
+		return thisReturn;
+	}
+
+    var possibleLocations = false;
+
+    function confirmIsAnswer(e, isAnswerCallback) {
+        if (possibleLocations && $('#is-answer-selector').length) {
+            return;
+        } else  if (possibleLocations == 'fetching') {
+            return;
+        }
+
+        try {
+            if (/\/edit\.html$/.test(window.location)) {
+                isAnswerCallback();
+                return;
+            }
+
+            function showDialog(data) {
+                possibleLocations = data;
+
+                $.each(data.result.parentCandidates, function(i, post) {
+                    if (post.type == "question") {
+                        post.summary = confirmIsAnswerMessages.commentOnQuestion
+                    } else {
+                        var node = getObjectDataParent(post, data.result.parentCandidates);
+                        if(node != null && node.type === "comment")
+                        {
+                            post.summary = confirmIsAnswerMessages.commentOnComment
+                                    .replace('{author}', post.author.username)
+                                    .replace('{date}', commandUtils.friendlyDate(new Date(post.creationDate)));
+                        }
+                        else
+                        {
+                            post.summary = confirmIsAnswerMessages.commentOnAnswer
+                                    .replace('{author}', post.author.username)
+                                    .replace('{date}', commandUtils.friendlyDate(new Date(post.creationDate)));
+                        }
+                    }
+                });
+
+
+                var newresults = new Array();
+                var theQuestion;
+                //first get the question and it's comments
+                $.each(data.result.parentCandidates, function(i, post) {
+                    if(post.type == "question")
+                    {
+                        newresults[newresults.length] = post;
+                        theQuestion = post;
+                        return false;
+                    }
+                });
+
+                //first get the question and it's comments
+                $.each(data.result.parentCandidates, function(i, post) {
+                    if(post.parentId == theQuestion.id)
+                    {
+                        post.summary = "- " + post.summary;
+                        newresults[newresults.length] = post;
+                        var objects_children = getObjectsChildren(post,data.result.parentCandidates,2);
+                        if(objects_children.length > 0)
+                        {
+                            for(ii=0;ii<objects_children.length;ii++)
+                            {
+                                newresults[newresults.length] = objects_children[ii];
+                            }
+                        }
+                    }
+                });
+
+                data.result.parentCandidates = newresults;
+
+
+
+                $.extend(data.result, confirmIsAnswerMessages);
+
+                commandUtils.showDialog({
+                    nodes: commandUtils.renderTemplate('confirm-is-answer-dialog', data.result),
+                    'extra_class': 'prompt',
+                    'yes_callback': function($dialog, close) {
+                        var value = $dialog.find('select[name=is-answer]').val();
+
+                        if (value == 'select') {
+                            return false;
+                        } if (value == 'answer') {
+                            confirmAnswerOpen = false;
+                            close();
+                            isAnswerCallback();
+
+
+                        } else {
+                            var text = $('#body').val();
+                            if($('#comment-'+value+'-info').length > 0)
+                            {
+
+                                $('#comment-'+value+'-info').find(".comment-reply").click();
+                                $(".comment-form-container").find("[name='body']").val(text);
+                                window.onbeforeunload = null;
+                                window.location = '#comment-' + value + '-form';
+                            }
+                            else
+                            {
+                                $('#answer-container-' + value + ', #question-table').find('.add-comment-link').click();
+                                $('#answer-container-' + value + ', #question-table').find('.commentBox').val(text);
+                                window.onbeforeunload = null;
+                                window.location = '#comment-' + value + '-form';
+                            }
+
+                            close();
+                        }
+                    },
+                    'event': e,
+                    show_no: true
+                });
+            }
+
+            if (possibleLocations) {
+                showDialog(possibleLocations);
+                return;
+            }
+
+            possibleLocations = 'fetching';
+
+            $.getJSON('/questions/21101/postLocations.json', showDialog).complete(function() {
+                window.setTimeout(function() {
+                    if ($('#is-answer-selector').length == 0) {
+                        possibleLocations = false;
+                    }
+                }, 250);
+            });
+        } catch (e) {
+            isAnswerCallback();
+        }
+    }
+
+    function appendToForm($form, logTime, observations, markAnswered) {
+        var $logTime = $form.find('[name=logTime]');
+
+        if ($logTime.length == 0) {
+            $form.append('<input type="hidden" name="logTime" value="' + logTime + '" />');
+        } else {
+            $logTime.val(logTime);
+        }
+
+        var $observations = $form.find('[name=observations]');
+
+        if ($observations.length == 0) {
+            $form.append('<input type="hidden" name="observations" value="' + observations + '" />');
+        } else {
+            $observations.val(observations);
+        }
+
+        var $markAnswered = $form.find('[name=markAnswered]');
+
+        if (markAnswered && $markAnswered.length == 0) {
+            $form.append('<input type="hidden" name="markAnswered" value="true" />');
+        } else if (!markAnswered && $markAnswered.length > 0) {
+            $markAnswered.remove();
+        }
+    }
+
+    function answerSubmiissionCallback(logTime, observations, markAnswered) {
+        var $form = $('#fmanswer');
+        appendToForm($form, logTime, observations, markAnswered);
+        window.onbeforeunload = null;
+        $form.submit();
+    }
+
+
+    $('.submit').click(function(e) {
+        e.preventDefault();
+
+        if (currentUser == null) {
+            $('#fmanswer').submit();
+            return false;
+        }
+
+        confirmIsAnswer(e, function() {
+            window.onbeforeunload = null;
+            $('#fmanswer').submit();
+        });
+        return false;
+    });
+
+});
+</script>
+
+<script type="text/x-jquery-tmpl" id="time-log-post-dialog">
+    <h3><span {{if isError}}class="fieldError"{{/if}}>작업을 기록해 주세요.</span></h3>
+    <form>
+        <strong><label>의견 (옵션):</label></strong>
+        <textarea rows="3" style="width: 300px;" name="observations">${observations}</textarea>
+        {{if isAnswer}}<br /><input type="checkbox" name="markAnswered" checked="checked" /> Mark as answered{{/if}}
+        <br />
+        <div id="time-spent">
+            <button class="time-spent btn btn-small" value="00:05">Done in 5m</button>
+            <button class="time-spent btn btn-small" value="00:15">Done in 15m</button>
+            <button class="time-spent btn btn-small" value="00:30">Done in 30m</button>
+            <button class="time-spent btn btn-small" value="00:45">Done in 45m</button>
+            <br />
+            <button class="time-spent btn btn-small" value="01:00">Done in 1h</button>
+            <button class="time-spent btn btn-small" value="02:00">Done in 2h</button>
+            <button class="time-spent btn btn-small" value="03:00">Done in 3h</button>
+            <span class="time-spent btn btn-small" style="height: 28px; padding: 0; text-align: center; vertical-align: middle;">
+Done in                     <input type="text" name="logTime" class="logTime" value="${time}" style="margin-top: 3px; padding: 2px; width: 40px;" />
+            </span>
+        </div>
+        <center>This page has been open for ${time}</center>
+    </form>
+</script>
+
+<script type="text/x-jquery-tmpl" id="confirm-is-answer-dialog">
+    ${description}
+    <form>
+        <select name="is-answer" id="is-answer-selector" class="prompt-examples">
+            <option value="select">--${pleaseSelect}--</option>
+            <option value="answer">${asAnswer}</option>
+            {{each(p, target) parentCandidates }}
+            <option value="${target.id}">${target.summary}</option>
+            {{/each}}
+        </select>
+    </form>
+</script>
+
+<div id="subscription_box" class="boxC">
+
+    <h3 class="subtitle">이 질문 팔로잉</h3>
+
+        <p>로그인하면 여기 업데이트 내용을 받아볼 수 있습니다.</p>
+
+
+    <p>
+        <a title="subscribe to answers" href="https://answers.unrealengine.com/feed/21101/answers.rss" class="feed-icon"></a>
+        <a href="https://answers.unrealengine.com/feed/21101/answers.rss">이 질문에 답변</a>
+    </p>
+</div>
+
+    <div id="question-tags-box" style="display: none;">
+        <p class="tags">
+                <a rel="tag" title="see questions tagged &#39;landscape&#39;" href="https://answers.unrealengine.com/questions/topics/single/965.html">landscape</a>
+                <a rel="tag" title="see questions tagged &#39;static mesh&#39;" href="https://answers.unrealengine.com/questions/topics/single/15193.html">static mesh</a>
+        </p>
+    </div>
+
+    <script type="text/javascript">
+        $(function() {
+            $('.edit-log-time').click(function(evt) {
+                var log = $(this).attr('name');
+                var $log = $(this).parent();
+
+                var hours = $log.find('.work-log-hours').html();
+                var minutes = $log.find('.work-log-minutes').html();
+
+                if (!hours) {
+                    hours = '00';
+                }
+
+                if (hours.length < 2) {
+                    hours = '0' + hours;
+                }
+
+                if (!minutes) {
+                    minutes = '00';
+                }
+
+                if (minutes.length < 2) {
+                    minutes = '0' + minutes;
+                }
+
+                var observations = $log.find('pre').html();
+
+                getWorkLog(evt, false, false, function(time, observations, ma) {
+                    $.getJSON('/epic/editSupportLog.json', {
+                        'log': log,
+                        'time': time,
+                        'observations': observations
+                    }, function() {
+                        commandUtils.reloadPage();
+                    });
+                }, hours + ':' + minutes, observations, true);
+            });
+        });
+    </script>
+
+
+
+        <div>
+            
+        </div>
+        <div>
+            
+        </div>
+
+                      
+
+<div class="boxC">
+    <h3 class="subtitle">관련 질문</h3>
+    <div class="questions-related">
+            <p>
+                <a href="https://answers.unrealengine.com/questions/73091/how-to-fill-the-interior-floor-of-a-cave-maximizin.html">How to fill the interior floor of a cave, maximizing the area?</a>
+            </p>
+            <p>
+                <a href="https://answers.unrealengine.com/questions/557984/huge-sm-resource-size-optimization.html">Resource size optimization of huge SM</a>
+            </p>
+            <p>
+                <a href="https://answers.unrealengine.com/questions/258053/mass-place-actors-on-the-level.html">Mass place actors on the level?</a>
+            </p>
+            <p>
+                <a href="https://answers.unrealengine.com/questions/151191/turn-static-mesh-into-landscapeturn-static-mesh-in.html">Turn Static Mesh into Landscape,Turn Static Mesh into Landscape object</a>
+            </p>
+            <p>
+                <a href="https://answers.unrealengine.com/questions/465047/meshes-appear-underneath-the-landscape-in-editor.html">Meshes appear underneath the landscape in editor</a>
+            </p>
+            <p>
+                <a href="https://answers.unrealengine.com/questions/714026/how-do-i-have-my-landscape-collide-with-my-previou.html">How do I have my landscape collide with my previously placed static mesh</a>
+            </p>
+            <p>
+                <a href="https://answers.unrealengine.com/questions/532681/why-exported-landcape-loses-its-material.html">Why exported landcape loses its material</a>
+            </p>
+            <p>
+                <a href="https://answers.unrealengine.com/questions/433078/nav-mesh-bound-volume-not-working-on-a-static-mesh.html">Nav Mesh Bound Volume not working on a Static Meshe terrain</a>
+            </p>
+            <p>
+                <a href="https://answers.unrealengine.com/questions/5364/bug-landscape-glitching.html">[BUG] Landscape glitching</a>
+            </p>
+            <p>
+                <a href="https://answers.unrealengine.com/questions/36498/question-splitting-landscape-components.html">Question - Splitting Landscape Components + Fbx export for it?</a>
+            </p>
+    </div>
+</div>
+
+              </div><!--/span-->
+          </div><!--/row-->
+          <hr>
+
+
+<center>
+   <footer>
+	<p>© 2009-2016 <a href="http://www.epicgames.com/">에픽 게임스 회사</a>
+	Epic(에픽), Epic Games(에픽 게임스), Unreal(언리얼), Unreal Engine(언리얼 엔진), Unreal Technology(언리얼 테크놀로지,)<br>Unreal Development Kit(언리얼 개발 키트, UDK), Unreal Development Kit 로고는 미국과 세계 각지의 에픽 게임스 회사의 상호 또는 등록 상호입니다.</p>
+	<p><a href="http://www.dzonesoftware.com/products/answerhub-question-answer-software">Powered by AnswerHub</a></p>
+   </footer>
+</center>
+
+        </div><!--/.fluid-container-->
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".alert").alert();
+        $(":submit").addClass("btn").addClass("btn-primary").addClass("btn-large");
+//        $(".dialog-yes").addClass("btn-primary").addClass("btn-small");
+        $(".cancel").removeClass("submit").removeClass("btn-primary").addClass("btn").addClass("btn-large");
+        $(".submit").addClass("btn").addClass("btn-primary").addClass("btn-large");
+        $(".add-comment-link, .mod-talk").addClass("btn").addClass("btn-small");
+        $(".comment-cancel").removeClass("btn-primary").addClass("btn").removeClass("btn-large").addClass("btn-small");
+        $(".comment-submit").removeClass("btn-large").addClass("btn").addClass("btn-small");
+        $(".welcome-bar button").removeClass("btn-primary");
+//        $(".tags a").addClass("label")\;
+
+        // A bit of a workaround to deal with the styles of our parent theme
+
+        $(".answer-body pre code").addClass("prettyprint").addClass("linenums");
+        $(".question-body pre code").addClass("prettyprint").addClass("linenums");
+        $(".comment-text pre code").addClass("prettyprint").addClass("linenums");
+
+        prettyPrint();
+    });
+</script>
+
+
+<div id="sidr" class="sidr left"></div></body></html>

@@ -1,0 +1,108 @@
+/* based on  https://github.com/sixrevisions/fixed-navigation-bar */
+nav.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 1.8em;
+  font-size: 1.4em;
+  background-color: #0087E0;
+}
+
+/* The element at the top of the page right after the fixed navigation bar
+   MUST have sufficient top margin or else it will be covered by the bar */
+.wrap {
+  margin-top: 1.2em;
+}
+
+/* Example responsive navigation menu  */
+.fixed-nav-bar li, .fixed-nav-bar a { 
+  height: 1.4em;
+  line-height: 1.4em;
+}
+.fnb-menu {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.fnb-menu a, .fnb-menu a:visited {
+  color: #ebebeb;
+}
+.fnb-menu a:hover, .fnb-menu a:target {
+  color: #ffffff;
+}
+.fnb-menu-items {
+  display: inline-block;
+}
+.fnb-sitename {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+a.fnb-sitename, a:visited.fnb-sitename {
+  color: white;
+}
+.fnb-menu-items li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.fnb-show, .fnb-hide {
+  display: none;
+  padding-left: 15px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center left;
+  color: #dde1e2;
+}
+
+@media only screen and (max-width: 700px) {
+  .fnb-menu { 
+    position: relative;
+    width: 100%;
+  }
+  .fnb-sitename {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    margin-left: 0px;
+  }
+  .fnb-menu-items {
+    display: none; 
+    width: 100%;
+    margin-top: 1.5em;
+    background-color: #0067c0;
+  }
+  .fnb-menu-items li {
+    display: block;
+    text-align: center;
+  }
+  .fnb-show, .fnb-hide {  
+    position: absolute;
+    top: 0;
+    right: 15px;
+  }
+  .fnb-show {
+    display: inline-block;
+  }
+  .fnb-hide {
+    display: none;
+  }
+  #fnb-menu:target .show {
+    display: none;
+  }
+  #fnb-menu:target .fnb-hide, #fnb-menu:target .fnb-menu-items {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 220px) {
+  .fnb-sitename, .fnb-show, .fnb-hide {
+    font-size: 1em;
+  }
+}

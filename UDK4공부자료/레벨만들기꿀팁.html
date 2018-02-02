@@ -1,0 +1,1081 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0111)http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91?category=683155 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="./레벨만들기꿀팁_files/menubar.css"><!--[if lt IE 9]><script src="https://t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script><![endif]--><!--[if gte IE 9]>
+<!--><script src="./레벨만들기꿀팁_files/jquery-3.2.1.min.js.다운로드"></script><!--<![endif]-->
+<script>var tjQuery = jQuery.noConflict(true);</script><style type="text/css">.tt_article_useless_p_margin p {padding-top:0 !important;padding-bottom:0 !important;margin-top:0 !important;margin-bottom:0 !important;}</style><meta name="referrer" content="always"><link rel="shortcut icon" href="http://t1.daumcdn.net/tistory_admin/static/top/favicon_0630.ico"><meta name="description" content="선택 후 Ctrl + End키 격자에 딱 맞게 스냅핑 됨. =&gt; 가장 가까운 위치로 이동하는 것으로 보임.   선택 후 End키 바닥(바로 아래에 있는 지오메트리 위치로 붙여줌) 단, 절반정도는 겹쳐 있어야 하는것같다...">
+
+<!-- BEGIN OPENGRAPH -->
+<link rel="canonical" href="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91"><meta property="og:type" content="article"><meta property="og:url" content="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91"><meta property="og:site_name" content="빵개발연구소"><meta property="og:title" content="언리얼 레벨 만들기 팁 - 1"><meta name="by" content="빵원군"><meta property="og:description" content="선택 후 Ctrl + End키 격자에 딱 맞게 스냅핑 됨. =&gt; 가장 가까운 위치로 이동하는 것으로 보임.   선택 후 End키 바닥(바로 아래에 있는 지오메트리 위치로 붙여줌) 단, 절반정도는 겹쳐 있어야 하는것같다..."><meta property="og:image" content="http://cfile4.uf.tistory.com/image/2523844058EA45C31E521C">
+<!-- END OPENGRAPH -->
+
+
+
+<!-- BEGIN TWITTERCARD -->
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@TISTORY"><meta name="twitter:title" content="언리얼 레벨 만들기 팁 - 1"><meta name="twitter:description" content="선택 후 Ctrl + End키 격자에 딱 맞게 스냅핑 됨. =&gt; 가장 가까운 위치로 이동하는 것으로 보임.   선택 후 End키 바닥(바로 아래에 있는 지오메트리 위치로 붙여줌) 단, 절반정도는 겹쳐 있어야 하는것같다..."><meta property="twitter:image" content="http://cfile4.uf.tistory.com/image/2523844058EA45C31E521C">
+<!-- END TWITTERCARD -->
+
+
+
+<!-- BEGIN DAUMAPP -->
+<meta property="dg:plink" content="http://bbangdeveloper.tistory.com/90"><meta name="plink" content="http://bbangdeveloper.tistory.com/90"><meta name="title" content="언리얼 레벨 만들기 팁 - 1"><meta name="article:media_name" content="빵개발연구소"><meta property="article:mobile_url" content="http://bbangdeveloper.tistory.com/m/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91"><meta property="article:pc_url" content="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91"><meta property="article:mobile_view_url" content="http://bbangdeveloper.tistory.com/m/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91"><meta property="article:pc_view_url" content="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91"><meta property="article:talk_channel_view_url" content="http://bbangdeveloper.tistory.com/m/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91"><meta property="article:pc_service_home" content="http://www.tistory.com"><meta property="article:mobile_service_home" content="http://www.tistory.com/m"><meta property="article:txid" content="1548961_90"><meta property="article:published_time" content="2017-04-09T14:16:35+09:00"><meta property="og:regDate" content="20170409141635"><meta property="article:modified_time" content="2017-04-13T23:58:10+09:00">
+<!-- END DAUMAPP -->
+
+
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BlogPosting","mainEntityOfPage":{"@id":"http:\/\/bbangdeveloper.tistory.com\/entry\/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91"},"url":"http:\/\/bbangdeveloper.tistory.com\/entry\/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91","headline":"\uc5b8\ub9ac\uc5bc \ub808\ubca8 \ub9cc\ub4e4\uae30 \ud301 - 1","description":"\uc120\ud0dd \ud6c4 Ctrl + End\ud0a4 \uaca9\uc790\uc5d0 \ub531 \ub9de\uac8c \uc2a4\ub0c5\ud551 \ub428. => \uac00\uc7a5 \uac00\uae4c\uc6b4 \uc704\uce58\ub85c \uc774\ub3d9\ud558\ub294 \uac83\uc73c\ub85c \ubcf4\uc784.   \uc120\ud0dd \ud6c4 End\ud0a4 \ubc14\ub2e5(\ubc14\ub85c \uc544\ub798\uc5d0 \uc788\ub294 \uc9c0\uc624\uba54\ud2b8\ub9ac \uc704\uce58\ub85c \ubd99\uc5ec\uc90c) \ub2e8, \uc808\ubc18\uc815\ub3c4\ub294 \uacb9\uccd0 \uc788\uc5b4\uc57c \ud558\ub294\uac83\uac19\ub2e4...","author":{"@type":"Person","name":"\ube75\uc6d0\uad70"},"image":{"@type":"ImageObject","url":"http:\/\/cfile4.uf.tistory.com\/image\/2523844058EA45C31E521C","width":"800px","height":"800px"},"datePublished":"20170409T14:16:35+09:00","dateModified":"20170413T23:58:10+09:00","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"https:\/\/t1.daumcdn.net\/cssjs\/icon\/557567EA016E200001","width":"800px","height":"800px"}}}</script>
+<!-- END STRUCTURED_DATA -->
+
+<link rel="apple-touch-icon" href="http://i1.daumcdn.net/thumb/C180x180/?fname=http%3A%2F%2Fcfile4.uf.tistory.com%2Fimage%2F23136A4855865D92123AC0">
+<link rel="apple-touch-icon" sizes="76x76" href="http://i1.daumcdn.net/thumb/C76x76/?fname=http%3A%2F%2Fcfile4.uf.tistory.com%2Fimage%2F23136A4855865D92123AC0">
+<link rel="apple-touch-icon" sizes="120x120" href="http://i1.daumcdn.net/thumb/C120x120/?fname=http%3A%2F%2Fcfile4.uf.tistory.com%2Fimage%2F23136A4855865D92123AC0">
+<link rel="apple-touch-icon" sizes="152x152" href="http://i1.daumcdn.net/thumb/C152x152/?fname=http%3A%2F%2Fcfile4.uf.tistory.com%2Fimage%2F23136A4855865D92123AC0">
+
+
+<link rel="alternate" type="application/rss+xml" title="빵개발연구소" href="http://bbangdeveloper.tistory.com/rss">
+<link rel="stylesheet" media="screen" type="text/css" href="./레벨만들기꿀팁_files/style.css">
+<link rel="shortcut icon" href="http://bbangdeveloper.tistory.com/favicon.ico">
+	<script async="" src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2213124938362048",
+    enable_page_level_ads: true
+  });
+</script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shCore.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shLegacy.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushBash.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushCpp.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushCSharp.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushCss.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushDelphi.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushDiff.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushGroovy.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushJava.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushJScript.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushPhp.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushPlain.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushPython.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushRuby.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushScala.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushSql.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushVb.js.다운로드"></script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/shBrushXml.js.다운로드"></script>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- SyntaxHighlighter style -->
+<link href="./레벨만들기꿀팁_files/shCoreEclipse.css" rel="stylesheet" type="text/css">
+<link href="./레벨만들기꿀팁_files/shThemeEclipse.css" rel="stylesheet" type="text/css">
+<title>빵개발연구소 :: 언리얼 레벨 만들기 팁 - 1</title>
+
+<style type="text/css">
+		#daumSearchBox {
+			height: 21px;
+			background-image : url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+			margin: 5px auto ;
+			padding: 0;
+		}
+		#daumSearchBox input {
+			background: none;
+			margin : 0;
+			padding : 0;
+			border : 0;
+		}
+		#daumSearchBox #daumLogo {
+			width: 34px;
+			height: 21px;
+			float: left;
+			margin-right: 5px;
+			background-image : url(//i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+		}
+		#daumSearchBox #show_q {
+			background-color: transparent;
+			border: none;
+			font: 12px Gulim, Sans-serif;
+			color: #555;
+			margin-top: 4px;
+			margin-right: 15px;
+			float: left;
+		}
+
+		#daumSearchBox #show_btn {
+			background-image : url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+			width: 37px;
+			height: 21px;
+			float: left;
+			margin:0;
+			cursor:pointer;
+			text-indent:-1000em;
+		}
+	</style><link rel="stylesheet" href="./레벨만들기꿀팁_files/lightbox.min.css">
+<link rel="stylesheet" type="text/css" href="./레벨만들기꿀팁_files/style(1).css">
+<script type="text/javascript" src="./레벨만들기꿀팁_files/profile.js.다운로드"></script>
+	<style type="text/css">
+		.another_category { border: 1px solid #E5E5E5; padding: 10px 10px 5px; margin:10px 0; clear: both; }
+		.another_category h4 { font-size: 12px !important; margin: 0 !important; border-bottom: 1px solid #E5E5E5 !important; padding: 2px 0 6px !important; }
+		.another_category h4 a { font-weight: bold !important; }
+		.another_category table { table-layout: fixed; border-collapse: collapse; width: 100% !important; margin-top: 10px !important; }
+		* html .another_category table { width: auto !important; }
+		*:first-child+html .another_category table { width: auto !important; }
+		.another_category th, .another_category td { padding: 0 0 4px !important; }
+		.another_category th { text-align: left; font-size: 12px !important; font-weight: normal;  word-break: break-all; overflow: hidden; line-height: 1.5; }
+		.another_category td { text-align: right; width: 80px; font-size: 11px; }
+		.another_category th a { font-weight: normal; text-decoration: none; border: none !important; }
+		.another_category th a.current{ font-weight: bold; text-decoration: none !important; border-bottom: 1px solid !important; }
+		.another_category th span { font-weight: normal; text-decoration: none; font: 10px Tahoma, Sans-serif; border: none !important; }
+
+		.another_category_color_gray, .another_category_color_gray h4 { border-color: #E5E5E5 !important; }
+		.another_category_color_gray * { color: #909090 !important; }
+		.another_category_color_gray th a.current{border-color:#909090 !important;}
+		.another_category_color_gray h4, .another_category_color_gray h4 a { color: #737373 !important; }
+
+
+		.another_category_color_red, .another_category_color_red h4 { border-color: #F6D4D3 !important;  }
+		.another_category_color_red * { color: #E86869 !important; }
+		.another_category_color_red th a.current{border-color:#E86869 !important;}
+		.another_category_color_red h4, .another_category_color_red h4 a { color: #ED0908 !important; }
+
+
+		.another_category_color_green, .another_category_color_green h4 { border-color: #CCE7C8 !important; }
+		.another_category_color_green * { color: #64C05B !important; }
+		.another_category_color_green th a.current{border-color:#64C05B !important;}
+		.another_category_color_green h4, .another_category_color_green h4 a { color: #3EA731 !important; }
+
+
+		.another_category_color_blue, .another_category_color_blue h4 { border-color: #C8DAF2 !important; }
+		.another_category_color_blue * { color: #477FD6 !important; }
+		.another_category_color_blue th a.current{border-color:#477FD6 !important;}
+		.another_category_color_blue h4, .another_category_color_blue h4 a { color: #1960CA !important; }
+
+
+		.another_category_color_violet, .another_category_color_violet h4 { border-color: #E1CEEC !important;  }
+		.another_category_color_violet * { color:#9D64C5 !important; }
+		.another_category_color_violet th a.current{border-color:#9D64C5 !important;}
+		.another_category_color_violet h4, .another_category_color_violet h4 a { color: #7E2CB5 !important; }
+	</style>
+<script type="text/javascript">
+        window.TistoryBlog = {
+            url: "http://bbangdeveloper.tistory.com",
+            tistoryUrl: "http://bbangdeveloper.tistory.com"
+        };
+        var servicePath = "";
+        var blogURL = "";
+    </script>
+
+	<script> (function() { window.orgjQuery = window.jQuery; window.jQuery = tjQuery })()</script>
+    <script src="./레벨만들기꿀팁_files/uoclike.min.js.다운로드"></script>
+	<script> (function() { window.jQuery = window.orgjQuery; delete window.orgjQuery })()</script>
+    <script>
+		(function($) {
+			$.fn.extend({
+				size: function () {
+					return this.length
+				}
+			});
+			$.fn.UOCLike.defaults.updateServiceCategory = true;
+					})(tjQuery)
+    </script>
+        <script type="text/javascript" src="./레벨만들기꿀팁_files/base.js.다운로드"></script>
+        <link rel="stylesheet" type="text/css" href="./레벨만들기꿀팁_files/dialog.css">
+            <link rel="stylesheet" type="text/css" href="./레벨만들기꿀팁_files/postBtn.css">
+    <script src="./레벨만들기꿀팁_files/kakao.min.js.다운로드"></script><style type="text/css">#DragSchLayer{display:block;position:absolute;z-index:1000;width:61px;height:31px;margin:-30px 0px 0px -5px;background:url(http://search1.daumcdn.net/search/statics/common/pi/btn_drag_rect.png);cursor:pointer}             @media             only screen and (-webkit-min-device-pixel-ratio: 1.5),             only screen and (min-device-pixel-ratio: 1.5),             only screen and (min-resolution: 1.5dppx) {             #DragSchLayer{background-image:url(http://search1.daumcdn.net/search/statics/common/pi/r2/btn_drag_rect.png);background-size:61px 31px}}            </style><script type="text/javascript" async="" src="./레벨만들기꿀팁_files/td.min.js.다운로드"></script></head>
+<body>
+
+<script type="text/javascript">
+	(function() {
+		if (!window.T) {
+			window.T = {}
+		}
+		window.T.config = {"TOP_SSL_URL":"https:\/\/www.tistory.com","PREVIEW":false,"ROLE":"guest","PREV_PAGE":"\/entry\/\uc5b8\ub9ac\uc5bc-\ub808\ubca8-\ub9cc\ub4e4\uae30-\ud301-2?category=683155?category=683155","NEXT_PAGE":"","BLOG":{"isDormancy":false,"title":"\ube75\uac1c\ubc1c\uc5f0\uad6c\uc18c"},"NEED_COMMENT_LOGIN":false,"COMMENT_LOGIN_CONFIRM_MESSAGE":"","LOGIN_URL":"https:\/\/www.tistory.com\/auth\/login\/?redirectUrl=http%3A%2F%2Fbbangdeveloper.tistory.com%2Fentry%2F%25EC%2596%25B8%25EB%25A6%25AC%25EC%2596%25BC-%25EA%25B3%25B5%25EB%25B6%2580%25EC%25A4%2591%3Fcategory%3D683155","DEFAULT_URL":"http:\/\/bbangdeveloper.tistory.com","USER":{"name":null,"homepage":null}};
+	})();
+</script>
+
+<script type="text/javascript" src="./레벨만들기꿀팁_files/common.js.다운로드"></script>
+<div style="margin:0; padding:0; border:none; background:none; float:none; clear:none; z-index:0"></div>
+	<div id="wrapTop">
+		<div class="tCenter"></div><div class="tRight"></div>
+	</div>
+	<div id="wrapMid">
+		<div class="mRight">
+			<div id="container">
+				<div id="header">
+					<div class="blogTitle">
+						<h1><a href="http://bbangdeveloper.tistory.com/">빵개발연구소</a></h1>
+					</div>
+					<div class="blogMenu">
+						<div class="topWrapBlogMenu"></div>
+						<div class="middleWrapBlogMenu"><ul>		<li class="t_menu_home first">
+			<a href="http://bbangdeveloper.tistory.com/">홈</a>
+		</li>
+				<li class="t_menu_tag">
+			<a href="http://bbangdeveloper.tistory.com/tag">태그</a>
+		</li>
+				<li class="t_menu_medialog">
+			<a href="http://bbangdeveloper.tistory.com/media">미디어로그</a>
+		</li>
+				<li class="t_menu_location">
+			<a href="http://bbangdeveloper.tistory.com/location">위치로그</a>
+		</li>
+				<li class="t_menu_guestbook last">
+			<a href="http://bbangdeveloper.tistory.com/guestbook">방명록</a>
+		</li>
+		</ul></div>
+						<div class="bottomWrapBlogMenu"></div>
+					</div>
+				</div>
+				<!-- header close -->
+				<hr>
+		    <div id="wrapContent">
+					<div id="content">
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+							<div class="entry">
+								<div class="titleWrap">
+									<h2><a href="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91">언리얼 레벨 만들기 팁 - 1</a></h2>
+										<span class="category"><a href="http://bbangdeveloper.tistory.com/category/Unreal">Unreal</a> </span>
+										<span class="date">2017.04.09 14:16</span>
+								</div><!-- titleWrap close -->
+								
+								<div class="article">
+									<div class="tt_article_useless_p_margin"><p><br></p><p>선택 후 Ctrl + End키</p><p>격자에 딱 맞게 스냅핑 됨. =&gt; 가장 가까운 위치로 이동하는 것으로 보임.</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile4.uf.tistory.com/attach/2523844058EA45C31E521C" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/2523844058EA45C31E521C" style="cursor: pointer;max-width:100%;height:auto" width="500" height="202" filename="캡쳐1.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile9.uf.tistory.com/attach/2112174158EA45CF290EFC" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/2112174158EA45CF290EFC" style="cursor: pointer;max-width:100%;height:auto" width="500" height="277" filename="캡처2.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p>선택 후 End키 &nbsp;</p><p>바닥(바로 아래에 있는 지오메트리 위치로 붙여줌)</p><p>단, 절반정도는 겹쳐 있어야 하는것같다.</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile29.uf.tistory.com/attach/227FBE4658EA47060B8EC5" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/227FBE4658EA47060B8EC5" style="cursor: pointer;max-width:100%;height:auto" width="500" height="202" filename="캡처3.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile8.uf.tistory.com/attach/2457B64258EA47113FE906" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/2457B64258EA47113FE906" style="cursor: pointer;max-width:100%;height:auto" width="500" height="177" filename="캡처4.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile10.uf.tistory.com/attach/27492F4058EA471B0C584F" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/27492F4058EA471B0C584F" style="cursor: pointer;max-width:100%;height:auto" width="500" height="173" filename="캡처5.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p>선택 후 Alt 이동 : 복사</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile3.uf.tistory.com/attach/2653D64158EA47641E6244" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/2653D64158EA47641E6244" style="cursor: pointer;max-width:100%;height:auto" width="500" height="290" filename="캡처6.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p>Ctrl로 다중 선택</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile2.uf.tistory.com/attach/2244A33E58EA479616FEAC" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/2244A33E58EA479616FEAC" style="cursor: pointer;max-width:100%;height:auto" width="500" height="231" filename="캡처7.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p>오브젝트를 Shift와 이동 : 뷰 카메라와 같이 이동됨</p><p>Brush Type - Subtractive : 오브젝트 빼기 - 벽에 구멍 생김</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile24.uf.tistory.com/attach/2558843858EA4832341427" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/2558843858EA4832341427" style="cursor: pointer;max-width:100%;height:auto" width="500" height="258" filename="캡처8.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p>선택후 Shift + W : 인접벽들을 모두 선택</p><p>같은 높이의 벽을 다 선택하는것 같다. 벽만 골라서 머터리얼을 적용할수 있다.</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile10.uf.tistory.com/attach/261A563758EA49C7401CB0" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/261A563758EA49C7401CB0" style="cursor: pointer;max-width:100%;height:auto" width="500" height="238" filename="캡처2.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile7.uf.tistory.com/attach/256AB83458EA49D508AAB8" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/256AB83458EA49D508AAB8" style="cursor: pointer;max-width:100%;height:auto" width="500" height="218" filename="캡처3.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p>표면 평면 정렬 : 머터리얼이 끊어지는 느낌 없이 똑바로 이어짐</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile25.uf.tistory.com/attach/2211F14C58EA4BFC02D2CE" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/2211F14C58EA4BFC02D2CE" style="cursor: pointer;max-width:100%;height:auto" width="500" height="368" filename="캡처4.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile2.uf.tistory.com/attach/2171714858EA4C0C1D40D1" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/2171714858EA4C0C1D40D1" style="cursor: pointer;max-width:100%;height:auto" width="500" height="277" filename="캡처5.png" filemime="image/jpeg"></span></span></p><p><br></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile25.uf.tistory.com/attach/247F734D58EA4C190C0A0B" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/247F734D58EA4C190C0A0B" style="cursor: pointer;max-width:100%;height:auto" width="500" height="421" filename="캡처6.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p>표면 프로퍼티 회전 45 : 머터리얼 무늬를 회전시킴</p><p><br></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile30.uf.tistory.com/attach/263D974E58EA4C2815F31F" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/263D974E58EA4C2815F31F" style="cursor: pointer;max-width:100%;height:auto" width="500" height="322" filename="캡처7.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile21.uf.tistory.com/attach/255D264A58EA4C34220CE7" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/255D264A58EA4C34220CE7" style="cursor: pointer;max-width:100%;height:auto" width="500" height="414" filename="캡처8.PNG" filemime="image/jpeg"></span></span></p><p><br></p><p>ctrl + ` (월드, 로컬 좌표계 전환)</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:363px;;height:auto;max-width:100%"><img src="./레벨만들기꿀팁_files/21021B4958EF88721C970E" style="max-width:100%;height:auto" width="363" height="300" filename="20170413_231655.png" filemime="image/jpeg"></span></p><p style="text-align: center; clear: none; float: none;"><br></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:273px;;height:auto;max-width:100%"><img src="./레벨만들기꿀팁_files/240DAB4F58EF887E153A08" style="max-width:100%;height:auto" width="273" height="254" filename="20170413_231701.png" filemime="image/jpeg"></span></p><p><br></p><p>G키로 기즈모 토글</p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile7.uf.tistory.com/attach/24747D4458EF8A3816D30B" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/24747D4458EF8A3816D30B" style="cursor: pointer;max-width:100%;height:auto" width="500" height="387" filename="20170413_232412.png" filemime="image/jpeg"></span></span></p><p><br></p><p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><span data-url="http://cfile7.uf.tistory.com/attach/2558764058EF8A45237D9A" data-lightbox="lightbox"><img src="./레벨만들기꿀팁_files/2558764058EF8A45237D9A" style="cursor: pointer;max-width:100%;height:auto" width="500" height="339" filename="20170413_232425.png" filemime="image/jpeg"></span></span></p><p><br></p><div class="container_postbtn"><div class="postbtn_like"><label data-thumbnail-url="http://cfile4.uf.tistory.com/image/2523844058EA45C31E521C" data-title="언리얼 레벨 만들기 팁 - 1" data-description="선택 후 Ctrl + End키 격자에 딱 맞게 스냅핑 됨. =&gt; 가장 가까운 위치로 이동하는 것으로 보임.   선택 후 End키 바닥(바로 아래에 있는 지오메트리 위치로 붙여줌) 단, 절반정도는 겹쳐 있어야 하는것같다..." data-profile-image="http://cfile4.uf.tistory.com/image/23136A4855865D92123AC0" data-profile-name="빵원군" data-pc-url="http://bbangdeveloper.tistory.com/90" data-blog-title="빵개발연구소"><span class="ico_postbtn ico_sns">sns</span><input type="button" class="inp_btn"></label><span class="ico_bar"></span><label data-entry-id="90"><span class="ico_postbtn ico_report">신고</span><input type="button" class="inp_btn"></label></div></div><div class="another_category another_category_color_gray">
+<h4>'<a href="http://bbangdeveloper.tistory.com/category/Unreal">Unreal</a>' 카테고리의 다른 글</h4>
+<table>
+<tbody><tr>
+<th>
+<a href="http://bbangdeveloper.tistory.com/entry/ToggleDebugCamera?category=683155">ToggleDebugCamera</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2017.04.26</td>
+</tr>
+<tr>
+<th>
+<a href="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%ED%8C%81?category=683155">언리얼 팁</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2017.04.14</td>
+</tr>
+<tr>
+<th>
+<a href="http://bbangdeveloper.tistory.com/entry/%EB%B8%94%EB%A3%A8%ED%94%84%EB%A6%B0%ED%84%B0-2?category=683155">블루프린트 - 2</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2017.04.13</td>
+</tr>
+<tr>
+<th>
+<a href="http://bbangdeveloper.tistory.com/entry/%EB%B8%94%EB%A3%A8%ED%94%84%EB%A6%B0%ED%84%B0?category=683155">블루프린트 - 1</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2017.04.13</td>
+</tr>
+<tr>
+<th>
+<a href="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EB%A0%88%EB%B2%A8-%EB%A7%8C%EB%93%A4%EA%B8%B0-%ED%8C%81-2?category=683155">언리얼 레벨 만들기 팁 - 2</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2017.04.11</td>
+</tr>
+<tr>
+<th>
+<a href="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91?category=683155" class="current">언리얼 레벨 만들기 팁 - 1</a>&nbsp;&nbsp;<span>(0)</span>
+</th>
+<td>
+2017.04.09</td>
+</tr>
+</tbody></table></div></div>
+								</div>
+								<div class="author">
+									<span class="text">Posted by </span>빵원군
+								</div>
+
+								
+									<div class="tagTrail">
+										<span class="tagText">TAG </span> <a href="http://bbangdeveloper.tistory.com/tag/%EC%96%B8%EB%A6%AC%EC%96%BC" rel="tag">언리얼</a>
+									</div>
+								
+
+								<div class="actionTrail">
+										<a href="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91?category=683155#tb" onclick="alert(&#39;이 글에는 트랙백을 달 수 없습니다\t&#39;); return false"><span id="trackbackCount90">트랙백 <span class="cnt">0</span>개</span></a>,
+										<a href="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91?category=683155#rp" onclick="toggleLayerForEntry(&#39;90&#39;, &#39;comment&#39;); return false"><span id="commentCount90">댓글 <span class="cnt">0</span>개가 달렸습니다</span></a>
+								</div>
+
+								<div id="entry90Trackback" style="display:none">
+									<div class="trackback">
+										<h3>트랙백 주소 : </h3>
+										
+									</div><!-- trackback close -->
+								</div>
+
+								<div id="entry90Comment" style="display:none"></div>
+							</div><!-- entry close -->
+						
+
+						
+							<div id="paging">
+								<a href="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EB%A0%88%EB%B2%A8-%EB%A7%8C%EB%93%A4%EA%B8%B0-%ED%8C%81-2?category=683155?category=683155" class="" id="prevPage">이전</a>
+								<span class="numbox">
+									
+									<a href="http://bbangdeveloper.tistory.com/entry/%EC%9E%85%EB%A0%A5%EB%B0%94%EC%9D%B8%EB%94%A9?category=683155?category=683155" class="num"> <span>1</span></a>
+									
+									<a class="num"> <span>···</span></a>
+									
+									<a href="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%ED%8C%81?category=683155?category=683155" class="num"> <span>4</span></a>
+									
+									<a href="http://bbangdeveloper.tistory.com/entry/%EB%B8%94%EB%A3%A8%ED%94%84%EB%A6%B0%ED%84%B0-2?category=683155?category=683155" class="num"> <span>5</span></a>
+									
+									<a href="http://bbangdeveloper.tistory.com/entry/%EB%B8%94%EB%A3%A8%ED%94%84%EB%A6%B0%ED%84%B0?category=683155?category=683155" class="num"> <span>6</span></a>
+									
+									<a href="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EB%A0%88%EB%B2%A8-%EB%A7%8C%EB%93%A4%EA%B8%B0-%ED%8C%81-2?category=683155?category=683155" class="num"> <span>7</span></a>
+									
+									<a class="num"> <span class="selected">8</span></a>
+									
+								</span>
+								<a class="no-more-next" id="nextPage">다음</a>
+							</div>
+						
+					</div><!-- content close -->
+					<hr>
+
+					<div id="sidebar">
+						
+							<!-- 블로그 프로필 모듈 -->
+								<table id="profile" cellpadding="0">
+									<colgroup>
+										<col width="11"><col><col width="11">
+									</colgroup>
+									<tbody><tr>
+										<td class="topL"></td><td class="topC"></td><td class="topR"></td>
+									</tr>
+									<tr>
+										<td class="midL"></td>
+										<td>
+											<div id="blogImage"><img src="./레벨만들기꿀팁_files/23136A4855865D92123AC0" alt="블로그 이미지"></div>
+											<div id="blogDesc">
+												<p></p><p class="userID">by <strong>빵원군</strong></p>
+											</div>
+										</td>
+										<td class="midR"></td>
+									</tr>
+									<tr>
+										<td class="btmL"></td><td class="btmC"></td><td class="btmR"></td>
+									</tr>
+								</tbody></table>
+							
+							<!-- 공지사항 모듈 -->
+								
+									<div id="notice">
+										<ul>
+											
+										</ul>
+									</div>
+								
+							
+							<!-- 관리자 모듈 -->
+								<div id="adminMenu">
+									<ul>
+										<li class="tab_admin">
+											<a href="http://bbangdeveloper.tistory.com/manage"><img src="./레벨만들기꿀팁_files/btn_admin.gif" alt="관리자"></a></li>
+										<li class="tab_write">
+											<a href="http://bbangdeveloper.tistory.com/manage/entry/post"><img src="./레벨만들기꿀팁_files/btn_write.gif" alt="글쓰기"></a></li>
+									</ul>
+								</div>
+							
+							<!-- 검색 모듈 -->
+								<div id="searchBox">
+									
+										<input type="text" name="search" value="" onkeypress="if (event.keyCode == 13) { try{window.location.href=&#39;/search/&#39;+looseURIEncode(document.getElementsByName(&#39;search&#39;)[0].value);document.getElementsByName(&#39;search&#39;)[0].value=&#39;&#39;;return false;}catch(e){} }">
+										<input value="검색" type="button" onclick="try{window.location.href=&#39;/search/&#39;+looseURIEncode(document.getElementsByName(&#39;search&#39;)[0].value);document.getElementsByName(&#39;search&#39;)[0].value=&#39;&#39;;return false;}catch(e){}" class="submit">
+									
+								</div>
+							
+							<!-- 카테고리 모듈 -->
+								<div id="category">
+									<h3>카테고리</h3>
+									<script type="text/javascript">
+	//<![CDATA[
+	var expanded = false;
+	function expandTree() {
+													expandFolder(615694, true);
+											expandFolder(618280, true);
+																																																								}
+
+	function expandFolder(category, expand) {
+		var oLevel1 = document.getElementById("category_" + category);
+		var oImg = oLevel1.getElementsByTagName("img")[0];
+		switch (expand) {
+			case true:
+				oImg.src = "https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/tab_opened.gif";
+				showLayer("category_" + category + "_children");
+				return true;
+			case false:
+				oImg.src = "https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/tab_closed.gif";
+				hideLayer("category_" + category + "_children");
+				return true;
+		}
+		return false;
+	}
+
+	function toggleFolder(category) {
+		var oLevel1 = document.getElementById("category_" + category);
+		var oImg = oLevel1.getElementsByTagName("img")[0];
+		switch (oImg.src.substr(oImg.src.length - 10, 6)) {
+			case "isleaf":
+				return true;
+			case "closed":
+				oImg.src = "https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/tab_opened.gif";
+				tt_showLayer("category_" + category + "_children");
+				expanded = true;
+				return true;
+			case "opened":
+				oImg.src = "https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/tab_closed.gif";
+				tt_hideLayer("category_" + category + "_children");
+				expanded = false;
+				return true;
+		}
+		return false;
+	}
+	var selectedNode = 0;
+	function selectNode(category) {
+
+		try {
+			var root = document.getElementById('treeComponent');
+			var prevSelectedNode= root.getAttribute('currentselectednode');
+			var oLevel = document.getElementById("category_" + selectedNode);
+			var oChild = oLevel.getElementsByTagName("table")[0];
+
+			oChild.style.color = "#000000";
+						oChild.style.backgroundColor = "#transparent"
+			root.setAttribute('currentselectednode',category);
+			document.getElementById('text_'+selectedNode).style.color="#000000";
+
+			var oLevel = document.getElementById("category_" + category);
+			var oChild = oLevel.getElementsByTagName("table")[0];
+			oChild.style.color = "#FFFFFF";
+						oChild.style.backgroundColor = "#00ADEF"
+			document.getElementById('text_'+category).style.color="#FFFFFF";
+
+			selectedNode = category;
+		} catch(e) {
+		}
+	}
+
+	function setTreeStyle(skin) {
+		try {
+			treeNodes = document.getElementsByName("treeNode");
+			for(var i=0; i<treeNodes.length; i++) {
+				if( ('category_'+selectedNode) == (treeNodes[i].getAttribute('id').value) ) {
+					var oLevel = document.getElementById('category_'+i);
+					var oChild = oLevel.getElementsByTagName("table")[0];
+					oChild.style.color ='#'+skin['activeItemColor'];
+					if (skin['activeItemBgColor'] != '' && skin['activeItemBgColor'] != undefined) {
+						oChild.style.backgroundColor ='#'+skin['activeItemBgColor'];
+					} else {
+						oChild.style.backgroundColor ="";
+					}
+				} else{
+					var oLevel = document.getElementById("category_" + i);
+					var oChild = oLevel.getElementsByTagName("table")[0];
+					oChild.style.color ='#'+skin['colorOnTree'];
+					oChild.style.backgroundColor ='#'+skin['bgColorOnTree'];
+					var oLevel = document.getElementById('text_'+i).style.color='#'+skin['colorOnTree'];
+				}
+			}
+		} catch(e) {
+		}
+	}
+	//]]>
+</script>
+
+
+<table id="treeComponent" cellpadding="0" cellspacing="0" style="width: 100%;"><tbody><tr>
+	<td>
+		<table id="category_0" cellpadding="0" cellspacing="0"><tbody><tr>
+			<td class="ib" style="font-size: 1px"><img src="./레벨만들기꿀팁_files/tab_top.gif" width="16" onclick="expandTree()" alt="" style="display:block"></td>
+			<td valign="top" style="font-size:9pt; padding-left:3px">
+				<table id="imp0" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3" onclick="window.location.href=&#39;/category&#39;">
+						<div id="text_0" style=" color: #000000;">분류 전체보기						<span class="c_cnt">(108)</span>						</div>
+					</td>
+				</tr></tbody></table>
+			</td>
+		</tr></tbody></table>
+
+					<table id="category_616899" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;616899&#39;)"><img src="./레벨만들기꿀팁_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/Unity&#39;"><div id="text_616899" style="color: #000000;">Unity <span class="c_cnt">(40)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_616899_children" style="display:none">
+							</div>
+						<table id="category_615694" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;615694&#39;)"><img src="./레벨만들기꿀팁_files/tab_closed.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/C%2B%2B&#39;"><div id="text_615694" style="color: #000000;">C++ <span class="c_cnt">(16)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_615694_children" style="display:none">
+									<table id="category_638861" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./레벨만들기꿀팁_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./레벨만들기꿀팁_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/C%2B%2B/C%2B%2B11%20%EA%B3%B5%EB%B6%80%EB%85%B8%ED%8A%B8&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_638861" style="color: #000000;">C++11 공부노트 <span class="c_cnt">(4)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_679809" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./레벨만들기꿀팁_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./레벨만들기꿀팁_files/tab_treed.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/C%2B%2B/OpenGL&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_679809" style="color: #000000;">OpenGL <span class="c_cnt">(1)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+										<table id="category_687267" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./레벨만들기꿀팁_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./레벨만들기꿀팁_files/tab_treed_end.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/C%2B%2B/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_687267" style="color: #000000;">알고리즘 <span class="c_cnt">(7)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+								</div>
+						<table id="category_618280" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;618280&#39;)"><img src="./레벨만들기꿀팁_files/tab_closed.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/C%23&#39;"><div id="text_618280" style="color: #000000;">C# <span class="c_cnt">(2)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_618280_children" style="display:none">
+									<table id="category_618281" cellpadding="0" cellspacing="0"><tbody><tr>
+							<td style="width:39px; font-size: 1px"><img src="./레벨만들기꿀팁_files/navi_back_active.gif" width="17" height="18" alt=""><img src="./레벨만들기꿀팁_files/tab_treed_end.gif" width="22" alt=""></td>
+							<td>
+								<table onclick="window.location.href=&#39;/category/C%23/JSON.Net&#39;" cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+										<td class="branch3"><div id="text_618281" style="color: #000000;">JSON.Net <span class="c_cnt">(1)</span></div></td>
+									</tr></tbody></table>
+							</td>
+						</tr></tbody></table>
+								</div>
+						<table id="category_585257" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;585257&#39;)"><img src="./레벨만들기꿀팁_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/Blender&#39;"><div id="text_585257" style="color: #000000;">Blender <span class="c_cnt">(12)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_585257_children" style="display:none">
+							</div>
+						<table id="category_592451" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;592451&#39;)"><img src="./레벨만들기꿀팁_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/Mind%20Map&#39;"><div id="text_592451" style="color: #000000;">Mind Map <span class="c_cnt">(1)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_592451_children" style="display:none">
+							</div>
+						<table id="category_604699" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;604699&#39;)"><img src="./레벨만들기꿀팁_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/Etc&#39;"><div id="text_604699" style="color: #000000;">Etc <span class="c_cnt">(6)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_604699_children" style="display:none">
+							</div>
+						<table id="category_606894" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;606894&#39;)"><img src="./레벨만들기꿀팁_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/GIMP&#39;"><div id="text_606894" style="color: #000000;">GIMP <span class="c_cnt">(2)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_606894_children" style="display:none">
+							</div>
+						<table id="category_621214" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;621214&#39;)"><img src="./레벨만들기꿀팁_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/Visual%20Studio%20Code&#39;"><div id="text_621214" style="color: #000000;">Visual Studio Code <span class="c_cnt">(1)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_621214_children" style="display:none">
+							</div>
+						<table id="category_631453" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;631453&#39;)"><img src="./레벨만들기꿀팁_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/Cocos2D-X&#39;"><div id="text_631453" style="color: #000000;">Cocos2D-X <span class="c_cnt">(10)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_631453_children" style="display:none">
+							</div>
+						<table id="category_644146" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;644146&#39;)"><img src="./레벨만들기꿀팁_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/Arduino&#39;"><div id="text_644146" style="color: #000000;">Arduino <span class="c_cnt">(2)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_644146_children" style="display:none">
+							</div>
+						<table id="category_683155" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;683155&#39;)"><img src="./레벨만들기꿀팁_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/Unreal&#39;"><div id="text_683155" style="color: #000000;">Unreal <span class="c_cnt">(8)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_683155_children" style="display:none">
+							</div>
+						<table id="category_683339" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive.gif"><a class="click" onclick="toggleFolder(&#39;683339&#39;)"><img src="./레벨만들기꿀팁_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/Python&#39;"><div id="text_683339" style="color: #000000;">Python <span class="c_cnt">(8)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_683339_children" style="display:none">
+							</div>
+						<table id="category_701138" cellpadding="0" cellspacing="0"><tbody><tr>
+					<td class="ib" style="width:39px; font-size: 1px; background-image: url(&#39;https://t1.daumcdn.net/tistory_admin/blogs/image/tree/base/navi_back_noactive_end.gif"><a class="click" onclick="toggleFolder(&#39;701138&#39;)"><img src="./레벨만들기꿀팁_files/tab_isleaf.gif" width="39" alt=""></a></td>
+					<td>
+						<table cellpadding="0" cellspacing="0" style="background-color: #transparent;"><tbody><tr>
+								<td class="branch3" onclick="window.location.href=&#39;/category/English%20Study&#39;"><div id="text_701138" style="color: #000000;">English Study <span class="c_cnt">(0)</span></div></td>
+							</tr></tbody></table>
+					</td>
+				</tr></tbody></table>
+			<div id="category_701138_children" style="display:none">
+							</div>
+				</td>
+</tr></tbody></table>
+								</div>
+							
+							<!-- 태그목록 모듈 -->
+								<div id="tagbox">
+									<h3>태그목록</h3>
+									<ul>
+										
+											<li><a href="http://bbangdeveloper.tistory.com/tag/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4" class="cloud5"> 오픈소스</a></li>
+										
+											<li><a href="http://bbangdeveloper.tistory.com/tag/%EA%B2%8C%EC%9E%84%EA%B0%9C%EB%B0%9C" class="cloud5"> 게임개발</a></li>
+										
+											<li><a href="http://bbangdeveloper.tistory.com/tag/Unity3D" class="cloud4"> Unity3D</a></li>
+										
+											<li><a href="http://bbangdeveloper.tistory.com/tag/%ED%8C%8C%EC%9D%B4%EC%8D%AC" class="cloud1"> 파이썬</a></li>
+										
+											<li><a href="http://bbangdeveloper.tistory.com/tag/%EC%96%B8%EB%A6%AC%EC%96%BC" class="cloud4"> 언리얼</a></li>
+										
+											<li><a href="http://bbangdeveloper.tistory.com/tag/gimp" class="cloud5"> gimp</a></li>
+										
+									</ul>
+								</div>
+							
+							<!-- 최근 포스트 모듈 -->
+								<div id="recentPost">
+									<h3>최근에 올라온 글 </h3>
+									<ul>
+										
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/entry/FSM-%EC%97%94%EC%A7%84"> FSM 엔진.</a>
+												<span class="cnt"><span id="commentCountOnRecentEntries118"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/entry/%ED%98%84%EA%B4%80-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%EB%AC%B8%EC%A0%9C"> [마이다스챌린지2017예선] 현...</a>
+												<span class="cnt"><span id="commentCountOnRecentEntries117"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/entry/%ED%8A%B8%EB%9F%BC%ED%94%84%EC%B9%B4%EB%93%9C-%EB%AC%B8%EC%A0%9C-TrumpCard"> [마이다스챌린지2017예선] 트...</a>
+												<span class="cnt"><span id="commentCountOnRecentEntries116"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/entry/%EC%86%8C%EC%88%98%ED%95%A9-%EB%AC%B8%EC%A0%9C"> [마이다스챌린지2017예선] 소...</a>
+												<span class="cnt"><span id="commentCountOnRecentEntries115"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/entry/%EB%A7%88%EC%9D%B4%EB%8B%A4%EC%8A%A4%EC%88%98%EC%86%8C%EC%88%98%EA%B5%AC%ED%95%98%EA%B8%B0"> [마이다스챌린지2017예선] 마...</a>
+												<span class="cnt"><span id="commentCountOnRecentEntries114"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/entry/%EB%A7%88%EC%9D%B4%EB%8B%A4%EC%8A%A4%EC%B1%8C%EB%A6%B0%EC%A7%802017-6%EB%B2%88%EB%AC%B8%EC%A0%9C"> [마이다스챌린지2017예선] 세...</a>
+												<span class="cnt"><span id="commentCountOnRecentEntries113"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/entry/algospot-string-split-and-sort"> [알고스팟] string split and...</a>
+												<span class="cnt"><span id="commentCountOnRecentEntries112"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/entry/%EC%95%8C%EA%B3%A0%EC%8A%A4%ED%8C%9F-%EA%B8%B0%EC%B4%88%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4%EB%8B%B5%EC%95%88"> [알고스팟] stl map의 key 찾...</a>
+												<span class="cnt"><span id="commentCountOnRecentEntries111"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/entry/string-to-list-list-to-set"> string to list, list to set.</a>
+												<span class="cnt"><span id="commentCountOnRecentEntries110"></span></span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/entry/%EC%95%BC%EA%B5%AC%EA%B2%8C%EC%9E%84-Lab"> 야구게임 Lab.</a>
+												<span class="cnt"><span id="commentCountOnRecentEntries109"></span></span>
+											</li>
+										
+									</ul>
+								</div>
+							
+							<!-- 최근 댓글 모듈 -->
+								<div id="recentComment">
+									<h3>최근에 달린 댓글</h3>
+									<ul id="recentComments">
+										
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/15#comment11681130">쌩쌩유~ 한큐에 해결했어요~.</a>
+												<span class="info">
+													<span class="name">쌩유</span>
+													<span class="date">2017</span>
+												</span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/52#comment11541127">감사합니다 :).</a>
+												<span class="info">
+													<span class="name">지나가던사람</span>
+													<span class="date">2016</span>
+												</span>
+											</li>
+										
+									</ul>
+								</div>
+							
+							<!-- 최근 트랙백 모듈 -->
+								<div id="recentTrackback">
+									<h3>최근에 받은 트랙백</h3>
+									<ul>
+										
+									</ul>
+								</div>
+							
+							<!-- 최근 보관함 모듈 -->
+								<div id="archive">
+									<h3>글 보관함</h3>
+									<ul>
+										
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/archive/201706">2017/06 </a>
+												<span class="cnt">(1)</span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/archive/201705">2017/05 </a>
+												<span class="cnt">(14)</span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/archive/201704">2017/04 </a>
+												<span class="cnt">(14)</span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/archive/201703">2017/03 </a>
+												<span class="cnt">(4)</span>
+											</li>
+										
+
+											<li>
+												<a href="http://bbangdeveloper.tistory.com/archive/201608">2016/08 </a>
+												<span class="cnt">(2)</span>
+											</li>
+										
+									</ul>
+								</div>
+							
+							<!-- 달력 모듈 -->
+								<div id="calendar">
+									<h3>달력</h3>
+											<table class="tt-calendar" cellpadding="0" cellspacing="1" style="width: 100%; table-layout: fixed">
+			<caption class="cal_month">
+				<a href="http://bbangdeveloper.tistory.com/archive/201712" title="1개월 앞의 달력을 보여줍니다.">«</a>
+				&nbsp;
+				<a href="http://bbangdeveloper.tistory.com/archive/201801" title="현재 달의 달력을 보여줍니다.">2018/01</a>
+				&nbsp;
+				<a href="http://bbangdeveloper.tistory.com/archive/201802" title="1개월 뒤의 달력을 보여줍니다.">»</a>
+			</caption>
+			<thead>
+			<tr>
+				<th class="cal_week2">일</th>
+				<th class="cal_week1">월</th>
+				<th class="cal_week1">화</th>
+				<th class="cal_week1">수</th>
+				<th class="cal_week1">목</th>
+				<th class="cal_week1">금</th>
+				<th class="cal_week1">토</th>
+			</tr>
+			</thead>
+			<tbody>
+					<tr class="cal_week">
+			<td class="cal_day1">&nbsp;</td>
+			<td class=" cal_day cal_day3">1</td>
+			<td class=" cal_day cal_day3">2</td>
+			<td class=" cal_day cal_day3">3</td>
+			<td class=" cal_day cal_day3">4</td>
+			<td class=" cal_day cal_day3">5</td>
+			<td class=" cal_day cal_day3">6</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">7</td>
+			<td class=" cal_day cal_day3">8</td>
+			<td class=" cal_day cal_day3">9</td>
+			<td class=" cal_day cal_day3">10</td>
+			<td class=" cal_day cal_day3">11</td>
+			<td class=" cal_day cal_day3">12</td>
+			<td class=" cal_day cal_day3">13</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">14</td>
+			<td class=" cal_day cal_day3">15</td>
+			<td class=" cal_day cal_day3">16</td>
+			<td class=" cal_day cal_day3">17</td>
+			<td class=" cal_day cal_day3">18</td>
+			<td class=" cal_day cal_day3">19</td>
+			<td class=" cal_day cal_day3">20</td>
+		</tr>
+		<tr class="cal_week">
+			<td class=" cal_day cal_day_sunday cal_day3">21</td>
+			<td class=" cal_day cal_day3">22</td>
+			<td class=" cal_day cal_day3">23</td>
+			<td class=" cal_day cal_day3">24</td>
+			<td class=" cal_day cal_day3">25</td>
+			<td class=" cal_day cal_day3">26</td>
+			<td class=" cal_day cal_day3">27</td>
+		</tr>
+		<tr class="cal_week cal_current_week">
+			<td class=" cal_day cal_day_sunday cal_day3">28</td>
+			<td class=" cal_day cal_day4">29</td>
+			<td class=" cal_day cal_day3">30</td>
+			<td class=" cal_day cal_day3">31</td>
+			<td class="cal_day2">&nbsp;</td>
+			<td class="cal_day2">&nbsp;</td>
+			<td class="cal_day2">&nbsp;</td>
+		</tr>
+			</tbody>
+		</table>
+		
+								</div>
+							
+							<!-- 링크 모듈 -->
+								<div id="link">
+									<h3>링크</h3>
+									<ul>
+										
+									</ul>
+								</div>
+							
+							<!-- 카운터 모듈 -->
+								<div id="counter">
+									<dl>
+										<dt>Total</dt><dd class="total">25,647</dd>
+										<dt class="today">Today</dt><dd>1</dd>
+										<dt class="yesterday">Yesterday</dt><dd>15</dd>
+									</dl>
+								</div>
+							
+
+						
+							<!-- 배너 모듈 - 티스토리 -->
+								<div id="adTistory">
+									<a href="http://www.tistory.com/"><img src="./레벨만들기꿀팁_files/tistoryBanner01.png" alt="tistory"></a>
+									<div class="tistoryJoin"><a href="http://www.tistory.com/join">티스토리 가입하기!</a></div>
+								</div>
+							
+							<!-- RSS 링크 -->
+								<div id="btnRSS">
+									<a href="http://bbangdeveloper.tistory.com/rss" onclick="window.open(this.href); return false"><img src="./레벨만들기꿀팁_files/btn_rss.gif" alt="rss"></a>
+								</div>
+							
+					</div><!-- sidebar close -->
+					<div class="clear"></div>
+					<hr>
+	      </div><!-- wrapContent close -->
+			</div><!-- container close -->
+		</div>
+	</div>
+	<div id="wrapBtm">
+		<div class="bCenter"></div><div class="bRight"></div>
+	</div>
+	<div id="footer">
+		<div class="footMenu">
+			<a href="http://bbangdeveloper.tistory.com/location">지역로그</a> :
+			<a href="http://bbangdeveloper.tistory.com/tag">태그로그</a> :
+		    <a href="http://bbangdeveloper.tistory.com/media">미디어로그</a> :
+			<a href="http://bbangdeveloper.tistory.com/guestbook">방명록</a> :
+			<a href="http://bbangdeveloper.tistory.com/manage">관리자</a> :
+			<a href="http://bbangdeveloper.tistory.com/manage/entry/post">글쓰기</a>
+		</div>
+		<div class="copyright">
+			<a href="http://bbangdeveloper.tistory.com/"> 빵원군</a>'s Blog is powered by <a href="http://daum.net/" onclick="window.open(this.href); return false">Daum</a>  / Designed by <a href="http://www.tistory.com/">Tistory</a>
+		</div>
+	</div>
+
+<script src="./레벨만들기꿀팁_files/search_dragselection.min.20170308053514.js.다운로드"></script>
+<script>
+    (function($) {
+        $("body").bind('copy', function (e) {
+
+            var url = document.location.href,
+                decodedUrl = decodeURI(url),
+                selection = window.getSelection();
+
+
+            if (typeof window.getSelection == "undefined") {//IE8 or earlier...
+                event.preventDefault();
+
+                var pagelink = '\n\n 출처: ' + decodedUrl,
+                    copytext = selection + pagelink;
+
+                if (window.clipboardData) {
+                    window.clipboardData.setData('Text', copytext);
+                }
+                return;
+            }
+            var body_element = document.getElementsByTagName('body')[0];
+
+            //if the selection is short let's not annoy our users
+            if (("" + selection).length < 30) return;
+
+            //create a div outside of the visible area
+            var newdiv = document.createElement('div');
+            newdiv.style.position = 'absolute';
+            newdiv.style.left = '-99999px';
+            body_element.appendChild(newdiv);
+            newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+            //we need a <pre> tag workaround
+            //otherwise the text inside "pre" loses all the line breaks!
+            if (selection.getRangeAt(0).commonAncestorContainer.nodeName == "PRE") {
+                newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+            }
+
+            newdiv.innerHTML += '<br /><br />출처: <a href="' + url + '">' + decodedUrl + '</a> [빵개발연구소]';
+
+            selection.selectAllChildren(newdiv);
+            window.setTimeout(function () {
+                body_element.removeChild(newdiv);
+            }, 200);
+
+        });
+    })(tjQuery);
+</script><script src="./레벨만들기꿀팁_files/lightbox.min.js.다운로드"></script><div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91?category=683155"></a><a class="lb-next" href="http://bbangdeveloper.tistory.com/entry/%EC%96%B8%EB%A6%AC%EC%96%BC-%EA%B3%B5%EB%B6%80%EC%A4%91?category=683155"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div>
+	<script>
+	    lightbox.option({
+			"fadeDuration": 200,
+		    "resizeDuration": 200,
+		    "wrapAround": false,
+			"albumLabel": "%1 / %2",
+			"fitImagesInViewport":true ,
+			"stopEvent": false
+	    })
+	</script><script type="text/javascript">
+var _tiq = 'undefined' !== typeof _tiq ? _tiq : [];
+_tiq.push(['__setConfig', {enableScroll:true, enableClick:true, enableButton:true}]);
+_tiq.push(["__setParam", "svcdomain", "user.tistory.com"]);
+(function(d) {
+	var se = d.createElement('script'); se.type = 'text/javascript'; se.async = true;
+	se.src = location.protocol + '//m2.daumcdn.net/tiara/js/td.min.js';
+	var s = d.getElementsByTagName('head')[0]; s.appendChild(se);
+})(document);
+_tiq.push(['__setParam', 'param_ex', JSON.stringify({"userId":"343177","blogId":"1548961","entryId":"90"})]);
+_tiq.push(['__trackPageview']);
+_tiq.push(['__content', 't_content', {
+'c_id':'1548961_90', 
+'c_title':'언리얼 레벨 만들기 팁 - 1', 
+'type':'article', 
+'author':'', 
+'author_id':'343177', 
+'cp':'빵개발연구소', 
+'cp_id':'1548961', 
+'regdata':'2017-04-09 14:16:35', 
+'plink':'http://bbangdeveloper.tistory.com/90', 
+'media':'pcweb', 
+}]);
+var addEvent = function (evt, fn) { window.addEventListener ? window.addEventListener(evt, fn, false) : window.attachEvent('on' + evt, fn); };
+var removeEvent = function(evt, fn) { window.removeEventListener ? window.removeEventListener(evt, fn, false) : window.detachEvent('on' + evt, fn);};
+var ua = navigator.userAgent.toLowerCase(); var isIOS = /iP[ao]d|iPhone/i.test(ua);
+var contentExStat = function() {
+		_tiq.push(['__content', 't_content_ex', {
+			'data_type':'usage'
+, 'meta': {
+'c_id':'1548961_90', 
+'c_title':'언리얼 레벨 만들기 팁 - 1', 
+'type':'article', 
+'author':'', 
+'author_id':'343177', 
+'cp':'빵개발연구소', 
+'cp_id':'1548961', 
+'regdata':'2017-04-09 14:16:35', 
+'plink':'http://bbangdeveloper.tistory.com/90', 
+'media':'pcweb', 
+}
+}]);
+		removeEvent(isIOS ? 'pagehide' : 'beforeunload', contentExStat);
+};
+addEvent(isIOS ? 'pagehide' : 'beforeunload', contentExStat);
+</script>
+<script type="text/javascript">window.roosevelt_params_queue = window.roosevelt_params_queue || []; window.roosevelt_params_queue.push({channel_id: "dk", channel_label: 'tistory'});</script>
+<script type="text/javascript" src="./레벨만들기꿀팁_files/roosevelt_dk_bt.js.다운로드" async=""></script><script type="text/javascript">if(window.console!=undefined){setTimeout(console.log.bind(console,"%cTISTORY","font:8em Arial;color:#EC6521;font-weight:bold"),0);setTimeout(console.log.bind(console,"%c  나를 표현하는 블로그","font:2em sans-serif;color:#333;"),0);}</script><iframe style="position:absolute;width:1px;height:1px;left:-100px;top:-100px" src="./레벨만들기꿀팁_files/api.html" id="editEntry"></iframe><div id="layer_sns" class="layer_sns">
+        <div class="bg_layer"></div>
+        <ul class="list_sns">
+            <li><a class="ico_sns ico_fb" data-service="facebook">페이스북 공유하기</a></li>
+            <li style="display: none;"><a class="ico_sns ico_kt" data-service="kakaotalk">카카오톡 공유하기</a></li>
+            <li><a class="ico_sns ico_ks" data-service="kakaostory">카카오스토리 공유하기</a></li>
+            <li><a class="ico_sns ico_tw" data-service="twitter">트위터 공유하기</a></li>
+        </ul>
+        <button type="button" class="btn_close"><span class="ico_sns ico_close">sns공유하기 레이어 닫기</span></button>
+    </div>
+</body></html>

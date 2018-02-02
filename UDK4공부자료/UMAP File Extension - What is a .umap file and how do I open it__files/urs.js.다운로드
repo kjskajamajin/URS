@@ -1,0 +1,243 @@
+/*!
+ * baguetteBox.js
+ * @author  feimosi
+ * @version 1.3.2
+ * @url https://github.com/feimosi/baguetteBox.js
+ */
+var baguetteBox=function(){function e(e,n){M.transforms=g(),M.svg=p(),t(),X=document.querySelectorAll(e),[].forEach.call(X,function(e){n&&n.filter&&(D=n.filter);var t=e.getElementsByTagName("a");t=[].filter.call(t,function(e){return D.test(e.href)});var i=q.length;q.push(t),q[i].options=n,[].forEach.call(q[i],function(e,t){v(e,"click",function(e){e.preventDefault?e.preventDefault():e.returnValue=!1,o(i),r(t)})})})}function t(){return(w=b("baguetteBox-overlay"))?(C=b("baguetteBox-slider"),E=b("previous-button"),T=b("next-button"),N=b("close-button"),void 0):(w=k("div"),w.id="baguetteBox-overlay",document.getElementsByTagName("body")[0].appendChild(w),C=k("div"),C.id="baguetteBox-slider",w.appendChild(C),E=k("button"),E.id="previous-button",E.innerHTML=M.svg?B:"<",w.appendChild(E),T=k("button"),T.id="next-button",T.innerHTML=M.svg?I:">",w.appendChild(T),N=k("button"),N.id="close-button",N.innerHTML=M.svg?L:"X",w.appendChild(N),E.className=T.className=N.className="baguetteBox-button",i(),void 0)}function n(e){switch(e.keyCode){case 37:d();break;case 39:c();break;case 27:s()}}function i(){v(w,"click",function(e){e.target&&"IMG"!==e.target.nodeName&&"FIGCAPTION"!==e.target.nodeName&&s()}),v(E,"click",function(e){e.stopPropagation?e.stopPropagation():e.cancelBubble=!0,d()}),v(T,"click",function(e){e.stopPropagation?e.stopPropagation():e.cancelBubble=!0,c()}),v(N,"click",function(e){e.stopPropagation?e.stopPropagation():e.cancelBubble=!0,s()}),v(w,"touchstart",function(e){x=e.changedTouches[0].pageX}),v(w,"touchmove",function(e){j||(e.preventDefault?e.preventDefault():e.returnValue=!1,touch=e.touches[0]||e.changedTouches[0],touch.pageX-x>40?(j=!0,d()):touch.pageX-x<-40&&(j=!0,c()))}),v(w,"touchend",function(){j=!1})}function o(e){if(A!==e){for(A=e,a(q[e].options);C.firstChild;)C.removeChild(C.firstChild);G.length=0;for(var t,n=0;n<q[e].length;n++)t=k("div"),t.className="full-image",t.id="baguette-img-"+n,G.push(t),C.appendChild(G[n])}}function a(e){e||(e={});for(var t in H)P[t]=H[t],"undefined"!=typeof e[t]&&(P[t]=e[t]);C.style.transition=C.style.webkitTransition="fadeIn"===P.animation?"opacity .4s ease":"slideIn"===P.animation?"":"none","auto"===P.buttons&&("ontouchstart"in window||1===q[A].length)&&(P.buttons=!1),E.style.display=T.style.display=P.buttons?"":"none"}function r(e){"block"!==w.style.display&&(v(document,"keydown",n),S=e,l(S,function(){h(S),m(S)}),f(),w.style.display="block",setTimeout(function(){w.className="visible",P.afterShow&&P.afterShow()},50),P.onChange&&P.onChange(S,G.length))}function s(){"none"!==w.style.display&&(y(document,"keydown",n),w.className="",setTimeout(function(){w.style.display="none",P.afterHide&&P.afterHide()},500))}function l(e,t){var n=G[e];if("undefined"!=typeof n){if(n.getElementsByTagName("img")[0])return t&&t(),void 0;imageElement=q[A][e],imageCaption="function"==typeof P.captions?P.captions.call(q[A],imageElement):imageElement.getAttribute("data-caption")||imageElement.title,imageSrc=u(imageElement);var i=k("figure"),o=k("img"),a=k("figcaption");n.appendChild(i),i.innerHTML='<div class="spinner"><div class="double-bounce1"></div><div class="double-bounce2"></div></div>',o.onload=function(){var n=document.querySelector("#baguette-img-"+e+" .spinner");i.removeChild(n),!P.async&&t&&t()},o.setAttribute("src",imageSrc),i.appendChild(o),P.captions&&imageCaption&&(a.innerHTML=imageCaption,i.appendChild(a)),P.async&&t&&t()}}function u(e){var t=imageElement.href;if(e.dataset){var n=[];for(var i in e.dataset)"at-"!==i.substring(0,3)||isNaN(i.substring(3))||(n[i.replace("at-","")]=e.dataset[i]);keys=Object.keys(n).sort(function(e,t){return parseInt(e)<parseInt(t)?-1:1});for(var o=window.innerWidth*window.devicePixelRatio,a=0;a<keys.length-1&&keys[a]<o;)a++;t=n[keys[a]]||t}return t}function c(){var e;return S<=G.length-2?(S++,f(),h(S),e=!0):P.animation&&(C.className="bounce-from-right",setTimeout(function(){C.className=""},400),e=!1),P.onChange&&P.onChange(S,G.length),e}function d(){var e;return S>=1?(S--,f(),m(S),e=!0):P.animation&&(C.className="bounce-from-left",setTimeout(function(){C.className=""},400),e=!1),P.onChange&&P.onChange(S,G.length),e}function f(){var e=100*-S+"%";"fadeIn"===P.animation?(C.style.opacity=0,setTimeout(function(){M.transforms?C.style.transform=C.style.webkitTransform="translate3d("+e+",0,0)":C.style.left=e,C.style.opacity=1},400)):M.transforms?C.style.transform=C.style.webkitTransform="translate3d("+e+",0,0)":C.style.left=e}function g(){var e=k("div");return"undefined"!=typeof e.style.perspective||"undefined"!=typeof e.style.webkitPerspective}function p(){var e=k("div");return e.innerHTML="<svg/>","http://www.w3.org/2000/svg"==(e.firstChild&&e.firstChild.namespaceURI)}function h(e){e-S>=P.preload||l(e+1,function(){h(e+1)})}function m(e){S-e>=P.preload||l(e-1,function(){m(e-1)})}function v(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent("on"+t,n)}function y(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent("on"+t,n)}function b(e){return document.getElementById(e)}function k(e){return document.createElement(e)}var w,C,E,T,N,x,B='<svg width="44" height="60"><polyline points="30 10 10 30 30 50" stroke="rgba(255,255,255,0.5)" stroke-width="4"stroke-linecap="butt" fill="none" stroke-linejoin="round"/></svg>',I='<svg width="44" height="60"><polyline points="14 10 34 30 14 50" stroke="rgba(255,255,255,0.5)" stroke-width="4"stroke-linecap="butt" fill="none" stroke-linejoin="round"/></svg>',L='<svg width="30" height="30"><g stroke="rgb(160, 160, 160)" stroke-width="4"><line x1="5" y1="5" x2="25" y2="25"/><line x1="5" y1="25" x2="25" y2="5"/></g></svg>',P={},H={captions:!0,buttons:"auto",async:!1,preload:2,animation:"slideIn",afterShow:null,afterHide:null,onChange:null},M={},S=0,A=-1,j=!1,D=/.+\.(gif|jpe?g|png|webp)/i,X=[],q=[],G=[];return[].forEach||(Array.prototype.forEach=function(e,t){for(var n=0;n<this.length;n++)e.call(t,this[n],n,this)}),[].filter||(Array.prototype.filter=function(e,t,n,i,o){for(n=this,i=[],o=0;o<n.length;o++)e.call(t,n[o],o,n)&&i.push(n[o]);return i}),{run:e,showNext:c,showPrevious:d}}();
+
+baguetteBox.run('.baguetteBox', { captions: function(element) { return element.getElementsByTagName('img')[0].alt; } });
+
+/* FileInfo User Rating System
+ * © 2015 Sharpened Productions */
+
+$(document).ready(function() {
+    loadRatings();
+    $(".hoverStar").hover(function() {
+        var b = $(this).data("termid");
+        var a = $(this).data("starnum");
+        hoverStarOn(b, a)
+    }, function() {
+        var b = $(this).data("termid");
+        var a = $(this).data("starnum");
+        hoverStarOff(b)
+    });
+    $(".userStar").click(function() {
+        var b = $(this).data("starnum"),
+            e = $(this).data("termid");
+        var j = "#ratingStar1" + e,
+            h = "#ratingStar2" + e,
+            f = "#ratingStar3" + e,
+            d = "#ratingStar4" + e,
+            c = "#ratingStar5" + e,
+            a = "#voteWord" + e,
+            g = "#voteThanks" + e,
+            l = "#voteCount" + e,
+            k = "#avgVote" + e,
+            i = TYPE;
+        $(a).html(" Votes");
+        $(".voteStar").hide();
+        $(g).show();
+        $(g).text("Thanks for voting!");
+        if (b == 5) {
+            $(j).removeClass("fullStar").addClass("userStar");
+            $(h + "," + f + "," + d + "," + c).removeClass("fullStar halfStar emptyStar").addClass("userStar")
+        } else if (b == 4) {
+            $(j).removeClass("fullStar").addClass("userStar");
+            $(h + "," + f + "," + d).removeClass("fullStar halfStar emptyStar").addClass("userStar");
+            $(c).removeClass("fullStar halfStar userStar").addClass("emptyStar")
+        } else if (b == 3) {
+            $(j).removeClass("fullStar").addClass("userStar");
+            $(h + "," + f).removeClass("fullStar halfStar emptyStar").addClass("userStar");
+            $(d + "," + c).removeClass("fullStar halfStar userStar").addClass("emptyStar")
+        } else if (b == 2) {
+            $(j).removeClass("fullStar").addClass("userStar");
+            $(h).removeClass("fullStar halfStar emptyStar").addClass("userStar");
+            $(f + "," + d + "," + c).removeClass("fullStar halfStar userStar").addClass("emptyStar")
+        } else {
+            $(j).removeClass("fullStar").addClass("userStar");
+            $(h + "," + f + "," + d + "," + c).removeClass("fullStar halfStar userStar").addClass("emptyStar")
+        }
+        $(".ratingMsg").hide();
+        $.ajax({
+            type: "POST",
+            url: "/urs",
+            data: {
+                actionType: "vote",
+                termType: i,
+                voteRating: b,
+                termID: e
+            },
+            success: function(o) {
+                var n = $.parseJSON(o);
+                var m = n[0];
+                var p = n[1];
+                $(l).html(p);
+                if (i == "e") {
+                    $(k).html(m)
+                } else {
+                    $(k).html("<b>" + m + "</b> / 5")
+                }
+            }
+        })
+    })
+});
+
+function loadRatings() {
+    var a = new Date().getTime();
+    if (TYPE == "e") {
+        $.post("/urs", {
+            extensions: extArr,
+            termType: TYPE,
+            actionType: "load",
+            safariFix: a
+        }, function(j) {
+            var r = $.parseJSON(j);
+            var q = extArr.length;
+            for (var k = 0; k < q; k++) {
+                var o = extArr[k];
+                var f = r[o]["Vote"];
+                if (f != 0) {
+                    var b = parseFloat(r[o]["Avg"]).toFixed(1);
+                    var c = r[o]["Votes"];
+                    var m = "#ratingStar1" + o;
+                    var l = "#ratingStar2" + o;
+                    var h = "#ratingStar3" + o;
+                    var g = "#ratingStar4" + o;
+                    var e = "#ratingStar5" + o;
+                    var p = "#avgVote" + o;
+                    var d = "#voteCount" + o;
+                    var n = "#voteWord" + o;
+                    $(n).html(" Votes");
+                    $(p).html(b);
+                    $(d).html(c);
+                    if (f == 5) {
+                        $(m).removeClass("fullStar").addClass("userStar");
+                        $(l + "," + h + "," + g + "," + e).removeClass("fullStar halfStar emptyStar").addClass("userStar")
+                    } else if (f == 4) {
+                        $(m).removeClass("fullStar").addClass("userStar");
+                        $(l + "," + h + "," + g).removeClass("fullStar halfStar emptyStar").addClass("userStar");
+                        $(e).removeClass("fullStar halfStar emptyStar").addClass("emptyStar")
+                    } else if (f == 3) {
+                        $(m).removeClass("fullStar").addClass("userStar");
+                        $(l + "," + h).removeClass("fullStar halfStar emptyStar").addClass("userStar");
+                        $(g + "," + e).removeClass("fullStar halfStar emptyStar").addClass("emptyStar")
+                    } else if (f == 2) {
+                        $(m).removeClass("fullStar").addClass("userStar");
+                        $(l).removeClass("fullStar halfStar emptyStar").addClass("userStar");
+                        $(h + "," + g + "," + e).removeClass("fullStar halfStar emptyStar").addClass("emptyStar")
+                    } else {
+                        $(m).removeClass("fullStar").addClass("userStar");
+                        $(l + "," + h + "," + g + "," + e).removeClass("fullStar halfStar emptyStar").addClass("emptyStar")
+                    }
+                }
+            }
+        })
+    } else {
+        $.post("/urs", {
+            softID: SOFTID,
+            termType: TYPE,
+            actionType: "load",
+            safariFix: a
+        }, function(h) {
+            var n = $.parseJSON(h);
+            var f = n.Vote;
+            if (f != 0) {
+                var b = parseFloat(n.Avg).toFixed(1);
+                var c = n.Votes;
+                var k = "#ratingStar1" + SOFTID;
+                var j = "#ratingStar2" + SOFTID;
+                var i = "#ratingStar3" + SOFTID;
+                var g = "#ratingStar4" + SOFTID;
+                var e = "#ratingStar5" + SOFTID;
+                var m = "#avgVote" + SOFTID;
+                var d = "#voteCount" + SOFTID;
+                var l = "#voteWord" + SOFTID;
+                $(l).html(" Votes");
+                $(m).html("<b>" + b + "</b> / 5");
+                $(d).html(c);
+                if (f == 5) {
+                    $(k).removeClass("fullStar").addClass("userStar");
+                    $(j + "," + i + "," + g + "," + e).removeClass("fullStar halfStar emptyStar").addClass("userStar")
+                } else if (f == 4) {
+                    $(k).removeClass("fullStar").addClass("userStar");
+                    $(j + "," + i + "," + g).removeClass("fullStar halfStar emptyStar").addClass("userStar");
+                    $(e).removeClass("fullStar halfStar emptyStar").addClass("emptyStar")
+                } else if (f == 3) {
+                    $(k).removeClass("fullStar").addClass("userStar");
+                    $(j + "," + i).removeClass("fullStar halfStar emptyStar").addClass("userStar");
+                    $(g + "," + e).removeClass("fullStar halfStar emptyStar").addClass("emptyStar")
+                } else if (f == 2) {
+                    $(k).removeClass("fullStar").addClass("userStar");
+                    $(j).removeClass("fullStar halfStar emptyStar").addClass("userStar");
+                    $(i + "," + g + "," + e).removeClass("fullStar halfStar emptyStar").addClass("emptyStar")
+                } else {
+                    $(k).removeClass("fullStar").addClass("userStar");
+                    $(j + "," + i + "," + g + "," + e).removeClass("fullStar halfStar emptyStar").addClass("emptyStar")
+                }
+            }
+        })
+    }
+}
+
+function hoverStarOn(b, c) {
+    var a = ".greyStar" + b;
+    var h = ".ratingStar" + b;
+    var j = ".userStar" + b;
+    var i = "#userStar1" + b;
+    var g = "#userStar2" + b;
+    var f = "#userStar3" + b;
+    var e = "#userStar4" + b;
+    var d = "#userStar5" + b;
+    var o = "#rateMsg" + b;
+    $(a).show();
+    $(h).hide();
+    $(j).hide();
+    $(o).show();
+    if (c == 1) {
+        if (TYPE == "e") {
+            $(o).text("Rare");
+        } else {
+            $(o).text("Poor");
+        }
+        $(i).show()
+    } else if (c == 2) {
+        if (TYPE == "e") {
+            $(o).text("Uncommon");
+        } else {
+            $(o).text("Fair");
+        }
+        $(i + "," + g).show()
+    } else if (c == 3) {
+        if (TYPE == "e") {
+            $(o).text("Average");
+        } else {
+            $(o).text("Average");
+        }
+        $(i + "," + g + "," + f).show()
+    } else if (c == 4) {
+        if (TYPE == "e") {
+            $(o).text("Common");
+        } else {
+            $(o).text("Good");
+        }
+        $(i + "," + g + "," + f + "," + e).show()
+    } else {
+        if (TYPE == "e") {
+            $(o).text("Very Common");
+        } else {
+            $(o).text("Great");
+        }
+        $(i + "," + g + "," + f + "," + e + "," + d).show()
+    }
+}
+
+function hoverStarOff(a) {
+    var c = ".greyStar" + a;
+    var d = ".ratingStar" + a;
+    var b = ".userStar" + a;
+    $(c).hide();
+    $(b).hide();
+    $(d).show();
+    $(".ratingMsg").hide()
+};
