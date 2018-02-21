@@ -1,0 +1,1348 @@
+﻿Log file open, 02/18/18 00:13:00
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: URS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-828304023) SRandInit(-828304023).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.278129
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.17-15.13.02:689][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.17-15.13.02:689][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.17-15.13.02:720][  0]LogInit: Computer: DESKTOP-PDO9PMJ
+[2018.02.17-15.13.02:720][  0]LogInit: User: 양형
+[2018.02.17-15.13.02:720][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.17-15.13.02:720][  0]LogInit: High frequency timer resolution =2.437498 MHz
+[2018.02.17-15.13.02:720][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.17-15.13.02:720][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.17-15.13.02:720][  0]LogMemory: Process Physical Memory: 273.92 MB used, 273.92 MB peak
+[2018.02.17-15.13.02:720][  0]LogMemory: Process Virtual Memory: 275.72 MB used, 275.72 MB peak
+[2018.02.17-15.13.02:720][  0]LogMemory: Physical Memory: 5076.09 MB used,  2982.36 MB free, 8058.46 MB total
+[2018.02.17-15.13.02:720][  0]LogMemory: Virtual Memory: 682.24 MB used,  2982.36 MB free, 134217728.00 MB total
+[2018.02.17-15.13.03:097][  0]LogInit: Using OS detected language (ko-KR).
+[2018.02.17-15.13.03:097][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.02.17-15.13.03:173][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.02.17-15.13.03:445][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.17-15.13.06:430][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.17-15.13.06:517][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.02.17-15.13.06:517][  0]LogD3D11RHI:       4029/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.17-15.13.06:530][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.02.17-15.13.06:530][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.17-15.13.06:533][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.17-15.13.06:533][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.17-15.13.06:533][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.17-15.13.06:541][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.17-15.13.06:541][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.02.17-15.13.06:541][  0]LogWindows: EnumDisplayDevices:
+[2018.02.17-15.13.06:542][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.02.17-15.13.06:542][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.17-15.13.06:543][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.17-15.13.06:543][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.02.17-15.13.06:543][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.17-15.13.06:543][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.02.17-15.13.06:543][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.17-15.13.06:543][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.17-15.13.06:543][  0]LogRHI: Texture pool is 2820 MB (70% of 4029 MB)
+[2018.02.17-15.13.06:580][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.17-15.13.06:643][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.17-15.13.06:645][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Intermediate/Shaders/WorkingDirectory/18672/).
+[2018.02.17-15.13.06:645][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/양형/AppData/Local/Temp/UnrealShaderWorkingDir/F6D728D840E44942F17480A0BA4A3F79/'.
+[2018.02.17-15.13.06:645][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.17-15.13.09:010][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.17-15.13.09:102][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.17-15.13.09:203][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.17-15.13.09:300][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.17-15.13.09:401][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.17-15.13.09:505][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.17-15.13.09:608][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.17-15.13.09:705][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.17-15.13.09:801][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.17-15.13.09:903][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.17-15.13.10:004][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.17-15.13.10:098][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.17-15.13.10:207][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.17-15.13.10:306][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.17-15.13.10:500][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.17-15.13.10:500][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.17-15.13.10:610][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.17-15.13.10:694][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.17-15.13.10:854][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.17-15.13.10:906][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.17-15.13.11:010][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.17-15.13.11:114][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.17-15.13.11:211][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.17-15.13.11:313][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.17-15.13.11:313][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.17-15.13.12:258][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.17-15.13.12:668][  0]LogDerivedDataCache: Loaded boot cache 0.41s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.17-15.13.12:668][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.17-15.13.12:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.17-15.13.12:668][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.17-15.13.12:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.17-15.13.12:668][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.17-15.13.12:690][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.17-15.13.12:702][  0]LogDerivedDataCache: Using Local data cache path C:/Users/양형/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.17-15.13.12:714][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.17-15.13.12:715][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.17-15.13.12:725][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.17-15.13.12:725][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.17-15.13.13:837][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.17-15.13.14:442][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.17-15.13.14:528][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.17-15.13.14:528][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.17-15.13.14:528][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.17-15.13.14:528][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.17-15.13.14:528][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.17-15.13.14:573][  0]LogNetVersion: URS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1777970781)
+[2018.02.17-15.13.14:821][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2018.02.17-15.13.15:624][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.096321 seconds
+[2018.02.17-15.13.15:630][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.17-15.13.15:630][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.17-15.13.15:630][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.17-15.13.15:732][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.17-15.13.23:472][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.17-15.13.23:539][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.17-15.13.24:873][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.17-15.13.25:660][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.17-15.13.25:660][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.17-15.13.25:768][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.17-15.13.25:867][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.17-15.13.27:491][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.17-15.13.27:999][  0]LogOcInput: OculusInput pre-init called
+[2018.02.17-15.13.28:565][  0]LogEngine: Initializing Engine...
+[2018.02.17-15.13.28:568][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.17-15.13.28:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.17-15.13.28:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.17-15.13.29:104][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.17-15.13.29:144][  0]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.17-15.13.29:268][  0]LogInit: FAudioDevice initialized.
+[2018.02.17-15.13.29:363][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.17-15.13.29:380][  0]LogInit: Texture streaming: Enabled
+[2018.02.17-15.13.29:578][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.17-15.13.29:841][  0]LogInit: Transaction tracking system initialized
+[2018.02.17-15.13.30:486][  0]BlueprintLog: New page: 에디터 로드
+[2018.02.17-15.13.32:311][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.02.17-15.13.33:362][  0]LogLinker: Warning: '/Game/ThirdPersonBP/ThirdPersonOverview' 파일을 찾을 수 없습니다.
+[2018.02.17-15.13.33:362][  0]LogLinker: Warning: '/Game/ThirdPersonBP/ThirdPersonOverview' 파일을 찾을 수 없습니다.
+[2018.02.17-15.13.33:362][  0]LogUObjectGlobals: Warning: 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' 오브젝트를 찾는 데 실패했습니다.
+[2018.02.17-15.13.33:819][  0]LogConsoleResponse: Display: 
+[2018.02.17-15.13.34:262][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.17-15.13.34:262][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.17-15.13.34:262][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.17-15.13.35:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/' took 0.02s
+[2018.02.17-15.13.36:671][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.17-15.13.36:672][  0]Cmd: MAP LOAD FILE="../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/UrsContent/URS.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.17-15.13.36:672][  0]LightingResults: New page: 라이팅 빌드
+[2018.02.17-15.13.36:760][  0]MapCheck: New page: 맵 체크
+[2018.02.17-15.13.36:761][  0]LightingResults: New page: 라이팅 빌드
+[2018.02.17-15.13.37:335][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] 입력 액션 이벤트가  Crouch 입력 액션  에 대한 미확인 'Crouch' 액션을 레퍼런싱합니다.
+[2018.02.17-15.13.37:343][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0040.18] Ue4ASP_Character 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 39 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.02.17-15.13.38:257][  0]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor' is not a standard unreal filename or a long path name. Reason: 이름에 다음과 같은 글자가 들어가면 안됩니다: ' '
+[2018.02.17-15.13.38:257][  0]LogLinker: Warning: '/Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor' 파일을 찾을 수 없습니다.
+[2018.02.17-15.13.38:257][  0]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor' is not a standard unreal filename or a long path name. Reason: 이름에 다음과 같은 글자가 들어가면 안됩니다: ' '
+[2018.02.17-15.13.38:257][  0]LogLinker: Warning: ../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_BaseColor_Mat.uasset 로드중 '/Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.02.17-15.13.38:257][  0]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_BaseColor_Mat : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor
+[2018.02.17-15.13.38:257][  0]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor' is not a standard unreal filename or a long path name. Reason: 이름에 다음과 같은 글자가 들어가면 안됩니다: ' '
+[2018.02.17-15.13.38:257][  0]LogLinker: Warning: '/Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor' 파일을 찾을 수 없습니다.
+[2018.02.17-15.13.38:257][  0]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor' is not a standard unreal filename or a long path name. Reason: 이름에 다음과 같은 글자가 들어가면 안됩니다: ' '
+[2018.02.17-15.13.38:257][  0]LogLinker: Warning: ../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_BaseColor_Mat.uasset 로드중 '/Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.02.17-15.13.38:257][  0]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_BaseColor_Mat : 애셋에 대한 파일을 찾을 수 없습니다. /Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor
+[2018.02.17-15.13.38:399][  0]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor' is not a standard unreal filename or a long path name. Reason: 이름에 다음과 같은 글자가 들어가면 안됩니다: ' '
+[2018.02.17-15.13.38:399][  0]LogLinker: Warning: '/Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor' 파일을 찾을 수 없습니다.
+[2018.02.17-15.13.38:399][  0]LoadErrors: 로드에 실패했습니다. /Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor.First_Aid_Kit_Low_BaseColor 레퍼런싱한 것: MaterialExpressionTextureSample_0
+[2018.02.17-15.13.38:399][  0]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor' is not a standard unreal filename or a long path name. Reason: 이름에 다음과 같은 글자가 들어가면 안됩니다: ' '
+[2018.02.17-15.13.38:399][  0]LogLinker: Warning: NULL 로드중 '/Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor' 애셋에 대한 파일을 찾을 수 없습니다.
+[2018.02.17-15.13.38:399][  0]LoadErrors: 로드에 실패했습니다. /Game/FirstPersonBP/Blueprints/First Aid Kit/First_Aid_Kit_Low_BaseColor.First_Aid_Kit_Low_BaseColor 레퍼런싱한 것: MaterialExpressionTextureSample_0
+[2018.02.17-15.13.38:938][  0]LogMaterial: Missing cached shader map for material First_Aid_Kit_Low_BaseColor_Mat, compiling. 
+[2018.02.17-15.13.38:939][  0]LogMaterial: Warning: C:\Users\양형\Desktop\졸작자료\URS_180211_오류수정\Content\FirstPersonBP\Blueprints\First_Aid_Kit\First_Aid_Kit_Low_BaseColor_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.17-15.13.38:939][  0]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.02.17-15.13.39:131][  0]LogAIModule: Creating AISystem for world URS
+[2018.02.17-15.13.39:515][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/URS_Stage1) is flushing async loading
+[2018.02.17-15.13.41:780][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/URS_Stage2) is flushing async loading
+[2018.02.17-15.13.43:009][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.17-15.13.43:084][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.17-15.13.43:216][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 130.74ms.
+[2018.02.17-15.13.43:216][  0]LogFileHelpers: Loading map 'URS' took 6.544
+[2018.02.17-15.13.43:454][  0]LogCollectionManager: Loaded 0 collections in 0.001195 seconds
+[2018.02.17-15.13.43:589][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/졸작자료/URS_180211_오류수정/Saved/Collections/' took 0.01s
+[2018.02.17-15.13.43:589][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/Developers/양형/Collections/' took 0.01s
+[2018.02.17-15.13.43:589][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/Collections/' took 0.01s
+[2018.02.17-15.13.43:590][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.17-15.13.43:599][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2363 classes and 519 folders.
+[2018.02.17-15.13.43:736][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.17-15.13.44:192][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.02.17-15.13.44:286][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.17-15.13.44:596][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.17-15.13.44:596][  0]LogLoad: (Engine Initialization) Total time: 47.43 seconds
+[2018.02.17-15.13.44:596][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.17-15.13.44:596][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.17-15.13.44:965][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.17-15.13.44:984][  0]LogSlate: Took 0.006509 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.17-15.13.45:017][  0]LogSlate: Took 0.031953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.02.17-15.13.45:023][  0]LogSlate: Took 0.005918 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.17-15.13.45:034][  0]LogSlate: Took 0.006900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.17-15.13.45:247][  0]LogSlate: Took 0.005648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.17-15.13.45:298][  1]LogRenderer: Reallocating scene render targets to support 576x212 Format 10 NumSamples 1 (Frame:1).
+[2018.02.17-15.13.45:650][  2]LogAssetRegistry: Asset discovery search completed in 30.8501 seconds
+[2018.02.17-15.13.45:652][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.17-15.13.45:653][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000126 seconds (updated 0 objects)
+[2018.02.17-15.15.55:729][392]LogRenderer: Reallocating scene render targets to support 872x356 Format 10 NumSamples 1 (Frame:2).
+[2018.02.17-15.18.17:246][675]LogSlate: Took 0.000350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.17-15.18.19:877][732]AssetReimport: New page: 처리중인 소스 콘텐츠 변경사항 오전 9:18:19
+[2018.02.17-15.18.19:893][732]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First Aid Kit Low_BaseColor.png)
+[2018.02.17-15.18.21:139][733]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First Aid Kit Low_Normal.png)
+[2018.02.17-15.18.22:644][734]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First Aid Kit Low_OcclusionRoughnessMetallic.png)
+[2018.02.17-15.18.25:148][735]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.17-15.18.25:987][735]LogSavePackage: Save=658.98ms
+[2018.02.17-15.18.25:987][735]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Saved/First_Aid_Kit_Low_BaseColor9B62C3B140955878D4DBA59A50A64AF9.tmp' to '../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_BaseColor.uasset'
+[2018.02.17-15.18.26:000][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_BaseColor.uasset
+[2018.02.17-15.18.28:092][735]LogSavePackage: Save=1899.23ms
+[2018.02.17-15.18.28:092][735]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Saved/First_Aid_Kit_Low_NormalD6C979C248E0D311FB7CD18C0D0180C5.tmp' to '../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_Normal.uasset'
+[2018.02.17-15.18.28:096][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_Normal.uasset
+[2018.02.17-15.18.28:939][735]LogSavePackage: Save=662.78ms
+[2018.02.17-15.18.28:939][735]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Saved/First_Aid_Kit_Low_OcclusionRoughD5901A98416DA5CA10FD8686D5148FD9.tmp' to '../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_OcclusionRoughnessMetallic.uasset'
+[2018.02.17-15.18.28:945][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_OcclusionRoughnessMetallic.uasset
+[2018.02.17-15.18.32:071][786]AssetReimport: /Game/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_BaseColor 새 애셋 임포트중.
+[2018.02.17-15.18.32:071][786]AssetReimport: /Game/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_Normal 새 애셋 임포트중.
+[2018.02.17-15.18.32:071][786]AssetReimport: /Game/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_OcclusionRoughnessMetallic 새 애셋 임포트중.
+[2018.02.17-15.19.06:113][989]LogMaterial: Missing cached shader map for material First_Aid_Kit_Low_BaseColor_Mat1, compiling. 
+[2018.02.17-15.19.20:981][  3]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.17-15.19.22:416][  4]LogRenderer: Reallocating scene render targets to support 928x516 Format 10 NumSamples 1 (Frame:1).
+[2018.02.17-15.19.29:527][ 66]LogSavePackage: Save=19.00ms
+[2018.02.17-15.19.29:527][ 66]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Saved/First_Aid_Kit_Low275C6D0446DA9F88BE8C76B340831CB1.tmp' to '../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low.uasset'
+[2018.02.17-15.19.29:532][ 66]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low.uasset
+[2018.02.17-15.19.37:828][236]LogSavePackage: Save=16.77ms
+[2018.02.17-15.19.37:828][236]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Saved/First_Aid_Kit_Low_BaseColor_Mat10DE153AC4E8A659A133677A7885AB5B0.tmp' to '../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_BaseColor_Mat1.uasset'
+[2018.02.17-15.19.37:832][236]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/졸작자료/URS_180211_오류수정/Content/FirstPersonBP/Blueprints/First_Aid_Kit/First_Aid_Kit_Low_BaseColor_Mat1.uasset
+[2018.02.17-15.36.23:020][723]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0008 seconds. Added 2 classes and 3 folders.
+[2018.02.17-15.36.40:869][ 13]Cmd: EDIT CUT
+[2018.02.17-15.36.40:927][ 13]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2018.02.17-15.36.40:949][ 13]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2018.02.17-15.36.48:472][ 99]Cmd: EDIT PASTE
+[2018.02.17-15.37.29:919][541]Cmd: EDIT PASTE
+[2018.02.17-15.37.48:116][786]Cmd: EDIT COPY
+[2018.02.17-15.38.10:223][ 70]Cmd: EDIT PASTE
+[2018.02.17-15.38.48:684][930]Cmd: EDIT COPY
+[2018.02.17-15.39.00:332][ 97]Cmd: ACTOR SELECT ALL
+[2018.02.17-15.39.21:240][411]Cmd: EDIT COPY
+[2018.02.17-15.39.21:343][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_0)
+[2018.02.17-15.39.21:343][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_1)
+[2018.02.17-15.39.21:343][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_2)
+[2018.02.17-15.39.21:343][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_3)
+[2018.02.17-15.39.21:352][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_4)
+[2018.02.17-15.39.21:363][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_5)
+[2018.02.17-15.39.21:373][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_6)
+[2018.02.17-15.39.25:283][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:283][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:283][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:283][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:283][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:283][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:283][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:284][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:285][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:286][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:287][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:288][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:289][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: Blueprint_WallSconce_C
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: Blueprint_WallSconce_C
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:290][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:291][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:291][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:291][411]LogEditorActor: Deleted Actor: Blueprint_WallSconce_C
+[2018.02.17-15.39.25:291][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:291][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:292][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:293][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:294][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:295][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:296][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:297][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Blueprint_WallSconce_C
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: Blueprint_WallSconce_C
+[2018.02.17-15.39.25:298][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:299][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:299][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:299][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:299][411]LogEditorActor: Deleted Actor: Blueprint_WallSconce_C
+[2018.02.17-15.39.25:299][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:299][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:299][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:299][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:300][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:301][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:302][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:303][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:304][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:305][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:306][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:307][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: TargetPoint
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:308][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:309][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:310][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: PointLight
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:311][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:312][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:312][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:312][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:312][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:312][411]LogEditorActor: Deleted Actor: Brush
+[2018.02.17-15.39.25:312][411]LogEditorActor: Deleted Actor: URS_SecretDoor_BP_C
+[2018.02.17-15.39.25:312][411]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2018.02.17-15.39.25:363][411]LogEditorActor: Deleted 698 Actors (0.081 secs)
+[2018.02.17-15.39.28:077][411]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.17-15.39.28:101][411]LogEditorActor: Deleted Actor: DirectionalLight
+[2018.02.17-15.39.28:101][411]LogEditorActor: Deleted Actor: AtmosphericFog
+[2018.02.17-15.39.28:101][411]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.02.17-15.39.28:102][411]LogEditorActor: Deleted Actor: SkyLight
+[2018.02.17-15.39.28:102][411]LogEditorActor: Deleted Actor: LandscapeGizmoActiveActor
+[2018.02.17-15.39.28:102][411]LogEditorActor: Deleted Actor: PostProcessVolume
+[2018.02.17-15.39.28:102][411]LogEditorActor: Deleted Actor: PlayerStart
+[2018.02.17-15.39.28:102][411]LogEditorActor: Deleted Actor: Fire_Pickup_C
+[2018.02.17-15.39.28:102][411]LogEditorActor: Deleted Actor: TemplatePickup_C
+[2018.02.17-15.39.28:102][411]LogEditorActor: Deleted Actor: TemplatePickup_C
+[2018.02.17-15.39.28:126][411]LogEditorActor: Deleted 10 Actors (0.026 secs)
+[2018.02.17-15.39.28:169][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_0)
+[2018.02.17-15.39.28:169][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_1)
+[2018.02.17-15.39.28:169][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_2)
+[2018.02.17-15.39.28:169][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_3)
+[2018.02.17-15.39.28:169][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_4)
+[2018.02.17-15.39.28:170][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_5)
+[2018.02.17-15.39.28:170][411]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (GroupActor_6)
+[2018.02.17-15.40.32:052][526]Cmd: EDIT COPY
+[2018.02.17-15.40.38:011][597]Cmd: TRANSACTION UNDO
+[2018.02.17-15.40.38:011][597]LogEditorTransaction: Undo 레벨 표시여부 토글
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_0) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_1) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_2) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_3) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_4) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_5) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_6) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_7) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_8) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_9) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_10) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_11) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_12) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_13) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_14) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_15) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_16) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_17) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_18) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_19) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_20) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_21) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_22) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_23) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_24) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_25) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_26) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_27) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_28) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_29) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_30) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_31) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_32) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_33) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_34) Not registered. Aborting.
+[2018.02.17-15.40.38:090][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_35) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_36) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_37) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_38) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_39) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_40) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_41) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_42) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_43) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_44) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_45) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_46) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_47) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_48) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_49) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_50) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_51) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_52) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_53) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_54) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_55) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_56) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_57) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_58) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_59) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_60) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_61) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_62) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_63) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_64) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_65) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_66) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_67) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_68) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_69) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_70) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_71) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_72) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_73) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_74) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_75) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_76) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_77) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_78) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_79) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_80) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_81) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_82) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_83) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_84) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_85) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_86) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_87) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_88) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_89) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_90) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_91) Not registered. Aborting.
+[2018.02.17-15.40.38:091][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_92) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_93) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_94) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_95) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_96) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_97) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_98) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_99) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_100) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_101) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_102) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_103) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_104) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_105) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_106) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_107) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_108) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_109) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_110) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_111) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_112) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_113) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_114) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_115) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_116) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_117) Not registered. Aborting.
+[2018.02.17-15.40.38:092][597]LogActorComponent: UnregisterComponent: (/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.ModelComponent_118) Not registered. Aborting.
+[2018.02.17-15.40.38:817][603]Cmd: TRANSACTION UNDO
+[2018.02.17-15.40.38:817][603]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.40.39:559][613]Cmd: TRANSACTION UNDO
+[2018.02.17-15.40.39:559][613]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.40.40:463][626]Cmd: TRANSACTION UNDO
+[2018.02.17-15.40.40:463][626]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.40.43:036][660]Cmd: TRANSACTION UNDO
+[2018.02.17-15.40.43:037][660]LogEditorTransaction: Undo 레벨 잠금
+[2018.02.17-15.40.49:460][765]Cmd: TRANSACTION UNDO
+[2018.02.17-15.40.49:460][765]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.40.51:835][800]Cmd: TRANSACTION UNDO
+[2018.02.17-15.40.51:835][800]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.40.58:170][921]Cmd: TRANSACTION UNDO
+[2018.02.17-15.40.58:170][921]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.41.05:465][ 22]Cmd: TRANSACTION UNDO
+[2018.02.17-15.41.05:466][ 22]LogEditorTransaction: Undo 레벨 표시여부 토글
+[2018.02.17-15.41.05:548][ 22]LogActorComponent: ~FComponentReregisterContext: (/Game/UrsContent/URS.URS:PersistentLevel.PostProcessVolume_1.BrushComponent0) Component already registered.
+[2018.02.17-15.41.07:503][ 42]Cmd: TRANSACTION UNDO
+[2018.02.17-15.41.07:503][ 42]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.41.08:252][ 49]Cmd: TRANSACTION UNDO
+[2018.02.17-15.41.08:252][ 49]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.41.08:821][ 51]Cmd: TRANSACTION UNDO
+[2018.02.17-15.41.08:821][ 51]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.41.09:934][ 62]Cmd: TRANSACTION UNDO
+[2018.02.17-15.41.09:935][ 62]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.41.11:125][ 74]Cmd: TRANSACTION UNDO
+[2018.02.17-15.41.11:125][ 74]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.41.11:970][ 82]Cmd: TRANSACTION UNDO
+[2018.02.17-15.41.11:970][ 82]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.41.12:712][ 89]Cmd: TRANSACTION UNDO
+[2018.02.17-15.41.12:712][ 89]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.41.12:900][ 90]Cmd: TRANSACTION UNDO
+[2018.02.17-15.41.12:900][ 90]LogEditorTransaction: Undo 액터 클릭
+[2018.02.17-15.41.13:096][ 91]Cmd: TRANSACTION UNDO
+[2018.02.17-15.41.13:096][ 91]LogEditorTransaction: Undo 레벨 잠금해제
+[2018.02.17-15.41.13:099][ 91]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
+[2018.02.17-15.41.15:297][ 91]LogWindows: Error: === Critical error: ===
+[2018.02.17-15.41.15:297][ 91]LogWindows: Error: 
+[2018.02.17-15.41.15:297][ 91]LogWindows: Error: Assertion failed: IsTemplate || LevelLocked [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\EditorSelectUtils.cpp] [Line: 345] 
+[2018.02.17-15.41.15:297][ 91]LogWindows: Error: 
+[2018.02.17-15.41.15:297][ 91]LogWindows: Error: 
+[2018.02.17-15.41.15:297][ 91]LogWindows: Error: 
+[2018.02.17-15.41.15:297][ 91]LogWindows: Error: [Callstack] 0x000000001EBA3FB8 KERNELBASE.dll!UnknownFunction []
+[2018.02.17-15.41.15:297][ 91]LogWindows: Error: [Callstack] 0x0000000009D776D4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.17-15.41.15:297][ 91]LogWindows: Error: [Callstack] 0x00000000CB6D330B UE4Editor-Core.dll!UnknownFunction []
+[2018.02.17-15.41.15:297][ 91]LogWindows: Error: [Callstack] 0x00000000CB6647F9 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.17-15.41.15:297][ 91]LogWindows: Error: [Callstack] 0x00000000B7E4E1CD UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.17-15.41.15:297][ 91]LogWindows: Error: [Callstack] 0x00000000B7E392E3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000B7E260EE UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000B7E0DCE9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000B7E0E61B UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000B7E728FB UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000B7EB5A0E UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000B7E0D965 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000B7E07AB3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000B869BAC9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000AF508BEE UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000AF508EDE UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000E6809636 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000E68483A0 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000AF519AD5 UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000AF4F28DA UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000AF508AD1 UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000E68172D7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000E68498D3 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000E683BEE8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x0000000009D6E28A UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x0000000009D61A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x0000000009D703EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x0000000009D5D5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x000000001F32B85D USER32.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x000000001F32B1EF USER32.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x0000000009D71516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000E7F950C8 UE4Editor.exe!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000E7FA5430 UE4Editor.exe!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000E7FA54AA UE4Editor.exe!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000E7FB2379 UE4Editor.exe!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x00000000E7FB3D57 UE4Editor.exe!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x0000000021A01FE4 KERNEL32.DLL!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x0000000021C0EFB1 ntdll.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: [Callstack] 0x0000000021C0EFB1 ntdll.dll!UnknownFunction []
+[2018.02.17-15.41.15:298][ 91]LogWindows: Error: 
+[2018.02.17-15.41.15:320][ 91]LogExit: Executing StaticShutdownAfterError
+[2018.02.17-15.41.15:578][ 91]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.02.17-15.41.15:579][ 91]Log file closed, 02/18/18 00:41:15
