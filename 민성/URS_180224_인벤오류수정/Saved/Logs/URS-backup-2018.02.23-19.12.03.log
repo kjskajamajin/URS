@@ -1,0 +1,1199 @@
+﻿Log file open, 02/23/18 19:05:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: URS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1812154726) SRandInit(-1812154726).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.183561
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.23-10.05.07:847][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.23-10.05.07:847][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.23-10.05.07:907][  0]LogInit: Computer: DESKTOP-PDO9PMJ
+[2018.02.23-10.05.07:907][  0]LogInit: User: 양형
+[2018.02.23-10.05.07:907][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.23-10.05.07:907][  0]LogInit: High frequency timer resolution =2.437503 MHz
+[2018.02.23-10.05.07:908][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.23-10.05.07:908][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.23-10.05.07:908][  0]LogMemory: Process Physical Memory: 273.92 MB used, 273.92 MB peak
+[2018.02.23-10.05.07:908][  0]LogMemory: Process Virtual Memory: 275.66 MB used, 275.66 MB peak
+[2018.02.23-10.05.07:908][  0]LogMemory: Physical Memory: 4971.26 MB used,  3087.20 MB free, 8058.46 MB total
+[2018.02.23-10.05.07:908][  0]LogMemory: Virtual Memory: 682.25 MB used,  3087.20 MB free, 134217728.00 MB total
+[2018.02.23-10.05.08:454][  0]LogInit: Using OS detected language (ko-KR).
+[2018.02.23-10.05.08:454][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.02.23-10.05.08:507][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.02.23-10.05.08:794][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.23-10.05.11:225][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.23-10.05.11:300][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.02.23-10.05.11:300][  0]LogD3D11RHI:       4029/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.23-10.05.11:313][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.02.23-10.05.11:313][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.23-10.05.11:317][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.23-10.05.11:317][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.23-10.05.11:317][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.23-10.05.11:325][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.23-10.05.11:325][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.02.23-10.05.11:325][  0]LogWindows: EnumDisplayDevices:
+[2018.02.23-10.05.11:326][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.02.23-10.05.11:326][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.23-10.05.11:327][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.23-10.05.11:327][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.02.23-10.05.11:327][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.23-10.05.11:327][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.02.23-10.05.11:327][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.23-10.05.11:327][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.23-10.05.11:327][  0]LogRHI: Texture pool is 2820 MB (70% of 4029 MB)
+[2018.02.23-10.05.11:361][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.23-10.05.11:466][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.23-10.05.11:467][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/양형/Desktop/URS_180211_오류수정/Intermediate/Shaders/WorkingDirectory/13604/).
+[2018.02.23-10.05.11:468][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/양형/AppData/Local/Temp/UnrealShaderWorkingDir/0A6DFF534707A150A4B944969F592307/'.
+[2018.02.23-10.05.11:468][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.23-10.05.13:761][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.23-10.05.13:848][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.23-10.05.13:952][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.23-10.05.14:101][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.23-10.05.14:200][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.23-10.05.14:297][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.23-10.05.14:400][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.23-10.05.14:500][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.23-10.05.14:594][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.23-10.05.14:685][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.23-10.05.14:781][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.23-10.05.14:884][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.23-10.05.14:978][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.23-10.05.15:074][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.23-10.05.15:256][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.23-10.05.15:256][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.23-10.05.15:360][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.23-10.05.15:441][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.23-10.05.15:596][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.23-10.05.15:640][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.23-10.05.15:733][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.23-10.05.15:818][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.23-10.05.15:903][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.23-10.05.15:995][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.23-10.05.15:995][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.23-10.05.16:856][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.23-10.05.16:939][  0]LogDerivedDataCache: Loaded boot cache 0.08s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.23-10.05.16:939][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.23-10.05.16:939][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/양형/Desktop/URS_180211_오류수정/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.23-10.05.16:939][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.23-10.05.16:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/양형/Desktop/URS_180211_오류수정/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.23-10.05.16:940][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.23-10.05.16:956][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.23-10.05.16:969][  0]LogDerivedDataCache: Using Local data cache path C:/Users/양형/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.23-10.05.16:979][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.23-10.05.16:980][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.23-10.05.16:980][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.23-10.05.16:981][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.23-10.05.17:451][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.23-10.05.17:975][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.23-10.05.18:050][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.23-10.05.18:050][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.23-10.05.18:050][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.23-10.05.18:050][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.23-10.05.18:050][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.23-10.05.18:088][  0]LogNetVersion: URS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1777970781)
+[2018.02.23-10.05.18:314][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2018.02.23-10.05.19:064][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.104540 seconds
+[2018.02.23-10.05.19:072][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.23-10.05.19:072][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.02.23-10.05.19:072][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.23-10.05.19:231][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.23-10.05.24:129][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.23-10.05.24:199][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.23-10.05.25:483][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.23-10.05.26:226][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.23-10.05.26:226][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.23-10.05.26:339][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.23-10.05.26:451][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.23-10.05.28:015][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.23-10.05.28:508][  0]LogOcInput: OculusInput pre-init called
+[2018.02.23-10.05.29:018][  0]LogEngine: Initializing Engine...
+[2018.02.23-10.05.29:021][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.23-10.05.29:253][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.23-10.05.29:253][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.23-10.05.29:498][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.23-10.05.29:514][  0]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.23-10.05.31:017][  0]LogInit: FAudioDevice initialized.
+[2018.02.23-10.05.31:120][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.23-10.05.31:149][  0]LogInit: Texture streaming: Enabled
+[2018.02.23-10.05.31:360][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.23-10.05.31:643][  0]LogInit: Transaction tracking system initialized
+[2018.02.23-10.05.32:257][  0]BlueprintLog: New page: 에디터 로드
+[2018.02.23-10.05.34:014][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.02.23-10.05.34:996][  0]LogLinker: Warning: '/Game/ThirdPersonBP/ThirdPersonOverview' 파일을 찾을 수 없습니다.
+[2018.02.23-10.05.34:996][  0]LogLinker: Warning: '/Game/ThirdPersonBP/ThirdPersonOverview' 파일을 찾을 수 없습니다.
+[2018.02.23-10.05.34:996][  0]LogUObjectGlobals: Warning: 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' 오브젝트를 찾는 데 실패했습니다.
+[2018.02.23-10.05.35:410][  0]LogConsoleResponse: Display: 
+[2018.02.23-10.05.35:630][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.23-10.05.35:630][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.23-10.05.35:630][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.23-10.05.36:603][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180211_오류수정/Content/' took 0.02s
+[2018.02.23-10.05.37:881][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.23-10.05.37:882][  0]Cmd: MAP LOAD FILE="../../../../../../Users/양형/Desktop/URS_180211_오류수정/Content/UrsContent/URS.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.23-10.05.37:882][  0]LightingResults: New page: 라이팅 빌드
+[2018.02.23-10.05.37:965][  0]MapCheck: New page: 맵 체크
+[2018.02.23-10.05.37:966][  0]LightingResults: New page: 라이팅 빌드
+[2018.02.23-10.05.38:271][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] 입력 액션 이벤트가  Crouch 입력 액션  에 대한 미확인 'Crouch' 액션을 레퍼런싱합니다.
+[2018.02.23-10.05.38:279][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0035.46] Ue4ASP_Character 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 36 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.02.23-10.05.39:006][  0]LogStaticMesh: shield_Low 스태틱 메시 빌드중...
+[2018.02.23-10.05.39:023][  0]LogStaticMesh: Built static mesh [0.02s] /Game/ITemes/shield/shield_Low.shield_Low
+[2018.02.23-10.05.40:575][  0]LogTexture: Display: 텍스처 빌드: shield_Low_BaseColor (AutoDXT, 2048X2048)
+[2018.02.23-10.05.40:575][  0]LogMaterial: Missing cached shader map for material 방어구, compiling. 
+[2018.02.23-10.05.40:909][  0]LogAIModule: Creating AISystem for world URS
+[2018.02.23-10.05.40:949][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/URS_Stage1) is flushing async loading
+[2018.02.23-10.05.41:775][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/URS_Stage2) is flushing async loading
+[2018.02.23-10.05.42:152][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.23-10.05.42:214][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.23-10.05.42:350][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 135.485ms.
+[2018.02.23-10.05.42:350][  0]LogFileHelpers: Loading map 'URS' took 4.468
+[2018.02.23-10.05.42:422][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.02.23-10.05.42:549][  0]LogCollectionManager: Loaded 0 collections in 0.001229 seconds
+[2018.02.23-10.05.42:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180211_오류수정/Saved/Collections/' took 0.01s
+[2018.02.23-10.05.42:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180211_오류수정/Content/Developers/양형/Collections/' took 0.01s
+[2018.02.23-10.05.42:689][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180211_오류수정/Content/Collections/' took 0.01s
+[2018.02.23-10.05.42:689][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.23-10.05.42:698][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2363 classes and 519 folders.
+[2018.02.23-10.05.42:852][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.23-10.05.42:918][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.23-10.05.43:013][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.23-10.05.43:230][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2018.02.23-10.05.43:239][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.23-10.05.43:243][  0]LogSlate: Took 0.003299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.02.23-10.05.43:245][  0]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.23-10.05.43:251][  0]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.23-10.05.43:367][  0]LogRenderer: Reallocating scene render targets to support 816x396 Format 10 NumSamples 1 (Frame:1).
+[2018.02.23-10.05.43:739][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.23-10.05.43:739][  0]LogLoad: (Engine Initialization) Total time: 40.92 seconds
+[2018.02.23-10.05.43:739][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.23-10.05.43:739][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.23-10.05.43:788][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.23-10.05.43:930][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.23-10.05.43:964][  1]LogAssetRegistry: Asset discovery search completed in 25.6718 seconds
+[2018.02.23-10.05.43:966][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.23-10.05.43:966][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2018.02.23-10.05.54:900][469]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.02.23-10.05.55:082][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.23-10.05.55:082][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.23-10.05.55:082][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.23-10.05.55:083][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.23-10.05.55:087][469]PIE: New page: PIE 세션: URS (2018. 2. 24. 오전 4:05:55)
+[2018.02.23-10.05.55:088][469]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.02.23-10.05.55:108][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020251s)
+[2018.02.23-10.05.55:109][469]LogAIModule: Creating AISystem for world URS
+[2018.02.23-10.05.55:109][469]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2018.02.23-10.05.55:109][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.021603s)
+[2018.02.23-10.05.55:130][469]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.23-10.05.55:237][469]LogInit: FAudioDevice initialized.
+[2018.02.23-10.05.55:356][469]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.23-10.05.55:371][469]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.02.23-19.05.55
+[2018.02.23-10.05.55:374][469]LogWorld: Bringing up level for play took: 0.007169
+[2018.02.23-10.05.55:485][469]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.02.23-10.05.55:508][469]LogLevel: ActivateLevel /Game/UrsContent/UEDPIE_0_URS_Stage1 1 1 1
+[2018.02.23-10.05.55:514][469]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.783
+[2018.02.23-10.05.55:519][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.23-10.05.55:519][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.23-10.05.55:520][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.23-10.05.56:146][469]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2018.02.23-10.06.00:493][625]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.00:511][626]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.00:843][639]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:211][653]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:269][655]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:322][657]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:376][659]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:428][661]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:454][662]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:530][665]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:537][665]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:558][666]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:643][669]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:695][671]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:771][674]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:821][676]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.01:822][676]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.02:254][691]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.02:411][696]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.02:693][707]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.02:990][719]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.03:313][730]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.03:544][739]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.03:607][741]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.03:739][746]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.04:088][759]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.04:223][764]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.04:325][767]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.04:427][771]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.04:548][776]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.04:703][782]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.04:840][787]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.04:987][793]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.05:136][799]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.05:263][804]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.05:437][810]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.05:461][811]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.05:595][816]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.05:888][826]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.06:037][832]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.06:144][836]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.07:758][898]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.08:121][912]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.08:171][914]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.08:294][919]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.08:454][925]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.08:623][932]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.08:780][938]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.08:930][944]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.09:096][951]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.09:271][957]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.09:294][958]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.09:425][963]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.09:477][965]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.09:603][970]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.09:654][972]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.09:756][975]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.09:924][981]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.10:087][987]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.10:160][990]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.10:262][994]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.10:269][994]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.10:456][  1]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.10:526][  3]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.10:554][  4]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.10:740][ 11]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.10:762][ 12]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.10:814][ 14]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.10:980][ 20]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.11:176][ 27]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.11:331][ 33]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.11:497][ 39]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.11:673][ 45]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.11:809][ 50]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.11:860][ 52]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.12:143][ 63]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.12:258][ 67]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.12:373][ 69]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.12:440][ 71]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.12:680][ 77]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.12:862][ 80]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.12:946][ 82]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.13:179][ 88]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.13:268][ 90]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.13:304][ 91]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.13:455][ 96]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.13:638][102]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.13:759][106]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.13:938][112]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.14:074][116]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.14:095][117]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.14:308][124]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.14:377][126]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.14:477][129]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.14:634][134]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.14:636][134]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.15:172][152]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.15:237][154]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.15:791][173]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.15:819][174]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.16:045][182]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.16:237][189]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.16:530][197]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.16:721][202]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.16:858][205]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.17:401][215]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.17:854][225]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.18:335][236]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.18:531][240]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.19:390][257]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.20:073][272]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.20:586][283]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.21:028][296]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.21:125][301]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.21:379][313]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.21:470][317]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.21:748][330]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.22:341][357]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.22:685][372]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.22:954][383]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.23:392][401]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.23:826][416]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.23:904][419]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.24:263][433]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.24:804][447]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.24:840][448]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.24:883][449]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.24:968][451]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:052][453]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:180][456]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:267][458]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:308][459]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:350][460]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:393][461]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:431][462]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:473][463]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:515][464]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:555][465]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:595][466]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:678][468]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:721][469]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:763][470]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:845][472]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.25:926][474]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:046][477]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:088][478]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:170][480]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:210][481]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:248][482]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:373][485]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:413][486]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:455][487]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:619][491]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:738][494]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:783][495]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:820][496]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:861][497]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:900][498]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.26:944][499]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.27:437][511]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.27:590][515]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.27:664][517]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.27:744][519]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.27:866][522]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.27:946][524]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.27:988][525]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.28:354][534]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.28:396][535]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.28:522][538]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.28:605][540]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.28:646][541]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.28:730][543]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.28:857][546]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.28:939][548]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.29:230][555]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.29:312][557]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.30:105][576]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.30:229][579]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.30:357][582]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.30:846][594]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.36:173][723]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.36:297][726]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.36:423][729]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.36:839][739]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.37:219][748]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.37:547][756]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.37:634][758]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.37:676][759]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.37:717][760]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.37:801][762]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.37:842][763]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.37:968][766]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:009][767]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:055][768]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:134][770]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:299][774]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:345][775]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:388][776]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:468][778]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:509][779]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:591][781]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:718][784]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:801][786]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:805][786]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:884][788]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.38:971][790]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:009][791]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:093][793]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:176][795]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:218][796]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:302][798]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:344][799]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:429][801]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:475][802]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:514][803]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:599][805]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:639][806]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:763][809]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:808][810]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:847][811]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.39:971][814]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:014][815]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:055][816]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:172][819]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:245][821]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:286][822]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:361][824]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:399][825]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:479][827]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:480][827]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:563][829]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:570][829]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:608][830]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:646][831]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:688][832]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:771][834]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:812][835]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:894][837]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:930][838]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.40:972][839]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:013][840]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:054][841]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:058][841]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:131][843]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:170][844]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:247][846]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:443][851]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:480][852]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:522][853]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:599][855]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:605][855]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:721][858]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:800][860]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:803][860]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:841][861]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:887][862]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:922][863]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.41:962][864]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:003][865]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:043][866]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:046][866]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:122][868]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:126][868]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:161][869]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:203][870]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:244][871]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:281][872]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:322][873]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:445][876]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:486][877]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:525][878]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:566][879]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:646][881]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:849][886]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.42:928][888]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.43:009][890]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.43:212][895]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.43:254][896]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.43:297][897]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.43:739][908]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.43:779][909]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.43:954][913]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.44:280][921]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.44:566][927]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.45:943][960]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.46:103][964]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.46:180][966]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.46:221][967]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.46:663][978]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.47:098][989]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.47:505][999]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.47:547][  0]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.47:628][  2]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.47:715][  4]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.47:758][  5]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.47:797][  6]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.47:881][  8]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:136][ 14]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:213][ 16]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:255][ 17]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:338][ 19]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:382][ 20]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:469][ 22]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:511][ 23]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:668][ 27]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:708][ 28]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:746][ 29]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:788][ 30]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:869][ 32]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:909][ 33]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.48:910][ 33]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:029][ 36]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:070][ 37]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:110][ 38]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:114][ 38]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:149][ 39]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:194][ 40]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:236][ 41]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:239][ 41]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:280][ 42]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:322][ 43]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:405][ 45]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:445][ 46]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:486][ 47]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:568][ 49]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:608][ 50]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:647][ 51]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:728][ 53]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:772][ 54]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:813][ 55]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:932][ 58]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.49:973][ 59]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.50:094][ 62]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.50:214][ 65]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.50:654][ 76]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.51:137][ 88]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.51:256][ 91]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.51:904][107]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.53:104][133]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.53:259][137]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.53:379][140]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.53:539][144]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.53:705][148]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.53:871][152]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.53:996][155]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.54:038][156]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.54:121][158]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.54:288][162]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.55:262][186]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.55:338][188]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.55:420][190]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.55:461][191]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.55:729][198]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.55:880][202]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.56:029][206]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.56:188][210]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.56:271][212]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.56:313][213]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.56:397][215]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.57:387][240]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.57:427][241]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.57:465][242]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.57:505][243]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.57:626][246]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.57:669][247]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.57:745][249]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.57:751][249]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.57:827][251]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.57:865][252]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.57:943][254]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.57:979][255]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.58:022][256]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.58:060][257]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.58:140][259]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.58:301][263]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.58:341][264]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.58:542][269]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.58:620][271]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.58:659][272]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.58:737][274]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.58:779][275]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.58:896][278]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.58:978][280]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.59:575][295]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.06.59:653][297]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.07.00:011][306]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.07.00:247][312]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.07.00:677][323]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.07.00:714][324]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.07.01:150][335]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.07.01:791][351]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.07.01:989][356]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.07.02:181][361]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_0)
+[2018.02.23-10.07.04:924][431]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.23-10.07.04:924][431]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.23-10.07.04:924][431]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.23-10.07.05:001][431]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.23-10.07.05:001][431]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.23-10.07.05:001][431]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.23-10.07.06:994][497]LogEditorViewport: Clicking on Actor (LMB): Shield_C (Shield)
+[2018.02.23-10.07.08:198][536]Cmd: DELETE
+[2018.02.23-10.07.08:198][536]Cmd: ACTOR DELETE
+[2018.02.23-10.07.08:218][536]LogEditorActor: Actor Shield is referenced by Shield.
+[2018.02.23-10.07.11:988][536]LogEditorActor: Deleted Actor: Shield_C
+[2018.02.23-10.07.12:006][536]LogEditorActor: Deleted 1 Actors (3.801 secs)
+[2018.02.23-10.07.14:069][600]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.02.23-10.07.14:098][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.23-10.07.14:098][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.23-10.07.14:099][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.23-10.07.14:100][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.23-10.07.14:100][600]PIE: New page: PIE 세션: URS (2018. 2. 24. 오전 4:07:14)
+[2018.02.23-10.07.14:101][600]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.02.23-10.07.14:114][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013869s)
+[2018.02.23-10.07.14:117][600]LogAIModule: Creating AISystem for world URS
+[2018.02.23-10.07.14:117][600]LogPlayLevel: PIE: World Init took: (0.002793s)
+[2018.02.23-10.07.14:118][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.017601s)
+[2018.02.23-10.07.14:142][600]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.23-10.07.14:246][600]LogInit: FAudioDevice initialized.
+[2018.02.23-10.07.14:338][600]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.23-10.07.14:341][600]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.02.23-19.07.14
+[2018.02.23-10.07.14:342][600]LogWorld: Bringing up level for play took: 0.003085
+[2018.02.23-10.07.14:351][600]LogLevel: ActivateLevel /Game/UrsContent/UEDPIE_0_URS_Stage1 1 1 1
+[2018.02.23-10.07.14:355][600]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: -0.376
+[2018.02.23-10.07.14:356][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.23-10.07.14:356][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.23-10.07.14:356][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.23-10.07.19:758][762]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.19:780][763]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.19:897][768]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.20:110][777]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.20:279][784]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.20:498][793]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.20:692][801]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.20:893][809]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.20:943][811]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:020][814]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:069][816]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:143][819]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:220][822]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:270][824]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:320][826]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:444][831]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:523][834]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:572][836]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:596][837]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:651][839]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:677][840]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:704][841]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:759][843]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:840][846]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.21:938][850]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.22:230][861]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.22:283][863]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.22:338][865]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.22:412][868]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.22:547][873]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.22:571][874]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.22:601][875]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.22:728][880]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.22:778][882]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.22:878][886]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.23:037][892]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.23:056][893]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.23:086][894]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.23:190][898]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.23:362][905]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.23:520][911]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.23:674][917]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.23:828][923]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.23:979][929]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.24:033][931]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.24:140][935]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.24:172][936]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.24:274][940]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.24:431][946]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.24:637][954]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.24:847][962]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.24:894][964]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.25:021][969]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.25:073][971]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.25:178][975]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.25:331][981]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.25:387][983]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.25:438][985]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.27:392][ 60]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.27:494][ 64]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.27:574][ 67]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.28:730][111]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.29:078][124]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.29:184][128]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.30:061][162]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.30:506][179]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.30:531][180]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.30:721][187]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.32:212][243]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.32:395][250]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.32:582][256]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.32:641][258]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.33:339][284]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.33:471][289]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_1)
+[2018.02.23-10.07.36:305][397]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.23-10.07.36:305][397]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.23-10.07.36:305][397]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.23-10.07.36:376][397]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.23-10.07.36:377][397]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.23-10.07.36:377][397]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.23-10.07.46:352][882]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.23-10.07.46:770][882]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.02.23-10.07.47:600][882]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.23-10.07.47:602][882]LogSlate: Took 0.001014 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.23-10.08.22:217][ 11]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.23-10.08.42:571][544]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.02.23-10.08.52:218][763]BlueprintLog: New page: GameHUD 컴파일
+[2018.02.23-10.10.06:907][986]Cmd: QUIT_EDITOR
+[2018.02.23-10.10.07:398][986]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.02.23-10.10.07:421][986]LogExit: Preparing to exit.
+[2018.02.23-10.10.08:349][986]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180211_오류수정/Content/' was aborted.
+[2018.02.23-10.10.08:438][986]LogExit: Editor shut down
+[2018.02.23-10.10.08:442][986]LogExit: Transaction tracking system shut down
+[2018.02.23-10.10.08:708][986]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.23-10.10.08:708][986]LogDirectoryWatcher: A directory notification for '../../../../../../Users/양형/Desktop/URS_180211_오류수정/Content/' was aborted.
+[2018.02.23-10.10.08:708][986]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.23-10.10.08:708][986]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.02.23-10.10.08:708][986]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.02.23-10.10.08:708][986]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.23-10.10.08:708][986]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.23-10.10.08:821][986]LogExit: Object subsystem successfully closed.
+[2018.02.23-10.10.08:865][986]LogD3D11RHI: Shutdown
+[2018.02.23-10.10.08:865][986]LogD3D11RHI: CleanupD3DDevice
+[2018.02.23-10.10.08:868][986]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.23-10.10.08:891][986]LogModuleManager: Shutting down and abandoning module SequencerWidgets (556)
+[2018.02.23-10.10.08:891][986]LogModuleManager: Shutting down and abandoning module BlueprintGraph (554)
+[2018.02.23-10.10.08:891][986]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.02.23-10.10.08:891][986]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.02.23-10.10.08:891][986]LogModuleManager: Shutting down and abandoning module WorldBrowser (548)
+[2018.02.23-10.10.08:891][986]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.02.23-10.10.08:892][986]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.02.23-10.10.08:892][986]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.02.23-10.10.08:893][986]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.02.23-10.10.08:893][986]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.02.23-10.10.08:893][986]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.02.23-10.10.08:893][986]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180211_오류수정/Content/Collections/' was aborted.
+[2018.02.23-10.10.08:893][986]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180211_오류수정/Content/Developers/양형/Collections/' was aborted.
+[2018.02.23-10.10.08:893][986]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180211_오류수정/Saved/Collections/' was aborted.
+[2018.02.23-10.10.08:893][986]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.02.23-10.10.08:893][986]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.02.23-10.10.08:893][986]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.02.23-10.10.08:893][986]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.02.23-10.10.08:894][986]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.02.23-10.10.08:895][986]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.02.23-10.10.09:829][986]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.02.23-10.10.09:883][986]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.02.23-10.10.09:883][986]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.02.23-10.10.09:883][986]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.02.23-10.10.09:883][986]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.02.23-10.10.09:883][986]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.02.23-10.10.09:883][986]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.02.23-10.10.09:885][986]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.02.23-10.10.09:885][986]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.02.23-10.10.09:885][986]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.02.23-10.10.09:885][986]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.02.23-10.10.09:894][986]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.02.23-10.10.10:140][986]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.02.23-10.10.10:140][986]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.02.23-10.10.10:140][986]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.02.23-10.10.10:140][986]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.02.23-10.10.10:140][986]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.02.23-10.10.10:140][986]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.02.23-10.10.10:140][986]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.02.23-10.10.10:140][986]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.02.23-10.10.10:141][986]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.02.23-10.10.10:142][986]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.02.23-10.10.10:142][986]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.02.23-10.10.10:142][986]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.02.23-10.10.10:142][986]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.02.23-10.10.10:143][986]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.02.23-10.10.10:143][986]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.02.23-10.10.10:143][986]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.02.23-10.10.10:143][986]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.02.23-10.10.10:143][986]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.02.23-10.10.10:143][986]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.02.23-10.10.10:143][986]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.02.23-10.10.10:143][986]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.02.23-10.10.10:143][986]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.02.23-10.10.10:143][986]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.02.23-10.10.10:146][986]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.02.23-10.10.10:146][986]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.02.23-10.10.10:146][986]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.02.23-10.10.10:149][986]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.02.23-10.10.10:149][986]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.02.23-10.10.10:149][986]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.02.23-10.10.10:149][986]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.02.23-10.10.10:149][986]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.02.23-10.10.10:149][986]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.02.23-10.10.10:149][986]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.02.23-10.10.10:149][986]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.02.23-10.10.10:250][986]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.02.23-10.10.10:351][986]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.02.23-10.10.10:351][986]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.02.23-10.10.10:351][986]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.02.23-10.10.10:351][986]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.02.23-10.10.10:351][986]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.02.23-10.10.10:352][986]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.02.23-10.10.10:354][986]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.02.23-10.10.10:354][986]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.02.23-10.10.10:355][986]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.02.23-10.10.10:355][986]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.02.23-10.10.10:360][986]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.02.23-10.10.10:360][986]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.02.23-10.10.10:360][986]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.02.23-10.10.10:360][986]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.02.23-10.10.10:360][986]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.02.23-10.10.10:360][986]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.02.23-10.10.10:367][986]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.02.23-10.10.10:367][986]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.02.23-10.10.10:368][986]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.02.23-10.10.10:368][986]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.02.23-10.10.10:368][986]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.02.23-10.10.10:368][986]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.02.23-10.10.10:368][986]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.02.23-10.10.10:368][986]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.02.23-10.10.10:368][986]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.02.23-10.10.10:368][986]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.02.23-10.10.10:368][986]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.02.23-10.10.10:368][986]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.02.23-10.10.10:369][986]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.02.23-10.10.10:369][986]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.02.23-10.10.10:369][986]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.02.23-10.10.10:369][986]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.02.23-10.10.10:377][986]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.02.23-10.10.10:377][986]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.02.23-10.10.10:377][986]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.02.23-10.10.10:377][986]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.02.23-10.10.10:377][986]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.02.23-10.10.10:377][986]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.02.23-10.10.10:377][986]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.02.23-10.10.10:377][986]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.02.23-10.10.10:379][986]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.23-10.10.10:379][986]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.02.23-10.10.10:379][986]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.02.23-10.10.10:380][986]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.02.23-10.10.10:380][986]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.02.23-10.10.10:380][986]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.02.23-10.10.10:380][986]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.02.23-10.10.10:380][986]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.02.23-10.10.10:380][986]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.02.23-10.10.10:408][986]LogDerivedDataCache: Shutdown
+[2018.02.23-10.10.10:408][986]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.02.23-10.10.10:408][986]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.02.23-10.10.10:409][986]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.02.23-10.10.10:409][986]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.02.23-10.10.10:409][986]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.02.23-10.10.10:409][986]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.02.23-10.10.10:409][986]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.02.23-10.10.10:409][986]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.02.23-10.10.10:409][986]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.02.23-10.10.10:409][986]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.02.23-10.10.10:410][986]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.02.23-10.10.10:410][986]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.02.23-10.10.10:410][986]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.02.23-10.10.10:410][986]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.02.23-10.10.10:410][986]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.02.23-10.10.10:410][986]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.02.23-10.10.10:410][986]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.02.23-10.10.10:410][986]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.02.23-10.10.10:410][986]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.02.23-10.10.10:411][986]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.02.23-10.10.10:411][986]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.02.23-10.10.10:411][986]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.02.23-10.10.10:411][986]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.02.23-10.10.10:411][986]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.02.23-10.10.10:411][986]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.02.23-10.10.10:411][986]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.02.23-10.10.10:412][986]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.02.23-10.10.10:413][986]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.02.23-10.10.10:413][986]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.02.23-10.10.10:413][986]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.02.23-10.10.10:413][986]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.02.23-10.10.10:413][986]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.02.23-10.10.10:413][986]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.02.23-10.10.10:413][986]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.02.23-10.10.10:413][986]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.02.23-10.10.10:413][986]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.02.23-10.10.10:413][986]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.02.23-10.10.10:413][986]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.23-10.10.10:413][986]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.23-10.10.10:414][986]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.23-10.10.10:414][986]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.23-10.10.10:414][986]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.23-10.10.10:414][986]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB7F58DBB-48B0-1D37-4CAE-12B1E64AA1B3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=372fe2f448a9fe621f3af0bd16dc6f2a%7C8ac49062baae43c690b431ed046528f1%7C7532abaf-559c-4c1f-b377-4db2574a422a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.23-10.10.10:442][986]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.23-10.10.10:445][986]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.23-10.10.10:445][986]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.23-10.10.10:445][986]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.23-10.10.10:445][986]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.23-10.10.10:445][986]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.23-10.10.10:445][986]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.23-10.10.10:445][986]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.23-10.10.10:449][986]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.23-10.10.10:449][986]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.23-10.10.10:449][986]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.23-10.10.10:449][986]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.23-10.10.10:449][986]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.23-10.10.10:449][986]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.23-10.10.10:450][986]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.23-10.10.10:450][986]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.23-10.10.10:450][986]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.23-10.10.10:450][986]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.23-10.10.10:450][986]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.23-10.10.10:458][986]LogExit: Exiting.
+[2018.02.23-10.10.10:487][986]Log file closed, 02/23/18 19:10:10

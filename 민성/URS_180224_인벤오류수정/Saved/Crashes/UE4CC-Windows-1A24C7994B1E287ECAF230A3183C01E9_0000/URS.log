@@ -1,0 +1,513 @@
+﻿Log file open, 02/10/18 18:13:29
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: URS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1310871134) SRandInit(1310871134).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.744589
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.10-09.13.32:443][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.10-09.13.32:443][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.10-09.13.32:478][  0]LogInit: Computer: DESKTOP-PDO9PMJ
+[2018.02.10-09.13.32:478][  0]LogInit: User: 양형
+[2018.02.10-09.13.32:478][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.10-09.13.32:479][  0]LogInit: High frequency timer resolution =2.437498 MHz
+[2018.02.10-09.13.32:479][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.10-09.13.32:479][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.10-09.13.32:479][  0]LogMemory: Process Physical Memory: 273.72 MB used, 273.72 MB peak
+[2018.02.10-09.13.32:479][  0]LogMemory: Process Virtual Memory: 271.68 MB used, 271.68 MB peak
+[2018.02.10-09.13.32:479][  0]LogMemory: Physical Memory: 4195.13 MB used,  3863.32 MB free, 8058.46 MB total
+[2018.02.10-09.13.32:479][  0]LogMemory: Virtual Memory: 678.24 MB used,  3863.32 MB free, 134217728.00 MB total
+[2018.02.10-09.13.33:076][  0]LogInit: Using OS detected language (ko-KR).
+[2018.02.10-09.13.33:076][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.02.10-09.13.33:126][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.02.10-09.13.33:401][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.10-09.13.36:699][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.10-09.13.36:785][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.02.10-09.13.36:785][  0]LogD3D11RHI:       4029/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.02.10-09.13.36:801][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.02.10-09.13.36:801][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.10-09.13.36:804][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.10-09.13.36:804][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.10-09.13.36:804][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.10-09.13.36:811][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.10-09.13.36:811][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.02.10-09.13.36:811][  0]LogWindows: EnumDisplayDevices:
+[2018.02.10-09.13.36:811][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2018.02.10-09.13.36:812][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.10-09.13.36:812][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.10-09.13.36:812][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.02.10-09.13.36:813][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.10-09.13.36:813][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.02.10-09.13.36:813][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.10-09.13.36:813][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.10-09.13.36:813][  0]LogRHI: Texture pool is 2820 MB (70% of 4029 MB)
+[2018.02.10-09.13.36:850][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.10-09.13.37:000][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.10-09.13.37:056][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/양형/Desktop/졸작자료/URS_180210/Intermediate/Shaders/WorkingDirectory/8324/).
+[2018.02.10-09.13.37:057][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/양형/AppData/Local/Temp/UnrealShaderWorkingDir/D3878D0C473880A2E2DEAA96C61FA3A3/'.
+[2018.02.10-09.13.37:057][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.10-09.13.39:649][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.10-09.13.39:763][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.10-09.13.39:875][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.10-09.13.39:995][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.10-09.13.40:139][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.10-09.13.40:258][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.10-09.13.40:373][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.10-09.13.40:487][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.10-09.13.40:596][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.10-09.13.40:735][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.10-09.13.40:859][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.10-09.13.40:974][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.10-09.13.41:088][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.10-09.13.41:206][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.10-09.13.41:441][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.10-09.13.41:441][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.10-09.13.41:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.10-09.13.41:680][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.10-09.13.41:895][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.10-09.13.41:952][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.10-09.13.42:067][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.10-09.13.42:180][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.10-09.13.42:312][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.10-09.13.42:442][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.10-09.13.42:442][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.10-09.13.43:608][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.10-09.13.43:988][  0]LogDerivedDataCache: Loaded boot cache 0.38s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.10-09.13.43:988][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.10-09.13.43:989][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/양형/Desktop/졸작자료/URS_180210/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.10-09.13.43:989][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.10-09.13.43:989][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/양형/Desktop/졸작자료/URS_180210/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.10-09.13.43:989][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.10-09.13.44:025][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.10-09.13.44:038][  0]LogDerivedDataCache: Using Local data cache path C:/Users/양형/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.10-09.13.44:053][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.10-09.13.44:061][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.10-09.13.44:074][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.10-09.13.44:075][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.10-09.13.45:626][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.10-09.13.46:724][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.10-09.13.46:837][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.10-09.13.46:837][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.10-09.13.46:837][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.10-09.13.46:837][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.10-09.13.46:837][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.10-09.13.46:918][  0]LogNetVersion: URS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1777970781)
+[2018.02.10-09.13.47:454][  0]LogAssetRegistry: FAssetRegistry took 0.0320 seconds to start up
+[2018.02.10-09.13.48:897][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.112035 seconds
+[2018.02.10-09.13.48:904][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.10-09.13.48:904][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.02.10-09.13.48:904][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.10-09.13.49:030][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.10-09.13.58:537][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.10-09.13.58:612][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.10-09.14.00:356][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.10-09.14.01:437][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.10-09.14.01:438][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.10-09.14.01:573][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.10-09.14.01:703][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.10-09.14.03:700][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.10-09.14.04:292][  0]LogOcInput: OculusInput pre-init called
+[2018.02.10-09.14.04:964][  0]LogEngine: Initializing Engine...
+[2018.02.10-09.14.04:970][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.10-09.14.05:460][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.10-09.14.05:460][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.10-09.14.05:822][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.10-09.14.05:859][  0]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.10-09.14.07:341][  0]LogInit: FAudioDevice initialized.
+[2018.02.10-09.14.07:442][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.10-09.14.07:463][  0]LogInit: Texture streaming: Enabled
+[2018.02.10-09.14.07:690][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.10-09.14.08:018][  0]LogInit: Transaction tracking system initialized
+[2018.02.10-09.14.08:885][  0]BlueprintLog: New page: 에디터 로드
+[2018.02.10-09.14.11:279][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.02.10-09.14.12:614][  0]LogLinker: Warning: '/Game/ThirdPersonBP/ThirdPersonOverview' 파일을 찾을 수 없습니다.
+[2018.02.10-09.14.12:615][  0]LogLinker: Warning: '/Game/ThirdPersonBP/ThirdPersonOverview' 파일을 찾을 수 없습니다.
+[2018.02.10-09.14.12:615][  0]LogUObjectGlobals: Warning: 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' 오브젝트를 찾는 데 실패했습니다.
+[2018.02.10-09.14.13:229][  0]LogConsoleResponse: Display: 
+[2018.02.10-09.14.13:871][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.10-09.14.13:871][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.10-09.14.13:871][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.10-09.14.14:674][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/졸작자료/URS_180210/Content/' took 0.02s
+[2018.02.10-09.14.16:866][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.02.10-09.14.16:869][  0]Cmd: MAP LOAD FILE="../../../../../../Users/양형/Desktop/졸작자료/URS_180210/Content/UrsContent/URS.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.10-09.14.16:873][  0]LightingResults: New page: 라이팅 빌드
+[2018.02.10-09.14.16:987][  0]MapCheck: New page: 맵 체크
+[2018.02.10-09.14.16:987][  0]LightingResults: New page: 라이팅 빌드
+[2018.02.10-09.14.17:701][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] 입력 액션 이벤트가  Crouch 입력 액션  에 대한 미확인 'Crouch' 액션을 레퍼런싱합니다.
+[2018.02.10-09.14.17:712][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0051.57] Ue4ASP_Character 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 48 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.02.10-09.14.19:193][  0]LogAIModule: Creating AISystem for world URS
+[2018.02.10-09.14.19:623][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/URS_Stage1) is flushing async loading
+[2018.02.10-09.14.22:036][  0]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/URS_Stage2) is flushing async loading
+[2018.02.10-09.14.23:252][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.10-09.14.23:316][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.10-09.14.23:443][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 126.936ms.
+[2018.02.10-09.14.23:443][  0]LogFileHelpers: Loading map 'URS' took 6.576
+[2018.02.10-09.14.23:762][  0]LogCollectionManager: Loaded 0 collections in 0.001209 seconds
+[2018.02.10-09.14.23:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/졸작자료/URS_180210/Saved/Collections/' took 0.01s
+[2018.02.10-09.14.23:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/졸작자료/URS_180210/Content/Developers/양형/Collections/' took 0.01s
+[2018.02.10-09.14.23:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/졸작자료/URS_180210/Content/Collections/' took 0.01s
+[2018.02.10-09.14.23:951][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.10-09.14.23:962][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2363 classes and 519 folders.
+[2018.02.10-09.14.24:134][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.02.10-09.14.24:616][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.10-09.14.24:745][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.10-09.14.24:993][  0]LogSlate: Took 0.008581 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.10-09.14.25:027][  0]LogSlate: Took 0.032654 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.02.10-09.14.25:034][  0]LogSlate: Took 0.006158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.10-09.14.25:047][  0]LogSlate: Took 0.006510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.10-09.14.25:300][  0]LogRenderer: Reallocating scene render targets to support 1092x556 Format 10 NumSamples 1 (Frame:1).
+[2018.02.10-09.14.25:740][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.10-09.14.25:740][  0]LogLoad: (Engine Initialization) Total time: 59.60 seconds
+[2018.02.10-09.14.25:740][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.10-09.14.25:740][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.10-09.14.26:108][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.10-09.14.26:241][  0]LogSlate: Took 0.006603 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.10-09.14.26:436][  1]LogAssetRegistry: Asset discovery search completed in 39.0045 seconds
+[2018.02.10-09.14.26:438][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.10-09.14.26:438][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000108 seconds (updated 0 objects)
+[2018.02.10-09.14.27:084][  3]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.10-09.14.35:351][ 61]LogSlate: Took 0.002011 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.10-09.14.35:956][ 61]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.02.10-09.14.36:834][ 61]LogSlate: Took 0.006489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.10-09.14.37:076][ 62]LogSlate: Took 0.004719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.10-09.14.41:687][260]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.02.10-09.14.41:782][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.10-09.14.41:782][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.10-09.14.41:782][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.10-09.14.41:783][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-09.14.41:784][260]PIE: New page: PIE 세션: URS (2018. 2. 11. 오전 3:14:41)
+[2018.02.10-09.14.41:784][260]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.02.10-09.14.41:804][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018622s)
+[2018.02.10-09.14.41:804][260]LogAIModule: Creating AISystem for world URS
+[2018.02.10-09.14.41:805][260]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2018.02.10-09.14.41:805][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.020093s)
+[2018.02.10-09.14.41:841][260]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.10-09.14.41:949][260]LogInit: FAudioDevice initialized.
+[2018.02.10-09.14.42:029][260]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.10-09.14.42:034][260]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.02.10-18.14.42
+[2018.02.10-09.14.42:034][260]LogWorld: Bringing up level for play took: 0.002381
+[2018.02.10-09.14.42:158][260]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.02.10-09.14.42:176][260]LogLevel: ActivateLevel /Game/UrsContent/UEDPIE_0_URS_Stage1 1 1 1
+[2018.02.10-09.14.42:183][260]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 1.296
+[2018.02.10-09.14.42:186][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.10-09.14.42:186][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.10-09.14.42:186][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.10-09.14.42:762][260]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.02.10-09.14.45:179][398]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.14.45:296][405]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.14.47:521][529]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.14.47:616][534]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.14.50:382][678]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.14.50:457][682]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.14.51:699][747]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.10-09.14.51:700][747]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.10-09.14.51:700][747]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.10-09.14.51:773][747]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.10-09.14.51:774][747]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.10-09.14.51:774][747]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.10-09.14.53:049][797]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.02.10-09.14.53:075][797]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.10-09.14.53:075][797]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.10-09.14.53:075][797]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.10-09.14.53:075][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-09.14.53:076][797]PIE: New page: PIE 세션: URS (2018. 2. 11. 오전 3:14:53)
+[2018.02.10-09.14.53:076][797]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.02.10-09.14.53:087][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011799s)
+[2018.02.10-09.14.53:088][797]LogAIModule: Creating AISystem for world URS
+[2018.02.10-09.14.53:089][797]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2018.02.10-09.14.53:089][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.013462s)
+[2018.02.10-09.14.53:121][797]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.10-09.14.53:228][797]LogInit: FAudioDevice initialized.
+[2018.02.10-09.14.53:284][797]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.10-09.14.53:287][797]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.02.10-18.14.53
+[2018.02.10-09.14.53:287][797]LogWorld: Bringing up level for play took: 0.002286
+[2018.02.10-09.14.53:293][797]LogLevel: ActivateLevel /Game/UrsContent/UEDPIE_0_URS_Stage1 1 1 1
+[2018.02.10-09.14.53:297][797]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.41
+[2018.02.10-09.14.53:304][797]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.10-09.14.53:304][797]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.10-09.14.53:304][797]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.10-09.14.54:647][826]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.14.54:759][830]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.14.56:394][890]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.14.56:503][894]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.14.58:299][960]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.14.58:407][964]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.15.00:237][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.10-09.15.00:237][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.10-09.15.00:238][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.10-09.15.00:305][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.10-09.15.00:305][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.10-09.15.00:305][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.10-09.20.39:883][335]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.02.10-09.20.39:911][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.10-09.20.39:912][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.10-09.20.39:912][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.10-09.20.39:912][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-09.20.39:912][335]PIE: New page: PIE 세션: URS (2018. 2. 11. 오전 3:20:39)
+[2018.02.10-09.20.39:913][335]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.02.10-09.20.39:927][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014099s)
+[2018.02.10-09.20.39:928][335]LogAIModule: Creating AISystem for world URS
+[2018.02.10-09.20.39:929][335]LogPlayLevel: PIE: World Init took: (0.001941s)
+[2018.02.10-09.20.39:929][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.016843s)
+[2018.02.10-09.20.39:973][335]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.10-09.20.40:082][335]LogInit: FAudioDevice initialized.
+[2018.02.10-09.20.40:132][335]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.02.10-09.20.40:135][335]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.02.10-18.20.40
+[2018.02.10-09.20.40:136][335]LogWorld: Bringing up level for play took: 0.002290
+[2018.02.10-09.20.40:142][335]LogLevel: ActivateLevel /Game/UrsContent/UEDPIE_0_URS_Stage1 1 1 1
+[2018.02.10-09.20.40:146][335]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: -0.741
+[2018.02.10-09.20.40:147][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.10-09.20.40:147][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.10-09.20.40:147][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.10-09.20.41:646][382]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.20.41:747][387]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.20.57:775][143]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.20.57:775][143]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.04:476][271]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.04:582][273]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.12:610][617]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.12:706][621]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.33:542][446]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.33:542][446]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.36:531][562]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.36:634][566]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.38:905][656]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.39:007][660]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.41:124][743]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.41:225][747]PIE: Warning: 'PickupText_C' 위젯은 이미 화면에 추가되었습니다.
+[2018.02.10-09.21.48:570][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.10-09.21.48:571][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.10-09.21.48:571][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.10-09.21.48:642][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.02.10-09.21.48:642][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.02.10-09.21.48:642][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.02.10-09.22.49:030][752]BlueprintLog: New page: FirstPersonCharacter 컴파일
+[2018.02.10-09.23.04:524][533]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.02.10-09.23.05:230][533]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.706 s
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: === Handled ensure: ===
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: 
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1029]
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: Stack: 
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: [Callstack] 0x00000000D9142786 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: [Callstack] 0x00000000D8EE123A UE4Editor-Core.dll!UnknownFunction []
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: [Callstack] 0x00000000D8EFB906 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: [Callstack] 0x00000000CAB133F6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: [Callstack] 0x00000000C93E03AB UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: [Callstack] 0x00000000C0C43EBA UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: [Callstack] 0x00000000C0AD74AC UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.02.10-09.23.05:230][533]LogOutputDevice: Error: [Callstack] 0x00000000C0ADABF9 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000C0C08225 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000DF6A7397 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000DF6ACE61 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000DF8E9913 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000DF703484 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000DF6DB68C UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000DF6CD6B7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000E736E39E UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000E7361A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000E73703EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000E735D5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x000000001F32B85D USER32.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x000000001F32B1EF USER32.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000E7371516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000B02550C8 UE4Editor.exe!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000B0265430 UE4Editor.exe!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000B02654AA UE4Editor.exe!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000B0272379 UE4Editor.exe!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x00000000B0273D57 UE4Editor.exe!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x0000000021A01FE4 KERNEL32.DLL!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: [Callstack] 0x0000000021C0EFB1 ntdll.dll!UnknownFunction []
+[2018.02.10-09.23.05:231][533]LogOutputDevice: Error: 
+[2018.02.10-09.23.05:238][533]LogStats:                SubmitErrorReport -  0.000 s
