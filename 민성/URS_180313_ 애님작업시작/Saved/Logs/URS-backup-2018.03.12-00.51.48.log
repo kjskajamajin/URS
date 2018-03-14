@@ -1,0 +1,1175 @@
+﻿Log file open, 03/11/18 23:12:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: URS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1477748483) SRandInit(-1477748483).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.185068
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.11-14.12.07:565][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.11-14.12.07:565][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.11-14.12.07:612][  0]LogInit: Computer: DESKTOP-PDO9PMJ
+[2018.03.11-14.12.07:612][  0]LogInit: User: 양형
+[2018.03.11-14.12.07:612][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.11-14.12.07:612][  0]LogInit: High frequency timer resolution =2.437499 MHz
+[2018.03.11-14.12.07:613][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.11-14.12.07:613][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.11-14.12.07:613][  0]LogMemory: Process Physical Memory: 274.45 MB used, 274.45 MB peak
+[2018.03.11-14.12.07:613][  0]LogMemory: Process Virtual Memory: 275.70 MB used, 275.70 MB peak
+[2018.03.11-14.12.07:613][  0]LogMemory: Physical Memory: 4384.61 MB used,  3673.85 MB free, 8058.46 MB total
+[2018.03.11-14.12.07:613][  0]LogMemory: Virtual Memory: 682.25 MB used,  3673.85 MB free, 134217728.00 MB total
+[2018.03.11-14.12.08:005][  0]LogInit: Using OS detected language (ko-KR).
+[2018.03.11-14.12.08:005][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.03.11-14.12.08:019][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.03.11-14.12.08:229][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.11-14.12.08:857][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.11-14.12.08:926][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.03.11-14.12.08:926][  0]LogD3D11RHI:       4029/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.11-14.12.08:948][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.03.11-14.12.08:948][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.11-14.12.08:954][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.11-14.12.08:954][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.11-14.12.08:954][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.11-14.12.08:964][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.11-14.12.08:964][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.03.11-14.12.08:964][  0]LogWindows: EnumDisplayDevices:
+[2018.03.11-14.12.08:964][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2018.03.11-14.12.08:965][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.11-14.12.08:965][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.11-14.12.08:965][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.03.11-14.12.08:966][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.11-14.12.08:966][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.03.11-14.12.08:966][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.11-14.12.08:966][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.11-14.12.08:966][  0]LogRHI: Texture pool is 2820 MB (70% of 4029 MB)
+[2018.03.11-14.12.08:999][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.11-14.12.09:022][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.11-14.12.09:082][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Intermediate/Shaders/WorkingDirectory/12788/).
+[2018.03.11-14.12.09:083][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/양형/AppData/Local/Temp/UnrealShaderWorkingDir/9728FCE4481CF829ABB22FB69350458F/'.
+[2018.03.11-14.12.09:083][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.11-14.12.10:587][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.11-14.12.10:674][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.11-14.12.10:761][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.11-14.12.10:855][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.11-14.12.10:950][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.11-14.12.11:041][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.11-14.12.11:128][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.11-14.12.11:215][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.11-14.12.11:294][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.11-14.12.11:381][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.11-14.12.11:486][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.11-14.12.11:573][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.11-14.12.11:680][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.11-14.12.11:804][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.11-14.12.11:988][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.11-14.12.11:988][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.11-14.12.12:082][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.11-14.12.12:175][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.11-14.12.12:336][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.11-14.12.12:386][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.11-14.12.12:475][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.11-14.12.12:575][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.11-14.12.12:663][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.11-14.12.12:757][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.11-14.12.12:757][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.11-14.12.13:691][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.11-14.12.14:096][  0]LogDerivedDataCache: Loaded boot cache 0.41s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.11-14.12.14:096][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.11-14.12.14:097][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/양형/Desktop/URS_180311_마티네적용/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.11-14.12.14:097][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.11-14.12.14:097][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/양형/Desktop/URS_180311_마티네적용/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.11-14.12.14:097][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.11-14.12.14:120][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.11-14.12.14:133][  0]LogDerivedDataCache: Using Local data cache path C:/Users/양형/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.11-14.12.14:145][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.11-14.12.14:146][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.11-14.12.14:148][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.11-14.12.14:148][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.11-14.12.15:035][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.11-14.12.15:635][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.11-14.12.15:720][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.11-14.12.15:721][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.11-14.12.15:721][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.11-14.12.15:721][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.11-14.12.15:721][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.11-14.12.15:757][  0]LogNetVersion: URS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1777970781)
+[2018.03.11-14.12.16:008][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2018.03.11-14.12.16:796][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.059232 seconds
+[2018.03.11-14.12.16:802][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.11-14.12.16:802][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.11-14.12.16:802][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.11-14.12.16:904][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.11-14.12.22:786][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.11-14.12.22:851][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.11-14.12.24:194][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.11-14.12.24:955][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.11-14.12.24:955][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.11-14.12.25:058][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.11-14.12.25:153][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.11-14.12.26:725][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.11-14.12.27:228][  0]LogOcInput: OculusInput pre-init called
+[2018.03.11-14.12.27:778][  0]LogEngine: Initializing Engine...
+[2018.03.11-14.12.27:783][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.11-14.12.28:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.11-14.12.28:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.11-14.12.28:342][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.11-14.12.28:374][  0]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.11-14.12.28:493][  0]LogInit: FAudioDevice initialized.
+[2018.03.11-14.12.28:605][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.11-14.12.28:630][  0]LogInit: Texture streaming: Enabled
+[2018.03.11-14.12.28:828][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.11-14.12.29:153][  0]LogInit: Transaction tracking system initialized
+[2018.03.11-14.12.29:822][  0]BlueprintLog: New page: 에디터 로드
+[2018.03.11-14.12.31:723][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.03.11-14.12.32:811][  0]LogLinker: Warning: '/Game/ThirdPersonBP/ThirdPersonOverview' 파일을 찾을 수 없습니다.
+[2018.03.11-14.12.32:811][  0]LogLinker: Warning: '/Game/ThirdPersonBP/ThirdPersonOverview' 파일을 찾을 수 없습니다.
+[2018.03.11-14.12.32:811][  0]LogUObjectGlobals: Warning: 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C' 오브젝트를 찾는 데 실패했습니다.
+[2018.03.11-14.12.33:256][  0]LogConsoleResponse: Display: 
+[2018.03.11-14.12.33:584][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.11-14.12.33:584][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.11-14.12.33:584][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.11-14.12.33:934][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180311_마티네적용/Content/' took 0.02s
+[2018.03.11-14.12.35:986][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.11-14.12.35:987][  0]Cmd: MAP LOAD FILE="../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UrsContent/StartGame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.11-14.12.35:987][  0]LightingResults: New page: 라이팅 빌드
+[2018.03.11-14.12.36:072][  0]MapCheck: New page: 맵 체크
+[2018.03.11-14.12.36:072][  0]LightingResults: New page: 라이팅 빌드
+[2018.03.11-14.12.36:117][  0]LogAIModule: Creating AISystem for world StartGame
+[2018.03.11-14.12.36:121][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.11-14.12.36:133][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.11-14.12.36:210][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 77.168ms.
+[2018.03.11-14.12.36:210][  0]LogFileHelpers: Loading map 'StartGame' took 0.224
+[2018.03.11-14.12.36:493][  0]LogCollectionManager: Loaded 0 collections in 0.001231 seconds
+[2018.03.11-14.12.36:663][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180311_마티네적용/Saved/Collections/' took 0.01s
+[2018.03.11-14.12.36:663][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180311_마티네적용/Content/Developers/양형/Collections/' took 0.01s
+[2018.03.11-14.12.36:663][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180311_마티네적용/Content/Collections/' took 0.01s
+[2018.03.11-14.12.36:663][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.11-14.12.36:673][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2363 classes and 519 folders.
+[2018.03.11-14.12.36:797][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.11-14.12.36:983][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.11-14.12.37:079][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.03.11-14.12.37:269][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2018.03.11-14.12.37:293][  0]LogSlate: Took 0.002092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.11-14.12.37:321][  0]LogSlate: Took 0.026065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.03.11-14.12.37:323][  0]LogSlate: Took 0.001566 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.11-14.12.37:332][  0]LogSlate: Took 0.003054 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.11-14.12.37:455][  0]LogRenderer: Reallocating scene render targets to support 1064x528 Format 9 NumSamples 1 (Frame:1).
+[2018.03.11-14.12.37:740][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.11-14.12.37:740][  0]LogLoad: (Engine Initialization) Total time: 34.28 seconds
+[2018.03.11-14.12.37:740][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.11-14.12.37:740][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.11-14.12.37:784][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.03.11-14.12.37:858][  1]LogAssetRegistry: Asset discovery search completed in 21.8725 seconds
+[2018.03.11-14.12.37:861][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.11-14.12.37:861][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2018.03.11-14.12.41:860][233]LogSlate: Took 0.008266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-14.12.49:620][694]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.11-14.12.49:689][694]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.12.49:689][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.12.49:699][694]PIE: New page: PIE 세션: StartGame (2018. 3. 12. 오전 8:12:49)
+[2018.03.11-14.12.49:699][694]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.11-14.12.49:702][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002880s)
+[2018.03.11-14.12.49:702][694]LogAIModule: Creating AISystem for world StartGame
+[2018.03.11-14.12.49:703][694]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2018.03.11-14.12.49:704][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.004680s)
+[2018.03.11-14.12.49:729][694]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.11-14.12.49:833][694]LogInit: FAudioDevice initialized.
+[2018.03.11-14.12.49:930][694]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.12.49:933][694]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.11-23.12.49
+[2018.03.11-14.12.49:933][694]LogWorld: Bringing up level for play took: 0.000626
+[2018.03.11-14.12.50:018][694]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.03.11-14.12.50:025][694]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.214
+[2018.03.11-14.12.50:028][694]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.12.50:056][694]LogRenderer: Reallocating scene render targets to support 1124x656 Format 9 NumSamples 1 (Frame:1).
+[2018.03.11-14.12.51:623][785]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.12.51:677][785]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.13.08:745][793]LogSlate: Took 0.001705 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-14.13.09:218][793]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.03.11-14.13.09:980][793]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-14.13.09:985][793]LogSlate: Took 0.003678 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.11-14.14.37:294][729]LogSlate: Took 0.003189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.11-14.14.37:302][729]LogSlate: Took 0.002811 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.03.11-14.14.37:303][729]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.11-14.14.37:307][729]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.11-14.14.37:309][729]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-14.14.37:312][729]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-14.14.37:321][729]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.11-14.14.37:609][742]LogSlate: Took 0.000748 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.11-14.14.37:617][742]LogSlate: Took 0.001898 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.03.11-14.14.37:618][742]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.11-14.14.37:622][742]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.11-14.14.37:624][742]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-14.14.37:627][742]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-14.14.37:636][742]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.11-14.14.59:787][864]PIE: '/Engine/Transient.TextBlock_77' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:790][864]PIE: '/Engine/Transient.TextBlock_79' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:792][864]PIE: '/Engine/Transient.TextBlock_81' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:816][865]PIE: '/Engine/Transient.TextBlock_83' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:818][865]PIE: '/Engine/Transient.TextBlock_85' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:836][866]PIE: '/Engine/Transient.TextBlock_87' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:839][866]PIE: '/Engine/Transient.TextBlock_89' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:856][867]PIE: '/Engine/Transient.TextBlock_91' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:860][867]PIE: '/Engine/Transient.TextBlock_93' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:877][868]PIE: '/Engine/Transient.TextBlock_95' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:880][868]PIE: '/Engine/Transient.TextBlock_97' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:897][869]PIE: '/Engine/Transient.TextBlock_99' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:900][869]PIE: '/Engine/Transient.TextBlock_101' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:917][870]PIE: '/Engine/Transient.TextBlock_103' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:919][870]PIE: '/Engine/Transient.TextBlock_105' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:922][870]PIE: '/Engine/Transient.TextBlock_107' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:938][871]PIE: '/Engine/Transient.TextBlock_109' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:942][871]PIE: '/Engine/Transient.TextBlock_111' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:960][872]PIE: '/Engine/Transient.TextBlock_113' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:963][872]PIE: '/Engine/Transient.TextBlock_115' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:980][873]PIE: '/Engine/Transient.TextBlock_117' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.14.59:983][873]PIE: '/Engine/Transient.TextBlock_119' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:001][874]PIE: '/Engine/Transient.TextBlock_121' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:022][875]PIE: '/Engine/Transient.TextBlock_123' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:041][876]PIE: '/Engine/Transient.TextBlock_125' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:058][877]PIE: '/Engine/Transient.TextBlock_127' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:061][877]PIE: '/Engine/Transient.TextBlock_129' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:079][878]PIE: '/Engine/Transient.TextBlock_131' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:098][879]PIE: '/Engine/Transient.TextBlock_133' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:101][879]PIE: '/Engine/Transient.TextBlock_135' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:119][880]PIE: '/Engine/Transient.TextBlock_137' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:121][880]PIE: '/Engine/Transient.TextBlock_139' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:123][880]PIE: '/Engine/Transient.TextBlock_141' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:125][880]PIE: '/Engine/Transient.TextBlock_143' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:143][881]PIE: '/Engine/Transient.TextBlock_145' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:146][881]PIE: '/Engine/Transient.TextBlock_147' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:147][881]PIE: '/Engine/Transient.TextBlock_149' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:149][881]PIE: '/Engine/Transient.TextBlock_151' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:167][882]PIE: '/Engine/Transient.TextBlock_153' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:170][882]PIE: '/Engine/Transient.TextBlock_155' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:188][883]PIE: '/Engine/Transient.TextBlock_157' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:205][884]PIE: '/Engine/Transient.TextBlock_159' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:224][885]PIE: '/Engine/Transient.TextBlock_161' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:243][886]PIE: '/Engine/Transient.TextBlock_163' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:261][887]PIE: '/Engine/Transient.TextBlock_165' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:277][888]PIE: '/Engine/Transient.TextBlock_167' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:280][888]PIE: '/Engine/Transient.TextBlock_169' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:297][889]PIE: '/Engine/Transient.TextBlock_171' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:300][889]PIE: '/Engine/Transient.TextBlock_173' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:318][890]PIE: '/Engine/Transient.TextBlock_175' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:320][890]PIE: '/Engine/Transient.TextBlock_177' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:322][890]PIE: '/Engine/Transient.TextBlock_179' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:339][891]PIE: '/Engine/Transient.TextBlock_181' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:342][891]PIE: '/Engine/Transient.TextBlock_183' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:358][892]PIE: '/Engine/Transient.TextBlock_185' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:361][892]PIE: '/Engine/Transient.TextBlock_187' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:379][893]PIE: '/Engine/Transient.TextBlock_189' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:397][894]PIE: '/Engine/Transient.TextBlock_191' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:399][894]PIE: '/Engine/Transient.TextBlock_193' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:417][895]PIE: '/Engine/Transient.TextBlock_195' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:419][895]PIE: '/Engine/Transient.TextBlock_197' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:437][896]PIE: '/Engine/Transient.TextBlock_199' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:440][896]PIE: '/Engine/Transient.TextBlock_201' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:457][897]PIE: '/Engine/Transient.TextBlock_203' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:460][897]PIE: '/Engine/Transient.TextBlock_205' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:476][898]PIE: '/Engine/Transient.TextBlock_207' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:479][898]PIE: '/Engine/Transient.TextBlock_209' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:496][899]PIE: '/Engine/Transient.TextBlock_211' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:514][900]PIE: '/Engine/Transient.TextBlock_213' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:532][901]PIE: '/Engine/Transient.TextBlock_215' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:550][902]PIE: '/Engine/Transient.TextBlock_217' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:567][903]PIE: '/Engine/Transient.TextBlock_219' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:570][903]PIE: '/Engine/Transient.TextBlock_221' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:587][904]PIE: '/Engine/Transient.TextBlock_223' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:606][905]PIE: '/Engine/Transient.TextBlock_225' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:624][906]PIE: '/Engine/Transient.TextBlock_227' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:642][907]PIE: '/Engine/Transient.TextBlock_229' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:660][908]PIE: '/Engine/Transient.TextBlock_231' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:678][909]PIE: '/Engine/Transient.TextBlock_233' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:695][910]PIE: '/Engine/Transient.TextBlock_235' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:715][911]PIE: '/Engine/Transient.TextBlock_237' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:734][912]PIE: '/Engine/Transient.TextBlock_239' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:751][913]PIE: '/Engine/Transient.TextBlock_241' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:769][914]PIE: '/Engine/Transient.TextBlock_243' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:786][915]PIE: '/Engine/Transient.TextBlock_245' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:805][916]PIE: '/Engine/Transient.TextBlock_247' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:824][917]PIE: '/Engine/Transient.TextBlock_249' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:841][918]PIE: '/Engine/Transient.TextBlock_251' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:844][918]PIE: '/Engine/Transient.TextBlock_253' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:862][919]PIE: '/Engine/Transient.TextBlock_255' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:879][920]PIE: '/Engine/Transient.TextBlock_257' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:896][921]PIE: '/Engine/Transient.TextBlock_259' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:899][921]PIE: '/Engine/Transient.TextBlock_261' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:917][922]PIE: '/Engine/Transient.TextBlock_263' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:918][922]PIE: '/Engine/Transient.TextBlock_265' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:921][922]PIE: '/Engine/Transient.TextBlock_267' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:938][923]PIE: '/Engine/Transient.TextBlock_269' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:941][923]PIE: '/Engine/Transient.TextBlock_271' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:958][924]PIE: '/Engine/Transient.TextBlock_273' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:961][924]PIE: '/Engine/Transient.TextBlock_275' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:979][925]PIE: '/Engine/Transient.TextBlock_277' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.00:996][926]PIE: '/Engine/Transient.TextBlock_279' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.01:015][927]PIE: '/Engine/Transient.TextBlock_281' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.01:036][928]PIE: '/Engine/Transient.TextBlock_283' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.01:053][929]PIE: '/Engine/Transient.TextBlock_285' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.01:071][930]PIE: '/Engine/Transient.TextBlock_287' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.01:089][931]PIE: '/Engine/Transient.TextBlock_289' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.01:107][932]PIE: '/Engine/Transient.TextBlock_291' 에서 호출된 UWidget::RemoveFromParent() 에 UMG 부모가 없습니다 (TakeWidget() 을 통해 네이티브 슬레이트 위젯에 바로 추가된 경우 RemoveFromParent() 를 통해서가 아니라 명시적으로 바로 제거해 줘야 합니다.)
+[2018.03.11-14.15.06:824][182]BlueprintLog: New page: StartScene 컴파일
+[2018.03.11-14.15.07:570][217]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-14.15.07:586][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/StartScene" FILE="../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UMG/StartScene.uasset" SILENT=true
+[2018.03.11-14.15.07:616][217]LogSavePackage: Save=21.28ms
+[2018.03.11-14.15.07:616][217]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Saved/StartSceneF22C8C0A429390FB051E349274D01375.tmp' to '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UMG/StartScene.uasset'
+[2018.03.11-14.15.07:619][217]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UMG/StartScene.uasset
+[2018.03.11-14.15.11:454][421]LogEditorViewport: Clicking Background
+[2018.03.11-14.15.28:894][358]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.11-14.15.28:920][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.15.28:921][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.15.28:921][358]PIE: New page: PIE 세션: StartGame (2018. 3. 12. 오전 8:15:28)
+[2018.03.11-14.15.28:921][358]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.11-14.15.28:922][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001033s)
+[2018.03.11-14.15.28:922][358]LogAIModule: Creating AISystem for world StartGame
+[2018.03.11-14.15.28:923][358]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2018.03.11-14.15.28:923][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001986s)
+[2018.03.11-14.15.28:958][358]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.11-14.15.29:062][358]LogInit: FAudioDevice initialized.
+[2018.03.11-14.15.29:114][358]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.15.29:115][358]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.11-23.15.29
+[2018.03.11-14.15.29:115][358]LogWorld: Bringing up level for play took: 0.000442
+[2018.03.11-14.15.29:120][358]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.691
+[2018.03.11-14.15.29:121][358]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.15.37:528][851]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.11-14.15.37:528][851]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.11-14.15.37:822][851]LogBlueprint: Warning: [Compiler Ue4ASP_Character] 입력 액션 이벤트가  Crouch 입력 액션  에 대한 미확인 'Crouch' 액션을 레퍼런싱합니다.
+[2018.03.11-14.15.37:831][851]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0214.37] Ue4ASP_Character 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 40 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.03.11-14.15.40:882][851]LogAIModule: Creating AISystem for world URS
+[2018.03.11-14.15.40:883][851]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.15.40:920][851]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.11-23.15.40
+[2018.03.11-14.15.40:922][851]LogWorld: Bringing up level for play took: 0.038247
+[2018.03.11-14.15.40:923][851]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.11-14.15.40:931][851]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.11-14.15.40:932][851]LogLoad: Took 3.404156 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.11-14.15.40:934][851]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.11-14.15.43:073][856]Cmd: Stat FPS
+[2018.03.11-14.15.59:022][794]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage2 1 1 1
+[2018.03.11-14.15.59:023][794]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage2) is flushing async loading
+[2018.03.11-14.16.00:101][797]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 0 0 1
+[2018.03.11-14.16.05:202][ 97]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.16.05:273][ 97]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.17.32:902][277]LogSlate: Took 0.002146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.11-14.19.07:123][426]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.11-14.19.07:151][426]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.19.07:151][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.19.07:151][426]PIE: New page: PIE 세션: StartGame (2018. 3. 12. 오전 8:19:07)
+[2018.03.11-14.19.07:151][426]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.11-14.19.07:152][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001079s)
+[2018.03.11-14.19.07:153][426]LogAIModule: Creating AISystem for world StartGame
+[2018.03.11-14.19.07:153][426]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2018.03.11-14.19.07:153][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002181s)
+[2018.03.11-14.19.07:194][426]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.11-14.19.07:301][426]LogInit: FAudioDevice initialized.
+[2018.03.11-14.19.07:361][426]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.19.07:362][426]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.11-23.19.07
+[2018.03.11-14.19.07:362][426]LogWorld: Bringing up level for play took: 0.000519
+[2018.03.11-14.19.07:374][426]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.437
+[2018.03.11-14.19.07:375][426]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.19.08:781][494]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.19.08:830][494]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.19.09:477][527]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.11-14.19.09:502][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.19.09:502][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.19.09:502][527]PIE: New page: PIE 세션: StartGame (2018. 3. 12. 오전 8:19:09)
+[2018.03.11-14.19.09:502][527]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.11-14.19.09:503][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001270s)
+[2018.03.11-14.19.09:504][527]LogAIModule: Creating AISystem for world StartGame
+[2018.03.11-14.19.09:504][527]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2018.03.11-14.19.09:504][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002157s)
+[2018.03.11-14.19.09:537][527]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.11-14.19.09:650][527]LogInit: FAudioDevice initialized.
+[2018.03.11-14.19.09:732][527]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.19.09:733][527]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.11-23.19.09
+[2018.03.11-14.19.09:733][527]LogWorld: Bringing up level for play took: 0.000490
+[2018.03.11-14.19.09:745][527]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.066
+[2018.03.11-14.19.09:746][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.19.11:168][586]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.11-14.19.11:169][586]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.11-14.19.12:082][586]LogAIModule: Creating AISystem for world URS
+[2018.03.11-14.19.12:083][586]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.19.12:106][586]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.11-23.19.12
+[2018.03.11-14.19.12:108][586]LogWorld: Bringing up level for play took: 0.023899
+[2018.03.11-14.19.12:108][586]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.11-14.19.12:113][586]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.11-14.19.12:113][586]LogLoad: Took 0.943593 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.11-14.19.12:114][586]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.11-14.19.13:182][590]Cmd: Stat FPS
+[2018.03.11-14.19.32:668][423]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage2 1 1 1
+[2018.03.11-14.19.32:669][423]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage2) is flushing async loading
+[2018.03.11-14.19.33:181][426]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 0 0 1
+[2018.03.11-14.19.44:125][887]Cmd: stat fps
+[2018.03.11-14.19.45:301][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.19.45:365][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.19.48:178][ 84]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.11-14.19.48:202][ 84]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.19.48:202][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.19.48:203][ 84]PIE: New page: PIE 세션: StartGame (2018. 3. 12. 오전 8:19:48)
+[2018.03.11-14.19.48:203][ 84]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.11-14.19.48:204][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001029s)
+[2018.03.11-14.19.48:204][ 84]LogAIModule: Creating AISystem for world StartGame
+[2018.03.11-14.19.48:204][ 84]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2018.03.11-14.19.48:205][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001957s)
+[2018.03.11-14.19.48:237][ 84]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.11-14.19.48:361][ 84]LogInit: FAudioDevice initialized.
+[2018.03.11-14.19.48:433][ 84]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.19.48:434][ 84]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.11-23.19.48
+[2018.03.11-14.19.48:434][ 84]LogWorld: Bringing up level for play took: 0.000653
+[2018.03.11-14.19.48:448][ 84]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.637
+[2018.03.11-14.19.48:449][ 84]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.19.49:733][136]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.11-14.19.49:734][136]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.11-14.19.49:971][136]LogAIModule: Creating AISystem for world URS
+[2018.03.11-14.19.49:971][136]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.19.49:992][136]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.11-23.19.49
+[2018.03.11-14.19.49:994][136]LogWorld: Bringing up level for play took: 0.021603
+[2018.03.11-14.19.49:994][136]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.11-14.19.49:998][136]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.11-14.19.49:998][136]LogLoad: Took 0.264620 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.11-14.19.50:001][136]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.11-14.19.51:022][140]Cmd: Stat FPS
+[2018.03.11-14.19.53:831][251]Cmd: stat fps
+[2018.03.11-14.19.54:913][297]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.19.54:973][297]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.22.19:147][505]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.11-14.22.19:178][505]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.22.19:178][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.22.19:178][505]PIE: New page: PIE 세션: StartGame (2018. 3. 12. 오전 8:22:19)
+[2018.03.11-14.22.19:178][505]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.11-14.22.19:179][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001284s)
+[2018.03.11-14.22.19:180][505]LogAIModule: Creating AISystem for world StartGame
+[2018.03.11-14.22.19:180][505]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2018.03.11-14.22.19:180][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002295s)
+[2018.03.11-14.22.19:222][505]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.11-14.22.19:325][505]LogInit: FAudioDevice initialized.
+[2018.03.11-14.22.19:383][505]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.22.19:384][505]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.11-23.22.19
+[2018.03.11-14.22.19:384][505]LogWorld: Bringing up level for play took: 0.000757
+[2018.03.11-14.22.19:392][505]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.419
+[2018.03.11-14.22.19:392][505]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.22.20:575][572]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.11-14.22.20:576][572]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.11-14.22.20:831][572]LogAIModule: Creating AISystem for world URS
+[2018.03.11-14.22.20:832][572]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.22.20:853][572]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.11-23.22.20
+[2018.03.11-14.22.20:855][572]LogWorld: Bringing up level for play took: 0.022372
+[2018.03.11-14.22.20:855][572]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.11-14.22.20:859][572]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.11-14.22.20:860][572]LogLoad: Took 0.283246 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.11-14.22.20:861][572]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.11-14.22.21:845][576]Cmd: Stat FPS
+[2018.03.11-14.22.34:324][314]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage2 1 1 1
+[2018.03.11-14.22.34:325][314]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage2) is flushing async loading
+[2018.03.11-14.22.34:802][317]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 0 0 1
+[2018.03.11-14.22.39:635][599]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.22.39:689][599]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.43.37:093][196]BlueprintLog: New page: PickupText 컴파일
+[2018.03.11-14.43.40:167][365]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.11-14.43.40:191][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.43.40:192][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.43.40:192][365]PIE: New page: PIE 세션: StartGame (2018. 3. 12. 오전 8:43:40)
+[2018.03.11-14.43.40:192][365]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.11-14.43.40:193][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000960s)
+[2018.03.11-14.43.40:193][365]LogAIModule: Creating AISystem for world StartGame
+[2018.03.11-14.43.40:193][365]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2018.03.11-14.43.40:194][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001898s)
+[2018.03.11-14.43.40:228][365]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.11-14.43.40:331][365]LogInit: FAudioDevice initialized.
+[2018.03.11-14.43.40:381][365]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.43.40:382][365]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.11-23.43.40
+[2018.03.11-14.43.40:382][365]LogWorld: Bringing up level for play took: 0.000533
+[2018.03.11-14.43.40:387][365]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.576
+[2018.03.11-14.43.40:388][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.43.41:670][439]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.11-14.43.41:671][439]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.11-14.43.41:934][439]LogAIModule: Creating AISystem for world URS
+[2018.03.11-14.43.41:934][439]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.43.41:957][439]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.11-23.43.41
+[2018.03.11-14.43.41:959][439]LogWorld: Bringing up level for play took: 0.023478
+[2018.03.11-14.43.41:959][439]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.11-14.43.41:964][439]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.11-14.43.41:964][439]LogLoad: Took 0.293290 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.11-14.43.41:966][439]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.11-14.43.42:881][441]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 20.36 ms
+[2018.03.11-14.43.42:921][443]Cmd: Stat FPS
+[2018.03.11-14.43.55:141][168]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage2 1 1 1
+[2018.03.11-14.43.55:142][168]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage2) is flushing async loading
+[2018.03.11-14.43.55:590][171]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 0 0 1
+[2018.03.11-14.43.56:711][234]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.43.56:769][234]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.43.58:108][311]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.11-14.43.58:129][311]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.43.58:129][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.43.58:129][311]PIE: New page: PIE 세션: StartGame (2018. 3. 12. 오전 8:43:58)
+[2018.03.11-14.43.58:130][311]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.11-14.43.58:131][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000964s)
+[2018.03.11-14.43.58:131][311]LogAIModule: Creating AISystem for world StartGame
+[2018.03.11-14.43.58:131][311]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2018.03.11-14.43.58:131][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001774s)
+[2018.03.11-14.43.58:162][311]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.11-14.43.58:263][311]LogInit: FAudioDevice initialized.
+[2018.03.11-14.43.58:313][311]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.43.58:314][311]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.11-23.43.58
+[2018.03.11-14.43.58:314][311]LogWorld: Bringing up level for play took: 0.000487
+[2018.03.11-14.43.58:320][311]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.508
+[2018.03.11-14.43.58:320][311]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.43.59:488][378]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.11-14.43.59:489][378]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.11-14.43.59:736][378]LogAIModule: Creating AISystem for world URS
+[2018.03.11-14.43.59:737][378]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-14.43.59:761][378]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.11-23.43.59
+[2018.03.11-14.43.59:762][378]LogWorld: Bringing up level for play took: 0.024184
+[2018.03.11-14.43.59:762][378]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.11-14.43.59:767][378]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.11-14.43.59:767][378]LogLoad: Took 0.277740 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.11-14.43.59:769][378]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.11-14.44.00:723][382]Cmd: Stat FPS
+[2018.03.11-14.45.28:804][658]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.28:835][660]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.28:851][661]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.28:884][663]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.28:901][664]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.29:218][683]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.29:268][686]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.29:552][703]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.29:601][706]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.29:801][718]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.30:521][761]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.33:770][956]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.33:786][957]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.33:803][958]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.34:303][988]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.35:023][ 31]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.37:556][183]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.37:673][190]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.37:753][195]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.37:787][197]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.38:074][214]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.39:317][288]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.39:683][310]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.39:767][315]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.40:133][337]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.40:933][385]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.40:966][387]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.41:166][399]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.42:770][495]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.42:967][507]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.43:736][553]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.43:869][561]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.43:952][566]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.44:153][577]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.44:506][598]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.45:895][681]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.46:173][698]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.46:178][698]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.46:947][744]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.47:092][753]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.47:196][759]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_24)
+[2018.03.11-14.45.55:181][237]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.45.55:243][237]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.11-14.45.58:692][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/PickupText" FILE="../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UMG/PickupText.uasset" SILENT=true
+[2018.03.11-14.45.58:709][370]LogSavePackage: Save=12.12ms
+[2018.03.11-14.45.58:710][370]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Saved/PickupText7D3388A24545A331BF981A813644E740.tmp' to '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UMG/PickupText.uasset'
+[2018.03.11-14.45.58:712][370]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UMG/PickupText.uasset
+[2018.03.11-15.21.43:723][ 62]LogSlate: Took 0.001943 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.11-15.21.53:900][618]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.11-15.22.56:692][230]LogAIModule: Creating AISystem for world URS
+[2018.03.11-15.22.58:734][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UMG/GameHUD.uasset" SILENT=true
+[2018.03.11-15.22.59:036][230]LogSavePackage: Save=291.47ms
+[2018.03.11-15.22.59:036][230]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Saved/GameHUD73B708E24003F9CADE1F8BB178C36A1A.tmp' to '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UMG/GameHUD.uasset'
+[2018.03.11-15.22.59:041][230]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UMG/GameHUD.uasset
+[2018.03.11-15.22.59:047][230]Cmd: MAP LOAD FILE="../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UrsContent/URS.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.11-15.22.59:047][230]LightingResults: New page: 라이팅 빌드
+[2018.03.11-15.22.59:049][230]LoadErrors: New page: 맵 로드중: URS.umap
+[2018.03.11-15.22.59:054][230]MapCheck: New page: 맵 체크
+[2018.03.11-15.22.59:054][230]LightingResults: New page: 라이팅 빌드
+[2018.03.11-15.22.59:155][230]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/URS_Stage1) is flushing async loading
+[2018.03.11-15.23.00:406][230]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/URS_Stage2) is flushing async loading
+[2018.03.11-15.23.01:029][230]LogSlate: Took 0.007924 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.11-15.23.01:212][230]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.11-15.23.01:337][230]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.11-15.23.01:723][230]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 386.608ms.
+[2018.03.11-15.23.01:724][230]LogFileHelpers: Loading map 'URS' took 2.682
+[2018.03.11-15.24.59:746][ 41]BlueprintLog: New page: TriggerBox_Blueprint 컴파일
+[2018.03.11-15.25.00:614][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UrsContent/TriggerBox_Blueprint" FILE="../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UrsContent/TriggerBox_Blueprint.uasset" SILENT=true
+[2018.03.11-15.25.00:656][ 63]LogSavePackage: Save=35.95ms
+[2018.03.11-15.25.00:656][ 63]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Saved/TriggerBox_Blueprint9BE105A14C7BEA26B22CF086C0411432.tmp' to '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UrsContent/TriggerBox_Blueprint.uasset'
+[2018.03.11-15.25.00:660][ 63]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UrsContent/TriggerBox_Blueprint.uasset
+[2018.03.11-15.25.07:651][441]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.11-15.25.08:376][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UMG/GameHUD.uasset" SILENT=true
+[2018.03.11-15.25.08:663][472]LogSavePackage: Save=284.63ms
+[2018.03.11-15.25.08:663][472]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Saved/GameHUDA34A064C4C0F04A27B690DBFE586D441.tmp' to '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UMG/GameHUD.uasset'
+[2018.03.11-15.25.08:666][472]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UMG/GameHUD.uasset
+[2018.03.11-15.25.21:330][ 93]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.11-15.25.21:357][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.11-15.25.21:357][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.11-15.25.21:357][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.11-15.25.21:357][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.25.21:358][ 93]PIE: New page: PIE 세션: URS (2018. 3. 12. 오전 9:25:21)
+[2018.03.11-15.25.21:358][ 93]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.11-15.25.21:379][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021140s)
+[2018.03.11-15.25.21:380][ 93]LogAIModule: Creating AISystem for world URS
+[2018.03.11-15.25.21:380][ 93]LogPlayLevel: PIE: World Init took: (0.001221s)
+[2018.03.11-15.25.21:381][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.023046s)
+[2018.03.11-15.25.21:421][ 93]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.11-15.25.21:526][ 93]LogInit: FAudioDevice initialized.
+[2018.03.11-15.25.21:574][ 93]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-15.25.21:582][ 93]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.12-00.25.21
+[2018.03.11-15.25.21:584][ 93]LogWorld: Bringing up level for play took: 0.008170
+[2018.03.11-15.25.21:590][ 93]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.11-15.25.21:594][ 93]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: -0.217
+[2018.03.11-15.25.21:595][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.11-15.25.21:595][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.11-15.25.21:595][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.11-15.25.22:201][ 95]Cmd: Stat FPS
+[2018.03.11-15.25.34:347][822]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage2 1 1 1
+[2018.03.11-15.25.34:695][824]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 0 0 1
+[2018.03.11-15.25.36:006][898]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.11-15.25.36:007][898]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.11-15.25.36:007][898]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.11-15.25.36:067][898]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.11-15.25.36:067][898]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.11-15.25.36:067][898]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.11-15.25.37:328][966]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.11-15.25.37:350][966]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.11-15.25.37:350][966]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.11-15.25.37:350][966]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.11-15.25.37:351][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.25.37:351][966]PIE: New page: PIE 세션: URS (2018. 3. 12. 오전 9:25:37)
+[2018.03.11-15.25.37:351][966]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.11-15.25.37:366][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015248s)
+[2018.03.11-15.25.37:367][966]LogAIModule: Creating AISystem for world URS
+[2018.03.11-15.25.37:367][966]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2018.03.11-15.25.37:368][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.017310s)
+[2018.03.11-15.25.37:406][966]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.11-15.25.37:509][966]LogInit: FAudioDevice initialized.
+[2018.03.11-15.25.37:565][966]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.11-15.25.37:575][966]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.12-00.25.37
+[2018.03.11-15.25.37:576][966]LogWorld: Bringing up level for play took: 0.010338
+[2018.03.11-15.25.37:584][966]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.11-15.25.37:589][966]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: -0.223
+[2018.03.11-15.25.37:589][966]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.11-15.25.37:590][966]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.11-15.25.37:590][966]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.11-15.25.38:181][969]Cmd: Stat FPS
+[2018.03.11-15.26.51:369][356]LogScript: Warning: HoverRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:1262
+[2018.03.11-15.26.51:370][356]PIE: Error: 블루프린트 런타임 오류: HoverRef 프로퍼티를 읽으려던 중 None 에 접근했습니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Remove from Parent 그래프: EventGraph 오브젝트: GameHUD 설명: HoverRef 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+[2018.03.11-15.26.51:371][356]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.51:379][357]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.52:432][420]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.52:529][426]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.52:612][431]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.52:829][444]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.54:318][533]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.54:513][545]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.54:597][550]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.55:038][576]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.56:242][648]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.58:069][757]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.58:185][764]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.58:285][770]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.58:418][778]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.26.58:514][784]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (UpdatePosition) or object (GameHUD_C_3)
+[2018.03.11-15.27.03:815][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.11-15.27.03:816][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.11-15.27.03:816][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.11-15.27.03:877][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.11-15.27.03:877][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.11-15.27.03:877][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.11-15.27.10:832][391]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: URS_Stage2, Actor: /Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.REINST_URS_Stage2_C_0
+[2018.03.11-15.27.13:397][391]LogSavePackage: Save=2579.82ms
+[2018.03.11-15.27.13:397][391]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Saved/URS_Stage2215BB3A14E15401427530DB971967269.tmp' to '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UrsContent/Stage/URS_Stage2.umap'
+[2018.03.11-15.27.13:410][391]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/UrsContent/Stage/URS_Stage2.umap
+[2018.03.11-15.27.13:414][391]LogFileHelpers: Saving map 'URS_Stage2' took 2.757
+[2018.03.11-15.27.14:237][432]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.03.11-15.27.14:588][433]Cmd: QUIT_EDITOR
+[2018.03.11-15.27.15:075][433]LogExit: Preparing to exit.
+[2018.03.11-15.27.15:562][433]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180311_마티네적용/Content/' was aborted.
+[2018.03.11-15.27.15:699][433]LogExit: Editor shut down
+[2018.03.11-15.27.15:732][433]LogExit: Transaction tracking system shut down
+[2018.03.11-15.27.16:056][433]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.11-15.27.16:056][433]LogDirectoryWatcher: A directory notification for '../../../../../../Users/양형/Desktop/URS_180311_마티네적용/Content/' was aborted.
+[2018.03.11-15.27.16:056][433]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.11-15.27.16:056][433]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.11-15.27.16:056][433]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.11-15.27.16:056][433]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.11-15.27.16:056][433]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.11-15.27.16:912][433]LogExit: Object subsystem successfully closed.
+[2018.03.11-15.27.16:996][433]LogD3D11RHI: Shutdown
+[2018.03.11-15.27.16:996][433]LogD3D11RHI: CleanupD3DDevice
+[2018.03.11-15.27.17:004][433]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.11-15.27.17:073][433]LogModuleManager: Shutting down and abandoning module SequencerWidgets (556)
+[2018.03.11-15.27.17:074][433]LogModuleManager: Shutting down and abandoning module BlueprintGraph (554)
+[2018.03.11-15.27.17:074][433]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.03.11-15.27.17:074][433]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.03.11-15.27.17:074][433]LogModuleManager: Shutting down and abandoning module WorldBrowser (548)
+[2018.03.11-15.27.17:074][433]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.03.11-15.27.17:075][433]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.03.11-15.27.17:075][433]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.11-15.27.17:082][433]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.03.11-15.27.17:082][433]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.03.11-15.27.17:082][433]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.03.11-15.27.17:083][433]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180311_마티네적용/Content/Collections/' was aborted.
+[2018.03.11-15.27.17:083][433]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180311_마티네적용/Content/Developers/양형/Collections/' was aborted.
+[2018.03.11-15.27.17:083][433]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180311_마티네적용/Saved/Collections/' was aborted.
+[2018.03.11-15.27.17:083][433]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.11-15.27.17:084][433]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.11-15.27.17:084][433]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.11-15.27.17:086][433]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.11-15.27.17:086][433]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.11-15.27.17:086][433]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.11-15.27.17:086][433]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.11-15.27.17:086][433]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.11-15.27.17:086][433]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.11-15.27.17:086][433]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.11-15.27.17:086][433]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.11-15.27.17:086][433]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.11-15.27.17:087][433]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.11-15.27.17:087][433]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.11-15.27.17:088][433]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.11-15.27.17:091][433]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.11-15.27.17:091][433]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.11-15.27.17:091][433]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.11-15.27.17:091][433]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.11-15.27.17:091][433]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.11-15.27.17:091][433]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.11-15.27.17:091][433]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.11-15.27.17:091][433]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.11-15.27.17:091][433]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.11-15.27.17:091][433]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.11-15.27.17:091][433]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.11-15.27.17:091][433]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.11-15.27.17:092][433]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.11-15.27.17:092][433]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.11-15.27.17:092][433]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.11-15.27.17:092][433]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.11-15.27.17:092][433]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.11-15.27.17:092][433]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.11-15.27.17:093][433]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.11-15.27.17:095][433]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.11-15.27.17:097][433]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.11-15.27.17:098][433]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.11-15.27.17:099][433]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.11-15.27.17:099][433]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.11-15.27.17:099][433]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.11-15.27.17:100][433]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.11-15.27.17:298][433]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.11-15.27.17:298][433]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.11-15.27.17:298][433]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.11-15.27.17:298][433]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.11-15.27.17:305][433]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.11-15.27.17:306][433]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.11-15.27.17:306][433]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.11-15.27.17:307][433]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.11-15.27.17:307][433]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.11-15.27.17:308][433]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.11-15.27.17:308][433]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.11-15.27.17:308][433]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.11-15.27.17:308][433]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.11-15.27.17:309][433]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.11-15.27.17:309][433]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.11-15.27.17:309][433]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.11-15.27.17:309][433]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.11-15.27.17:310][433]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.11-15.27.17:310][433]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.11-15.27.17:311][433]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.11-15.27.17:311][433]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.11-15.27.17:312][433]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.11-15.27.17:312][433]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.11-15.27.17:313][433]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.11-15.27.17:366][433]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.11-15.27.17:368][433]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.11-15.27.17:369][433]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.11-15.27.17:370][433]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.11-15.27.17:370][433]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.11-15.27.17:371][433]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.11-15.27.17:371][433]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.11-15.27.17:373][433]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.11-15.27.17:373][433]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.11-15.27.17:373][433]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.11-15.27.17:390][433]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.11-15.27.17:390][433]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.11-15.27.17:390][433]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.11-15.27.17:391][433]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.11-15.27.17:392][433]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.11-15.27.17:393][433]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.11-15.27.17:393][433]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.11-15.27.17:393][433]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.11-15.27.17:393][433]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.11-15.27.17:393][433]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.11-15.27.17:393][433]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.11-15.27.17:393][433]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.11-15.27.17:393][433]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.11-15.27.17:394][433]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.11-15.27.17:394][433]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.11-15.27.17:394][433]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.11-15.27.17:394][433]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.11-15.27.17:394][433]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.11-15.27.17:395][433]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.03.11-15.27.17:395][433]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.03.11-15.27.17:445][433]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.03.11-15.27.17:447][433]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.03.11-15.27.17:447][433]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.03.11-15.27.17:447][433]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.03.11-15.27.17:447][433]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.03.11-15.27.17:447][433]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.03.11-15.27.17:447][433]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.03.11-15.27.17:447][433]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.03.11-15.27.17:448][433]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.03.11-15.27.17:448][433]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.03.11-15.27.17:448][433]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.03.11-15.27.17:448][433]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.03.11-15.27.17:451][433]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.03.11-15.27.17:451][433]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.03.11-15.27.17:451][433]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.03.11-15.27.17:452][433]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.03.11-15.27.17:452][433]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.03.11-15.27.17:453][433]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.03.11-15.27.17:453][433]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.03.11-15.27.17:453][433]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.03.11-15.27.17:453][433]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.03.11-15.27.17:456][433]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.03.11-15.27.17:458][433]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.03.11-15.27.17:458][433]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.03.11-15.27.17:458][433]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.03.11-15.27.17:458][433]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.03.11-15.27.17:459][433]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.03.11-15.27.17:461][433]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.03.11-15.27.17:462][433]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.03.11-15.27.17:464][433]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.03.11-15.27.17:464][433]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.03.11-15.27.17:464][433]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.03.11-15.27.17:464][433]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.03.11-15.27.17:465][433]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.03.11-15.27.17:465][433]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.03.11-15.27.17:470][433]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.03.11-15.27.17:472][433]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.03.11-15.27.17:472][433]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.03.11-15.27.17:475][433]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.11-15.27.17:475][433]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.11-15.27.17:475][433]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.11-15.27.17:475][433]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.11-15.27.17:475][433]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.11-15.27.17:475][433]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.11-15.27.17:475][433]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.11-15.27.17:475][433]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.11-15.27.17:576][433]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.11-15.27.17:678][433]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.11-15.27.17:685][433]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.11-15.27.17:685][433]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.11-15.27.17:685][433]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.11-15.27.17:686][433]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.11-15.27.17:687][433]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.11-15.27.17:689][433]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.11-15.27.17:689][433]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.11-15.27.17:689][433]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.11-15.27.17:690][433]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.11-15.27.17:693][433]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.11-15.27.17:693][433]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.11-15.27.17:693][433]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.11-15.27.17:693][433]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.11-15.27.17:694][433]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.11-15.27.17:694][433]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.11-15.27.17:700][433]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.11-15.27.17:700][433]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.11-15.27.17:700][433]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.11-15.27.17:702][433]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.11-15.27.17:702][433]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.11-15.27.17:702][433]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.11-15.27.17:704][433]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.11-15.27.17:704][433]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.11-15.27.17:706][433]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.11-15.27.17:706][433]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.11-15.27.17:706][433]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.11-15.27.17:706][433]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.11-15.27.17:706][433]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.11-15.27.17:706][433]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.11-15.27.17:709][433]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.11-15.27.17:709][433]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.11-15.27.17:714][433]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.11-15.27.17:714][433]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.11-15.27.17:714][433]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.11-15.27.17:714][433]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.11-15.27.17:714][433]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.11-15.27.17:714][433]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.11-15.27.17:714][433]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.11-15.27.17:714][433]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.11-15.27.17:721][433]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.11-15.27.17:722][433]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.11-15.27.17:723][433]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.11-15.27.17:723][433]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.11-15.27.17:723][433]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.11-15.27.17:724][433]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.11-15.27.17:724][433]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.11-15.27.17:724][433]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.11-15.27.17:725][433]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.11-15.27.17:731][433]LogDerivedDataCache: Shutdown
+[2018.03.11-15.27.17:731][433]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.11-15.27.17:731][433]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.11-15.27.17:732][433]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.11-15.27.17:732][433]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.11-15.27.17:733][433]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.11-15.27.17:733][433]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.11-15.27.17:734][433]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.11-15.27.17:734][433]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.11-15.27.17:734][433]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.11-15.27.17:734][433]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.11-15.27.17:735][433]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.11-15.27.17:735][433]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.11-15.27.17:735][433]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.11-15.27.17:735][433]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.11-15.27.17:735][433]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.11-15.27.17:736][433]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.11-15.27.17:736][433]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.11-15.27.17:736][433]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.11-15.27.17:736][433]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.11-15.27.17:736][433]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.11-15.27.17:737][433]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.11-15.27.17:738][433]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.11-15.27.17:738][433]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.11-15.27.17:738][433]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.11-15.27.17:738][433]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.11-15.27.17:738][433]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.11-15.27.17:738][433]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.11-15.27.17:738][433]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.11-15.27.17:738][433]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.11-15.27.17:738][433]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.11-15.27.17:739][433]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.11-15.27.17:739][433]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.11-15.27.17:739][433]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.11-15.27.17:739][433]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.11-15.27.17:739][433]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.11-15.27.17:739][433]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.11-15.27.17:741][433]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.11-15.27.17:743][433]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.11-15.27.17:743][433]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.11-15.27.17:743][433]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0669D873-45FE-76DF-BEB5-8FB5DBE39F72%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=372fe2f448a9fe621f3af0bd16dc6f2a%7C8ac49062baae43c690b431ed046528f1%7C7532abaf-559c-4c1f-b377-4db2574a422a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.11-15.27.17:749][433]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.11-15.27.17:752][433]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.11-15.27.17:753][433]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.11-15.27.17:753][433]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.11-15.27.17:754][433]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.11-15.27.17:757][433]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.11-15.27.17:757][433]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.11-15.27.17:757][433]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.11-15.27.17:772][433]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.11-15.27.17:772][433]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.11-15.27.17:772][433]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.11-15.27.17:773][433]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.11-15.27.17:773][433]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.11-15.27.17:773][433]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.11-15.27.17:773][433]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.11-15.27.17:774][433]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.11-15.27.17:774][433]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.11-15.27.17:774][433]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.11-15.27.17:774][433]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.11-15.27.17:778][433]LogExit: Exiting.
+[2018.03.11-15.27.17:802][433]Log file closed, 03/12/18 00:27:17
