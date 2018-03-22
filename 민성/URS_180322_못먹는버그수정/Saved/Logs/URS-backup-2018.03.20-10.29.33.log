@@ -1,0 +1,1376 @@
+﻿Log file open, 03/20/18 01:11:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: URS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1467295980) SRandInit(-1467295980).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.224926
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.19-16.11.37:408][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.19-16.11.37:408][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.19-16.11.37:424][  0]LogInit: Computer: DESKTOP-PDO9PMJ
+[2018.03.19-16.11.37:424][  0]LogInit: User: 양형
+[2018.03.19-16.11.37:424][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.19-16.11.37:424][  0]LogInit: High frequency timer resolution =2.437500 MHz
+[2018.03.19-16.11.37:424][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.19-16.11.37:424][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.19-16.11.37:424][  0]LogMemory: Process Physical Memory: 273.55 MB used, 273.55 MB peak
+[2018.03.19-16.11.37:424][  0]LogMemory: Process Virtual Memory: 263.53 MB used, 263.53 MB peak
+[2018.03.19-16.11.37:424][  0]LogMemory: Physical Memory: 4041.95 MB used,  4016.51 MB free, 8058.46 MB total
+[2018.03.19-16.11.37:424][  0]LogMemory: Virtual Memory: 670.28 MB used,  4016.51 MB free, 134217728.00 MB total
+[2018.03.19-16.11.37:906][  0]LogInit: Using OS detected language (ko-KR).
+[2018.03.19-16.11.37:906][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.03.19-16.11.37:913][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.03.19-16.11.38:150][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.19-16.11.38:766][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.19-16.11.38:865][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.03.19-16.11.38:865][  0]LogD3D11RHI:       4029/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.19-16.11.38:879][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.03.19-16.11.38:879][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.19-16.11.38:882][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.19-16.11.38:882][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.19-16.11.38:883][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.19-16.11.38:895][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.19-16.11.38:895][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.03.19-16.11.38:895][  0]LogWindows: EnumDisplayDevices:
+[2018.03.19-16.11.38:896][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2018.03.19-16.11.38:896][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.19-16.11.38:897][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.19-16.11.38:898][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.03.19-16.11.38:899][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.19-16.11.38:899][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.03.19-16.11.38:899][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.19-16.11.38:899][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.19-16.11.38:899][  0]LogRHI: Texture pool is 2820 MB (70% of 4029 MB)
+[2018.03.19-16.11.38:943][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.19-16.11.38:966][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.19-16.11.39:019][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Intermediate/Shaders/WorkingDirectory/9004/).
+[2018.03.19-16.11.39:020][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/양형/AppData/Local/Temp/UnrealShaderWorkingDir/9EA47D43401B699E16FBA897B7961796/'.
+[2018.03.19-16.11.39:020][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.19-16.11.40:586][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.19-16.11.40:728][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.19-16.11.40:874][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.19-16.11.41:021][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.19-16.11.41:176][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.19-16.11.41:321][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.19-16.11.41:458][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.19-16.11.41:615][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.19-16.11.41:749][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.19-16.11.41:891][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.19-16.11.42:047][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.19-16.11.42:198][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.19-16.11.42:336][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.19-16.11.42:473][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.19-16.11.42:771][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.19-16.11.42:771][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.19-16.11.42:916][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.19-16.11.43:040][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.19-16.11.43:277][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.19-16.11.43:345][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.19-16.11.43:500][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.19-16.11.43:637][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.19-16.11.43:775][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.19-16.11.43:923][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.19-16.11.43:923][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.19-16.11.45:393][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.19-16.11.45:509][  0]LogDerivedDataCache: Loaded boot cache 0.12s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.19-16.11.45:509][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.19-16.11.45:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.19-16.11.45:509][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.19-16.11.45:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.19-16.11.45:509][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.19-16.11.45:526][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.19-16.11.45:538][  0]LogDerivedDataCache: Using Local data cache path C:/Users/양형/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.19-16.11.45:550][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.19-16.11.45:551][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.19-16.11.45:551][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.19-16.11.45:552][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.19-16.11.46:156][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.19-16.11.46:998][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.19-16.11.47:143][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.19-16.11.47:143][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.19-16.11.47:143][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.19-16.11.47:143][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.19-16.11.47:144][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.19-16.11.47:193][  0]LogNetVersion: URS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1777970781)
+[2018.03.19-16.11.47:506][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2018.03.19-16.11.48:440][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.101984 seconds
+[2018.03.19-16.11.48:445][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.19-16.11.48:445][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.19-16.11.48:445][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.19-16.11.48:623][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.19-16.11.55:492][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.19-16.11.55:597][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.19-16.11.57:461][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.19-16.11.58:607][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.19-16.11.58:608][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.19-16.11.58:778][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.19-16.11.58:935][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.19-16.12.01:373][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.19-16.12.02:178][  0]LogOcInput: OculusInput pre-init called
+[2018.03.19-16.12.03:026][  0]LogEngine: Initializing Engine...
+[2018.03.19-16.12.03:030][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.19-16.12.03:327][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.19-16.12.03:327][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.19-16.12.03:738][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.19-16.12.03:757][  0]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-16.12.03:922][  0]LogInit: FAudioDevice initialized.
+[2018.03.19-16.12.04:026][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.19-16.12.04:049][  0]LogInit: Texture streaming: Enabled
+[2018.03.19-16.12.04:378][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.19-16.12.04:917][  0]LogInit: Transaction tracking system initialized
+[2018.03.19-16.12.06:003][  0]BlueprintLog: New page: 에디터 로드
+[2018.03.19-16.12.09:006][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.03.19-16.12.11:423][  0]LogConsoleResponse: Display: 
+[2018.03.19-16.12.11:708][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.19-16.12.11:708][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.19-16.12.11:708][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.19-16.12.11:900][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180319_인벤수량수정중/Content/' took 0.02s
+[2018.03.19-16.12.15:469][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.19-16.12.15:469][  0]Cmd: MAP LOAD FILE="../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UrsContent/StartGame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.19-16.12.15:470][  0]LightingResults: New page: 라이팅 빌드
+[2018.03.19-16.12.15:609][  0]MapCheck: New page: 맵 체크
+[2018.03.19-16.12.15:609][  0]LightingResults: New page: 라이팅 빌드
+[2018.03.19-16.12.15:646][  0]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-16.12.15:647][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.19-16.12.15:670][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.19-16.12.15:789][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 118.431ms.
+[2018.03.19-16.12.15:789][  0]LogFileHelpers: Loading map 'StartGame' took 0.320
+[2018.03.19-16.12.16:014][  0]LogCollectionManager: Loaded 0 collections in 0.002446 seconds
+[2018.03.19-16.12.16:194][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180319_인벤수량수정중/Saved/Collections/' took 0.01s
+[2018.03.19-16.12.16:195][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180319_인벤수량수정중/Content/Developers/양형/Collections/' took 0.01s
+[2018.03.19-16.12.16:195][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180319_인벤수량수정중/Content/Collections/' took 0.01s
+[2018.03.19-16.12.16:195][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.19-16.12.16:205][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2363 classes and 519 folders.
+[2018.03.19-16.12.16:425][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.19-16.12.16:510][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.19-16.12.16:648][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.19-16.12.16:669][  0]LogSlate: Took 0.000407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.19-16.12.16:677][  0]LogSlate: Took 0.006704 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.03.19-16.12.16:679][  0]LogSlate: Took 0.001025 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.19-16.12.16:689][  0]LogSlate: Took 0.001794 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.19-16.12.16:823][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.19-16.12.17:139][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.19-16.12.17:139][  0]LogLoad: (Engine Initialization) Total time: 46.20 seconds
+[2018.03.19-16.12.17:139][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.19-16.12.17:139][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.19-16.12.17:182][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.19-16.12.17:248][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.19-16.12.17:304][  1]LogAssetRegistry: Asset discovery search completed in 29.8194 seconds
+[2018.03.19-16.12.17:306][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.19-16.12.17:306][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2018.03.19-16.13.47:374][ 35]LogSlate: Took 0.000414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.19-16.13.47:839][ 35]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.03.19-16.13.48:580][ 35]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.19-16.13.48:720][ 35]LogSlate: Took 0.000414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.19-16.13.48:873][ 36]LogSlate: Took 0.000514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.19-16.13.52:523][234]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-16.13.52:615][234]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.13.52:615][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-16.13.52:616][234]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 10:13:52)
+[2018.03.19-16.13.52:616][234]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-16.13.52:617][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000971s)
+[2018.03.19-16.13.52:617][234]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-16.13.52:617][234]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2018.03.19-16.13.52:618][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001846s)
+[2018.03.19-16.13.52:661][234]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-16.13.52:790][234]LogInit: FAudioDevice initialized.
+[2018.03.19-16.13.52:870][234]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.13.52:872][234]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-01.13.52
+[2018.03.19-16.13.52:872][234]LogWorld: Bringing up level for play took: 0.000571
+[2018.03.19-16.13.53:003][234]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.03.19-16.13.53:008][234]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.026
+[2018.03.19-16.13.53:009][234]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.13.53:039][234]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.03.19-16.13.54:129][290]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-16.13.54:129][290]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-16.13.54:320][290]LogBlueprint: Warning: [Compiler Fire_Pickup] Get : 'Droplocation' variable not found. Base class was probably changed. /Game/FirstPersonBP/Blueprints/Fire_Pickup.Fire_Pickup
+[2018.03.19-16.13.54:328][290]LogBlueprint: Warning: [Compiler Fire_Pickup] [0143.39] Fire_Pickup 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 10 ms] (/Game/FirstPersonBP/Blueprints/Fire_Pickup.Fire_Pickup)
+[2018.03.19-16.13.55:974][290]LogAIModule: Creating AISystem for world URS
+[2018.03.19-16.13.55:974][290]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.13.56:000][290]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-01.13.56
+[2018.03.19-16.13.56:001][290]LogWorld: Bringing up level for play took: 0.025742
+[2018.03.19-16.13.56:001][290]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-16.13.56:007][290]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-16.13.56:008][290]LogLoad: Took 1.879127 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-16.13.56:010][290]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-16.13.57:358][294]Cmd: Stat FPS
+[2018.03.19-16.14.12:821][184]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.14.12:897][184]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.14.45:913][724]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-16.14.46:015][724]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.14.46:016][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-16.14.46:016][724]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 10:14:46)
+[2018.03.19-16.14.46:016][724]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-16.14.46:018][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001609s)
+[2018.03.19-16.14.46:018][724]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-16.14.46:019][724]LogPlayLevel: PIE: World Init took: (0.001035s)
+[2018.03.19-16.14.46:019][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002999s)
+[2018.03.19-16.14.46:094][724]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-16.14.46:454][724]LogInit: FAudioDevice initialized.
+[2018.03.19-16.14.46:528][724]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.14.46:530][724]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-01.14.46
+[2018.03.19-16.14.46:531][724]LogWorld: Bringing up level for play took: 0.001138
+[2018.03.19-16.14.46:547][724]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.436
+[2018.03.19-16.14.46:547][724]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.14.47:720][756]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-16.14.47:721][756]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-16.14.48:714][756]LogAIModule: Creating AISystem for world URS
+[2018.03.19-16.14.48:714][756]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.14.48:814][756]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-01.14.48
+[2018.03.19-16.14.48:815][756]LogWorld: Bringing up level for play took: 0.099618
+[2018.03.19-16.14.48:818][756]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-16.14.48:828][756]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-16.14.48:829][756]LogLoad: Took 1.107811 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-16.14.48:831][756]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-16.14.51:831][760]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 29.37 ms
+[2018.03.19-16.14.51:878][761]LogStreaming: Display: UWorld::AddToWorld: routing Initialize on actors for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 26.19 ms
+[2018.03.19-16.14.51:950][763]Cmd: Stat FPS
+[2018.03.19-16.14.54:151][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.14.54:223][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.14.58:710][ 71]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.19-16.24.04:681][542]LogEditorTransaction: Undo 노드 이동
+[2018.03.19-16.24.07:008][662]LogEditorTransaction: Undo 노드 이동
+[2018.03.19-16.24.09:817][811]LogEditorTransaction: Undo 핀 링크 생성
+[2018.03.19-16.24.12:219][935]LogEditorTransaction: Undo 노드 이동
+[2018.03.19-16.24.13:056][969]LogEditorTransaction: Undo 핀 링크 끊기
+[2018.03.19-16.53.23:611][218]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.19-16.53.49:854][688]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-16.53.49:910][688]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.53.49:911][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-16.53.49:911][688]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 10:53:49)
+[2018.03.19-16.53.49:911][688]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-16.53.49:913][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001444s)
+[2018.03.19-16.53.49:915][688]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-16.53.49:915][688]LogPlayLevel: PIE: World Init took: (0.002526s)
+[2018.03.19-16.53.49:916][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.004500s)
+[2018.03.19-16.53.49:963][688]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-16.53.50:098][688]LogInit: FAudioDevice initialized.
+[2018.03.19-16.53.50:174][688]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.53.50:175][688]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-01.53.50
+[2018.03.19-16.53.50:175][688]LogWorld: Bringing up level for play took: 0.000651
+[2018.03.19-16.53.50:189][688]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 1.207
+[2018.03.19-16.53.50:190][688]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.53.51:268][743]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-16.53.51:268][743]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-16.53.51:667][743]LogAIModule: Creating AISystem for world URS
+[2018.03.19-16.53.51:667][743]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.53.51:690][743]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-01.53.51
+[2018.03.19-16.53.51:690][743]LogWorld: Bringing up level for play took: 0.022301
+[2018.03.19-16.53.51:691][743]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-16.53.51:695][743]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-16.53.51:696][743]LogLoad: Took 0.427698 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-16.53.51:697][743]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-16.53.52:875][747]Cmd: Stat FPS
+[2018.03.19-16.54.01:730][202]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup15 에 접근하려 하였으나, TemplatePickup15 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.54.01:730][202]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup15 에 접근하려 하였으나, TemplatePickup15 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup15 에 접근하려 하였으나, TemplatePickup15 는 킬 대기중입니다.
+[2018.03.19-16.54.03:496][297]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup15 에 접근하려 하였으나, TemplatePickup15 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.54.03:496][297]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup15 에 접근하려 하였으나, TemplatePickup15 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup15 에 접근하려 하였으나, TemplatePickup15 는 킬 대기중입니다.
+[2018.03.19-16.54.05:404][398]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup15 에 접근하려 하였으나, TemplatePickup15 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.54.05:404][398]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup15 에 접근하려 하였으나, TemplatePickup15 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup15 에 접근하려 하였으나, TemplatePickup15 는 킬 대기중입니다.
+[2018.03.19-16.54.09:334][610]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup15 에 접근하려 하였으나, TemplatePickup15 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.54.09:334][610]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup15 에 접근하려 하였으나, TemplatePickup15 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup15 에 접근하려 하였으나, TemplatePickup15 는 킬 대기중입니다.
+[2018.03.19-16.54.10:395][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.54.10:469][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.54.38:436][ 36]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-16.54.38:476][ 36]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.54.38:476][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-16.54.38:477][ 36]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 10:54:38)
+[2018.03.19-16.54.38:477][ 36]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-16.54.38:478][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001105s)
+[2018.03.19-16.54.38:478][ 36]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-16.54.38:478][ 36]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2018.03.19-16.54.38:479][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002137s)
+[2018.03.19-16.54.38:514][ 36]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-16.54.38:644][ 36]LogInit: FAudioDevice initialized.
+[2018.03.19-16.54.38:711][ 36]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.54.38:711][ 36]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-01.54.38
+[2018.03.19-16.54.38:712][ 36]LogWorld: Bringing up level for play took: 0.000476
+[2018.03.19-16.54.38:724][ 36]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.258
+[2018.03.19-16.54.38:724][ 36]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.54.39:945][ 98]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-16.54.39:945][ 98]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-16.54.40:233][ 98]LogAIModule: Creating AISystem for world URS
+[2018.03.19-16.54.40:233][ 98]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.54.40:266][ 98]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-01.54.40
+[2018.03.19-16.54.40:267][ 98]LogWorld: Bringing up level for play took: 0.032957
+[2018.03.19-16.54.40:267][ 98]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-16.54.40:271][ 98]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-16.54.40:272][ 98]LogLoad: Took 0.326487 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-16.54.40:273][ 98]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-16.54.41:425][102]Cmd: Stat FPS
+[2018.03.19-16.54.50:223][564]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.54.50:300][564]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.55.07:204][354]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-16.55.07:242][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.55.07:242][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-16.55.07:243][354]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 10:55:07)
+[2018.03.19-16.55.07:243][354]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-16.55.07:244][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001060s)
+[2018.03.19-16.55.07:244][354]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-16.55.07:244][354]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2018.03.19-16.55.07:245][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001970s)
+[2018.03.19-16.55.07:287][354]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-16.55.07:416][354]LogInit: FAudioDevice initialized.
+[2018.03.19-16.55.07:482][354]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.55.07:484][354]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-01.55.07
+[2018.03.19-16.55.07:484][354]LogWorld: Bringing up level for play took: 0.000808
+[2018.03.19-16.55.07:501][354]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.519
+[2018.03.19-16.55.07:502][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.55.08:480][395]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-16.55.08:484][395]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-16.55.08:773][395]LogAIModule: Creating AISystem for world URS
+[2018.03.19-16.55.08:774][395]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.55.08:801][395]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-01.55.08
+[2018.03.19-16.55.08:802][395]LogWorld: Bringing up level for play took: 0.027596
+[2018.03.19-16.55.08:802][395]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-16.55.08:807][395]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-16.55.08:807][395]LogLoad: Took 0.323198 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-16.55.08:809][395]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-16.55.09:935][400]Cmd: Stat FPS
+[2018.03.19-16.55.16:059][666]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.16:059][666]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.18:225][767]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.18:226][767]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.18:655][787]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.18:655][787]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.18:837][795]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.18:837][795]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.19:009][803]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.19:009][803]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.19:163][810]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.19:163][810]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.19:320][817]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.19:320][817]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.19:487][824]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.19:487][824]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.19:664][832]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.19:665][832]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.19:838][840]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.19:838][840]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.20:007][847]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.20:008][847]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.21:558][913]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.21:558][913]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.21:720][920]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.GameHUD_C_11
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F45
+[2018.03.19-16.55.21:720][920]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-16.55.22:829][967]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.55.22:903][967]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.56.04:089][201]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.19-16.56.04:766][227]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-16.56.04:825][227]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.56.04:825][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-16.56.04:826][227]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 10:56:04)
+[2018.03.19-16.56.04:826][227]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-16.56.04:827][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001041s)
+[2018.03.19-16.56.04:827][227]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-16.56.04:828][227]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2018.03.19-16.56.04:828][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002006s)
+[2018.03.19-16.56.04:861][227]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-16.56.04:979][227]LogInit: FAudioDevice initialized.
+[2018.03.19-16.56.05:063][227]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.56.05:064][227]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-01.56.05
+[2018.03.19-16.56.05:065][227]LogWorld: Bringing up level for play took: 0.001010
+[2018.03.19-16.56.05:079][227]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.097
+[2018.03.19-16.56.05:080][227]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.56.06:210][274]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-16.56.06:220][274]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-16.56.06:569][274]LogAIModule: Creating AISystem for world URS
+[2018.03.19-16.56.06:570][274]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.56.06:590][274]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-01.56.06
+[2018.03.19-16.56.06:590][274]LogWorld: Bringing up level for play took: 0.020186
+[2018.03.19-16.56.06:591][274]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-16.56.06:595][274]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-16.56.06:595][274]LogLoad: Took 0.375492 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-16.56.06:597][274]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-16.56.07:782][279]Cmd: Stat FPS
+[2018.03.19-16.56.12:272][466]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-16.56.12:272][466]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-16.56.13:280][508]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-16.56.13:280][508]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-16.56.14:240][551]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-16.56.14:241][551]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-16.56.15:242][596]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-16.56.15:242][596]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-16.56.15:951][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.56.16:022][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.56.30:458][407]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-16.56.30:496][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.56.30:497][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-16.56.30:497][407]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 10:56:30)
+[2018.03.19-16.56.30:497][407]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-16.56.30:500][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002569s)
+[2018.03.19-16.56.30:500][407]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-16.56.30:501][407]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2018.03.19-16.56.30:501][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.003703s)
+[2018.03.19-16.56.30:552][407]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-16.56.30:673][407]LogInit: FAudioDevice initialized.
+[2018.03.19-16.56.30:738][407]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.56.30:740][407]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-01.56.30
+[2018.03.19-16.56.30:740][407]LogWorld: Bringing up level for play took: 0.000756
+[2018.03.19-16.56.30:754][407]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.229
+[2018.03.19-16.56.30:754][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.56.32:118][464]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-16.56.32:119][464]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-16.56.32:413][464]LogAIModule: Creating AISystem for world URS
+[2018.03.19-16.56.32:413][464]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.56.32:433][464]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-01.56.32
+[2018.03.19-16.56.32:433][464]LogWorld: Bringing up level for play took: 0.019535
+[2018.03.19-16.56.32:434][464]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-16.56.32:438][464]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-16.56.32:438][464]LogLoad: Took 0.318819 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-16.56.32:440][464]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-16.56.33:604][469]Cmd: Stat FPS
+[2018.03.19-16.56.39:453][716]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.GameHUD_C_7
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-16.56.39:453][716]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-16.56.40:304][750]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.GameHUD_C_7
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-16.56.40:305][750]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-16.56.40:822][772]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.GameHUD_C_7
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-16.56.40:822][772]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-16.56.41:097][784]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.56.41:187][784]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.57.56:467][777]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.19-16.57.57:174][801]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-16.57.57:234][801]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.57.57:234][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-16.57.57:234][801]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 10:57:57)
+[2018.03.19-16.57.57:234][801]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-16.57.57:235][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000926s)
+[2018.03.19-16.57.57:236][801]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-16.57.57:236][801]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2018.03.19-16.57.57:236][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001765s)
+[2018.03.19-16.57.57:279][801]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-16.57.57:411][801]LogInit: FAudioDevice initialized.
+[2018.03.19-16.57.57:473][801]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.57.57:475][801]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-01.57.57
+[2018.03.19-16.57.57:475][801]LogWorld: Bringing up level for play took: 0.000812
+[2018.03.19-16.57.57:500][801]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.518
+[2018.03.19-16.57.57:501][801]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.57.58:407][834]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-16.57.58:409][834]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-16.57.58:743][834]LogAIModule: Creating AISystem for world URS
+[2018.03.19-16.57.58:744][834]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.57.58:779][834]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-01.57.58
+[2018.03.19-16.57.58:780][834]LogWorld: Bringing up level for play took: 0.035526
+[2018.03.19-16.57.58:780][834]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-16.57.58:785][834]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-16.57.58:785][834]LogLoad: Took 0.376322 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-16.57.58:786][834]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-16.57.59:942][838]Cmd: Stat FPS
+[2018.03.19-16.58.04:692][ 27]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-16.58.04:692][ 27]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-16.58.05:774][ 73]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-16.58.05:774][ 73]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-16.58.06:450][101]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-16.58.06:450][101]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-16.58.06:867][117]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.58.06:954][117]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.58.10:657][294]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.19-16.58.11:522][326]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-16.58.11:562][326]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.58.11:562][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-16.58.11:562][326]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 10:58:11)
+[2018.03.19-16.58.11:562][326]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-16.58.11:563][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000946s)
+[2018.03.19-16.58.11:564][326]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-16.58.11:564][326]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2018.03.19-16.58.11:564][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001754s)
+[2018.03.19-16.58.11:595][326]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-16.58.11:741][326]LogInit: FAudioDevice initialized.
+[2018.03.19-16.58.11:810][326]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.58.11:811][326]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-01.58.11
+[2018.03.19-16.58.11:811][326]LogWorld: Bringing up level for play took: 0.000516
+[2018.03.19-16.58.11:833][326]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.85
+[2018.03.19-16.58.11:834][326]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.58.12:901][368]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.58.12:976][368]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.58.14:160][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset" SILENT=true
+[2018.03.19-16.58.14:514][427]LogSavePackage: Save=342.80ms
+[2018.03.19-16.58.14:514][427]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Saved/GameHUDBEDA758E48BDCA193FC092B28D9AA4C0.tmp' to '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset'
+[2018.03.19-16.58.14:521][427]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset
+[2018.03.19-16.58.16:208][509]LogSavePackage: Save=103.01ms
+[2018.03.19-16.58.16:208][509]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Saved/InventoryslothoverD4B7680841EA9428624A31A1DCC458B3.tmp' to '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/FirstPersonBP/Blueprints/Inventoryslothover.uasset'
+[2018.03.19-16.58.16:214][509]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/FirstPersonBP/Blueprints/Inventoryslothover.uasset
+[2018.03.19-16.58.33:153][445]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-16.58.33:208][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.58.33:209][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-16.58.33:209][445]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 10:58:33)
+[2018.03.19-16.58.33:209][445]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-16.58.33:210][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001005s)
+[2018.03.19-16.58.33:210][445]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-16.58.33:211][445]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2018.03.19-16.58.33:211][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002110s)
+[2018.03.19-16.58.33:247][445]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-16.58.33:369][445]LogInit: FAudioDevice initialized.
+[2018.03.19-16.58.33:442][445]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.58.33:443][445]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-01.58.33
+[2018.03.19-16.58.33:443][445]LogWorld: Bringing up level for play took: 0.000641
+[2018.03.19-16.58.33:457][445]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.475
+[2018.03.19-16.58.33:457][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.58.34:645][492]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-16.58.34:649][492]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-16.58.34:979][492]LogAIModule: Creating AISystem for world URS
+[2018.03.19-16.58.34:980][492]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-16.58.35:010][492]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-01.58.35
+[2018.03.19-16.58.35:011][492]LogWorld: Bringing up level for play took: 0.031267
+[2018.03.19-16.58.35:012][492]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-16.58.35:018][492]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-16.58.35:018][492]LogLoad: Took 0.369704 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-16.58.35:020][492]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-16.58.36:113][494]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 20.28 ms
+[2018.03.19-16.58.36:174][496]Cmd: Stat FPS
+[2018.03.19-16.58.48:345][995]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-16.58.48:420][995]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.02.47:937][989]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.19-17.02.48:725][ 18]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-17.02.48:769][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.02.48:769][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-17.02.48:769][ 18]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 11:02:48)
+[2018.03.19-17.02.48:769][ 18]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-17.02.48:770][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000992s)
+[2018.03.19-17.02.48:771][ 18]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-17.02.48:771][ 18]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2018.03.19-17.02.48:771][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001981s)
+[2018.03.19-17.02.48:805][ 18]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-17.02.48:949][ 18]LogInit: FAudioDevice initialized.
+[2018.03.19-17.02.49:012][ 18]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.02.49:013][ 18]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-02.02.49
+[2018.03.19-17.02.49:013][ 18]LogWorld: Bringing up level for play took: 0.000883
+[2018.03.19-17.02.49:033][ 18]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.051
+[2018.03.19-17.02.49:034][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.02.50:058][ 59]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-17.02.50:060][ 59]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-17.02.50:399][ 59]LogAIModule: Creating AISystem for world URS
+[2018.03.19-17.02.50:399][ 59]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.02.50:419][ 59]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-02.02.50
+[2018.03.19-17.02.50:419][ 59]LogWorld: Bringing up level for play took: 0.019970
+[2018.03.19-17.02.50:420][ 59]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-17.02.50:424][ 59]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-17.02.50:424][ 59]LogLoad: Took 0.364280 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-17.02.50:426][ 59]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-17.02.51:570][ 61]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 21.60 ms
+[2018.03.19-17.02.51:648][ 63]Cmd: Stat FPS
+[2018.03.19-17.02.57:229][292]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_10.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-17.02.57:229][292]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-17.02.58:055][327]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_10.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-17.02.58:056][327]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-17.02.58:889][363]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_10.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-17.02.58:889][363]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-17.02.59:718][399]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_10.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-17.02.59:718][399]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-17.03.01:690][485]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_10.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-17.03.01:690][485]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-17.03.10:396][846]LogScript: Warning: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup14 에 접근하려 하였으나, TemplatePickup14 는 킬 대기중입니다.
+	GameHUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_10.GameHUD_C_3
+	Function /Game/UMG/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD:0F5B
+[2018.03.19-17.03.10:397][846]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup14 에 접근하려 하였으나, TemplatePickup14 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup14 에 접근하려 하였으나, TemplatePickup14 는 킬 대기중입니다.
+[2018.03.19-17.03.11:037][873]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup14 에 접근하려 하였으나, TemplatePickup14 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup14 에 접근하려 하였으나, TemplatePickup14 는 킬 대기중입니다.
+[2018.03.19-17.03.11:650][899]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup14 에 접근하려 하였으나, TemplatePickup14 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup14 에 접근하려 하였으나, TemplatePickup14 는 킬 대기중입니다.
+[2018.03.19-17.03.12:216][923]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup14 에 접근하려 하였으나, TemplatePickup14 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup14 에 접근하려 하였으나, TemplatePickup14 는 킬 대기중입니다.
+[2018.03.19-17.03.15:983][ 81]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup16 에 접근하려 하였으나, TemplatePickup16 는 킬 대기중입니다.
+[2018.03.19-17.03.20:716][275]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.03.20:794][275]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.04.12:669][998]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.03.19-17.04.26:704][685]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.19-17.04.27:602][721]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-17.04.27:641][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.04.27:642][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-17.04.27:642][721]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 11:04:27)
+[2018.03.19-17.04.27:642][721]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-17.04.27:643][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001031s)
+[2018.03.19-17.04.27:644][721]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-17.04.27:644][721]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2018.03.19-17.04.27:644][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001996s)
+[2018.03.19-17.04.27:685][721]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-17.04.27:816][721]LogInit: FAudioDevice initialized.
+[2018.03.19-17.04.27:886][721]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.04.27:888][721]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-02.04.27
+[2018.03.19-17.04.27:889][721]LogWorld: Bringing up level for play took: 0.001025
+[2018.03.19-17.04.27:906][721]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.924
+[2018.03.19-17.04.27:907][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.04.28:876][756]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-17.04.28:885][756]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-17.04.29:239][756]LogAIModule: Creating AISystem for world URS
+[2018.03.19-17.04.29:239][756]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.04.29:259][756]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-02.04.29
+[2018.03.19-17.04.29:260][756]LogWorld: Bringing up level for play took: 0.020448
+[2018.03.19-17.04.29:261][756]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-17.04.29:265][756]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-17.04.29:266][756]LogLoad: Took 0.380138 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-17.04.29:267][756]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-17.04.30:375][758]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 22.13 ms
+[2018.03.19-17.04.30:439][760]Cmd: Stat FPS
+[2018.03.19-17.04.46:916][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.04.46:990][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.04.57:360][960]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.19-17.04.57:963][982]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-17.04.58:010][982]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.04.58:010][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-17.04.58:010][982]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 11:04:58)
+[2018.03.19-17.04.58:010][982]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-17.04.58:012][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001491s)
+[2018.03.19-17.04.58:012][982]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-17.04.58:013][982]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2018.03.19-17.04.58:013][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002464s)
+[2018.03.19-17.04.58:050][982]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-17.04.58:167][982]LogInit: FAudioDevice initialized.
+[2018.03.19-17.04.58:235][982]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.04.58:236][982]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-02.04.58
+[2018.03.19-17.04.58:236][982]LogWorld: Bringing up level for play took: 0.000483
+[2018.03.19-17.04.58:249][982]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.734
+[2018.03.19-17.04.58:250][982]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.04.59:144][ 16]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-17.04.59:144][ 16]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-17.04.59:483][ 16]LogAIModule: Creating AISystem for world URS
+[2018.03.19-17.04.59:483][ 16]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.04.59:509][ 16]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-02.04.59
+[2018.03.19-17.04.59:509][ 16]LogWorld: Bringing up level for play took: 0.025406
+[2018.03.19-17.04.59:510][ 16]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-17.04.59:517][ 16]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-17.04.59:517][ 16]LogLoad: Took 0.373150 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-17.04.59:519][ 16]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-17.05.00:568][ 18]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 21.72 ms
+[2018.03.19-17.05.00:631][ 20]Cmd: Stat FPS
+[2018.03.19-17.05.04:626][176]PIE: Error: 블루프린트 런타임 오류: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다. 다음 함수에서: 'ExecuteUbergraph_GameHUD' 노드: Use Action
+SKEL_ActionInterface_C 인터페이스 사용 그래프: EventGraph 오브젝트: GameHUD 설명: K2Node_DynamicCast_AsAction_Interface2 프로퍼티를 통해 TemplatePickup10 에 접근하려 하였으나, TemplatePickup10 는 킬 대기중입니다.
+[2018.03.19-17.05.05:086][195]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.05.05:157][195]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.05.52:127][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset" SILENT=true
+[2018.03.19-17.05.52:472][672]LogSavePackage: Save=323.96ms
+[2018.03.19-17.05.52:472][672]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Saved/GameHUD72BE51AB435CE0B8BA98F5A0260070EB.tmp' to '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset'
+[2018.03.19-17.05.52:479][672]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset
+[2018.03.19-17.07.22:234][ 27]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.19-17.07.22:818][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset" SILENT=true
+[2018.03.19-17.07.23:200][ 39]LogSavePackage: Save=371.16ms
+[2018.03.19-17.07.23:200][ 39]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Saved/GameHUDC84A7BC347B2321C8F2990AB9FFD1766.tmp' to '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset'
+[2018.03.19-17.07.23:206][ 39]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset
+[2018.03.19-17.15.13:890][441]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.19-17.15.30:802][ 37]BlueprintLog: New page: TemplatePickup 컴파일
+[2018.03.19-17.15.34:037][ 95]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2018.03.19-17.15.37:567][203]BlueprintLog: New page: TemplatePickup 컴파일
+[2018.03.19-17.16.33:393][  2]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-17.16.33:451][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.16.33:451][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-17.16.33:451][  2]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 11:16:33)
+[2018.03.19-17.16.33:451][  2]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-17.16.33:452][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001042s)
+[2018.03.19-17.16.33:453][  2]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-17.16.33:453][  2]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2018.03.19-17.16.33:454][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002326s)
+[2018.03.19-17.16.33:489][  2]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-17.16.33:617][  2]LogInit: FAudioDevice initialized.
+[2018.03.19-17.16.33:683][  2]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.16.33:684][  2]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-02.16.33
+[2018.03.19-17.16.33:684][  2]LogWorld: Bringing up level for play took: 0.000623
+[2018.03.19-17.16.33:705][  2]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.723
+[2018.03.19-17.16.33:706][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.16.34:577][ 43]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-17.16.34:577][ 43]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-17.16.34:910][ 43]LogAIModule: Creating AISystem for world URS
+[2018.03.19-17.16.34:911][ 43]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.16.34:931][ 43]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-02.16.34
+[2018.03.19-17.16.34:932][ 43]LogWorld: Bringing up level for play took: 0.020908
+[2018.03.19-17.16.34:932][ 43]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-17.16.34:937][ 43]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-17.16.34:937][ 43]LogLoad: Took 0.360593 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-17.16.34:939][ 43]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-17.16.36:109][ 45]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 23.12 ms
+[2018.03.19-17.16.36:179][ 47]Cmd: Stat FPS
+[2018.03.19-17.16.54:804][748]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.16.54:877][748]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.16.55:952][802]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-17.16.55:990][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.16.55:991][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-17.16.55:991][802]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 11:16:55)
+[2018.03.19-17.16.55:991][802]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-17.16.55:992][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001054s)
+[2018.03.19-17.16.55:993][802]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-17.16.55:993][802]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2018.03.19-17.16.55:993][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002028s)
+[2018.03.19-17.16.56:027][802]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-17.16.56:156][802]LogInit: FAudioDevice initialized.
+[2018.03.19-17.16.56:223][802]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.16.56:225][802]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-02.16.56
+[2018.03.19-17.16.56:225][802]LogWorld: Bringing up level for play took: 0.000661
+[2018.03.19-17.16.56:245][802]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.737
+[2018.03.19-17.16.56:246][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.16.57:227][848]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-17.16.57:227][848]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-17.16.57:505][848]LogAIModule: Creating AISystem for world URS
+[2018.03.19-17.16.57:505][848]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.16.57:546][848]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-02.16.57
+[2018.03.19-17.16.57:547][848]LogWorld: Bringing up level for play took: 0.040013
+[2018.03.19-17.16.57:547][848]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-17.16.57:551][848]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-17.16.57:552][848]LogLoad: Took 0.324769 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-17.16.57:553][848]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-17.16.58:695][852]Cmd: Stat FPS
+[2018.03.19-17.17.31:424][462]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.17.31:511][462]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.17.32:720][523]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-17.17.32:772][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.17.32:772][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-17.17.32:772][523]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 11:17:32)
+[2018.03.19-17.17.32:772][523]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-17.17.32:773][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001052s)
+[2018.03.19-17.17.32:774][523]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-17.17.32:774][523]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2018.03.19-17.17.32:775][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002493s)
+[2018.03.19-17.17.32:807][523]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-17.17.32:942][523]LogInit: FAudioDevice initialized.
+[2018.03.19-17.17.33:005][523]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.17.33:007][523]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-02.17.33
+[2018.03.19-17.17.33:007][523]LogWorld: Bringing up level for play took: 0.000818
+[2018.03.19-17.17.33:020][523]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.038
+[2018.03.19-17.17.33:020][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.17.33:941][568]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-17.17.33:941][568]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-17.17.34:249][568]LogAIModule: Creating AISystem for world URS
+[2018.03.19-17.17.34:250][568]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.17.34:269][568]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-02.17.34
+[2018.03.19-17.17.34:269][568]LogWorld: Bringing up level for play took: 0.018953
+[2018.03.19-17.17.34:270][568]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-17.17.34:274][568]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-17.17.34:274][568]LogLoad: Took 0.333074 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-17.17.34:276][568]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-17.17.35:360][570]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 22.02 ms
+[2018.03.19-17.17.35:416][572]Cmd: Stat FPS
+[2018.03.19-17.17.45:040][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.17.45:109][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.17.49:342][273]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.19-17.17.49:388][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.17.49:388][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.19-17.17.49:388][273]PIE: New page: PIE 세션: StartGame (2018. 3. 20. 오전 11:17:49)
+[2018.03.19-17.17.49:388][273]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.19-17.17.49:389][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000957s)
+[2018.03.19-17.17.49:390][273]LogAIModule: Creating AISystem for world StartGame
+[2018.03.19-17.17.49:390][273]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2018.03.19-17.17.49:390][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001966s)
+[2018.03.19-17.17.49:423][273]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-17.17.49:557][273]LogInit: FAudioDevice initialized.
+[2018.03.19-17.17.49:623][273]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.17.49:624][273]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-02.17.49
+[2018.03.19-17.17.49:624][273]LogWorld: Bringing up level for play took: 0.000685
+[2018.03.19-17.17.49:637][273]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.654
+[2018.03.19-17.17.49:638][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.17.54:065][368]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.19-17.17.54:065][368]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.19-17.17.54:768][368]LogAIModule: Creating AISystem for world URS
+[2018.03.19-17.17.54:769][368]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.19-17.17.54:885][368]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-02.17.54
+[2018.03.19-17.17.54:887][368]LogWorld: Bringing up level for play took: 0.116011
+[2018.03.19-17.17.54:888][368]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.19-17.17.54:894][368]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.19-17.17.54:895][368]LogLoad: Took 0.829616 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.19-17.17.54:901][368]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.19-17.17.57:932][372]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 27.38 ms
+[2018.03.19-17.17.58:072][374]Cmd: Stat FPS
+[2018.03.19-17.18.05:115][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.18.05:283][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.19-17.18.10:762][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset" SILENT=true
+[2018.03.19-17.18.11:420][708]LogSavePackage: Save=590.68ms
+[2018.03.19-17.18.11:420][708]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Saved/GameHUD0408BB58456A57C142A0B9B0052D89BD.tmp' to '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset'
+[2018.03.19-17.18.11:439][708]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset
+[2018.03.19-17.18.29:080][282]BlueprintLog: New page: TemplatePickup 컴파일
+[2018.03.19-17.18.33:006][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2018.03.19-17.18.33:272][391]LogSavePackage: Save=253.91ms
+[2018.03.19-17.18.33:272][391]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Saved/TemplatePickup5BB26DB64D7E235F2E63E38EC312979C.tmp' to '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2018.03.19-17.18.33:285][391]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset
+[2018.03.19-17.21.26:925][ 30]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.19-17.21.28:695][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset" SILENT=true
+[2018.03.19-17.21.29:133][117]LogSavePackage: Save=422.88ms
+[2018.03.19-17.21.29:136][117]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Saved/GameHUD616435FB4DD4F25AEA4DC0A1CD65CC3E.tmp' to '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset'
+[2018.03.19-17.21.29:146][117]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset
+[2018.03.19-17.22.58:896][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset" SILENT=true
+[2018.03.19-17.22.59:431][757]LogSavePackage: Save=514.17ms
+[2018.03.19-17.22.59:431][757]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Saved/GameHUD417243DA431D7637FA4A7796CD59F472.tmp' to '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset'
+[2018.03.19-17.22.59:465][757]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/UMG/GameHUD.uasset
+[2018.03.19-17.23.06:339][967]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.03.19-17.23.06:593][968]Cmd: QUIT_EDITOR
+[2018.03.19-17.23.07:760][968]LogExit: Preparing to exit.
+[2018.03.19-17.23.09:269][968]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180319_인벤수량수정중/Content/' was aborted.
+[2018.03.19-17.23.09:930][968]LogExit: Editor shut down
+[2018.03.19-17.23.10:091][968]LogExit: Transaction tracking system shut down
+[2018.03.19-17.23.10:708][968]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.19-17.23.10:708][968]LogDirectoryWatcher: A directory notification for '../../../../../../Users/양형/Desktop/URS_180319_인벤수량수정중/Content/' was aborted.
+[2018.03.19-17.23.10:708][968]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.19-17.23.10:708][968]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.19-17.23.10:708][968]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.19-17.23.10:708][968]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.19-17.23.10:708][968]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.19-17.23.12:047][968]LogExit: Object subsystem successfully closed.
+[2018.03.19-17.23.12:141][968]LogD3D11RHI: Shutdown
+[2018.03.19-17.23.12:142][968]LogD3D11RHI: CleanupD3DDevice
+[2018.03.19-17.23.12:149][968]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.19-17.23.12:216][968]LogModuleManager: Shutting down and abandoning module SequencerWidgets (554)
+[2018.03.19-17.23.12:216][968]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.03.19-17.23.12:216][968]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
+[2018.03.19-17.23.12:216][968]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.03.19-17.23.12:216][968]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.03.19-17.23.12:216][968]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.03.19-17.23.12:217][968]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.19-17.23.12:231][968]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.03.19-17.23.12:231][968]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.03.19-17.23.12:231][968]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.03.19-17.23.12:232][968]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180319_인벤수량수정중/Content/Collections/' was aborted.
+[2018.03.19-17.23.12:232][968]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180319_인벤수량수정중/Content/Developers/양형/Collections/' was aborted.
+[2018.03.19-17.23.12:232][968]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180319_인벤수량수정중/Saved/Collections/' was aborted.
+[2018.03.19-17.23.12:232][968]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.19-17.23.12:232][968]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.19-17.23.12:232][968]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.19-17.23.12:232][968]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.19-17.23.12:232][968]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.19-17.23.12:232][968]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.19-17.23.12:232][968]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.19-17.23.12:232][968]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.19-17.23.12:232][968]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.19-17.23.12:232][968]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.19-17.23.12:233][968]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.19-17.23.12:234][968]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.19-17.23.12:234][968]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.19-17.23.12:234][968]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.19-17.23.12:234][968]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.19-17.23.12:234][968]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.19-17.23.12:310][968]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.19-17.23.12:310][968]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.19-17.23.12:310][968]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.19-17.23.12:310][968]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.19-17.23.12:310][968]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.19-17.23.12:310][968]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.19-17.23.12:310][968]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.19-17.23.12:311][968]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.19-17.23.12:312][968]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.19-17.23.12:313][968]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.19-17.23.12:313][968]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.19-17.23.12:313][968]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.19-17.23.12:367][968]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.19-17.23.12:367][968]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.19-17.23.12:368][968]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.19-17.23.12:368][968]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.19-17.23.12:368][968]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.19-17.23.12:369][968]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.19-17.23.12:369][968]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.19-17.23.12:374][968]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.19-17.23.12:374][968]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.19-17.23.12:374][968]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.19-17.23.12:397][968]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.19-17.23.12:397][968]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.19-17.23.12:397][968]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.19-17.23.12:397][968]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.19-17.23.12:397][968]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.19-17.23.12:398][968]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.19-17.23.12:398][968]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.03.19-17.23.12:399][968]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.03.19-17.23.12:412][968]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.03.19-17.23.12:413][968]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.03.19-17.23.12:415][968]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.03.19-17.23.12:415][968]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.03.19-17.23.12:415][968]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.03.19-17.23.12:416][968]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.19-17.23.12:416][968]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.19-17.23.12:416][968]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.19-17.23.12:416][968]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.19-17.23.12:416][968]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.19-17.23.12:416][968]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.19-17.23.12:416][968]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.19-17.23.12:416][968]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.19-17.23.12:516][968]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.19-17.23.12:617][968]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.19-17.23.12:617][968]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.19-17.23.12:617][968]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.19-17.23.12:617][968]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.19-17.23.12:617][968]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.19-17.23.12:617][968]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.19-17.23.12:625][968]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.19-17.23.12:625][968]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.19-17.23.12:625][968]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.19-17.23.12:625][968]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.19-17.23.12:629][968]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.19-17.23.12:629][968]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.19-17.23.12:629][968]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.19-17.23.12:629][968]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.19-17.23.12:629][968]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.19-17.23.12:629][968]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.19-17.23.12:639][968]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.19-17.23.12:639][968]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.19-17.23.12:639][968]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.19-17.23.12:639][968]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.19-17.23.12:639][968]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.19-17.23.12:639][968]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.19-17.23.12:639][968]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.19-17.23.12:639][968]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.19-17.23.12:639][968]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.19-17.23.12:640][968]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.19-17.23.12:640][968]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.19-17.23.12:640][968]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.19-17.23.12:640][968]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.19-17.23.12:640][968]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.19-17.23.12:640][968]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.19-17.23.12:640][968]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.19-17.23.12:647][968]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.19-17.23.12:647][968]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.19-17.23.12:647][968]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.19-17.23.12:647][968]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.19-17.23.12:647][968]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.19-17.23.12:647][968]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.19-17.23.12:647][968]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.19-17.23.12:647][968]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.19-17.23.12:658][968]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.19-17.23.12:658][968]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.19-17.23.12:658][968]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.19-17.23.12:658][968]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.19-17.23.12:658][968]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.19-17.23.12:658][968]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.19-17.23.12:658][968]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.19-17.23.12:658][968]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.19-17.23.12:658][968]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.19-17.23.12:715][968]LogDerivedDataCache: Shutdown
+[2018.03.19-17.23.12:715][968]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.19-17.23.12:715][968]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.19-17.23.12:715][968]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.19-17.23.12:715][968]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.19-17.23.12:715][968]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.19-17.23.12:715][968]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.19-17.23.12:715][968]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.19-17.23.12:715][968]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.19-17.23.12:715][968]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.19-17.23.12:715][968]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.19-17.23.12:716][968]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.19-17.23.12:717][968]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.19-17.23.12:717][968]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.19-17.23.12:717][968]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7DB0808C-4055-2C38-AEBB-76A5758362E4%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=e145770943d02904f68a0ca4fa52eca5%7C8ac49062baae43c690b431ed046528f1%7C7532abaf-559c-4c1f-b377-4db2574a422a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.19-17.23.12:746][968]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.19-17.23.12:748][968]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.19-17.23.12:748][968]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.19-17.23.12:749][968]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.19-17.23.12:749][968]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.19-17.23.12:749][968]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.19-17.23.12:749][968]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.19-17.23.12:749][968]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.19-17.23.12:765][968]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.19-17.23.12:766][968]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.19-17.23.12:766][968]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.19-17.23.12:766][968]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.19-17.23.12:766][968]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.19-17.23.12:766][968]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.19-17.23.12:766][968]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.19-17.23.12:766][968]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.19-17.23.12:766][968]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.19-17.23.12:766][968]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.19-17.23.12:766][968]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.19-17.23.12:778][968]LogExit: Exiting.
+[2018.03.19-17.23.12:844][968]Log file closed, 03/20/18 02:23:12

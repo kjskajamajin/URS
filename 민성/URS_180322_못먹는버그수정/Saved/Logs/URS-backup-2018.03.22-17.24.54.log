@@ -1,0 +1,1415 @@
+﻿Log file open, 03/22/18 15:43:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: URS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-305743173) SRandInit(-305743173).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.241650
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.22-06.43.46:792][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.22-06.43.46:792][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.22-06.43.46:844][  0]LogInit: Computer: DESKTOP-PDO9PMJ
+[2018.03.22-06.43.46:844][  0]LogInit: User: 양형
+[2018.03.22-06.43.46:844][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.22-06.43.46:844][  0]LogInit: High frequency timer resolution =2.437500 MHz
+[2018.03.22-06.43.46:845][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.22-06.43.46:845][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.22-06.43.46:845][  0]LogMemory: Process Physical Memory: 273.73 MB used, 273.73 MB peak
+[2018.03.22-06.43.46:845][  0]LogMemory: Process Virtual Memory: 275.52 MB used, 275.52 MB peak
+[2018.03.22-06.43.46:845][  0]LogMemory: Physical Memory: 3119.91 MB used,  4938.54 MB free, 8058.46 MB total
+[2018.03.22-06.43.46:845][  0]LogMemory: Virtual Memory: 682.28 MB used,  4938.54 MB free, 134217728.00 MB total
+[2018.03.22-06.43.47:485][  0]LogInit: Using OS detected language (ko-KR).
+[2018.03.22-06.43.47:485][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.03.22-06.43.47:557][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.03.22-06.43.47:817][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.22-06.43.50:574][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.22-06.43.51:219][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.03.22-06.43.51:219][  0]LogD3D11RHI:       4029/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.22-06.43.51:240][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.03.22-06.43.51:240][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.22-06.43.51:244][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.22-06.43.51:244][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.22-06.43.51:245][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.22-06.43.51:256][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.22-06.43.51:256][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.03.22-06.43.51:256][  0]LogWindows: EnumDisplayDevices:
+[2018.03.22-06.43.51:256][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.03.22-06.43.51:257][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.22-06.43.51:258][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.22-06.43.51:259][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.03.22-06.43.51:259][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.22-06.43.51:259][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.03.22-06.43.51:259][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.22-06.43.51:259][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.22-06.43.51:259][  0]LogRHI: Texture pool is 2820 MB (70% of 4029 MB)
+[2018.03.22-06.43.51:313][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.22-06.43.51:353][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.22-06.43.51:364][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Intermediate/Shaders/WorkingDirectory/9624/).
+[2018.03.22-06.43.51:364][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/양형/AppData/Local/Temp/UnrealShaderWorkingDir/7C708D424F2022DB198227B77C67E8B4/'.
+[2018.03.22-06.43.51:365][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.22-06.43.53:806][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.22-06.43.53:939][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.22-06.43.54:056][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.22-06.43.54:171][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.22-06.43.54:308][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.22-06.43.54:426][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.22-06.43.54:542][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.22-06.43.54:655][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.22-06.43.54:763][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.22-06.43.54:876][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.22-06.43.54:988][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.22-06.43.55:098][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.22-06.43.55:214][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.22-06.43.55:327][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.22-06.43.55:550][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.22-06.43.55:550][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.22-06.43.55:675][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.22-06.43.55:777][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.22-06.43.55:973][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.22-06.43.56:028][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.22-06.43.56:141][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.22-06.43.56:257][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.22-06.43.56:373][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.22-06.43.56:493][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.22-06.43.56:493][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.22-06.43.57:778][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.22-06.43.58:191][  0]LogDerivedDataCache: Loaded boot cache 0.41s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.22-06.43.58:191][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.22-06.43.58:191][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.22-06.43.58:191][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.22-06.43.58:191][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.22-06.43.58:191][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.22-06.43.58:219][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.22-06.43.58:232][  0]LogDerivedDataCache: Using Local data cache path C:/Users/양형/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.22-06.43.58:249][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.22-06.43.58:258][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.22-06.43.58:271][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.22-06.43.58:272][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.22-06.43.59:840][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.22-06.44.00:816][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.22-06.44.00:928][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.22-06.44.00:928][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.22-06.44.00:928][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.22-06.44.00:928][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.22-06.44.00:928][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.22-06.44.01:034][  0]LogNetVersion: URS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1777970781)
+[2018.03.22-06.44.01:679][  0]LogAssetRegistry: FAssetRegistry took 0.0423 seconds to start up
+[2018.03.22-06.44.03:197][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.103259 seconds
+[2018.03.22-06.44.03:203][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.22-06.44.03:203][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.22-06.44.03:203][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.22-06.44.03:352][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.22-06.44.13:151][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.22-06.44.13:237][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.22-06.44.15:094][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.22-06.44.16:210][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.22-06.44.16:211][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.22-06.44.16:361][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.22-06.44.16:499][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.22-06.44.18:658][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.22-06.44.19:304][  0]LogOcInput: OculusInput pre-init called
+[2018.03.22-06.44.20:052][  0]LogEngine: Initializing Engine...
+[2018.03.22-06.44.20:059][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.22-06.44.20:509][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.22-06.44.20:510][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.22-06.44.20:887][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.22-06.44.20:913][  0]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-06.44.22:475][  0]LogInit: FAudioDevice initialized.
+[2018.03.22-06.44.22:577][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.22-06.44.22:595][  0]LogInit: Texture streaming: Enabled
+[2018.03.22-06.44.22:871][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.22-06.44.23:237][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.03.22-06.44.23:375][  0]LogInit: Transaction tracking system initialized
+[2018.03.22-06.44.24:312][  0]BlueprintLog: New page: 에디터 로드
+[2018.03.22-06.44.26:893][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.03.22-06.44.28:998][  0]LogConsoleResponse: Display: 
+[2018.03.22-06.44.29:642][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.22-06.44.29:642][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.22-06.44.29:642][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.22-06.44.30:488][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180320_인벤수량수정중/Content/' took 0.02s
+[2018.03.22-06.44.32:979][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.22-06.44.32:983][  0]Cmd: MAP LOAD FILE="../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/StartGame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.22-06.44.32:992][  0]LightingResults: New page: 라이팅 빌드
+[2018.03.22-06.44.33:127][  0]MapCheck: New page: 맵 체크
+[2018.03.22-06.44.33:127][  0]LightingResults: New page: 라이팅 빌드
+[2018.03.22-06.44.33:246][  0]LogAIModule: Creating AISystem for world StartGame
+[2018.03.22-06.44.33:251][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.22-06.44.33:272][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.22-06.44.33:379][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 106.315ms.
+[2018.03.22-06.44.33:379][  0]LogFileHelpers: Loading map 'StartGame' took 0.398
+[2018.03.22-06.44.33:749][  0]LogCollectionManager: Loaded 0 collections in 0.002136 seconds
+[2018.03.22-06.44.33:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180320_인벤수량수정중/Saved/Collections/' took 0.01s
+[2018.03.22-06.44.33:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180320_인벤수량수정중/Content/Developers/양형/Collections/' took 0.01s
+[2018.03.22-06.44.33:980][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180320_인벤수량수정중/Content/Collections/' took 0.01s
+[2018.03.22-06.44.33:980][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.22-06.44.33:992][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2363 classes and 519 folders.
+[2018.03.22-06.44.34:178][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.22-06.44.34:682][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.22-06.44.34:812][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.22-06.44.35:051][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.22-06.44.35:051][  0]LogLoad: (Engine Initialization) Total time: 54.84 seconds
+[2018.03.22-06.44.35:051][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.22-06.44.35:051][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.22-06.44.35:095][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.22-06.44.35:110][  0]LogSlate: Took 0.009402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.22-06.44.35:140][  0]LogSlate: Took 0.029275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.03.22-06.44.35:148][  0]LogSlate: Took 0.005747 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.22-06.44.35:161][  0]LogSlate: Took 0.007954 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.22-06.44.35:389][  1]LogAssetRegistry: Asset discovery search completed in 33.7335 seconds
+[2018.03.22-06.44.35:391][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.22-06.44.35:392][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
+[2018.03.22-06.44.35:419][  2]LogRenderer: Reallocating scene render targets to support 968x460 Format 10 NumSamples 1 (Frame:1).
+[2018.03.22-06.44.39:022][207]LogSlate: Took 0.006815 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.22-06.44.45:925][523]LogSlate: Took 0.002217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.22-06.44.46:476][523]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.03.22-06.44.47:223][523]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.22-06.44.47:439][523]LogSlate: Took 0.007516 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.22-06.44.47:807][524]LogSlate: Took 0.005194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.22-06.44.49:022][581]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.22-06.44.49:134][581]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.44.49:134][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-06.44.49:135][581]PIE: New page: PIE 세션: StartGame (2018. 3. 23. 오전 12:44:49)
+[2018.03.22-06.44.49:135][581]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.22-06.44.49:137][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001644s)
+[2018.03.22-06.44.49:137][581]LogAIModule: Creating AISystem for world StartGame
+[2018.03.22-06.44.49:138][581]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2018.03.22-06.44.49:138][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002750s)
+[2018.03.22-06.44.49:169][581]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-06.44.49:288][581]LogInit: FAudioDevice initialized.
+[2018.03.22-06.44.49:431][581]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-06.44.49:442][581]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.22-15.44.49
+[2018.03.22-06.44.49:443][581]LogWorld: Bringing up level for play took: 0.001515
+[2018.03.22-06.44.49:583][581]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.03.22-06.44.49:600][581]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.99
+[2018.03.22-06.44.49:603][581]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.44.49:656][581]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.22-06.44.53:759][750]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.22-06.44.53:760][750]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.22-06.44.54:113][750]LogBlueprint: Warning: [Compiler Fire_Pickup] Get : 'Droplocation' variable not found. Base class was probably changed. /Game/FirstPersonBP/Blueprints/Fire_Pickup.Fire_Pickup
+[2018.03.22-06.44.54:121][750]LogBlueprint: Warning: [Compiler Fire_Pickup] [0073.91] Fire_Pickup 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 9 ms] (/Game/FirstPersonBP/Blueprints/Fire_Pickup.Fire_Pickup)
+[2018.03.22-06.44.56:186][750]LogAIModule: Creating AISystem for world URS
+[2018.03.22-06.44.56:186][750]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-06.44.56:193][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup10.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:193][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup10.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:193][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup21.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:193][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup21.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:193][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup3.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:193][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup3.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:194][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup4.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:194][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup4.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:194][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup5.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:194][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup5.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:194][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup6.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:194][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup6.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:195][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup7.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:195][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup7.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:195][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup8.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:196][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup8.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:196][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup9.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:196][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup9.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:196][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup_101.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:196][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup_101.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:197][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup25.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:197][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup25.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:197][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup27.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:197][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup27.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:198][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup22.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:198][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup22.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:198][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup23.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:198][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup23.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:198][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup24.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:198][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup24.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:199][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup26.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:199][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup26.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:199][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup28.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:199][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup28.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:199][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup29.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:199][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup29.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:199][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup30.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:199][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup30.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:199][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup31.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:200][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup31.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:200][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup32.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:200][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup32.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:200][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup33.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:200][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup33.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:200][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup20.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:200][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup20.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:201][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup2.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:201][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup2.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:201][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup19.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:201][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup19.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:201][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup18.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:201][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup18.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:201][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup17.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:201][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup17.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:201][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup16.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:202][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup16.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:202][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup15.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:202][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup15.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:202][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup14.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:202][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup14.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:202][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup13.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:202][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup13.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:203][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup12.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:203][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup12.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:203][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup11.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:203][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup11.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:203][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup34.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:203][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup34.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:203][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup35.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:203][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup35.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:210][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup10.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:210][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup10.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:211][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup10.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:211][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup10.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:211][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup10.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:211][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup10.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:211][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup21.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:211][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup21.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:211][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup21.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:212][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup21.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:212][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup21.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:212][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup21.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:212][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup3.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:212][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup3.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:212][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup3.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:212][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup3.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:213][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup3.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:213][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup3.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:213][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup4.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:213][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup4.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:213][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup4.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:213][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup4.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:213][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup4.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:213][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup4.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:214][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup5.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:214][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup5.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:214][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup5.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:214][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup5.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:215][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup5.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:215][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup5.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:215][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup6.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:215][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup6.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:215][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup6.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:215][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup6.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:215][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup6.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:215][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup6.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:216][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup7.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:216][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup7.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:216][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup7.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:216][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup7.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:216][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup7.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:216][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup7.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:217][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup8.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:217][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup8.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:217][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup8.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:217][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup8.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:217][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup8.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:217][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup8.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:218][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup9.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:218][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup9.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:218][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup9.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:218][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup9.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:218][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup9.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:218][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup9.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:218][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup_101.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:219][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup_101.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:219][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup_101.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:219][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup_101.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:219][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup_101.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:219][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup_101.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:219][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup25.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:219][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup25.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:220][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup25.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:220][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup25.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:220][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup25.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:220][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup25.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:220][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup27.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:220][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup27.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:221][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup27.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:221][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup27.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:221][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup27.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:221][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup27.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:221][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup22.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:221][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup22.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:222][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup22.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:222][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup22.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:222][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup22.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:222][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup22.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:222][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup23.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:222][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup23.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:223][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup23.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:223][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup23.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:223][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup23.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:223][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup23.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:223][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup24.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:223][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup24.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:224][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup24.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:224][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup24.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:224][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup24.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:224][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup24.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:224][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup26.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:224][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup26.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:225][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup26.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:225][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup26.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:225][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup26.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:225][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup26.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:225][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup28.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:225][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup28.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:226][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup28.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:226][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup28.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:226][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup28.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:226][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup28.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:226][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup29.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:226][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup29.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:227][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup29.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:227][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup29.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:227][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup29.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:227][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup29.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:227][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup30.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:227][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup30.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:228][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup30.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:228][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup30.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:228][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup30.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:228][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup30.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:228][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup31.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:228][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup31.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:229][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup31.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:229][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup31.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:229][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup31.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:229][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup31.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:230][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup32.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:230][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup32.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:230][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup32.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:230][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup32.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:230][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup32.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:230][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup32.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:231][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup33.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:231][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup33.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:231][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup33.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:231][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup33.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:231][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup33.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:231][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup33.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:232][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup20.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:232][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup20.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:232][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup20.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:232][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup20.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:232][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup20.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:232][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup20.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:233][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup2.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:233][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup2.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:233][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup2.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:233][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup2.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:233][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup2.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:233][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup2.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:234][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup19.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:234][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup19.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:234][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup19.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:234][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup19.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:234][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup19.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:234][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup19.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:234][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup18.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:234][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup18.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:235][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup18.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:235][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup18.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:235][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup18.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:235][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup18.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:236][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup17.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:236][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup17.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:237][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup17.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:237][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup17.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:237][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup17.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:237][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup17.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:237][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup16.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:237][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup16.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:237][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup16.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:237][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup16.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:238][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup16.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:238][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup16.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:238][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup15.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:238][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup15.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:239][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup15.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:239][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup15.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:239][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup15.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:240][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup15.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:240][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup14.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:240][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup14.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:241][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup14.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:241][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup14.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:241][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup14.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:241][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup14.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:241][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup13.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:241][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup13.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:242][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup13.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:242][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup13.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:242][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup13.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:242][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup13.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:243][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup12.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:243][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup12.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:243][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup12.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:243][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup12.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:243][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup12.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:243][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup12.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:244][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup11.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:244][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup11.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:244][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup11.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:244][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup11.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:245][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup11.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:245][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup11.StaticMesh First_Aid_Kit_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:245][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup34.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:245][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup34.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:246][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup34.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:246][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup34.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:246][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup34.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:246][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup34.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:247][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup35.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:247][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup35.StaticMesh Shape_Cylinder) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:247][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup35.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:247][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup35.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:247][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup35.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:248][750]PIE: Warning: 유효하지 않은 시뮬레이션 옵션: (TemplatePickup35.StaticMesh shield_Low) 바디가 피직스 시뮬레이션을 하도록 설정되어 있으나 Collision Enabled 가 호환되지 않습니다.
+[2018.03.22-06.44.56:250][750]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.22-15.44.56
+[2018.03.22-06.44.56:251][750]LogWorld: Bringing up level for play took: 0.063888
+[2018.03.22-06.44.56:252][750]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.22-06.44.56:258][750]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.22-06.44.56:260][750]LogLoad: Took 2.500326 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.22-06.44.56:269][750]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.22-06.44.59:025][752]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 23.60 ms
+[2018.03.22-06.44.59:133][754]Cmd: Stat FPS
+[2018.03.22-06.45.01:687][846]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.45.01:773][846]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.46.41:497][350]BlueprintLog: New page: TemplatePickup 컴파일
+[2018.03.22-06.46.59:066][346]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.22-06.46.59:100][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.46.59:100][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-06.46.59:100][346]PIE: New page: PIE 세션: StartGame (2018. 3. 23. 오전 12:46:59)
+[2018.03.22-06.46.59:101][346]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.22-06.46.59:102][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001173s)
+[2018.03.22-06.46.59:102][346]LogAIModule: Creating AISystem for world StartGame
+[2018.03.22-06.46.59:103][346]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2018.03.22-06.46.59:103][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002434s)
+[2018.03.22-06.46.59:130][346]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-06.46.59:249][346]LogInit: FAudioDevice initialized.
+[2018.03.22-06.46.59:344][346]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-06.46.59:345][346]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.22-15.46.59
+[2018.03.22-06.46.59:345][346]LogWorld: Bringing up level for play took: 0.000512
+[2018.03.22-06.46.59:353][346]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.742
+[2018.03.22-06.46.59:353][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.47.00:099][383]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.22-06.47.00:099][383]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.22-06.47.00:756][383]LogAIModule: Creating AISystem for world URS
+[2018.03.22-06.47.00:756][383]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-06.47.00:788][383]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.22-15.47.00
+[2018.03.22-06.47.00:788][383]LogWorld: Bringing up level for play took: 0.031065
+[2018.03.22-06.47.00:788][383]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.22-06.47.00:793][383]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.22-06.47.00:793][383]LogLoad: Took 0.693584 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.22-06.47.00:795][383]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.22-06.47.01:857][388]Cmd: Stat FPS
+[2018.03.22-06.47.13:016][958]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.47.13:093][958]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.47.47:037][837]BlueprintLog: New page: TemplatePickup 컴파일
+[2018.03.22-06.47.47:963][863]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.22-06.47.48:001][863]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.47.48:001][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-06.47.48:001][863]PIE: New page: PIE 세션: StartGame (2018. 3. 23. 오전 12:47:48)
+[2018.03.22-06.47.48:001][863]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.22-06.47.48:002][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001161s)
+[2018.03.22-06.47.48:003][863]LogAIModule: Creating AISystem for world StartGame
+[2018.03.22-06.47.48:003][863]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2018.03.22-06.47.48:003][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002159s)
+[2018.03.22-06.47.48:030][863]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-06.47.48:146][863]LogInit: FAudioDevice initialized.
+[2018.03.22-06.47.48:244][863]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-06.47.48:245][863]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.22-15.47.48
+[2018.03.22-06.47.48:246][863]LogWorld: Bringing up level for play took: 0.000492
+[2018.03.22-06.47.48:255][863]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.356
+[2018.03.22-06.47.48:255][863]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.47.49:217][908]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.22-06.47.49:217][908]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.22-06.47.49:502][908]LogAIModule: Creating AISystem for world URS
+[2018.03.22-06.47.49:502][908]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-06.47.49:536][908]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.22-15.47.49
+[2018.03.22-06.47.49:536][908]LogWorld: Bringing up level for play took: 0.033574
+[2018.03.22-06.47.49:537][908]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.22-06.47.49:541][908]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.22-06.47.49:541][908]LogLoad: Took 0.324038 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.22-06.47.49:543][908]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.22-06.47.50:519][910]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 20.50 ms
+[2018.03.22-06.47.50:568][912]Cmd: Stat FPS
+[2018.03.22-06.47.53:590][ 46]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.47.53:669][ 46]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.48.44:133][816]BlueprintLog: New page: TemplatePickup 컴파일
+[2018.03.22-06.48.44:968][836]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.22-06.48.45:007][836]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.48.45:007][836]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2018.03.22-06.48.45:073][836]LogBlueprint: Warning: [Fire_Pickup] 'Droplocation' variable not found. Base class was probably changed. /Game/FirstPersonBP/Blueprints/Fire_Pickup.Fire_Pickup
+[2018.03.22-06.48.45:088][836]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2018.03.22-06.48.45:485][836]LogPlayLevel: PlayLevel: Blueprint regeneration took 477 ms (1 blueprints)
+[2018.03.22-06.48.45:485][836]PIE: New page: PIE 세션: StartGame (2018. 3. 23. 오전 12:48:45)
+[2018.03.22-06.48.45:485][836]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.22-06.48.45:486][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000998s)
+[2018.03.22-06.48.45:487][836]LogAIModule: Creating AISystem for world StartGame
+[2018.03.22-06.48.45:487][836]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2018.03.22-06.48.45:487][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001924s)
+[2018.03.22-06.48.45:512][836]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-06.48.45:628][836]LogInit: FAudioDevice initialized.
+[2018.03.22-06.48.45:716][836]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-06.48.45:717][836]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.22-15.48.45
+[2018.03.22-06.48.45:717][836]LogWorld: Bringing up level for play took: 0.000460
+[2018.03.22-06.48.45:724][836]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 1.113
+[2018.03.22-06.48.45:726][836]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.48.46:816][879]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.22-06.48.46:817][879]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.22-06.48.47:131][879]LogAIModule: Creating AISystem for world URS
+[2018.03.22-06.48.47:131][879]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-06.48.47:166][879]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.22-15.48.47
+[2018.03.22-06.48.47:166][879]LogWorld: Bringing up level for play took: 0.033132
+[2018.03.22-06.48.47:166][879]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.22-06.48.47:171][879]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.22-06.48.47:171][879]LogLoad: Took 0.354516 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.22-06.48.47:173][879]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.22-06.48.48:251][883]Cmd: Stat FPS
+[2018.03.22-06.48.52:803][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.48.52:879][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.53.00:040][759]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.22-06.53.00:084][759]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.53.00:084][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-06.53.00:085][759]PIE: New page: PIE 세션: StartGame (2018. 3. 23. 오전 12:53:00)
+[2018.03.22-06.53.00:085][759]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.22-06.53.00:086][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001358s)
+[2018.03.22-06.53.00:087][759]LogAIModule: Creating AISystem for world StartGame
+[2018.03.22-06.53.00:087][759]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2018.03.22-06.53.00:087][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002560s)
+[2018.03.22-06.53.00:117][759]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-06.53.00:234][759]LogInit: FAudioDevice initialized.
+[2018.03.22-06.53.00:338][759]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-06.53.00:338][759]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.22-15.53.00
+[2018.03.22-06.53.00:339][759]LogWorld: Bringing up level for play took: 0.000552
+[2018.03.22-06.53.00:353][759]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.258
+[2018.03.22-06.53.00:354][759]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.53.01:657][816]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.22-06.53.01:657][816]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.22-06.53.01:939][816]LogAIModule: Creating AISystem for world URS
+[2018.03.22-06.53.01:939][816]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-06.53.01:972][816]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.22-15.53.01
+[2018.03.22-06.53.01:973][816]LogWorld: Bringing up level for play took: 0.032773
+[2018.03.22-06.53.01:973][816]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.22-06.53.01:978][816]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.22-06.53.01:979][816]LogLoad: Took 0.321510 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.22-06.53.01:980][816]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.22-06.53.03:005][818]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 21.43 ms
+[2018.03.22-06.53.03:061][820]Cmd: Stat FPS
+[2018.03.22-06.53.05:084][900]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.53.05:160][900]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.22-06.55.26:857][217]LogAIModule: Creating AISystem for world URS
+[2018.03.22-06.55.30:794][217]Cmd: MAP LOAD FILE="../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/URS.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.22-06.55.30:796][217]LightingResults: New page: 라이팅 빌드
+[2018.03.22-06.55.30:797][217]LoadErrors: New page: 맵 로드중: URS.umap
+[2018.03.22-06.55.30:798][217]MapCheck: New page: 맵 체크
+[2018.03.22-06.55.30:798][217]LightingResults: New page: 라이팅 빌드
+[2018.03.22-06.55.30:898][217]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/URS_Stage1) is flushing async loading
+[2018.03.22-06.55.31:620][217]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/URS_Stage2) is flushing async loading
+[2018.03.22-06.55.32:199][217]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.22-06.55.32:343][217]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.22-06.55.32:523][217]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 180.326ms.
+[2018.03.22-06.55.32:529][217]LogFileHelpers: Loading map 'URS' took 1.737
+[2018.03.22-06.55.44:483][912]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup5)
+[2018.03.22-06.55.49:970][200]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup18)
+[2018.03.22-06.56.10:384][166]BlueprintLog: New page: TemplatePickup 컴파일
+[2018.03.22-06.56.16:107][200]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.22-06.56.16:166][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-06.56.16:166][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-06.56.16:166][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-06.56.16:167][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-06.56.16:167][200]PIE: New page: PIE 세션: URS (2018. 3. 23. 오전 12:56:16)
+[2018.03.22-06.56.16:167][200]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.22-06.56.16:193][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026298s)
+[2018.03.22-06.56.16:194][200]LogAIModule: Creating AISystem for world URS
+[2018.03.22-06.56.16:194][200]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2018.03.22-06.56.16:195][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.028213s)
+[2018.03.22-06.56.16:228][200]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-06.56.16:352][200]LogInit: FAudioDevice initialized.
+[2018.03.22-06.56.16:450][200]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-06.56.16:462][200]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.22-15.56.16
+[2018.03.22-06.56.16:463][200]LogWorld: Bringing up level for play took: 0.011972
+[2018.03.22-06.56.16:469][200]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.22-06.56.16:481][200]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: -0.13
+[2018.03.22-06.56.16:482][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-06.56.16:482][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-06.56.16:482][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-06.56.17:332][203]Cmd: Stat FPS
+[2018.03.22-06.56.23:380][477]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-06.56.23:381][477]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-06.56.23:381][477]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-06.56.23:472][477]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-06.56.23:472][477]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-06.56.23:473][477]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-06.56.46:394][749]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.22-06.56.46:430][749]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-06.56.46:430][749]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-06.56.46:430][749]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-06.56.46:430][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-06.56.46:431][749]PIE: New page: PIE 세션: URS (2018. 3. 23. 오전 12:56:46)
+[2018.03.22-06.56.46:431][749]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.22-06.56.46:452][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021512s)
+[2018.03.22-06.56.46:453][749]LogAIModule: Creating AISystem for world URS
+[2018.03.22-06.56.46:453][749]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2018.03.22-06.56.46:454][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.023190s)
+[2018.03.22-06.56.46:486][749]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-06.56.46:608][749]LogInit: FAudioDevice initialized.
+[2018.03.22-06.56.46:703][749]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-06.56.46:714][749]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.22-15.56.46
+[2018.03.22-06.56.46:715][749]LogWorld: Bringing up level for play took: 0.011648
+[2018.03.22-06.56.46:721][749]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.22-06.56.46:733][749]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.122
+[2018.03.22-06.56.46:734][749]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-06.56.46:734][749]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-06.56.46:734][749]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-06.56.47:419][752]Cmd: Stat FPS
+[2018.03.22-06.56.51:191][974]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-06.56.51:192][974]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-06.56.51:192][974]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-06.56.51:279][974]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-06.56.51:279][974]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-06.56.51:279][974]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-06.56.52:728][ 50]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup36)
+[2018.03.22-06.56.53:498][ 92]Cmd: DELETE
+[2018.03.22-06.56.53:498][ 92]Cmd: ACTOR DELETE
+[2018.03.22-06.56.53:520][ 92]LogEditorActor: Actor TemplatePickup36 is referenced by TemplatePickup36.
+[2018.03.22-06.56.54:862][ 92]LogEditorActor: Deleted Actor: TemplatePickup_C
+[2018.03.22-06.56.54:895][ 92]LogEditorActor: Deleted 1 Actors (1.395 secs)
+[2018.03.22-06.56.55:962][155]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup6)
+[2018.03.22-06.58.20:336][243]BlueprintLog: New page: TemplatePickup 컴파일
+[2018.03.22-07.08.28:455][266]LogSlate: Took 0.000402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.22-07.12.40:185][102]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.22-07.12.40:252][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.12.40:252][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.12.40:252][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.12.40:252][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-07.12.40:252][102]PIE: New page: PIE 세션: URS (2018. 3. 23. 오전 1:12:40)
+[2018.03.22-07.12.40:253][102]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.22-07.12.40:280][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027035s)
+[2018.03.22-07.12.40:281][102]LogAIModule: Creating AISystem for world URS
+[2018.03.22-07.12.40:281][102]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2018.03.22-07.12.40:281][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.029008s)
+[2018.03.22-07.12.40:324][102]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-07.12.40:455][102]LogInit: FAudioDevice initialized.
+[2018.03.22-07.12.40:602][102]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-07.12.40:614][102]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.22-16.12.40
+[2018.03.22-07.12.40:615][102]LogWorld: Bringing up level for play took: 0.012555
+[2018.03.22-07.12.40:626][102]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.22-07.12.40:642][102]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.031
+[2018.03.22-07.12.40:648][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.12.40:648][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.12.40:648][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.12.41:552][105]Cmd: Stat FPS
+[2018.03.22-07.12.50:190][432]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.12.50:191][432]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.12.50:191][432]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.12.50:315][432]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.12.50:315][432]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.12.50:315][432]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.13.52:923][286]BlueprintLog: New page: TemplatePickup 컴파일
+[2018.03.22-07.13.58:975][327]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.22-07.13.59:035][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.13.59:035][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.13.59:035][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.13.59:035][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-07.13.59:035][327]PIE: New page: PIE 세션: URS (2018. 3. 23. 오전 1:13:59)
+[2018.03.22-07.13.59:035][327]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.22-07.13.59:056][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020326s)
+[2018.03.22-07.13.59:057][327]LogAIModule: Creating AISystem for world URS
+[2018.03.22-07.13.59:057][327]LogPlayLevel: PIE: World Init took: (0.001072s)
+[2018.03.22-07.13.59:057][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.022117s)
+[2018.03.22-07.13.59:091][327]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-07.13.59:227][327]LogInit: FAudioDevice initialized.
+[2018.03.22-07.13.59:321][327]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-07.13.59:331][327]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.22-16.13.59
+[2018.03.22-07.13.59:332][327]LogWorld: Bringing up level for play took: 0.010389
+[2018.03.22-07.13.59:337][327]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.22-07.13.59:343][327]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.733
+[2018.03.22-07.13.59:346][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.13.59:346][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.13.59:347][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.14.00:156][330]Cmd: Stat FPS
+[2018.03.22-07.14.05:217][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.14.05:217][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.14.05:217][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.14.05:302][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.14.05:302][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.14.05:302][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.15.03:382][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:382][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:382][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:382][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:382][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:382][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:382][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:382][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:382][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:382][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.03:383][820]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.03.22-07.15.38:392][ 56]BlueprintLog: New page: TemplatePickup 컴파일
+[2018.03.22-07.15.44:932][102]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.22-07.15.44:983][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.15.44:983][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.15.44:983][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.15.44:983][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-07.15.44:984][102]PIE: New page: PIE 세션: URS (2018. 3. 23. 오전 1:15:44)
+[2018.03.22-07.15.44:984][102]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.22-07.15.45:005][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021541s)
+[2018.03.22-07.15.45:006][102]LogAIModule: Creating AISystem for world URS
+[2018.03.22-07.15.45:007][102]LogPlayLevel: PIE: World Init took: (0.001298s)
+[2018.03.22-07.15.45:008][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.023998s)
+[2018.03.22-07.15.45:044][102]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-07.15.45:168][102]LogInit: FAudioDevice initialized.
+[2018.03.22-07.15.45:270][102]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-07.15.45:282][102]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.22-16.15.45
+[2018.03.22-07.15.45:286][102]LogWorld: Bringing up level for play took: 0.014908
+[2018.03.22-07.15.45:292][102]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.22-07.15.45:305][102]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.694
+[2018.03.22-07.15.45:306][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.15.45:306][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.15.45:306][102]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.15.46:138][106]Cmd: Stat FPS
+[2018.03.22-07.16.19:651][700]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.16.19:651][700]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.16.19:651][700]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.16.19:744][700]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.16.19:745][700]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.16.19:745][700]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.16.48:482][ 73]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.22-07.16.48:516][ 73]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.16.48:516][ 73]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.16.48:516][ 73]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.16.48:517][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-07.16.48:517][ 73]PIE: New page: PIE 세션: URS (2018. 3. 23. 오전 1:16:48)
+[2018.03.22-07.16.48:517][ 73]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.22-07.16.48:534][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017675s)
+[2018.03.22-07.16.48:535][ 73]LogAIModule: Creating AISystem for world URS
+[2018.03.22-07.16.48:535][ 73]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2018.03.22-07.16.48:536][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.019330s)
+[2018.03.22-07.16.48:568][ 73]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-07.16.48:684][ 73]LogInit: FAudioDevice initialized.
+[2018.03.22-07.16.48:799][ 73]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-07.16.48:808][ 73]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.22-16.16.48
+[2018.03.22-07.16.48:810][ 73]LogWorld: Bringing up level for play took: 0.010162
+[2018.03.22-07.16.48:817][ 73]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.22-07.16.48:831][ 73]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.22
+[2018.03.22-07.16.48:832][ 73]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.16.48:832][ 73]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.16.48:832][ 73]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.16.49:462][ 75]Cmd: Stat FPS
+[2018.03.22-07.17.07:317][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.17.07:317][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.17.07:317][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.17.07:421][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.17.07:421][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.17.07:421][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.17.09:741][258]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup2)
+[2018.03.22-07.17.16:089][635]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup5)
+[2018.03.22-07.17.40:542][ 98]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup31)
+[2018.03.22-07.17.48:566][476]LogUObjectBase: Warning: Object is not registered
+[2018.03.22-07.17.49:518][476]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.952 s
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: 
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1029]
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: Stack: 
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x0000000014262786 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000001400123A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000001401B906 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000000E7833F6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000000CD203AB UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000000B5E3EBA UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000000B4774AC UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000000B47ABF9 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000000B5A8225 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x0000000013927397 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000001392CE61 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x0000000013B69913 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x0000000013983484 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000001395B68C UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000001394D6B7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x00000000185EE39E UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x00000000185E1A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x00000000185F03EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x00000000185DD5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000004A1FB85D USER32.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000004A1FB1EF USER32.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x00000000185F1516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x00000000797E50C8 UE4Editor.exe!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x00000000797F5430 UE4Editor.exe!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x00000000797F54AA UE4Editor.exe!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x0000000079802379 UE4Editor.exe!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x0000000079803D57 UE4Editor.exe!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x0000000047B01FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: [Callstack] 0x000000004A4DEFC1 ntdll.dll!UnknownFunction []
+[2018.03.22-07.17.49:518][476]LogOutputDevice: Error: 
+[2018.03.22-07.17.49:529][476]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.22-07.17.50:169][476]LogStats:                    SendNewReport -  0.641 s
+[2018.03.22-07.17.50:170][476]LogStats:             FDebug::EnsureFailed -  1.604 s
+[2018.03.22-07.17.50:170][476]LogUObjectBase: Warning: Object is not registered
+[2018.03.22-07.18.05:129][256]LogUObjectBase: Warning: Object is not registered
+[2018.03.22-07.18.08:585][429]BlueprintLog: New page: FirstPersonCharacter 컴파일
+[2018.03.22-07.18.08:633][429]LogBlueprint: Warning: [Fire_Pickup] 'Droplocation' variable not found. Base class was probably changed. /Game/FirstPersonBP/Blueprints/Fire_Pickup.Fire_Pickup
+[2018.03.22-07.18.09:855][443]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.22-07.18.09:916][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.18.09:916][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.18.09:916][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.18.09:917][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.22-07.18.09:917][443]PIE: New page: PIE 세션: URS (2018. 3. 23. 오전 1:18:09)
+[2018.03.22-07.18.09:917][443]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.22-07.18.09:934][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017310s)
+[2018.03.22-07.18.09:935][443]LogAIModule: Creating AISystem for world URS
+[2018.03.22-07.18.09:935][443]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2018.03.22-07.18.09:935][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.018543s)
+[2018.03.22-07.18.09:968][443]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.22-07.18.10:084][443]LogInit: FAudioDevice initialized.
+[2018.03.22-07.18.10:183][443]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.22-07.18.10:193][443]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.22-16.18.10
+[2018.03.22-07.18.10:196][443]LogWorld: Bringing up level for play took: 0.012660
+[2018.03.22-07.18.10:203][443]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.22-07.18.10:209][443]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: -0.402
+[2018.03.22-07.18.10:209][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.18.10:210][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.18.10:210][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.18.11:218][446]Cmd: Stat FPS
+[2018.03.22-07.20.44:540][558]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.20.44:540][558]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.20.44:540][558]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.20.44:649][558]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.22-07.20.44:649][558]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.22-07.20.44:649][558]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.22-07.20.50:912][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UrsContent/URS" FILE="../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/URS.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.22-07.20.51:493][885]LogSavePackage: Save=520.55ms
+[2018.03.22-07.20.51:493][885]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Saved/URS0C91BA6B44F6565B4FCD81ACC19DB198.tmp' to '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/URS.umap'
+[2018.03.22-07.20.51:499][885]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/URS.umap
+[2018.03.22-07.20.51:559][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UrsContent/URS_BuiltData" FILE="../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/URS_BuiltData.uasset" SILENT=true
+[2018.03.22-07.20.51:964][885]LogSavePackage: Save=311.64ms
+[2018.03.22-07.20.51:965][885]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Saved/URS_BuiltData360D2C8743590E6B8777A7BA6965D70C.tmp' to '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/URS_BuiltData.uasset'
+[2018.03.22-07.20.51:969][885]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/URS_BuiltData.uasset
+[2018.03.22-07.20.54:831][960]LogSavePackage: Save=242.78ms
+[2018.03.22-07.20.54:831][960]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Saved/FirstPersonCharacterE47A0DFE4049D465B3AEF791001C5D68.tmp' to '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.03.22-07.20.54:843][960]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.03.22-07.20.54:877][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/TemplatePickup" FILE="../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset" SILENT=true
+[2018.03.22-07.20.55:154][960]LogSavePackage: Save=262.46ms
+[2018.03.22-07.20.55:154][960]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Saved/TemplatePickup9222CCE045DAD9C69F931682349FA189.tmp' to '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset'
+[2018.03.22-07.20.55:160][960]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/FirstPersonBP/Blueprints/TemplatePickup.uasset
+[2018.03.22-07.21.08:547][728]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.22-07.21.08:672][728]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.03.22-07.21.08:960][729]Cmd: QUIT_EDITOR
+[2018.03.22-07.21.09:727][729]LogExit: Preparing to exit.
+[2018.03.22-07.21.10:215][729]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180320_인벤수량수정중/Content/' was aborted.
+[2018.03.22-07.21.10:339][729]LogExit: Editor shut down
+[2018.03.22-07.21.10:376][729]LogExit: Transaction tracking system shut down
+[2018.03.22-07.21.10:512][729]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.22-07.21.10:512][729]LogDirectoryWatcher: A directory notification for '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/' was aborted.
+[2018.03.22-07.21.10:512][729]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.22-07.21.10:512][729]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.22-07.21.10:512][729]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.22-07.21.10:513][729]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.22-07.21.10:513][729]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.22-07.21.11:142][729]LogExit: Object subsystem successfully closed.
+[2018.03.22-07.21.11:195][729]LogD3D11RHI: Shutdown
+[2018.03.22-07.21.11:195][729]LogD3D11RHI: CleanupD3DDevice
+[2018.03.22-07.21.11:203][729]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.22-07.21.11:237][729]LogModuleManager: Shutting down and abandoning module SequencerWidgets (554)
+[2018.03.22-07.21.11:237][729]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.03.22-07.21.11:237][729]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
+[2018.03.22-07.21.11:237][729]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.03.22-07.21.11:237][729]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.03.22-07.21.11:237][729]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.03.22-07.21.11:237][729]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.03.22-07.21.11:244][729]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180320_인벤수량수정중/Content/Collections/' was aborted.
+[2018.03.22-07.21.11:244][729]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180320_인벤수량수정중/Content/Developers/양형/Collections/' was aborted.
+[2018.03.22-07.21.11:244][729]LogDirectoryWatcher: A directory notification for 'C:/Users/양형/Desktop/URS_180320_인벤수량수정중/Saved/Collections/' was aborted.
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.22-07.21.11:244][729]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.22-07.21.11:245][729]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.22-07.21.11:246][729]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.22-07.21.11:246][729]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.22-07.21.11:246][729]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.22-07.21.11:246][729]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.22-07.21.11:306][729]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.22-07.21.11:306][729]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.22-07.21.11:306][729]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.22-07.21.11:306][729]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.22-07.21.11:306][729]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.22-07.21.11:306][729]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.22-07.21.11:306][729]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.22-07.21.11:306][729]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.22-07.21.11:306][729]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.22-07.21.11:306][729]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.22-07.21.11:307][729]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.22-07.21.11:363][729]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.22-07.21.11:363][729]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.22-07.21.11:363][729]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.22-07.21.11:363][729]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.22-07.21.11:363][729]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.22-07.21.11:363][729]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.22-07.21.11:363][729]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.22-07.21.11:363][729]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.22-07.21.11:363][729]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.22-07.21.11:364][729]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.22-07.21.11:372][729]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.22-07.21.11:372][729]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.22-07.21.11:372][729]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.22-07.21.11:372][729]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.22-07.21.11:372][729]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.03.22-07.21.11:373][729]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.03.22-07.21.11:581][729]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.03.22-07.21.11:582][729]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.03.22-07.21.11:582][729]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.03.22-07.21.11:582][729]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.03.22-07.21.11:582][729]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.03.22-07.21.11:582][729]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.03.22-07.21.11:582][729]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.03.22-07.21.11:582][729]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.03.22-07.21.11:582][729]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.03.22-07.21.11:582][729]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.03.22-07.21.11:582][729]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.03.22-07.21.11:582][729]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.03.22-07.21.11:582][729]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.03.22-07.21.11:583][729]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.03.22-07.21.11:583][729]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.03.22-07.21.11:583][729]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.03.22-07.21.11:583][729]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.03.22-07.21.11:583][729]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.03.22-07.21.11:583][729]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.03.22-07.21.11:586][729]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.03.22-07.21.11:586][729]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.03.22-07.21.11:586][729]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.03.22-07.21.11:587][729]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.22-07.21.11:587][729]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.22-07.21.11:587][729]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.22-07.21.11:587][729]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.22-07.21.11:587][729]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.22-07.21.11:587][729]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.22-07.21.11:587][729]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.22-07.21.11:587][729]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.22-07.21.11:688][729]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.22-07.21.11:788][729]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.22-07.21.11:788][729]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.22-07.21.11:788][729]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.22-07.21.11:788][729]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.22-07.21.11:788][729]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.22-07.21.11:788][729]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.22-07.21.11:790][729]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.22-07.21.11:790][729]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.22-07.21.11:790][729]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.22-07.21.11:790][729]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.22-07.21.11:793][729]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.22-07.21.11:793][729]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.22-07.21.11:793][729]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.22-07.21.11:793][729]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.22-07.21.11:793][729]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.22-07.21.11:793][729]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.22-07.21.11:800][729]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.22-07.21.11:800][729]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.22-07.21.11:800][729]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.22-07.21.11:800][729]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.22-07.21.11:800][729]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.22-07.21.11:800][729]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.22-07.21.11:801][729]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.22-07.21.11:801][729]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.22-07.21.11:801][729]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.22-07.21.11:801][729]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.22-07.21.11:801][729]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.22-07.21.11:801][729]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.22-07.21.11:802][729]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.22-07.21.11:802][729]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.22-07.21.11:802][729]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.22-07.21.11:802][729]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.22-07.21.11:814][729]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.22-07.21.11:814][729]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.22-07.21.11:814][729]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.22-07.21.11:814][729]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.22-07.21.11:814][729]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.22-07.21.11:814][729]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.22-07.21.11:814][729]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.22-07.21.11:815][729]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.22-07.21.11:833][729]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.22-07.21.11:833][729]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.22-07.21.11:833][729]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.22-07.21.11:833][729]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.22-07.21.11:833][729]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.22-07.21.11:834][729]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.22-07.21.11:834][729]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.22-07.21.11:834][729]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.22-07.21.11:834][729]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.22-07.21.11:837][729]LogDerivedDataCache: Shutdown
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.22-07.21.11:838][729]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.22-07.21.11:839][729]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.22-07.21.11:840][729]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.22-07.21.11:841][729]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.22-07.21.11:841][729]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.22-07.21.11:841][729]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.22-07.21.11:841][729]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.22-07.21.11:841][729]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.22-07.21.11:841][729]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.22-07.21.11:841][729]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.22-07.21.11:841][729]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.22-07.21.11:841][729]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.22-07.21.11:841][729]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.22-07.21.11:841][729]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B12CC6CCD-454E-A715-D1E6-EC8CD801A629%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=e145770943d02904f68a0ca4fa52eca5%7C8ac49062baae43c690b431ed046528f1%7C7532abaf-559c-4c1f-b377-4db2574a422a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.22-07.21.11:848][729]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.22-07.21.11:851][729]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.22-07.21.11:851][729]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.22-07.21.11:851][729]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.22-07.21.11:851][729]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.22-07.21.11:852][729]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.22-07.21.11:852][729]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.22-07.21.11:852][729]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.22-07.21.11:876][729]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.22-07.21.11:876][729]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.22-07.21.11:876][729]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.22-07.21.11:876][729]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.22-07.21.11:876][729]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.22-07.21.11:876][729]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.22-07.21.11:876][729]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.22-07.21.11:876][729]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.22-07.21.11:876][729]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.22-07.21.11:876][729]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.22-07.21.11:878][729]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.22-07.21.11:884][729]LogExit: Exiting.
+[2018.03.22-07.21.11:920][729]Log file closed, 03/22/18 16:21:11
