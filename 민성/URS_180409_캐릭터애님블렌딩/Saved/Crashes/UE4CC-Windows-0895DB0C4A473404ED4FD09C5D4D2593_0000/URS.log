@@ -1,0 +1,1204 @@
+﻿Log file open, 03/20/18 23:39:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: URS
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(291831851) SRandInit(291831851).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.889755
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.20-14.39.49:148][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.20-14.39.49:148][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.20-14.39.49:376][  0]LogInit: Computer: DESKTOP-PDO9PMJ
+[2018.03.20-14.39.49:376][  0]LogInit: User: 양형
+[2018.03.20-14.39.49:376][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.20-14.39.49:376][  0]LogInit: High frequency timer resolution =2.437500 MHz
+[2018.03.20-14.39.49:376][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.20-14.39.49:376][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.20-14.39.49:376][  0]LogMemory: Process Physical Memory: 273.81 MB used, 273.81 MB peak
+[2018.03.20-14.39.49:376][  0]LogMemory: Process Virtual Memory: 275.61 MB used, 275.61 MB peak
+[2018.03.20-14.39.49:376][  0]LogMemory: Physical Memory: 3187.57 MB used,  4870.89 MB free, 8058.46 MB total
+[2018.03.20-14.39.49:376][  0]LogMemory: Virtual Memory: 682.28 MB used,  4870.89 MB free, 134217728.00 MB total
+[2018.03.20-14.39.50:374][  0]LogInit: Using OS detected language (ko-KR).
+[2018.03.20-14.39.50:374][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.03.20-14.39.50:456][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.03.20-14.39.50:790][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.20-14.39.54:492][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.20-14.39.54:650][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.03.20-14.39.54:650][  0]LogD3D11RHI:       4029/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.20-14.39.54:665][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.03.20-14.39.54:665][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.20-14.39.54:674][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.20-14.39.54:674][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.20-14.39.54:674][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.20-14.39.54:684][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.20-14.39.54:684][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.03.20-14.39.54:684][  0]LogWindows: EnumDisplayDevices:
+[2018.03.20-14.39.54:684][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2018.03.20-14.39.54:685][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.20-14.39.54:685][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.20-14.39.54:686][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.03.20-14.39.54:686][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.20-14.39.54:686][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.03.20-14.39.54:686][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.20-14.39.54:686][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.20-14.39.54:686][  0]LogRHI: Texture pool is 2820 MB (70% of 4029 MB)
+[2018.03.20-14.39.54:733][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.20-14.39.54:763][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.20-14.39.54:822][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Intermediate/Shaders/WorkingDirectory/1244/).
+[2018.03.20-14.39.54:822][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/양형/AppData/Local/Temp/UnrealShaderWorkingDir/2D3BF66A4A3CC28168AA79B82AADABF1/'.
+[2018.03.20-14.39.54:823][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.20-14.39.59:244][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.20-14.39.59:444][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.20-14.39.59:579][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.20-14.39.59:714][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.20-14.39.59:862][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.20-14.39.59:991][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.20-14.40.00:117][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.20-14.40.00:232][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.20-14.40.00:353][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.20-14.40.00:585][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.20-14.40.00:758][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.20-14.40.00:956][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.20-14.40.01:150][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.20-14.40.01:626][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.20-14.40.02:104][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.20-14.40.02:104][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.20-14.40.02:239][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.20-14.40.02:361][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.20-14.40.02:578][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.20-14.40.02:641][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.20-14.40.02:760][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.20-14.40.02:877][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.20-14.40.03:020][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.20-14.40.03:148][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.20-14.40.03:148][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.20-14.40.04:509][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.20-14.40.05:138][  0]LogDerivedDataCache: Loaded boot cache 0.63s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.20-14.40.05:138][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.20-14.40.05:139][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.20-14.40.05:139][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.20-14.40.05:139][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.20-14.40.05:139][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.20-14.40.05:176][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.20-14.40.05:191][  0]LogDerivedDataCache: Using Local data cache path C:/Users/양형/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.20-14.40.05:209][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.20-14.40.05:217][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.20-14.40.05:235][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.20-14.40.05:236][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.20-14.40.06:664][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.20-14.40.07:663][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.20-14.40.07:792][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.20-14.40.07:792][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.20-14.40.07:792][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.20-14.40.07:794][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.20-14.40.07:794][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.20-14.40.07:885][  0]LogNetVersion: URS , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1777970781)
+[2018.03.20-14.40.08:569][  0]LogAssetRegistry: FAssetRegistry took 0.0373 seconds to start up
+[2018.03.20-14.40.10:022][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.101904 seconds
+[2018.03.20-14.40.10:029][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.20-14.40.10:029][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.20-14.40.10:029][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.20-14.40.10:193][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.20-14.40.21:078][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.20-14.40.21:179][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.20-14.40.23:278][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.20-14.40.24:570][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.20-14.40.24:570][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.20-14.40.24:737][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.20-14.40.24:888][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.20-14.40.27:580][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.20-14.40.28:344][  0]LogOcInput: OculusInput pre-init called
+[2018.03.20-14.40.29:162][  0]LogEngine: Initializing Engine...
+[2018.03.20-14.40.29:168][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.20-14.40.29:847][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.20-14.40.29:847][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.20-14.40.30:449][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.20-14.40.30:487][  0]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-14.40.32:058][  0]LogInit: FAudioDevice initialized.
+[2018.03.20-14.40.32:207][  0]LogDerivedDataCache: Saved boot cache 0.15s 78MB C:/Users/양형/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.20-14.40.32:245][  0]LogInit: Texture streaming: Enabled
+[2018.03.20-14.40.32:650][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.20-14.40.33:293][  0]LogInit: Transaction tracking system initialized
+[2018.03.20-14.40.34:503][  0]BlueprintLog: New page: 에디터 로드
+[2018.03.20-14.40.38:033][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.03.20-14.40.41:177][  0]LogConsoleResponse: Display: 
+[2018.03.20-14.40.42:093][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.20-14.40.42:093][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.20-14.40.42:093][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.20-14.40.42:839][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180320_인벤수량수정중/Content/' took 0.03s
+[2018.03.20-14.40.48:635][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.03.20-14.40.48:653][  0]Cmd: MAP LOAD FILE="../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/StartGame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.20-14.40.48:689][  0]LightingResults: New page: 라이팅 빌드
+[2018.03.20-14.40.49:622][  0]MapCheck: New page: 맵 체크
+[2018.03.20-14.40.49:622][  0]LightingResults: New page: 라이팅 빌드
+[2018.03.20-14.40.51:207][  0]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-14.40.51:221][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.20-14.40.51:457][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.20-14.40.52:097][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 639.445ms.
+[2018.03.20-14.40.52:098][  0]LogFileHelpers: Loading map 'StartGame' took 3.460
+[2018.03.20-14.40.53:189][  0]LogCollectionManager: Loaded 0 collections in 0.003189 seconds
+[2018.03.20-14.40.53:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180320_인벤수량수정중/Saved/Collections/' took 0.03s
+[2018.03.20-14.40.53:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180320_인벤수량수정중/Content/Developers/양형/Collections/' took 0.07s
+[2018.03.20-14.40.53:802][  0]LogFileCache: Scanning file cache for directory 'C:/Users/양형/Desktop/URS_180320_인벤수량수정중/Content/Collections/' took 0.00s
+[2018.03.20-14.40.53:802][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.20-14.40.53:817][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2363 classes and 519 folders.
+[2018.03.20-14.40.54:501][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.03.20-14.40.55:768][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.20-14.40.55:916][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.20-14.40.56:009][  0]LogSlate: Took 0.014217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.20-14.40.56:046][  0]LogSlate: Took 0.036167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.03.20-14.40.56:059][  0]LogSlate: Took 0.009169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.20-14.40.56:072][  0]LogSlate: Took 0.006541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.20-14.40.56:349][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.20-14.40.56:694][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.03.20-14.40.56:695][  0]LogLoad: (Engine Initialization) Total time: 75.69 seconds
+[2018.03.20-14.40.56:695][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.20-14.40.56:695][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.20-14.40.56:747][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.20-14.40.56:855][  1]LogAssetRegistry: Asset discovery search completed in 48.3138 seconds
+[2018.03.20-14.40.56:857][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.20-14.40.56:857][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
+[2018.03.20-14.41.06:056][ 61]LogSlate: Took 0.016961 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.20-14.41.08:901][ 61]LogSlate: Took 0.000410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.20-14.41.12:205][ 61]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.03.20-14.41.39:811][ 61]LogSlate: Took 0.002873 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.20-14.46.30:729][369]LogSlate: Took 0.070827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.20-14.46.31:747][370]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.20-14.46.32:073][376]LogSlate: Took 0.025450 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.20-14.58.23:903][176]BlueprintLog: New page: FirstPersonCharacter 컴파일
+[2018.03.20-14.58.24:595][176]LogBlueprint: Error: [Compiler FirstPersonCharacter] 이 블루프린트(self)는 TemplatePickup_C 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2018.03.20-14.58.25:509][176]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [1124.50] FirstPersonCharacter 컴파일에 실패했습니다. 치명적 오류 1 회, 경고 0 회, [소요시간 1,605 ms] (/Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2018.03.20-14.58.37:044][495]BlueprintLog: New page: FirstPersonCharacter 컴파일
+[2018.03.20-14.58.39:451][523]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-14.58.40:091][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-14.58.40:098][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-14.58.40:104][523]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 8:58:40)
+[2018.03.20-14.58.40:105][523]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-14.58.40:108][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003703s)
+[2018.03.20-14.58.40:109][523]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-14.58.40:110][523]LogPlayLevel: PIE: World Init took: (0.001728s)
+[2018.03.20-14.58.40:111][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.005994s)
+[2018.03.20-14.58.40:224][523]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-14.58.41:098][523]LogInit: FAudioDevice initialized.
+[2018.03.20-14.58.41:268][523]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-14.58.41:269][523]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-23.58.41
+[2018.03.20-14.58.41:270][523]LogWorld: Bringing up level for play took: 0.000662
+[2018.03.20-14.58.41:449][523]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.03.20-14.58.41:472][523]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 1.491
+[2018.03.20-14.58.41:475][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-14.58.41:534][523]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.03.20-14.58.43:589][624]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-14.58.43:589][624]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-14.58.44:068][624]LogBlueprint: Warning: [Compiler Fire_Pickup] Get : 'Droplocation' variable not found. Base class was probably changed. /Game/FirstPersonBP/Blueprints/Fire_Pickup.Fire_Pickup
+[2018.03.20-14.58.44:083][624]LogBlueprint: Warning: [Compiler Fire_Pickup] [1143.08] Fire_Pickup 컴파일에 성공했습니다만, 경고가 1 회 있습니다. [소요시간 17 ms] (/Game/FirstPersonBP/Blueprints/Fire_Pickup.Fire_Pickup)
+[2018.03.20-14.58.49:588][624]LogAIModule: Creating AISystem for world URS
+[2018.03.20-14.58.49:589][624]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-14.58.49:677][624]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.20-23.58.49
+[2018.03.20-14.58.49:679][624]LogWorld: Bringing up level for play took: 0.088156
+[2018.03.20-14.58.49:680][624]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-14.58.49:688][624]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-14.58.49:690][624]LogLoad: Took 6.100560 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-14.58.49:697][624]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-14.58.54:443][629]Cmd: Stat FPS
+[2018.03.20-14.59.56:191][602]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-14.59.56:280][602]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-14.59.59:684][786]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-14.59.59:728][786]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-14.59.59:728][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-14.59.59:728][786]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 8:59:59)
+[2018.03.20-14.59.59:728][786]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-14.59.59:729][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000947s)
+[2018.03.20-14.59.59:730][786]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-14.59.59:730][786]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2018.03.20-14.59.59:730][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002073s)
+[2018.03.20-14.59.59:767][786]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-14.59.59:901][786]LogInit: FAudioDevice initialized.
+[2018.03.20-14.59.59:965][786]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-14.59.59:966][786]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.20-23.59.59
+[2018.03.20-14.59.59:966][786]LogWorld: Bringing up level for play took: 0.000494
+[2018.03.20-14.59.59:978][786]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.003
+[2018.03.20-14.59.59:979][786]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.00.01:441][857]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.00.01:441][857]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.00.02:143][857]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.00.02:144][857]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.00.02:166][857]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.00.02
+[2018.03.20-15.00.02:166][857]LogWorld: Bringing up level for play took: 0.021623
+[2018.03.20-15.00.02:167][857]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.00.02:171][857]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.00.02:171][857]LogLoad: Took 0.730181 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.00.02:173][857]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.00.03:377][859]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 21.51 ms
+[2018.03.20-15.00.03:436][861]Cmd: Stat FPS
+[2018.03.20-15.00.09:689][160]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.00.09:761][160]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.00.11:741][263]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.00.11:782][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.00.11:782][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.00.11:782][263]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 9:00:11)
+[2018.03.20-15.00.11:782][263]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-15.00.11:783][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000914s)
+[2018.03.20-15.00.11:784][263]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-15.00.11:784][263]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2018.03.20-15.00.11:784][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001807s)
+[2018.03.20-15.00.11:819][263]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.00.11:959][263]LogInit: FAudioDevice initialized.
+[2018.03.20-15.00.12:022][263]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.00.12:023][263]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.21-00.00.12
+[2018.03.20-15.00.12:023][263]LogWorld: Bringing up level for play took: 0.000469
+[2018.03.20-15.00.12:039][263]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.058
+[2018.03.20-15.00.12:040][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.00.13:178][318]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.00.13:178][318]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.00.13:457][318]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.00.13:458][318]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.00.13:479][318]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.00.13
+[2018.03.20-15.00.13:480][318]LogWorld: Bringing up level for play took: 0.021502
+[2018.03.20-15.00.13:480][318]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.00.13:485][318]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.00.13:485][318]LogLoad: Took 0.307385 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.00.13:487][318]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.00.14:550][320]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 21.38 ms
+[2018.03.20-15.00.14:609][322]Cmd: Stat FPS
+[2018.03.20-15.00.24:476][796]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.00.24:550][796]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.00.27:900][961]LogSavePackage: Save=261.09ms
+[2018.03.20-15.00.27:900][961]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Saved/FirstPersonCharacter8CB51B3E466F4A65D5F671AF5D217A32.tmp' to '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.03.20-15.00.27:906][961]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.03.20-15.00.30:697][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UMG/GameHUD.uasset" SILENT=true
+[2018.03.20-15.00.31:079][ 58]LogSavePackage: Save=359.74ms
+[2018.03.20-15.00.31:079][ 58]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Saved/GameHUD77DF18F2408B9204A6CEB5914342CDED.tmp' to '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UMG/GameHUD.uasset'
+[2018.03.20-15.00.31:086][ 58]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UMG/GameHUD.uasset
+[2018.03.20-15.00.33:877][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.20-15.00.44:339][768]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.00.44:378][768]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.00.44:378][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.00.44:378][768]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 9:00:44)
+[2018.03.20-15.00.44:378][768]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-15.00.44:379][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000975s)
+[2018.03.20-15.00.44:380][768]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-15.00.44:380][768]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2018.03.20-15.00.44:380][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001823s)
+[2018.03.20-15.00.44:410][768]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.00.44:557][768]LogInit: FAudioDevice initialized.
+[2018.03.20-15.00.44:611][768]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.00.44:612][768]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.21-00.00.44
+[2018.03.20-15.00.44:613][768]LogWorld: Bringing up level for play took: 0.001360
+[2018.03.20-15.00.44:620][768]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.639
+[2018.03.20-15.00.44:621][768]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.00.45:614][822]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.00.45:614][822]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.00.45:914][822]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.00.45:914][822]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.00.45:933][822]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.00.45
+[2018.03.20-15.00.45:934][822]LogWorld: Bringing up level for play took: 0.018466
+[2018.03.20-15.00.45:934][822]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.00.45:938][822]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.00.45:938][822]LogLoad: Took 0.323678 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.00.45:939][822]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.00.47:046][826]Cmd: Stat FPS
+[2018.03.20-15.00.50:395][ 12]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.00.50:479][ 12]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.01.36:726][548]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.01.36:764][548]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.01.36:765][548]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2018.03.20-15.01.36:840][548]LogPlayLevel: [PlayLevel] Compiling GameHUD before play...
+[2018.03.20-15.01.37:040][548]LogPlayLevel: PlayLevel: Blueprint regeneration took 276 ms (1 blueprints)
+[2018.03.20-15.01.37:041][548]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 9:01:37)
+[2018.03.20-15.01.37:041][548]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-15.01.37:042][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001185s)
+[2018.03.20-15.01.37:043][548]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-15.01.37:043][548]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2018.03.20-15.01.37:043][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002202s)
+[2018.03.20-15.01.37:075][548]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.01.37:191][548]LogInit: FAudioDevice initialized.
+[2018.03.20-15.01.37:252][548]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.01.37:253][548]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.21-00.01.37
+[2018.03.20-15.01.37:253][548]LogWorld: Bringing up level for play took: 0.000607
+[2018.03.20-15.01.37:266][548]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 1.285
+[2018.03.20-15.01.37:267][548]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.01.38:206][595]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.01.38:206][595]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.01.38:531][595]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.01.38:532][595]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.01.38:554][595]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.01.38
+[2018.03.20-15.01.38:554][595]LogWorld: Bringing up level for play took: 0.022008
+[2018.03.20-15.01.38:555][595]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.01.38:560][595]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.01.38:560][595]LogLoad: Took 0.353581 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.01.38:561][595]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.01.39:637][597]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 21.73 ms
+[2018.03.20-15.01.39:688][599]Cmd: Stat FPS
+[2018.03.20-15.01.43:201][779]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.01.43:267][779]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.01.46:283][946]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.01.46:332][946]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.01.46:332][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.01.46:332][946]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 9:01:46)
+[2018.03.20-15.01.46:332][946]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-15.01.46:333][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001137s)
+[2018.03.20-15.01.46:334][946]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-15.01.46:334][946]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2018.03.20-15.01.46:334][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002283s)
+[2018.03.20-15.01.46:368][946]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.01.46:488][946]LogInit: FAudioDevice initialized.
+[2018.03.20-15.01.46:561][946]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.01.46:562][946]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.21-00.01.46
+[2018.03.20-15.01.46:563][946]LogWorld: Bringing up level for play took: 0.000711
+[2018.03.20-15.01.46:576][946]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.595
+[2018.03.20-15.01.46:577][946]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.01.47:451][992]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.01.47:452][992]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.01.47:732][992]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.01.47:732][992]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.01.47:752][992]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.01.47
+[2018.03.20-15.01.47:753][992]LogWorld: Bringing up level for play took: 0.020219
+[2018.03.20-15.01.47:754][992]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.01.47:762][992]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.01.47:765][992]LogLoad: Took 0.313619 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.01.47:771][992]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.01.48:930][996]Cmd: Stat FPS
+[2018.03.20-15.01.49:662][ 26]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.01.49:745][ 26]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.02.31:013][389]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.20-15.02.31:859][427]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.02.31:898][427]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.02.31:898][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.02.31:898][427]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 9:02:31)
+[2018.03.20-15.02.31:898][427]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-15.02.31:899][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000941s)
+[2018.03.20-15.02.31:900][427]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-15.02.31:900][427]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2018.03.20-15.02.31:900][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001861s)
+[2018.03.20-15.02.31:937][427]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.02.32:071][427]LogInit: FAudioDevice initialized.
+[2018.03.20-15.02.32:131][427]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.02.32:132][427]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.21-00.02.32
+[2018.03.20-15.02.32:132][427]LogWorld: Bringing up level for play took: 0.000502
+[2018.03.20-15.02.32:150][427]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 0.169
+[2018.03.20-15.02.32:151][427]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.02.33:036][471]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.02.33:036][471]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.02.33:349][471]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.02.33:349][471]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.02.33:369][471]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.02.33
+[2018.03.20-15.02.33:370][471]LogWorld: Bringing up level for play took: 0.019439
+[2018.03.20-15.02.33:370][471]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.02.33:374][471]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.02.33:374][471]LogLoad: Took 0.338270 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.02.33:376][471]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.02.34:476][473]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 20.10 ms
+[2018.03.20-15.02.34:537][475]Cmd: Stat FPS
+[2018.03.20-15.02.38:431][673]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.02.38:503][673]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.03.21:902][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UMG/GameHUD.uasset" SILENT=true
+[2018.03.20-15.03.22:261][ 43]LogSavePackage: Save=350.81ms
+[2018.03.20-15.03.22:262][ 43]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Saved/GameHUD8000FB8F447747C29A4F498852CB3560.tmp' to '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UMG/GameHUD.uasset'
+[2018.03.20-15.03.22:267][ 43]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UMG/GameHUD.uasset
+[2018.03.20-15.03.35:441][711]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.03.35:494][711]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.03.35:494][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.03.35:495][711]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 9:03:35)
+[2018.03.20-15.03.35:495][711]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-15.03.35:496][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001179s)
+[2018.03.20-15.03.35:496][711]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-15.03.35:497][711]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2018.03.20-15.03.35:497][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002143s)
+[2018.03.20-15.03.35:532][711]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.03.35:671][711]LogInit: FAudioDevice initialized.
+[2018.03.20-15.03.35:726][711]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.03.35:727][711]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.21-00.03.35
+[2018.03.20-15.03.35:727][711]LogWorld: Bringing up level for play took: 0.000447
+[2018.03.20-15.03.35:739][711]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.243
+[2018.03.20-15.03.35:740][711]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.03.36:827][751]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.03.36:827][751]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.03.37:105][751]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.03.37:106][751]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.03.37:128][751]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.03.37
+[2018.03.20-15.03.37:128][751]LogWorld: Bringing up level for play took: 0.021681
+[2018.03.20-15.03.37:129][751]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.03.37:133][751]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.03.37:133][751]LogLoad: Took 0.306346 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.03.37:135][751]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.03.38:247][753]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 22.26 ms
+[2018.03.20-15.03.38:318][755]Cmd: Stat FPS
+[2018.03.20-15.03.42:897][925]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.03.42:973][925]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.03.54:828][510]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.03.54:877][510]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.03.54:877][510]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2018.03.20-15.03.54:930][510]LogPlayLevel: [PlayLevel] Compiling GameHUD before play...
+[2018.03.20-15.03.55:138][510]LogPlayLevel: PlayLevel: Blueprint regeneration took 260 ms (1 blueprints)
+[2018.03.20-15.03.55:138][510]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 9:03:55)
+[2018.03.20-15.03.55:138][510]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-15.03.55:139][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000984s)
+[2018.03.20-15.03.55:140][510]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-15.03.55:140][510]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2018.03.20-15.03.55:140][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001874s)
+[2018.03.20-15.03.55:172][510]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.03.55:311][510]LogInit: FAudioDevice initialized.
+[2018.03.20-15.03.55:374][510]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.03.55:375][510]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.21-00.03.55
+[2018.03.20-15.03.55:375][510]LogWorld: Bringing up level for play took: 0.000537
+[2018.03.20-15.03.55:392][510]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: 1.411
+[2018.03.20-15.03.55:392][510]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.03.56:112][539]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.03.56:112][539]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.03.56:445][539]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.03.56:446][539]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.03.56:468][539]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.03.56
+[2018.03.20-15.03.56:469][539]LogWorld: Bringing up level for play took: 0.022462
+[2018.03.20-15.03.56:469][539]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.03.56:473][539]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.03.56:474][539]LogLoad: Took 0.361760 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.03.56:475][539]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.03.57:600][543]Cmd: Stat FPS
+[2018.03.20-15.04.00:719][685]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.00:795][685]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.05:432][942]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.04.05:469][942]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.05:469][942]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2018.03.20-15.04.05:530][942]LogPlayLevel: [PlayLevel] Compiling GameHUD before play...
+[2018.03.20-15.04.05:733][942]LogPlayLevel: PlayLevel: Blueprint regeneration took 263 ms (1 blueprints)
+[2018.03.20-15.04.05:733][942]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 9:04:05)
+[2018.03.20-15.04.05:733][942]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-15.04.05:735][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001175s)
+[2018.03.20-15.04.05:735][942]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-15.04.05:735][942]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2018.03.20-15.04.05:736][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002253s)
+[2018.03.20-15.04.05:765][942]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.04.05:881][942]LogInit: FAudioDevice initialized.
+[2018.03.20-15.04.05:956][942]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.04.05:957][942]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.21-00.04.05
+[2018.03.20-15.04.05:957][942]LogWorld: Bringing up level for play took: 0.000499
+[2018.03.20-15.04.05:972][942]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.01
+[2018.03.20-15.04.05:972][942]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.06:990][988]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.04.06:990][988]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.04.07:314][988]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.04.07:314][988]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.04.07:334][988]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.04.07
+[2018.03.20-15.04.07:334][988]LogWorld: Bringing up level for play took: 0.018770
+[2018.03.20-15.04.07:335][988]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.04.07:339][988]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.04.07:339][988]LogLoad: Took 0.349356 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.04.07:341][988]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.04.08:499][993]Cmd: Stat FPS
+[2018.03.20-15.04.12:360][170]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.12:433][170]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.18:071][481]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.20-15.04.19:013][523]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.04.19:054][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.19:054][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.04.19:054][523]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 9:04:19)
+[2018.03.20-15.04.19:054][523]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-15.04.19:055][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001029s)
+[2018.03.20-15.04.19:056][523]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-15.04.19:056][523]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2018.03.20-15.04.19:056][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001848s)
+[2018.03.20-15.04.19:088][523]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.04.19:205][523]LogInit: FAudioDevice initialized.
+[2018.03.20-15.04.19:277][523]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.04.19:278][523]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.21-00.04.19
+[2018.03.20-15.04.19:279][523]LogWorld: Bringing up level for play took: 0.000487
+[2018.03.20-15.04.19:292][523]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.689
+[2018.03.20-15.04.19:293][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.20:170][564]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.04.20:171][564]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.04.20:496][564]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.04.20:496][564]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.04.20:518][564]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.04.20
+[2018.03.20-15.04.20:519][564]LogWorld: Bringing up level for play took: 0.021967
+[2018.03.20-15.04.20:519][564]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.04.20:523][564]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.04.20:524][564]LogLoad: Took 0.352379 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.04.20:525][564]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.04.21:699][568]Cmd: Stat FPS
+[2018.03.20-15.04.26:558][791]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.26:627][791]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.32:551][118]BlueprintLog: New page: GameHUD 컴파일
+[2018.03.20-15.04.33:387][154]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.04.33:422][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.33:422][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.04.33:423][154]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 9:04:33)
+[2018.03.20-15.04.33:423][154]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-15.04.33:424][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000937s)
+[2018.03.20-15.04.33:424][154]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-15.04.33:424][154]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2018.03.20-15.04.33:425][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.001864s)
+[2018.03.20-15.04.33:457][154]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.04.33:599][154]LogInit: FAudioDevice initialized.
+[2018.03.20-15.04.33:666][154]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.04.33:668][154]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.21-00.04.33
+[2018.03.20-15.04.33:668][154]LogWorld: Bringing up level for play took: 0.000501
+[2018.03.20-15.04.33:685][154]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.297
+[2018.03.20-15.04.33:686][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.34:453][188]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.04.34:454][188]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.04.34:772][188]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.04.34:772][188]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.04.34:791][188]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.04.34
+[2018.03.20-15.04.34:792][188]LogWorld: Bringing up level for play took: 0.019385
+[2018.03.20-15.04.34:792][188]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.04.34:797][188]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.04.34:797][188]LogLoad: Took 0.343178 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.04.34:798][188]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.04.35:864][190]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 21.61 ms
+[2018.03.20-15.04.35:929][192]Cmd: Stat FPS
+[2018.03.20-15.04.39:007][329]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.04.39:076][329]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.05.27:123][330]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.05.27:161][330]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.05.27:161][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.05.27:161][330]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 9:05:27)
+[2018.03.20-15.05.27:161][330]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-15.05.27:163][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001090s)
+[2018.03.20-15.05.27:163][330]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-15.05.27:163][330]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2018.03.20-15.05.27:164][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002210s)
+[2018.03.20-15.05.27:205][330]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.05.27:332][330]LogInit: FAudioDevice initialized.
+[2018.03.20-15.05.27:393][330]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.05.27:394][330]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.21-00.05.27
+[2018.03.20-15.05.27:394][330]LogWorld: Bringing up level for play took: 0.000546
+[2018.03.20-15.05.27:409][330]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.572
+[2018.03.20-15.05.27:410][330]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.05.28:368][382]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.05.28:369][382]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.05.28:632][382]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.05.28:633][382]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.05.28:662][382]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.05.28
+[2018.03.20-15.05.28:663][382]LogWorld: Bringing up level for play took: 0.029424
+[2018.03.20-15.05.28:663][382]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.05.28:668][382]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.05.28:668][382]LogLoad: Took 0.299313 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.05.28:670][382]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.05.29:787][386]Cmd: Stat FPS
+[2018.03.20-15.05.30:659][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.05.30:736][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.05.37:397][796]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.05.37:441][796]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.05.37:441][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.05.37:441][796]PIE: New page: PIE 세션: StartGame (2018. 3. 21. 오전 9:05:37)
+[2018.03.20-15.05.37:441][796]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_StartGame
+[2018.03.20-15.05.37:442][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000973s)
+[2018.03.20-15.05.37:443][796]LogAIModule: Creating AISystem for world StartGame
+[2018.03.20-15.05.37:443][796]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2018.03.20-15.05.37:443][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/StartGame.StartGame to /Game/UrsContent/UEDPIE_0_StartGame.StartGame (0.002030s)
+[2018.03.20-15.05.37:477][796]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.05.37:597][796]LogInit: FAudioDevice initialized.
+[2018.03.20-15.05.37:670][796]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.05.37:671][796]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_StartGame.StartGame up for play (max tick rate 60) at 2018.03.21-00.05.37
+[2018.03.20-15.05.37:671][796]LogWorld: Bringing up level for play took: 0.000514
+[2018.03.20-15.05.37:685][796]PIE: /Game/UrsContent/UEDPIE_0_StartGame 에 대한 에디터에서 플레이 시작 시간: -0.296
+[2018.03.20-15.05.37:686][796]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.05.39:038][873]LogNet: Browse: /Game/UrsContent/URS
+[2018.03.20-15.05.39:039][873]LogLoad: LoadMap: /Game/UrsContent/URS
+[2018.03.20-15.05.39:314][873]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.05.39:314][873]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.05.39:334][873]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.05.39
+[2018.03.20-15.05.39:334][873]LogWorld: Bringing up level for play took: 0.019184
+[2018.03.20-15.05.39:335][873]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.20-15.05.39:339][873]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.05.39:339][873]LogLoad: Took 0.300888 seconds to LoadMap(/Game/UrsContent/URS)
+[2018.03.20-15.05.39:340][873]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/UEDPIE_0_URS_Stage1) is flushing async loading
+[2018.03.20-15.05.40:437][875]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 took (less than) 21.78 ms
+[2018.03.20-15.05.40:478][877]Cmd: Stat FPS
+[2018.03.20-15.07.37:913][407]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.07.38:006][407]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/StartGame.StartGame:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame' with GeneratedClass '/Game/UrsContent/StartGame.StartGame_C' with ClassGeneratedBy '/Game/UrsContent/StartGame.StartGame:PersistentLevel.StartGame'
+[2018.03.20-15.09.05:863][ 97]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.09.09:849][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/GameHUD" FILE="../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UMG/GameHUD.uasset" SILENT=true
+[2018.03.20-15.09.10:250][148]LogSavePackage: Save=379.53ms
+[2018.03.20-15.09.10:250][148]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Saved/GameHUD22D6E8EE48BDA254254FA5B956436990.tmp' to '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UMG/GameHUD.uasset'
+[2018.03.20-15.09.10:263][148]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UMG/GameHUD.uasset
+[2018.03.20-15.09.11:003][183]Cmd: MAP LOAD FILE="../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/URS.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.20-15.09.11:003][183]LightingResults: New page: 라이팅 빌드
+[2018.03.20-15.09.11:004][183]LoadErrors: New page: 맵 로드중: URS.umap
+[2018.03.20-15.09.11:004][183]MapCheck: New page: 맵 체크
+[2018.03.20-15.09.11:004][183]LightingResults: New page: 라이팅 빌드
+[2018.03.20-15.09.11:411][183]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/URS_Stage1) is flushing async loading
+[2018.03.20-15.09.12:208][183]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/UrsContent/Stage/URS_Stage2) is flushing async loading
+[2018.03.20-15.09.13:961][183]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2018.03.20-15.09.14:173][183]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.20-15.09.16:436][183]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 2,263.162ms.
+[2018.03.20-15.09.16:439][183]LogFileHelpers: Loading map 'URS' took 5.445
+[2018.03.20-15.09.18:933][302]LogEditorViewport: Clicking on Actor (LMB): TemplatePickup_C (TemplatePickup2)
+[2018.03.20-15.09.51:920][984]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2018.03.20-15.09.53:899][ 87]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.09.53:939][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.09.53:939][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.09.53:940][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.09.53:940][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.09.53:940][ 87]PIE: New page: PIE 세션: URS (2018. 3. 21. 오전 9:09:53)
+[2018.03.20-15.09.53:940][ 87]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.20-15.09.53:970][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029692s)
+[2018.03.20-15.09.53:970][ 87]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.09.53:971][ 87]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2018.03.20-15.09.53:971][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.031383s)
+[2018.03.20-15.09.54:031][ 87]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.09.54:170][ 87]LogInit: FAudioDevice initialized.
+[2018.03.20-15.09.54:246][ 87]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.09.54:254][ 87]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.09.54
+[2018.03.20-15.09.54:254][ 87]LogWorld: Bringing up level for play took: 0.008127
+[2018.03.20-15.09.54:261][ 87]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.09.54:274][ 87]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.292
+[2018.03.20-15.09.54:275][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.09.54:275][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.09.54:276][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.09.55:215][ 90]Cmd: Stat FPS
+[2018.03.20-15.10.44:856][904]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.10.44:856][904]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.10.44:857][904]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.10.44:954][904]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.10.44:954][904]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.10.44:954][904]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.10.46:012][952]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.10.46:049][952]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.10.46:049][952]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.10.46:050][952]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.10.46:050][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.10.46:050][952]PIE: New page: PIE 세션: URS (2018. 3. 21. 오전 9:10:46)
+[2018.03.20-15.10.46:050][952]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.20-15.10.46:069][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018392s)
+[2018.03.20-15.10.46:070][952]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.10.46:070][952]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2018.03.20-15.10.46:070][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.019938s)
+[2018.03.20-15.10.46:108][952]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.10.46:269][952]LogInit: FAudioDevice initialized.
+[2018.03.20-15.10.46:338][952]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.10.46:348][952]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.10.46
+[2018.03.20-15.10.46:350][952]LogWorld: Bringing up level for play took: 0.010826
+[2018.03.20-15.10.46:356][952]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.10.46:372][952]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.391
+[2018.03.20-15.10.46:373][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.10.46:373][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.10.46:373][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.10.47:144][955]Cmd: Stat FPS
+[2018.03.20-15.11.19:839][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.11.19:839][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.11.19:839][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.11.19:928][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.11.19:928][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.11.19:928][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.11.20:774][855]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.11.20:809][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.11.20:809][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.11.20:809][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.11.20:809][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.11.20:810][855]PIE: New page: PIE 세션: URS (2018. 3. 21. 오전 9:11:20)
+[2018.03.20-15.11.20:810][855]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.20-15.11.20:827][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017298s)
+[2018.03.20-15.11.20:828][855]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.11.20:828][855]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2018.03.20-15.11.20:829][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.019073s)
+[2018.03.20-15.11.20:876][855]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.11.21:007][855]LogInit: FAudioDevice initialized.
+[2018.03.20-15.11.21:073][855]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.11.21:083][855]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.11.21
+[2018.03.20-15.11.21:084][855]LogWorld: Bringing up level for play took: 0.009791
+[2018.03.20-15.11.21:091][855]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.11.21:104][855]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 1.123
+[2018.03.20-15.11.21:106][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.11.21:106][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.11.21:106][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.11.21:816][858]Cmd: Stat FPS
+[2018.03.20-15.11.39:999][902]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.11.39:999][902]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.11.39:999][902]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.11.40:085][902]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.11.40:085][902]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.11.40:085][902]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.11.40:964][943]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.11.40:999][943]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.11.40:999][943]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.11.40:999][943]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.11.40:999][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.11.40:999][943]PIE: New page: PIE 세션: URS (2018. 3. 21. 오전 9:11:40)
+[2018.03.20-15.11.40:999][943]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.20-15.11.41:020][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020395s)
+[2018.03.20-15.11.41:020][943]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.11.41:021][943]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2018.03.20-15.11.41:021][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.021873s)
+[2018.03.20-15.11.41:065][943]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.11.41:182][943]LogInit: FAudioDevice initialized.
+[2018.03.20-15.11.41:246][943]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.11.41:254][943]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.11.41
+[2018.03.20-15.11.41:255][943]LogWorld: Bringing up level for play took: 0.008434
+[2018.03.20-15.11.41:261][943]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.11.41:274][943]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: -0.707
+[2018.03.20-15.11.41:275][943]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.11.41:275][943]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.11.41:275][943]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.11.41:989][946]Cmd: Stat FPS
+[2018.03.20-15.11.57:892][860]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.11.57:892][860]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.11.57:892][860]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.11.57:998][860]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.11.57:998][860]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.11.57:998][860]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.11.58:694][890]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.11.58:729][890]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.11.58:729][890]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.11.58:730][890]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.11.58:730][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.11.58:730][890]PIE: New page: PIE 세션: URS (2018. 3. 21. 오전 9:11:58)
+[2018.03.20-15.11.58:730][890]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.20-15.11.58:749][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018680s)
+[2018.03.20-15.11.58:749][890]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.11.58:750][890]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2018.03.20-15.11.58:750][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.020183s)
+[2018.03.20-15.11.58:790][890]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.11.58:907][890]LogInit: FAudioDevice initialized.
+[2018.03.20-15.11.58:973][890]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.11.58:982][890]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.11.58
+[2018.03.20-15.11.58:983][890]LogWorld: Bringing up level for play took: 0.009026
+[2018.03.20-15.11.58:989][890]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.11.59:002][890]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 1.021
+[2018.03.20-15.11.59:002][890]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.11.59:003][890]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.11.59:003][890]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.11.59:717][893]Cmd: Stat FPS
+[2018.03.20-15.12.08:067][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.12.08:067][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.12.08:067][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.12.08:138][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.12.08:138][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.12.08:138][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.12.08:987][407]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.12.09:024][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.12.09:024][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.12.09:024][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.12.09:024][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.12.09:025][407]PIE: New page: PIE 세션: URS (2018. 3. 21. 오전 9:12:09)
+[2018.03.20-15.12.09:025][407]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.20-15.12.09:041][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016737s)
+[2018.03.20-15.12.09:042][407]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.12.09:042][407]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2018.03.20-15.12.09:043][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.018217s)
+[2018.03.20-15.12.09:078][407]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.12.09:236][407]LogInit: FAudioDevice initialized.
+[2018.03.20-15.12.09:307][407]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.12.09:318][407]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.12.09
+[2018.03.20-15.12.09:319][407]LogWorld: Bringing up level for play took: 0.011199
+[2018.03.20-15.12.09:326][407]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.12.09:338][407]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: -0.643
+[2018.03.20-15.12.09:339][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.12.09:339][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.12.09:339][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.12.10:014][410]Cmd: Stat FPS
+[2018.03.20-15.12.31:486][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.12.31:486][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.12.31:487][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.12.31:583][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.12.31:583][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.12.31:583][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.12.32:533][676]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.12.32:580][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.12.32:580][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.12.32:580][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.12.32:581][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.12.32:581][676]PIE: New page: PIE 세션: URS (2018. 3. 21. 오전 9:12:32)
+[2018.03.20-15.12.32:581][676]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.20-15.12.32:598][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016936s)
+[2018.03.20-15.12.32:598][676]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.12.32:599][676]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2018.03.20-15.12.32:599][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.018321s)
+[2018.03.20-15.12.32:630][676]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.12.32:772][676]LogInit: FAudioDevice initialized.
+[2018.03.20-15.12.32:833][676]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.12.32:841][676]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.12.32
+[2018.03.20-15.12.32:842][676]LogWorld: Bringing up level for play took: 0.008846
+[2018.03.20-15.12.32:847][676]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.12.32:865][676]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.883
+[2018.03.20-15.12.32:867][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.12.32:867][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.12.32:867][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.12.33:563][679]Cmd: Stat FPS
+[2018.03.20-15.12.54:933][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.12.54:934][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.12.54:934][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.12.55:023][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.12.55:023][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.12.55:023][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.12.56:217][958]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.12.56:251][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.12.56:251][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.12.56:251][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.12.56:251][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.12.56:251][958]PIE: New page: PIE 세션: URS (2018. 3. 21. 오전 9:12:56)
+[2018.03.20-15.12.56:251][958]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.20-15.12.56:271][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019248s)
+[2018.03.20-15.12.56:271][958]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.12.56:271][958]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2018.03.20-15.12.56:272][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.020703s)
+[2018.03.20-15.12.56:309][958]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.12.56:427][958]LogInit: FAudioDevice initialized.
+[2018.03.20-15.12.56:493][958]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.12.56:502][958]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.12.56
+[2018.03.20-15.12.56:503][958]LogWorld: Bringing up level for play took: 0.009264
+[2018.03.20-15.12.56:510][958]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.12.56:523][958]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.542
+[2018.03.20-15.12.56:524][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.12.56:525][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.12.56:525][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.12.57:268][961]Cmd: Stat FPS
+[2018.03.20-15.14.41:480][897]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.14.41:480][897]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.14.41:480][897]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.14.41:587][897]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.14.41:587][897]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.14.41:587][897]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.14.47:463][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UrsContent/URS" FILE="../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/URS.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.20-15.14.48:049][140]LogSavePackage: Save=535.80ms
+[2018.03.20-15.14.48:049][140]LogSavePackage: Moving '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Saved/URSB55DD8604DB515BD5A2C3892B0E01C90.tmp' to '../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/URS.umap'
+[2018.03.20-15.14.48:057][140]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/양형/Desktop/URS_180320_인벤수량수정중/Content/UrsContent/URS.umap
+[2018.03.20-15.14.48:114][140]LogFileHelpers: Saving map 'URS' took 0.833
+[2018.03.20-15.19.01:787][466]BlueprintLog: New page: FirstPersonCharacter 컴파일
+[2018.03.20-15.19.01:845][466]LogBlueprint: Warning: [Fire_Pickup] 'Droplocation' variable not found. Base class was probably changed. /Game/FirstPersonBP/Blueprints/Fire_Pickup.Fire_Pickup
+[2018.03.20-15.19.03:068][488]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.19.03:164][488]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.19.03:164][488]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.19.03:165][488]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.19.03:165][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.19.03:165][488]PIE: New page: PIE 세션: URS (2018. 3. 21. 오전 9:19:03)
+[2018.03.20-15.19.03:165][488]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.20-15.19.03:186][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020911s)
+[2018.03.20-15.19.03:187][488]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.19.03:187][488]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2018.03.20-15.19.03:188][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.022660s)
+[2018.03.20-15.19.03:226][488]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.19.03:386][488]LogInit: FAudioDevice initialized.
+[2018.03.20-15.19.03:455][488]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.19.03:465][488]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.19.03
+[2018.03.20-15.19.03:466][488]LogWorld: Bringing up level for play took: 0.010446
+[2018.03.20-15.19.03:472][488]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.19.03:480][488]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: -0.501
+[2018.03.20-15.19.03:481][488]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.19.03:481][488]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.19.03:481][488]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.19.04:475][491]Cmd: Stat FPS
+[2018.03.20-15.20.26:309][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.20.26:309][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.20.26:309][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.20.26:412][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.20.26:412][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.20.26:412][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.21.10:918][717]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.21.10:961][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.21.10:962][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.21.10:962][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.21.10:962][717]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2018.03.20-15.21.11:005][717]LogBlueprint: Warning: [Fire_Pickup] 'Droplocation' variable not found. Base class was probably changed. /Game/FirstPersonBP/Blueprints/Fire_Pickup.Fire_Pickup
+[2018.03.20-15.21.11:020][717]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2018.03.20-15.21.11:647][717]LogPlayLevel: PlayLevel: Blueprint regeneration took 684 ms (1 blueprints)
+[2018.03.20-15.21.11:647][717]PIE: New page: PIE 세션: URS (2018. 3. 21. 오전 9:21:11)
+[2018.03.20-15.21.11:647][717]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.20-15.21.11:666][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018762s)
+[2018.03.20-15.21.11:667][717]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.21.11:667][717]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2018.03.20-15.21.11:668][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.021088s)
+[2018.03.20-15.21.11:713][717]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.21.11:838][717]LogInit: FAudioDevice initialized.
+[2018.03.20-15.21.11:904][717]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.21.11:913][717]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.21.11
+[2018.03.20-15.21.11:914][717]LogWorld: Bringing up level for play took: 0.009282
+[2018.03.20-15.21.11:920][717]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.21.11:932][717]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 1.951
+[2018.03.20-15.21.11:933][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.21.11:934][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.21.11:934][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.21.12:697][720]Cmd: Stat FPS
+[2018.03.20-15.21.22:042][185]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetArrayLibrary::Array_Length' [요소가 없습니다.]
+[2018.03.20-15.21.31:519][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.21.31:519][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.21.31:519][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.21.31:612][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.21.31:613][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.21.31:613][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.22.40:376][443]BlueprintLog: New page: FirstPersonCharacter 컴파일
+[2018.03.20-15.22.40:422][443]LogBlueprint: Warning: [Fire_Pickup] 'Droplocation' variable not found. Base class was probably changed. /Game/FirstPersonBP/Blueprints/Fire_Pickup.Fire_Pickup
+[2018.03.20-15.22.41:706][467]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.22.41:783][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.22.41:783][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.22.41:784][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.22.41:784][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.22.41:784][467]PIE: New page: PIE 세션: URS (2018. 3. 21. 오전 9:22:41)
+[2018.03.20-15.22.41:784][467]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.20-15.22.41:803][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018908s)
+[2018.03.20-15.22.41:804][467]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.22.41:804][467]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2018.03.20-15.22.41:804][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.020418s)
+[2018.03.20-15.22.41:849][467]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.22.41:980][467]LogInit: FAudioDevice initialized.
+[2018.03.20-15.22.42:040][467]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.22.42:051][467]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.22.42
+[2018.03.20-15.22.42:052][467]LogWorld: Bringing up level for play took: 0.011227
+[2018.03.20-15.22.42:059][467]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.22.42:067][467]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.086
+[2018.03.20-15.22.42:068][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.22.42:069][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.22.42:069][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.22.42:982][470]Cmd: Stat FPS
+[2018.03.20-15.22.56:499][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.22.56:499][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.22.56:499][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.22.56:596][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.22.56:597][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.22.56:597][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.23.03:674][509]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.03.20-15.23.03:714][509]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.23.03:714][509]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.23.03:714][509]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.23.03:714][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-15.23.03:715][509]PIE: New page: PIE 세션: URS (2018. 3. 21. 오전 9:23:03)
+[2018.03.20-15.23.03:715][509]LogPlayLevel: Creating play world package: /Game/UrsContent/UEDPIE_0_URS
+[2018.03.20-15.23.03:732][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016963s)
+[2018.03.20-15.23.03:732][509]LogAIModule: Creating AISystem for world URS
+[2018.03.20-15.23.03:732][509]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2018.03.20-15.23.03:733][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/UrsContent/URS.URS to /Game/UrsContent/UEDPIE_0_URS.URS (0.018370s)
+[2018.03.20-15.23.03:769][509]LogInit: XAudio2 using '스피커 / 헤드폰(Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-15.23.03:929][509]LogInit: FAudioDevice initialized.
+[2018.03.20-15.23.04:000][509]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.03.20-15.23.04:009][509]LogWorld: Bringing World /Game/UrsContent/UEDPIE_0_URS.URS up for play (max tick rate 60) at 2018.03.21-00.23.04
+[2018.03.20-15.23.04:009][509]LogWorld: Bringing up level for play took: 0.008860
+[2018.03.20-15.23.04:018][509]LogLevel: ActivateLevel /Game/UrsContent/Stage/UEDPIE_0_URS_Stage1 1 1 1
+[2018.03.20-15.23.04:033][509]PIE: /Game/UrsContent/UEDPIE_0_URS 에 대한 에디터에서 플레이 시작 시간: 0.052
+[2018.03.20-15.23.04:034][509]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.23.04:035][509]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.23.04:035][509]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.23.04:732][512]Cmd: Stat FPS
+[2018.03.20-15.23.08:360][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.23.08:361][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.23.08:361][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.23.08:459][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/URS.URS:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/URS.URS:PersistentLevel.URS' with GeneratedClass '/Game/UrsContent/URS.URS_C' with ClassGeneratedBy '/Game/UrsContent/URS.URS:PersistentLevel.URS'
+[2018.03.20-15.23.08:459][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage1.URS_Stage1:PersistentLevel.URS_Stage1'
+[2018.03.20-15.23.08:459][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel' has LevelScriptBlueprint '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2' with GeneratedClass '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2_C' with ClassGeneratedBy '/Game/UrsContent/Stage/URS_Stage2.URS_Stage2:PersistentLevel.URS_Stage2'
+[2018.03.20-15.24.47:001][167]LogUObjectArray: Warning: Invalid object index -842150451
+[2018.03.20-15.24.47:013][167]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.011 s
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: 
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1029]
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: Stack: 
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x0000000015D92786 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x0000000015B3123A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x0000000015B4B906 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000000A8833F6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x00000000082E03AB UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x0000000007403EBA UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x00000000072974AC UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000000729ABF9 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x00000000073C8225 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x0000000015157397 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000001515CE61 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x0000000015399913 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x00000000151B3484 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000001518B68C UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000001517D6B7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000001565E39E UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x0000000015651A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x00000000156603EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000001564D5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000004A1FB85D USER32.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000004A1FB1EF USER32.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x0000000015661516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000000DA350C8 UE4Editor.exe!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000000DA45430 UE4Editor.exe!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000000DA454AA UE4Editor.exe!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000000DA52379 UE4Editor.exe!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000000DA53D57 UE4Editor.exe!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x0000000047B01FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: [Callstack] 0x000000004A4DEFC1 ntdll.dll!UnknownFunction []
+[2018.03.20-15.24.47:013][167]LogOutputDevice: Error: 
+[2018.03.20-15.24.47:023][167]LogStats:                SubmitErrorReport -  0.000 s
